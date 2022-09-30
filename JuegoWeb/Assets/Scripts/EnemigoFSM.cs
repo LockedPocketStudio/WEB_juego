@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class EnemigoFSM : MonoBehaviour
 {
     #region variables
-    [Header("Objetivos")]
+    [Header("Destinos")]
     public GameObject jugador;
 
     private NavMeshAgent meshAgent;
@@ -24,6 +24,7 @@ public class EnemigoFSM : MonoBehaviour
     public bool veJugador = false;
     public bool haAlcanzado;
 
+    private Vector3 destino;
     private Vector3 posicionJugador;    //la posicion del jugador en ese momento
 
     //Otras variables
@@ -36,12 +37,12 @@ public class EnemigoFSM : MonoBehaviour
     {
         estadosEnemigo = new EstadosEnemigo();
 
-        enemigoFSM = new StateMachineEngine(false); //Si no funciona revisar este false !!!!!!!!!!!!!!
+        enemigoFSM = new StateMachineEngine(); //Si no funciona revisar este parentesis!!!!!!!!!!!!!!
 
         meshAgent = GetComponent<NavMeshAgent>();
 
         //implementar cuando este el jugador
-        //posicionJugador = new Vector3(casa.transform.position.x, transform.position.y, casa.transform.position.z);
+        posicionJugador = new Vector3(jugador.transform.position.x, jugador.transform.position.y, jugador.transform.position.z);
 
         CreateStateMachine();
         
@@ -79,5 +80,55 @@ public class EnemigoFSM : MonoBehaviour
 
         comprobarDestino();
         
+    }
+
+    private void Descansando()
+    {
+        Debug.Log("Enemigo: Descansado");
+        estadoActual = estadosEnemigo.Descansando;
+    }
+    
+    private void Acercandose()
+    {
+        Debug.Log("Enemigo: Acercándose al jugador");
+        estadoActual = estadosEnemigo.Acercandose;
+
+        destino = new Vector3(jugador.transform.position.x, jugador.transform.position.y, jugador.transform.position.z);
+
+        meshAgent.enabled = true;
+        meshAgent.destination = destino;
+
+    }
+
+    private void Atacando()
+    {
+        Debug.Log("Enemigo: Atacando al jugador");
+        estadoActual = estadosEnemigo.Atacando;
+
+        //restar vida al jugador
+
+    }
+
+    
+
+    void comprobarDestino()
+    {
+        float distanceTo = (destino - transform.position).magnitude;
+        if ((destino.x == posicionJugador.x) && (destino.z == posicionJugador.z))
+        {
+            if (distanceTo < 2)
+            {
+                haAlcanzado = true;
+            }
+        } else
+        {
+            if (distanceTo < 2)
+            {
+                haAlcanzado = true;
+            } else
+            {
+                haAlcanzado = false;
+            }
+        }
     }
 }
