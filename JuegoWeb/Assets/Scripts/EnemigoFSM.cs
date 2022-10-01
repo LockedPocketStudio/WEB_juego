@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class EnemigoFSM : MonoBehaviour
 {
+    /*
     #region variables
     [Header("Destinos")]
     public GameObject jugador;
@@ -130,5 +131,5 @@ public class EnemigoFSM : MonoBehaviour
                 haAlcanzado = false;
             }
         }
-    }
+    }*/
 }
