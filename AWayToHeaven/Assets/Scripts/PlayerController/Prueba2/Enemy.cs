@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health = 10;
+    public int health = 1;
     // Start is called before the first frame update
     void Start()
     {

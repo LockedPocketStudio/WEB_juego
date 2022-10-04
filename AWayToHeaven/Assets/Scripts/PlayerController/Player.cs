@@ -4,26 +4,83 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private Vector3 shoot;
+    protected Transform turretTransform;
+    public GameObject bulletPrefab;
 
-    private void Awake()
+    public float fireCooldown;
+    protected float fireCooldownLeft = 0f;
+
+    public float radius;
+    protected Transform radiusSprite;
+
+    public int cost;
+
+    public int bulletDamage = 1;
+    public int bulletHealth = 1;
+
+    protected bool placed = false;
+
+    // Use this for initialization
+    protected virtual void Start()
     {
-        shoot = transform.Find("OrigenProyectil").position;
-    }
-    void Start()
-    {
-        
+      turretTransform = transform.Find("Player");
+        radiusSprite = transform.Find("Radius");
+        Vector3 radiusScale = new Vector3(radius * 2, radius * 2, 1);
+        radiusSprite.localScale = radiusScale;
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Debug.Log("Pium");
-            Vector3 vec = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            vec.z = 0f;
-            Proyectile.Create(vec);
-                }
+        fireCooldownLeft -= Time.deltaTime;
     }
+
+    protected Enemy FindFurthestEnemy()
+    {
+        // Create sphere collider of radius
+        Enemy furthestEnemy = null;
+
+        Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, radius);
+        foreach (Collider2D c in cols)
+        {
+            if (c.gameObject.tag == "Enemy")
+            {
+                Enemy e = c.gameObject.GetComponent<Enemy>();
+                // If we collided with an enemy, check if it's distanced traveled
+                if (furthestEnemy == null )
+                {
+                    furthestEnemy = e;
+                }
+            }
+        }
+
+        return furthestEnemy;
+    }
+
+    protected virtual void ShootAt(Enemy e)
+    {
+        PointTurretAt(e);
+    }
+
+    protected void PointTurretAt(Enemy e)
+    {
+        /*
+        // Find direction to enemy
+        Vector3 dir = e.transform.position - this.transform.position;
+        // Calculate angle to enemy
+        Quaternion lookRot = Quaternion.LookRotation(dir, Vector3.up);
+
+        // Turn turret to enemy
+        float rotation = lookRot.eulerAngles.x + 90f;
+        if (lookRot.eulerAngles.y != 270)
+        {
+            rotation = -lookRot.eulerAngles.x - 90f;
+        }
+       // turretTransform.rotation = Quaternion.Euler(0, 0, rotation);*/
+    }
+
+   
+
+    
+
 }
