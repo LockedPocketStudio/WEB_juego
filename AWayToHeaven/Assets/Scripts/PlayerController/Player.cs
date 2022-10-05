@@ -4,35 +4,37 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    protected Transform turretTransform;
+  //  protected Transform turretTransform;
     public GameObject bulletPrefab;
 
     public float fireCooldown;
     protected float fireCooldownLeft = 0f;
 
     public float radius;
-    protected Transform radiusSprite;
+  //  protected Transform radiusSprite;
 
-    public int cost;
-
+    //Control bala
     public int bulletDamage = 1;
     public int bulletHealth = 1;
 
-    protected bool placed = false;
+    //Control estadisticas Personaje
+    public int life = 1;
+    public float InvencibleTime = 2;
+    public float InvencibleTimeLeft = 0f;
 
-    // Use this for initialization
     protected virtual void Start()
     {
-      turretTransform = transform.Find("Player");
-        radiusSprite = transform.Find("Radius");
-        Vector3 radiusScale = new Vector3(radius * 2, radius * 2, 1);
-        radiusSprite.localScale = radiusScale;
+     // turretTransform = transform.Find("Player");
+      //  radiusSprite = transform.Find("Radius");
+    //    Vector3 radiusScale = new Vector3(radius * 2, radius * 2, 1);
+      //  radiusSprite.localScale = radiusScale;
     }
 
     // Update is called once per frame
     protected virtual void Update()
     {
         fireCooldownLeft -= Time.deltaTime;
+      //  InvencibleTimeLeft -= Time.deltaTime;
     }
 
     protected Enemy FindFurthestEnemy()
@@ -59,7 +61,7 @@ public class Player : MonoBehaviour
 
     protected virtual void ShootAt(Enemy e)
     {
-        PointTurretAt(e);
+      //  PointTurretAt(e);
     }
 
     protected void PointTurretAt(Enemy e)
