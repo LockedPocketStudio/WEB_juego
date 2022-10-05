@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public GameObject bulletPrefab;
 
     public float fireCooldown;
-    protected float fireCooldownLeft = 0f;
+    protected float fireCooldownLeft = 1f;
 
     public float radius;
   //  protected Transform radiusSprite;

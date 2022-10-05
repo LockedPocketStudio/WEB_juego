@@ -9,18 +9,18 @@ public class NormalPlayer : Player
     {
         base.Update();
 
-       
+
         Enemy furthestEnemy = FindFurthestEnemy();
 
         if (furthestEnemy == null)
         {
             return;
         }
-
+       
         if (fireCooldownLeft <= 0 && furthestEnemy!= null)
-        {
+      {
             fireCooldownLeft = fireCooldown;
-            ShootAt(furthestEnemy);
+          ShootAt(furthestEnemy);
         }
     }
 

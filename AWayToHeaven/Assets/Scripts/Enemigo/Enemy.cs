@@ -26,11 +26,13 @@ public class Enemy : MonoBehaviour
             return;
         }
     }
-    /*
-    public void OnTriggerEnter2D(Collider2D c)
+    
+   /* public void OnTriggerEnter2D(Collider2D c)
     {
+        
         if (c.gameObject.tag == "PlayerCollider")
         {
+           
            Player e = c.gameObject.GetComponent<Player>();
             if (e.InvencibleTimeLeft <= 0)
             {
@@ -44,5 +46,6 @@ public class Enemy : MonoBehaviour
             }
 
         }
+       
     }*/
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bullet : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 100f;
     public int damage { get; set; }
     public Vector2 dir;
     public bool colliding = false;
