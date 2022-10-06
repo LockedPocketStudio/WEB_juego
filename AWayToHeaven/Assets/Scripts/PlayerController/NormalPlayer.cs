@@ -4,24 +4,23 @@ using UnityEngine;
 
 public class NormalPlayer : Player
 {
-    // Start is called before the first frame update
+   
     protected override void Update()
     {
         base.Update();
 
-       
+
         Enemy furthestEnemy = FindFurthestEnemy();
 
         if (furthestEnemy == null)
         {
-            // No enemies
             return;
         }
-
-        if (fireCooldownLeft <= 0)
-        {
+       
+        if (fireCooldownLeft <= 0 && furthestEnemy!= null)
+      {
             fireCooldownLeft = fireCooldown;
-            ShootAt(furthestEnemy);
+          ShootAt(furthestEnemy);
         }
     }
 
@@ -38,4 +37,5 @@ public class NormalPlayer : Player
         b.health = bulletHealth;
     }
 
+  
 }

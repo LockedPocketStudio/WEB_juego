@@ -15,11 +15,17 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) )
         {
             lastClick = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             moving = true;
                
+        }
+        if (Input.touchCount > 0) //Control del movil
+        {
+            Touch touch = Input.GetTouch(0);
+              lastClick = Camera.main.ScreenToWorldPoint(touch.position);
+            moving = true;
         }
         if(moving && (Vector2)transform.position != lastClick)
         {
