@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
    public UIManager UI;
     int modoJuego;
+    public int estadoJugador = 1; //-1-muerto 1-vivo
    // public Text timer;
    
     void Start()
@@ -30,5 +31,10 @@ public class GameManager : MonoBehaviour
         {
             //Comenzamos modo hordas
         }
+    }
+
+    public void PlayerState(int n)
+    {
+        estadoJugador = n;
     }
 }

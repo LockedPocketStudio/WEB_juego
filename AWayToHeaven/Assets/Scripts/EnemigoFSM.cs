@@ -15,6 +15,7 @@ public class EnemigoFSM : MonoBehaviour
 
     //Estados
     private EstadosEnemigo estadosEnemigo;
+    private int estadoJugador;
 
     [Header("Variables de control")]
     [SerializeField] private string estadoActual;
@@ -26,6 +27,7 @@ public class EnemigoFSM : MonoBehaviour
     //Otras variables
     private int health = 1;
     private float speed = 10f;
+    public GameManager GM;
 
     private Vector2 destino;    //la posicion del jugador en ese momento
     
@@ -69,6 +71,10 @@ public class EnemigoFSM : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(GM.estadoJugador != 1)
+        {
+            return;
+        }
         enemigoFSM.Update();
 
         actualizarDestino();

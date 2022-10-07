@@ -6,6 +6,7 @@ public class PlayerLife : MonoBehaviour
 {
    private Vector3 Playerpos;
     public GameObject player;
+    public GameManager GM;
     void Start()
     {
         Playerpos = player.transform.position;
@@ -30,11 +31,13 @@ public class PlayerLife : MonoBehaviour
             {
                 e.life--;
                 e.InvencibleTimeLeft = e.InvencibleTime;
+                
                 Debug.LogWarning("He perdido una vida");
             }
             if (e.life <= 0)
             {
                 Destroy(e.gameObject);
+                GM.PlayerState(-1);
                 Destroy(this);
             }
 

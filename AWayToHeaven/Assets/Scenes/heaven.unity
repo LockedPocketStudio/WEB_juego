@@ -325,6 +325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1087454330}
+  GM: {fileID: 405723357}
 --- !u!4 &358848354
 Transform:
   m_ObjectHideFlags: 0
@@ -370,6 +371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UI: {fileID: 794636734}
+  estadoJugador: 1
 --- !u!4 &405723358
 Transform:
   m_ObjectHideFlags: 0
@@ -1049,7 +1051,7 @@ MonoBehaviour:
   radius: 5
   bulletDamage: 1
   bulletHealth: 1
-  life: 3
+  life: 1
   InvencibleTime: 2
   InvencibleTimeLeft: 0
 --- !u!61 &1087454336
@@ -1584,6 +1586,7 @@ MonoBehaviour:
   estadoActual: 
   veJugador: 0
   haAlcanzado: 0
+  GM: {fileID: 405723357}
 --- !u!1 &1522606272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1705,6 +1708,7 @@ MonoBehaviour:
   estadoActual: 
   veJugador: 0
   haAlcanzado: 0
+  GM: {fileID: 405723357}
 --- !u!1001 &5601748291739773058
 PrefabInstance:
   m_ObjectHideFlags: 0
