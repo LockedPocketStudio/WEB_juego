@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    public float speed = 10f;
+    public float speed = 5f;
     Vector2 lastClick;
     bool moving;
     void Start()

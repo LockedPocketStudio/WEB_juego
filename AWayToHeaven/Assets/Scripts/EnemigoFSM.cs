@@ -5,12 +5,10 @@ using UnityEngine.AI;
 
 public class EnemigoFSM : MonoBehaviour
 {
-    /*
+    
     #region variables
     [Header("Destinos")]
     public GameObject jugador;
-
-    private NavMeshAgent meshAgent;
 
     //Maquina de estados
     private StateMachineEngine enemigoFSM;
@@ -23,13 +21,14 @@ public class EnemigoFSM : MonoBehaviour
 
     //Percepciones
     public bool veJugador = false;
-    public bool haAlcanzado;
-
-    private Vector3 destino;
-    private Vector3 posicionJugador;    //la posicion del jugador en ese momento
+    public bool haAlcanzado = false;
 
     //Otras variables
-    private int vidaActual;
+    private int health = 1;
+    private float speed = 10f;
+
+    private Vector2 destino;    //la posicion del jugador en ese momento
+    
     #endregion variables
 
 
@@ -38,22 +37,16 @@ public class EnemigoFSM : MonoBehaviour
     {
         estadosEnemigo = new EstadosEnemigo();
 
-        enemigoFSM = new StateMachineEngine(); //Si no funciona revisar este parentesis!!!!!!!!!!!!!!
-
-        meshAgent = GetComponent<NavMeshAgent>();
-
-        //implementar cuando este el jugador
-        posicionJugador = new Vector3(jugador.transform.position.x, jugador.transform.position.y, jugador.transform.position.z);
+        enemigoFSM = new StateMachineEngine(); 
 
         CreateStateMachine();
-        
     }
 
     private void CreateStateMachine()
     {
         #region Percepciones
         Perception veJugadorPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => veJugador);
-        Perception noVeJugadorPerception = enemigoFSM.CreatePerception<ValuePerception>(() => !veJugador);
+        Perception noVeJugadorPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => !veJugador);
 
         Perception haAlcanzadoPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => haAlcanzado);
         Perception noHaAlcanzadoPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => !haAlcanzado);
@@ -68,25 +61,28 @@ public class EnemigoFSM : MonoBehaviour
         #region Transiciones
         enemigoFSM.CreateTransition("El jugador está a la vista", descansandoState, veJugadorPercepcion, acercandoseState);
         enemigoFSM.CreateTransition("Enemigo ha alcanzado al jugador", acercandoseState, haAlcanzadoPercepcion, atacandoState);
-        enemigoFSM.CreateTransition("El jugador se ha alejado", atacandoState, noHaAlcanzadoPerception, acercandoseState);
-        enemigoFSM.CreateTransition("El jugador ya no está a la vista", atacandoState, noVeJugadorPerception, descansandoState);
+        enemigoFSM.CreateTransition("El jugador se ha alejado", atacandoState, noHaAlcanzadoPercepcion, acercandoseState);
+        enemigoFSM.CreateTransition("El jugador ya no está a la vista", atacandoState, noVeJugadorPercepcion, descansandoState);
         #endregion Transiciones
     }
 
     // Update is called once per frame
     void Update()
     {
-
         enemigoFSM.Update();
 
+        actualizarDestino();
+        comprobarJugadorVisible();
         comprobarDestino();
-        
+        moving();
     }
 
     private void Descansando()
     {
         Debug.Log("Enemigo: Descansado");
         estadoActual = estadosEnemigo.Descansando;
+
+        //Se comprueba constantemente que el jugador sea visisble ( esté cerca). Cuando lo sea, pasrá al estado de Acercandose()
     }
     
     private void Acercandose()
@@ -94,10 +90,9 @@ public class EnemigoFSM : MonoBehaviour
         Debug.Log("Enemigo: Acercándose al jugador");
         estadoActual = estadosEnemigo.Acercandose;
 
-        destino = new Vector3(jugador.transform.position.x, jugador.transform.position.y, jugador.transform.position.z);
-
-        meshAgent.enabled = true;
-        meshAgent.destination = destino;
+        //Va hacia el jugador
+        //Se hace con la función moving() que se llama en cada Update
+        //El enemigo se mantiene en este estado siempre que el jugador sea visible pero no se le haya alcanzado aún
 
     }
 
@@ -110,26 +105,62 @@ public class EnemigoFSM : MonoBehaviour
 
     }
 
-    
+    void actualizarDestino()
+    {
+        destino = new Vector2(jugador.transform.position.x, jugador.transform.position.y);
+    }
 
     void comprobarDestino()
     {
-        float distanceTo = (destino - transform.position).magnitude;
-        if ((destino.x == posicionJugador.x) && (destino.z == posicionJugador.z))
+        float distanceTo = Vector2.Distance(destino, transform.position);
+        //Debug.Log("El enemigo está a distancia" + distanceTo);    //comprobar que la distancia se está calculando correctamente
+        if (distanceTo <= 1)
         {
-            if (distanceTo < 2)
-            {
-                haAlcanzado = true;
-            }
+            haAlcanzado = true;
         } else
         {
-            if (distanceTo < 2)
-            {
-                haAlcanzado = true;
-            } else
-            {
-                haAlcanzado = false;
-            }
+            haAlcanzado = false;
         }
-    }*/
+    }
+
+    void comprobarJugadorVisible()
+    {
+        float distanceTo = Vector2.Distance(destino, transform.position);
+        //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
+
+        //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
+        if(distanceTo <= 5){
+            veJugador = true;
+        }
+        else
+        {
+            veJugador = false;
+        }
+
+    }
+
+    void moving()
+    {
+        if(estadoActual == estadosEnemigo.Acercandose)  //El enemigo debe estar en este estado para moverse
+        {
+                //Va hacia el jugador
+            float step = speed * Time.deltaTime;
+            Debug.Log("step " + step);
+            transform.position = Vector2.MoveTowards(transform.position, destino, step);    //MoveTowards(posicion actual, destino, distancia máxima)
+        }
+    }
+
+
+    public void TakeDamage(int amount)
+    {
+        //El enemigo muere cuando le alcanza una bala del jugador
+        health = health - amount;
+        if (health <= 0)
+        {
+            veJugador = false;
+            Destroy(this.gameObject);
+            
+            return;
+        }
+    }
 }
