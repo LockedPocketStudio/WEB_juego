@@ -35,6 +35,7 @@ public class PlayerLife : MonoBehaviour
             if (e.life <= 0)
             {
                 Destroy(e.gameObject);
+                Destroy(this);
             }
 
         }
