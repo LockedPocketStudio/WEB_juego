@@ -26,6 +26,11 @@ public class NormalPlayer : Player
             fireCooldownLeft = fireCooldown;
           ShootAt(furthestEnemy);
         }
+
+        if(InvencibleTimeLeft >= 0)
+        {
+            InvencibleTimeLeft -= Time.deltaTime;
+        }
     }
 
     protected override void ShootAt(Enemy e)
