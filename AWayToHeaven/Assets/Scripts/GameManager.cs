@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
    public UIManager UI;
-    int modoJuego;
+    public int modoJuego;
     public int estadoJugador = 1; //-1-muerto 1-vivo
    // public Text timer;
    

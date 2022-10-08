@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
   //  protected Transform turretTransform;
     public GameObject bulletPrefab;
+ 
 
     public float fireCooldown;
     protected float fireCooldownLeft = 1f;
@@ -33,6 +34,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
+    
         fireCooldownLeft -= Time.deltaTime;
       //  InvencibleTimeLeft -= Time.deltaTime;
     }

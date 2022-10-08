@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private int health = 1;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
     public void TakeDamage(int amount)

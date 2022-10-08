@@ -26,7 +26,7 @@ public class EnemigoFSM : MonoBehaviour
 
     //Otras variables
     private int health = 1;
-    private float speed = 10f;
+    private float speed = 3f;
     public GameManager GM;
 
     private Vector2 destino;    //la posicion del jugador en ese momento
@@ -37,6 +37,11 @@ public class EnemigoFSM : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Buscar objetos de la escena 
+        GM = GameManager.FindObjectOfType<GameManager>();
+        jugador = GameObject.Find("Player");
+
+
         estadosEnemigo = new EstadosEnemigo();
 
         enemigoFSM = new StateMachineEngine(); 
@@ -72,6 +77,12 @@ public class EnemigoFSM : MonoBehaviour
     void Update()
     {
         if(GM.estadoJugador != 1)
+        {
+            return;
+        }
+
+
+        if(GM.modoJuego == -1)
         {
             return;
         }
