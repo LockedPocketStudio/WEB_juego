@@ -21,7 +21,7 @@ public class movement : MonoBehaviour
             return;
         }
 
-        if (Input.GetMouseButtonDown(0) )
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
         {
             lastClick = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             moving = true;
