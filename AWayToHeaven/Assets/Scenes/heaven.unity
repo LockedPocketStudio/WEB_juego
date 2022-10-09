@@ -245,6 +245,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113722796}
   m_CullTransparentMesh: 1
+--- !u!1001 &238626088
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767468, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5601748292124767470, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+      propertyPath: m_Name
+      value: EnemyBT
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+--- !u!1 &238626089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5601748292124767470, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+  m_PrefabInstance: {fileID: 238626088}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &238626090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238626089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f27db49285196e1479e2395b8ff99dbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jugador: {fileID: 1087454330}
+  bulletPrefab: {fileID: 331188518327026958, guid: 3f64a174989c3844f92dd56572602383, type: 3}
+  bulletDamage: 1
+  bulletHealth: 1
+  nodoActual: 
+  veJugador: 0
+  haAvanzado: 0
+  haDisparado: 0
+  GM: {fileID: 405723357}
 --- !u!1 &334996831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,7 +1134,7 @@ MonoBehaviour:
   radius: 5
   bulletDamage: 1
   bulletHealth: 1
-  life: 1
+  life: 5
   InvencibleTime: 2
   InvencibleTimeLeft: 0
 --- !u!61 &1087454336
@@ -1422,7 +1505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5601748292124767470, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
       propertyPath: m_Name
-      value: Enemy (1)
+      value: EnemyFSM
       objectReference: {fileID: 0}
     - target: {fileID: 5601748292124767474, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
       propertyPath: m_IsTrigger
@@ -1766,7 +1849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5601748292124767470, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
       propertyPath: m_Name
-      value: Enemy
+      value: EnemyFSM
       objectReference: {fileID: 0}
     - target: {fileID: 5601748292124767474, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
       propertyPath: m_IsTrigger
