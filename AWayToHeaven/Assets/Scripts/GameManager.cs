@@ -33,9 +33,14 @@ public class GameManager : MonoBehaviour
         else if(modoJuego == 1)
         {
             //Comenzamos modo hordas
-            time += Time.deltaTime;
-            string t = time.ToString("F2");
-            timer.text = t;
+            if(estadoJugador  != -1)
+            {
+                time += Time.deltaTime;
+                string t = time.ToString("F2");
+                timer.text = t;
+
+            }
+            
 
         }
     }

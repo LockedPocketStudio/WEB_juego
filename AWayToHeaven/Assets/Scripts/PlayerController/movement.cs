@@ -20,6 +20,10 @@ public class movement : MonoBehaviour
         {
             return;
         }
+        if(GM.estadoJugador == -1)
+        {
+            return;
+        }
 
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
         {
