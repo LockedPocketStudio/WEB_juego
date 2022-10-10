@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class NormalPlayer : Player
 {
-   
+    public GameManager GM;
     protected override void Update()
     {
+        if(GM.modoJuego == -1)
+        {
+            return;
+        }
         base.Update();
 
 
@@ -21,6 +25,11 @@ public class NormalPlayer : Player
       {
             fireCooldownLeft = fireCooldown;
           ShootAt(furthestEnemy);
+        }
+
+        if(InvencibleTimeLeft >= 0)
+        {
+            InvencibleTimeLeft -= Time.deltaTime;
         }
     }
 

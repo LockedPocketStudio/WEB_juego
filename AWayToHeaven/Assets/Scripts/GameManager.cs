@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-   public UIManager UI;
-    int modoJuego;
+  
+    public int modoJuego; //-1 pausa //0 historia //1 hordas
     public int estadoJugador = 1; //-1-muerto 1-vivo
+    public TextMesh timer;
+    public float time =0f;
+
    // public Text timer;
    
     void Start()
@@ -17,7 +20,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        modoJuego = UI.modoJuego;
+      //  modoJuego = UI.modoJuego;
 
         if(modoJuego == -1)
         {
@@ -30,6 +33,15 @@ public class GameManager : MonoBehaviour
         else if(modoJuego == 1)
         {
             //Comenzamos modo hordas
+            if(estadoJugador  != -1)
+            {
+                time += Time.deltaTime;
+                string t = time.ToString("F2");
+                timer.text = t;
+
+            }
+            
+
         }
     }
 

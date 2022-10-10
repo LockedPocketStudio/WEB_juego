@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class bullet : MonoBehaviour
 {
-    public float speed = 100f;
+    public float speed ;
     public int damage { get; set; }
     public Vector2 dir;
     public bool colliding = false;
     public int health { get; set; }
     public Rigidbody2D rb;
+    private float LifeTime = 2f;
 
     void Start()
     {
@@ -25,6 +26,12 @@ public class bullet : MonoBehaviour
 
         //this.transform.Translate( dir * distThisFrame, Space.World );
         rb.MovePosition(rb.position + dir * distThisFrame);
+
+        LifeTime -= Time.deltaTime;
+        if(LifeTime<= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
     protected virtual void OnTriggerEnter2D(Collider2D coll)
     {

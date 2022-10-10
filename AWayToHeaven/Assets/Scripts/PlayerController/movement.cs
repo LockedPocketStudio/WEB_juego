@@ -7,6 +7,7 @@ public class movement : MonoBehaviour
     public float speed = 5f;
     Vector2 lastClick;
     bool moving;
+    public GameManager GM;
     void Start()
     {
         
@@ -15,7 +16,16 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) )
+        if (GM.modoJuego == -1)
+        {
+            return;
+        }
+        if(GM.estadoJugador == -1)
+        {
+            return;
+        }
+
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
         {
             lastClick = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             moving = true;

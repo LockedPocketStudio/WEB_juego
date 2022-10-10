@@ -36,7 +36,9 @@ public class PlayerLife : MonoBehaviour
             }
             if (e.life <= 0)
             {
-                Destroy(e.gameObject);
+          
+               Destroy(e);
+               
                 GM.PlayerState(-1);
                 Destroy(this);
             }
