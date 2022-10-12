@@ -20,7 +20,6 @@ public class EnemigoBT : MonoBehaviour
     public int bulletHealth = 1;
 
     //árbol de comportamiento
-    //private StateMachineBehaviour stateMachine;
     private BehaviourTreeEngine behaviourTree;
 
     [Header("Variables de control")]
@@ -90,10 +89,6 @@ public class EnemigoBT : MonoBehaviour
 
         Debug.Log("enemyBT is moving");
 
-        //walkingTime -= Time.deltaTime;
-        
-        //if(walkingTime <= 0)
-        //{
             //Se mueve de forma aleatoria
             Vector2 posInicial = transform.position;
             float step = speed * Time.deltaTime;
@@ -104,7 +99,6 @@ public class EnemigoBT : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, nextPos, step);    //MoveTowards(posicion actual, destino, distancia máxima)
             Vector2 posFinal = transform.position;
 
-            //walkingTime += changeDir;
 
             //Comprobar si el movimiento se ha realizado correctamente
             if ((posInicial != posFinal))
@@ -117,8 +111,7 @@ public class EnemigoBT : MonoBehaviour
                 Debug.Log("NO ha avanzado");
                 haAvanzado = false;
             }
-        //}
-        
+    
     }
 
     private void ShootAt(GameObject p)  
