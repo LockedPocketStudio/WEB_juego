@@ -5,6 +5,7 @@ using UnityEngine;
 public class NormalPlayer : Player
 {
     public GameManager GM;
+    
     protected override void Update()
     {
         if(GM.modoJuego == -1)
