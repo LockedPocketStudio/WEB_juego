@@ -142,13 +142,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies:
-  - {fileID: 5601748292124767470, guid: 36f949a8fd788334ca686acda448f5b0, type: 3}
+  - {fileID: 5601748292124767470, guid: abfd17eb111ebcd448c4128ff30669d3, type: 3}
+  - {fileID: 5601748292124767470, guid: 74803d78cfc3567479105960bc836a0d, type: 3}
   timeSpawn: 1
   SpawnRate: 1
   xRangeLeft: {fileID: 7630725264015049309}
   XRangeRight: {fileID: 531609353061314619}
   yRangeUP: {fileID: 8343649289742911836}
   yRangeDown: {fileID: 6308424483012226784}
+  GM: {fileID: 0}
 --- !u!1 &8539781129708318806
 GameObject:
   m_ObjectHideFlags: 0
