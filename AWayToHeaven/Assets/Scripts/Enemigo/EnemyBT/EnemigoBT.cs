@@ -11,6 +11,7 @@ public class EnemigoBT : MonoBehaviour
     #region variables
     [Header("Destinos")]
     public GameObject jugador;
+    public GameManager GM;
 
     //  protected Transform turretTransform;
     public GameObject bulletPrefab;
@@ -35,13 +36,17 @@ public class EnemigoBT : MonoBehaviour
     private float speed = 6f;
     //private float changeDir = 1f; //El enemigoBT cambiará la dirección en la que anda cada 1 segundos
     //private float walkingTime = 0f; 
-    public GameManager GM;
+  
    
     #endregion variables
     
     // Start is called before the first frame update
     void Start()
     {
+        //Buscar objetos de la escena 
+        GM = GameManager.FindObjectOfType<GameManager>();
+        jugador = GameObject.Find("Player");
+
         CreateBehaviourTree();
     }
 

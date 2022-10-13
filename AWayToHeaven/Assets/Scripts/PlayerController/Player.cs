@@ -8,18 +8,19 @@ public class Player : MonoBehaviour
     public GameObject bulletPrefab;
  
 
-    public float fireCooldown;
-    protected float fireCooldownLeft = 1f;
+    public float fireCooldown = 1f;
+    public float fireCooldownLeft = 1f;
 
-    public float radius;
-  //  protected Transform radiusSprite;
+    public float radius = 5f;
+    //  protected Transform radiusSprite;
 
     //Control bala
     public int bulletDamage = 1;
     public int bulletHealth = 1;
 
     //Control estadisticas Personaje
-    public int life = 1;
+    public int life = 3; //salud en tiempo real
+    public int BaseLife = 3; //salud maxima
     public float InvencibleTime = 2;
     public float InvencibleTimeLeft = 0f;
 
