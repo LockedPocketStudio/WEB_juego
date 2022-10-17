@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.Random;
 
 public class SpawnEnemy : MonoBehaviour
 {
@@ -37,6 +38,9 @@ public class SpawnEnemy : MonoBehaviour
             return;
         }
         Vector3 spawnPosition = new Vector3(0, 0, 0);
+
+        int seleccionEnemigo = Range(0, 1);
+
         spawnPosition = new Vector3(Random.Range(xRangeLeft.position.x, XRangeRight.position.y), Random.Range(yRangeDown.position.y, yRangeUP.position.y), 0);
         GameObject enemie= Instantiate(enemies[0],spawnPosition,gameObject.transform.rotation);
     

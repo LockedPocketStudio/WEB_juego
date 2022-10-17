@@ -160,11 +160,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jugador: {fileID: 4093322445111147482, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+  GM: {fileID: 0}
   bulletPrefab: {fileID: 331188518327026958, guid: 3f64a174989c3844f92dd56572602383, type: 3}
   bulletDamage: 1
   bulletHealth: 1
   nodoActual: 
-  veJugador: 0
+  veJugador: 1
   haAvanzado: 0
   haDisparado: 0
-  GM: {fileID: 0}

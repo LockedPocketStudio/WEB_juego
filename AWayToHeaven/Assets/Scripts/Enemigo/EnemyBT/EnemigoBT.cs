@@ -150,7 +150,7 @@ public class EnemigoBT : MonoBehaviour
         //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
 
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
-        if(distanceTo <= 5){
+        if(distanceTo <= 20){
             Debug.Log("player VISIBLE");
             veJugador = true;
             return ReturnValues.Succeed;
