@@ -26,17 +26,15 @@ public class EnemigoBT : MonoBehaviour
     [Header("Variables de control")]
     [SerializeField] private string nodoActual;
 
-    //Percepciones
+    //
     public bool veJugador = false;
     public bool haAvanzado = false;
     public bool haDisparado = false;
+    private Vector2 destino;    //la posicion del jugador en ese momento
 
     //Otras variables
     private int health = 1;
-    private float speed = 6f;
-    //private float changeDir = 1f; //El enemigoBT cambiará la dirección en la que anda cada 1 segundos
-    //private float walkingTime = 0f; 
-  
+    private float speed = 4f;  
    
     #endregion variables
     
@@ -84,8 +82,18 @@ public class EnemigoBT : MonoBehaviour
             return;
         }
         behaviourTree.Update();
+
+        actualizarDestino();
+        moving();
         
     }
+
+
+    void actualizarDestino()
+    {
+        destino = new Vector2(jugador.transform.position.x, jugador.transform.position.y);
+    }
+
 
     //Acciones
     private void moving()
@@ -94,14 +102,11 @@ public class EnemigoBT : MonoBehaviour
 
         Debug.Log("enemyBT is moving");
 
-            //Se mueve de forma aleatoria
+            //Va hacia el jugador
             Vector2 posInicial = transform.position;
             float step = speed * Time.deltaTime;
-            float x = Range(-2f, 2f);
-            float y = Range(-2f, 2f);
-            Vector2 nextPos = new Vector2(x, y);
-            Debug.Log("NEXT POS " + nextPos);
-            transform.position = Vector2.MoveTowards(transform.position, nextPos, step);    //MoveTowards(posicion actual, destino, distancia máxima)
+            Debug.Log("step " + step);
+            transform.position = Vector2.MoveTowards(transform.position, destino, step);    //MoveTowards(posicion actual, destino, distancia máxima)
             Vector2 posFinal = transform.position;
 
 
@@ -146,7 +151,7 @@ public class EnemigoBT : MonoBehaviour
 
         Debug.Log("enemyBT is CHECKING PLAYERS POSITION");
 
-        float distanceTo = Vector2.Distance(jugador.transform.position, transform.position);
+        float distanceTo = Vector2.Distance(destino, transform.position);
         //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
 
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
