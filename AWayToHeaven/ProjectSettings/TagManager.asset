@@ -8,6 +8,7 @@ TagManager:
   - PlayerCollider
   - Radio
   - levelButton
+  - Experiencia
   layers:
   - Default
   - TransparentFX

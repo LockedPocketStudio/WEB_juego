@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     public int BaseLife = 3; //salud maxima
     public float InvencibleTime = 2;
     public float InvencibleTimeLeft = 0f;
+    public int experiencia = 0;
 
     protected virtual void Start()
     {
