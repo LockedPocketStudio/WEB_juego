@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
   //  protected Transform turretTransform;
     public GameObject bulletPrefab;
  
 
-    public float fireCooldown = 1f;
+    public float fireCooldown = 2f;
     public float fireCooldownLeft = 1f;
 
     public float radius = 5f;
@@ -18,6 +18,9 @@ public class Player : MonoBehaviour
     public int bulletDamage = 1;
     public int bulletHealth = 1;
 
+    //Sierra
+    public GameObject[] Sierras = new GameObject[4];
+
     //Control estadisticas Personaje
     public int life = 3; //salud en tiempo real
     public int BaseLife = 3; //salud maxima
@@ -25,12 +28,22 @@ public class Player : MonoBehaviour
     public float InvencibleTimeLeft = 0f;
     public int experiencia = 0;
 
-    protected virtual void Start()
+    //Control power ups
+    public int nivelSierra = 0;
+    protected int nivelSierraAnterior = 0;
+
+    //Experiencia necesaria para power ups
+    protected int[] LevelUp = {5,10,20,40,60,80};
+    protected int nextLevel = 0;
+
+    protected  void Start()
     {
-     // turretTransform = transform.Find("Player");
-      //  radiusSprite = transform.Find("Radius");
-    //    Vector3 radiusScale = new Vector3(radius * 2, radius * 2, 1);
-      //  radiusSprite.localScale = radiusScale;
+   
+     for(int i = 0; i < 4; i++)
+        {
+          Sierras[i].SetActive(false);
+        }
+     
     }
 
     // Update is called once per frame
@@ -38,7 +51,16 @@ public class Player : MonoBehaviour
     {
     
         fireCooldownLeft -= Time.deltaTime;
-      //  InvencibleTimeLeft -= Time.deltaTime;
+        if(experiencia == LevelUp[nextLevel])
+        {
+            nivelSierra++;
+            nextLevel++;
+        }
+      if(nivelSierra != nivelSierraAnterior)
+        {
+            PowerUpSierra(nivelSierra);
+            nivelSierraAnterior = nivelSierra;
+        }
     }
 
     protected Enemy FindFurthestEnemy()
@@ -85,7 +107,42 @@ public class Player : MonoBehaviour
        // turretTransform.rotation = Quaternion.Euler(0, 0, rotation);*/
     }
 
-   
+    protected void PowerUpSierra(int nivel)
+    {
+        switch (nivel)
+        {
+            case 1:
+              Sierras[0].SetActive(true);
+                break;
+            case 2:
+                Sierras[0].SetActive(false);
+                Sierras[0].SetActive(true);
+                Sierras[1].SetActive(true);
+                break;
+            case 3:
+                Sierras[0].SetActive(false);
+                Sierras[0].SetActive(true);
+                Sierras[1].SetActive(false);
+                Sierras[1].SetActive(true);
+                Sierras[2].SetActive(true);
+                break;
+            case 4:
+                Sierras[0].SetActive(false);
+                Sierras[0].SetActive(true);
+                Sierras[1].SetActive(false);
+                Sierras[1].SetActive(true);
+                Sierras[2].SetActive(false);
+                Sierras[2].SetActive(true);
+                Sierras[3].SetActive(true);
+                break;
+        }
+           
+        
+
+       
+
+
+    }
 
     
 
