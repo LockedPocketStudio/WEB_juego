@@ -15,11 +15,11 @@ public class PowerUps : Player
     }
     public void MasVida()
     { 
-        BaseLife++;
+        VidaMaxima++;
     }
     public void RecuperarVida()
     {
-        life = BaseLife;
+        VidaActual = VidaMaxima;
     }
     public void AumentarDañoDisparo()
     {

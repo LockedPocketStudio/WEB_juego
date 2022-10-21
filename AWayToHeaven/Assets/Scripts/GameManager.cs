@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
   
     public int modoJuego; //-1 pausa //0 historia //1 hordas
     public int estadoJugador = 1; //-1-muerto 1-vivo
-    public TextMesh timer;
+
+    public TextMeshProUGUI timer;
     public float time =0f;
 
    // public Text timer;
@@ -38,6 +41,7 @@ public class GameManager : MonoBehaviour
                 time += Time.deltaTime;
                 string t = time.ToString("F2");
                 timer.text = t;
+                
 
             }
             

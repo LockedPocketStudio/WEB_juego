@@ -22,8 +22,9 @@ public class Player : MonoBehaviour
     public GameObject[] Sierras = new GameObject[4];
 
     //Control estadisticas Personaje
-    public int life = 3; //salud en tiempo real
-    public int BaseLife = 3; //salud maxima
+    public int VidaActual = 3; //salud en tiempo real
+    public int VidaMaxima = 3; //salud maxima
+    public Image BarraVida;
     public float InvencibleTime = 2;
     public float InvencibleTimeLeft = 0f;
     public int experiencia = 0;
@@ -51,6 +52,7 @@ public class Player : MonoBehaviour
     {
     
         fireCooldownLeft -= Time.deltaTime;
+        BarraVida.fillAmount = (float)VidaActual / VidaMaxima;
         if(experiencia == LevelUp[nextLevel])
         {
             nivelSierra++;
