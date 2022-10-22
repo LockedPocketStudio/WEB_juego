@@ -4,10 +4,24 @@ using UnityEngine;
 
 public class PowerUps : Player
 {
-    // Start is called before the first frame update
-  public void AumentarVelocidadDisparo()
+    //Define el power up que ha tocado
+    public int AleatorioPowerUps;
+
+    //Nivel Del power up
+    int velocidadDisparo = 0; //0
+    int dobleDisparo = 0; //1
+    int Masvida = 0; //2
+    int recuperarvida = -1; //3
+    int controlsierra = 0;  //4
+    int aumentarDañodisparo = 0; //5
+    int aumentarAlcance =0;  //6
+    int aumentarVelocidadMovimiento = 0;  //7
+
+  public void AumentarVelocidadDisparo(int n)
     {
-        fireCooldown = 0.5f;
+      
+            fireCooldown = 0.5f;
+        
     }
     public void DobleDisparo()
     {
