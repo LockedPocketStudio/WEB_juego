@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/heaven.unity
     guid: c73bd53ca47c78f4597091078b4510b5
+  - enabled: 1
+    path: Assets/Scenes/Anillo1/Anillo1.unity
+    guid: e97d59863bd98dc4e9bbdc5d42b6b4f7
+  - enabled: 1
+    path: Assets/Scenes/Anillo1/LevelMenuA1Scene.unity
+    guid: c19e441e4034dd9448436885f4bf2886
   m_configObjects: {}

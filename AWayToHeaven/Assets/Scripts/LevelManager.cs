@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+//using static LevelSelection;
 
 
 
@@ -74,7 +75,11 @@ public class LevelManager : MonoBehaviour
 
     void loadLevels(string value)
     {
-        SceneManager.LoadScene(value);  //recibe el nombre de la escena
+
+        //Guardamos qué boton a pulsado el jugador en el PlayerPrefs para poder consultarlo en la escena con las distintas salas
+        //y poder saber en qué sala aparece el personaje
+        PlayerPrefs.SetString("selectedLevel", value);
+        SceneManager.LoadScene(2);  //recibe el nombre de la escena
 
     }
 
