@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f99e20fcb10fc47857b277b9093361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ExpPrefab: {fileID: 6768550097269240772, guid: 14377c43d7e253a469748b424202326c, type: 3}
 --- !u!114 &5302919465405614838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,6 +162,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jugador: {fileID: 4093322445111147482, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
   estadoActual: 
-  veJugador: 0
+  veJugador: 1
   haAlcanzado: 0
   GM: {fileID: 0}

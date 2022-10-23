@@ -5,7 +5,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     private int health = 1;
-    
+    public GameObject ExpPrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,8 @@ public class Enemy : MonoBehaviour
         health = health - amount;
         if (health <= 0)
         {
+            var r = new Quaternion(0,0, 0, 0);
+            GameObject EXP = (GameObject)Instantiate(ExpPrefab, this.transform.position,r);
             Destroy(this.gameObject);
             return;
         }

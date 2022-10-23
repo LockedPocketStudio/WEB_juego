@@ -29,20 +29,27 @@ public class PlayerLife : MonoBehaviour
             Player e = player.GetComponent<Player>();
             if (e.InvencibleTimeLeft <= 0)
             {
-                e.life--;
+                e.VidaActual--;
                 e.InvencibleTimeLeft = e.InvencibleTime;
                 
                 Debug.LogWarning("He perdido una vida");
             }
-            if (e.life <= 0)
+            if (e.VidaActual <= 0)
             {
-          
-               Destroy(e);
+                e.BarraVida.fillAmount = 0;
+                Destroy(e);
                
                 GM.PlayerState(-1);
                 Destroy(this);
             }
 
+        }
+        if (c.gameObject.tag == "Experiencia")
+        {
+            Player e = player.GetComponent<Player>();
+            GameObject exp = c.gameObject;
+            e.experiencia++;
+            Destroy(exp);
         }
 
     }
