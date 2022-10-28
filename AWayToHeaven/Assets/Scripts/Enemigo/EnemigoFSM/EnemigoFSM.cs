@@ -26,7 +26,7 @@ public class EnemigoFSM : MonoBehaviour
 
     //Otras variables
     private int health = 1;
-    private float speed = 3f;
+    private float speed = 1.5f;
     public GameManager GM;
 
     private Vector2 destino;    //la posicion del jugador en ese momento
