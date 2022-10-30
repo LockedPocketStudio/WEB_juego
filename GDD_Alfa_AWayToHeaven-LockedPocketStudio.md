@@ -8,7 +8,7 @@
 Game Design Document
 ```
 ```
-![logo](https://github.com/LockedPocketStudio/WEB_arte/blob/main/logo/Logo_transparente.png?raw=true)
+![logo](https://github.com/LockedPocketStudio/WEB_arte/blob/main/logo/Logo_icon.png?raw=true)
 
 Pedro Barquero Torres
 Laura Benavente Prieto
