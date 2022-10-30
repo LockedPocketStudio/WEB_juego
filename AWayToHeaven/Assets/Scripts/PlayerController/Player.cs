@@ -4,11 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
-  //  protected Transform turretTransform;
+    #region variables
+    //  protected Transform turretTransform;
     public GameObject bulletPrefab;
- 
 
-    public float fireCooldown = 2f;
+
+    public float fireCooldown = 0.75f;
     public float fireCooldownLeft = 1f;
 
     public float radius = 5f;
@@ -32,6 +33,7 @@ public class Player : MonoBehaviour
     public int experiencia = 0;
 
     //Control power ups
+
     public int nivelSierra = 0;
     protected int nivelSierraAnterior = 0;
 
@@ -40,9 +42,36 @@ public class Player : MonoBehaviour
     public List<int> LevelUpReq = new List<int>();
     protected int nextLevel = 0;
 
-    protected  void Start()
+    //Define el power up que ha tocado
+    public int AleatorioPowerUps;
+
+    //Nivel Del power up
+    public Image[] PowersUP = new Image[5];
+    public float tImage = 3;
+    public float tLeft = 0;
+    public int ImagenActivada = 0; //0- false 1-true
+    public int NImagenActiva;
+    public static int velocidadDisparo = 0; //0
+    public static int dobleDisparo = 0; public  int CantidadDisparo = 1; //1
+    public static int Masvida = 0; //2
+    public static int recuperarvida = -1; //3
+    public static int controlsierra = 0;  //4
+    public static int aumentarDañodisparo = 0; //5
+    public static int aumentarAlcance = 0;  //6
+    public static int aumentarVelocidadMovimiento = 0;  //7
+    public static int[] Powers = { 0, 0, 0, 0, 0, 0, 0, 0 };
+
+    #endregion
+
+    #region Unity
+    protected void Start()
     {
-        for(int i=2;i<40;i = i * 2)
+        for(int i = 0; i < PowersUP.Length; i++)
+        {
+            PowersUP[i].gameObject.SetActive(false);
+        }
+       
+        for (int i=2;i<160;i = i * 2)
         {
             LevelUpReq.Add(i);
         }
@@ -64,7 +93,15 @@ public class Player : MonoBehaviour
         {
             BarraExp.fillAmount = (float)experiencia / LevelUpReq[0];
         }
-     
+     if(ImagenActivada == 1)
+        {
+            tLeft += Time.deltaTime;
+            if(tLeft >= tImage)
+            {
+                PowersUP[NImagenActiva].gameObject.SetActive(false);
+                tLeft = 0;
+            }
+        }
        /*
 
       if(nivelSierra != nivelSierraAnterior)
@@ -72,15 +109,15 @@ public class Player : MonoBehaviour
             PowerUpSierra(nivelSierra);
             nivelSierraAnterior = nivelSierra;
         }*/
-      if(LevelUpReq[0] == experiencia)
+      if(LevelUpReq[0] <= experiencia)
         {
-            GetPower();
+          GetPower();
             LevelUpReq.RemoveAt(0);
             experiencia = 0;
             BarraExp.fillAmount = 0;
         }
     }
-
+    #endregion
     protected Enemy FindFurthestEnemy()
     {
         // Create sphere collider of radius
@@ -124,7 +161,57 @@ public class Player : MonoBehaviour
         }
        // turretTransform.rotation = Quaternion.Euler(0, 0, rotation);*/
     }
-    public void GetPower()
+
+  
+
+    #region PowerUps
+
+
+    public void AumentarVelocidadDisparo(int n)
+    {
+        /*
+        switch (n)
+        {
+            case 1:
+                fireCooldown = 0.65f;
+                break;
+            case 2:
+                fireCooldown = 0.55f;
+                break;
+            case 3:
+                fireCooldown = 0.45f;
+                break;
+            case 4:
+                fireCooldown = 0.25f;
+                break;
+        }*/
+        fireCooldown -= 0.15f;
+
+
+    }
+    public void DobleDisparo(int n)
+    {
+        CantidadDisparo++;
+    }
+    public void MasVida(int n)
+    {
+        VidaMaxima++;
+        VidaActual++;
+    }
+    public void RecuperarVida()
+    {
+        VidaActual = VidaMaxima;
+    }
+    public void AumentarDañoDisparo(int n)
+    {
+        bulletDamage++;
+    }
+    public void AumentarAlcance(int n)
+    {
+        radius++;
+    }
+   
+    public void AumentarVelocidadMovimiento(int n)
     {
 
     }
@@ -133,14 +220,14 @@ public class Player : MonoBehaviour
         switch (nivel)
         {
             case 1:
-              Sierras[0].SetActive(true);
+                Sierras[0].SetActive(true);
                 break;
             case 2:
-             //   Sierras[0].SetActive(false);
-               // Sierras[0].SetActive(true);
+                //   Sierras[0].SetActive(false);
+                // Sierras[0].SetActive(true);
                 Sierras[1].SetActive(true);
-              PathSierra  s = Sierras[0].GetComponent<PathSierra>();
-              PathSierra s1 = Sierras[1].GetComponent<PathSierra>();
+                PathSierra s = Sierras[0].GetComponent<PathSierra>();
+                PathSierra s1 = Sierras[1].GetComponent<PathSierra>();
                 s.Colocar(0);
                 s1.Colocar(1);
                 break;
@@ -175,14 +262,55 @@ public class Player : MonoBehaviour
                 s3_2.Colocar(3);
                 break;
         }
-           
-        
-
-       
 
 
     }
 
-    
+    public void GetPower()
+    {
+        int random = (int)Random.Range(0, 5);
 
+        if (random != 3)
+        {
+            while (Powers[random] == 4)
+            {
+                random = (int)Random.Range(0, 5);
+            }
+            Powers[random]++;
+        }
+
+        switch (random)
+        {
+            case 0:
+                AumentarVelocidadDisparo(Powers[random]);
+                break;
+            case 1:
+                DobleDisparo(Powers[random]);
+                break;
+            case 2:
+                MasVida(Powers[random]);
+                break;
+            case 3:
+                RecuperarVida();
+                break;
+            case 4:
+                PowerUpSierra(Powers[random]);
+                break;
+                /*
+            case 5:
+                AumentarDañoDisparo(Powers[random]);
+                break;
+            case 6:
+                AumentarAlcance(Powers[random]);
+                break;
+            case 7:
+                AumentarVelocidadMovimiento(Powers[random]);
+                break;*/
+        }
+        PowersUP[random].gameObject.SetActive(true);
+        NImagenActiva = random;
+        ImagenActivada = 1;
+    }
+    #endregion
+    
 }

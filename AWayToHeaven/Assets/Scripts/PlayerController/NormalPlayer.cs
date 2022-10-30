@@ -14,21 +14,37 @@ public class NormalPlayer : Player
         }
         base.Update();
 
+        /*
+                Enemy furthestEnemy = FindFurthestEnemy();
 
-        Enemy furthestEnemy = FindFurthestEnemy();
+                if (furthestEnemy == null)
+                {
+                    return;
+                }
 
-        if (furthestEnemy == null)
+                if (fireCooldownLeft <= 0 && furthestEnemy!= null)
+              {
+                    fireCooldownLeft = fireCooldown;
+                  ShootAt(furthestEnemy);
+                }
+        */
+
+        if (fireCooldownLeft <= 0)
         {
-            return;
-        }
-       
-        if (fireCooldownLeft <= 0 && furthestEnemy!= null)
-      {
             fireCooldownLeft = fireCooldown;
-          ShootAt(furthestEnemy);
+            for(int i = 0; i < CantidadDisparo; i++)
+            {
+                Enemy furthestEnemy = FindFurthestEnemy();
+                if (furthestEnemy == null)
+                {
+                    return;
+                }
+                ShootAt(furthestEnemy);
+            }
+          
         }
 
-        if(InvencibleTimeLeft >= 0)
+        if (InvencibleTimeLeft >= 0)
         {
             InvencibleTimeLeft -= Time.deltaTime;
         }
