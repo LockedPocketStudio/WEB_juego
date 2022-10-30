@@ -175,6 +175,8 @@ de pelea**.
 
 Un ejemplo de cómo se organizarían las salas:
 
+![anillos](https://github.com/LockedPocketStudio/WEB_arte/blob/main/GDD/anillos.JPG?raw=true)
+
 Las casillas de color verde representan salas con escaleras con las que subir o
 bajar de piso, las que tienen un círculo representan las salas en las que
 aparece el personaje después de subir por las escaleras del piso anterior. El
@@ -199,6 +201,8 @@ disposición de estos variarán.
 
 Cada sala tendrá objetos u obstáculos colocados en ella, cada una con una
 disposición diferente.
+
+![sala](https://github.com/LockedPocketStudio/WEB_arte/blob/main/GDD/salas_individuales.JPG?raw=true)
 
 **Las habitaciones de pelea**
 
@@ -228,6 +232,7 @@ tiempo preestablecido se abrirán
 las puertas y el jugador podrá
 avanzar donde guste.
 ```
+![sala conbate](https://github.com/LockedPocketStudio/WEB_arte/blob/main/GDD/sala_aguantaCombate.JPG?raw=true)
 
 **Las habitaciones de mejora**
 
@@ -284,6 +289,8 @@ jugador dándole efectos secundarios, creando más disparos en menos
 tiempo, haciendo más daño, o afectando al propio jugador curando su salud,
 aumentando su velocidad de movimiento y más.
 
+![powerUps](https://github.com/LockedPocketStudio/WEB_arte/blob/main/PowerUps/powerUps.jpeg?raw=true)
+
 ### 2 5 Sistema de combate
 
 El jugador tiene la capacidad de disparar a los enemigos de forma
@@ -331,6 +338,8 @@ habilidades del personaje.
 
 
 ### 2 6 Flujo de pantallas
+
+![flujo pantallas](https://github.com/LockedPocketStudio/WEB_arte/blob/main/UI/flujo_pantallas.png?raw=true)
 
 ● **Pantalla de inicio:** Muestra la portada y el título del juego, le pedirá al
 jugador una confirmación para continuar.
@@ -400,6 +409,10 @@ Lugares de luz tenue, de gran cuidado en su ornamentación; las
 sombras duras contrastadas con iluminaciones cálidas juegan un gran
 papel en este proceso de inspiración.
 ```
+
+![referencias arquitectura](https://github.com/LockedPocketStudio/WEB_arte/blob/main/Concept/IMG_20221024_160648.jpg?raw=true)
+![referencias arquitectura](https://github.com/LockedPocketStudio/WEB_arte/blob/main/Concept/IMG_20221024_161244.jpg?raw=true)
+
 ```
 Fotos tomadas por nuestro equipo en una catedral de Dublín, Irlanda
 ```
@@ -460,8 +473,13 @@ niveles de fuego, tierra, agua y viento.
 ● Esqueletos
 ```
 
+![enemigos](https://github.com/LockedPocketStudio/WEB_arte/blob/main/Concept/IMG_20221024_181926.jpg?raw=true)
+![enemigos](https://github.com/LockedPocketStudio/WEB_arte/blob/main/Concept/IMG_20221024_181952.jpg?raw=true)
+
 **● Murciélagos**
 
+![murcielago](https://github.com/LockedPocketStudio/WEB_arte/blob/main/Concept/IMG_20221024_182039.jpg?raw=true)
+![murcielago](https://github.com/LockedPocketStudio/WEB_arte/blob/main/Concept/IMG_20221024_182108.jpg?raw=true)
 
 ## 4 Música y efectos de sonido
 
@@ -573,9 +591,11 @@ o videojuegos a lo largo de este tiempo.
 
 ### 5 3 Toolkit
 
+![toolkit](https://github.com/LockedPocketStudio/WEB_arte/blob/main/GDD/Toolkit_LockedPocketStudio.drawio%20(2).png?raw=true)
 
 ### 5 4 Modelo de canvas
 
+![BMC](https://github.com/LockedPocketStudio/WEB_arte/blob/main/GDD/BMC.png?raw=true)
 
 ## 6 Trasfondo e influencias
 
@@ -602,6 +622,8 @@ decide mejorarla. Sin embargo, su visión de la festividad es totalmente
 contraria al espíritu navideño. Sus planes incluyen el secuestro de
 Santa Claus y la introducción de cambios bastante macabros.
 ```
+![referencias cine](https://github.com/LockedPocketStudio/WEB_arte/blob/main/GDD/referencias.JPG?raw=true)
+
 **Juegos**
 
 ```
