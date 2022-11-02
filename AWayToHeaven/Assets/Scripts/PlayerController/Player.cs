@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class Player : MonoBehaviour
 {
+    
     #region variables
     //  protected Transform turretTransform;
     public GameObject bulletPrefab;
@@ -46,7 +48,7 @@ public class Player : MonoBehaviour
     public int AleatorioPowerUps;
 
     //Nivel Del power up
-    public Image[] PowersUP = new Image[5];
+    public Image[] PowersUP = new Image[7];
     public float tImage = 3;
     public float tLeft = 0;
     public int ImagenActivada = 0; //0- false 1-true
@@ -60,6 +62,8 @@ public class Player : MonoBehaviour
     public static int aumentarAlcance = 0;  //6
     public static int aumentarVelocidadMovimiento = 0;  //7
     public static int[] Powers = { 0, 0, 0, 0, 0, 0, 0, 0 };
+    public GameObject Ayuda;
+    public TextMeshProUGUI AyudaPower;
 
     #endregion
 
@@ -70,8 +74,12 @@ public class Player : MonoBehaviour
         {
             PowersUP[i].gameObject.SetActive(false);
         }
-       
-        for (int i=2;i<160;i = i * 2)
+        /*
+         for (int i=2;i<160;i = i * 2)
+         {
+             LevelUpReq.Add(i);
+         }*/
+        for (int i = 2; i < 20; i+=2)
         {
             LevelUpReq.Add(i);
         }
@@ -81,6 +89,7 @@ public class Player : MonoBehaviour
           Sierras[i].SetActive(false);
         }
         BarraExp.fillAmount = 0;
+        Ayuda.SetActive(false);
     }
 
     // Update is called once per frame
@@ -99,6 +108,7 @@ public class Player : MonoBehaviour
             if(tLeft >= tImage)
             {
                 PowersUP[NImagenActiva].gameObject.SetActive(false);
+                Ayuda.SetActive(false);
                 tLeft = 0;
             }
         }
@@ -118,8 +128,9 @@ public class Player : MonoBehaviour
         }
     }
     #endregion
-    protected Enemy FindFurthestEnemy()
+  /*  protected Enemy FindFurthestEnemy()
     {
+        
         // Create sphere collider of radius
         Enemy furthestEnemy = null;
 
@@ -138,6 +149,23 @@ public class Player : MonoBehaviour
         }
 
         return furthestEnemy;
+    }*/
+
+    protected List<Enemy> FindFurthestEnemy()
+    {
+        List<Enemy> list = new List<Enemy>();
+
+        Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, radius);
+        foreach (Collider2D c in cols)
+        {
+            if (c.gameObject.tag == "Enemy")
+            {
+                list.Add(c.gameObject.GetComponent<Enemy>());
+            }
+        }
+
+
+        return list;
     }
 
     protected virtual void ShootAt(Enemy e)
@@ -169,51 +197,43 @@ public class Player : MonoBehaviour
 
     public void AumentarVelocidadDisparo(int n)
     {
-        /*
-        switch (n)
-        {
-            case 1:
-                fireCooldown = 0.65f;
-                break;
-            case 2:
-                fireCooldown = 0.55f;
-                break;
-            case 3:
-                fireCooldown = 0.45f;
-                break;
-            case 4:
-                fireCooldown = 0.25f;
-                break;
-        }*/
+        
+    
         fireCooldown -= 0.15f;
+        AyudaPower.text=("AumentarVelocidadDisparo: "+n);
 
 
     }
     public void DobleDisparo(int n)
     {
         CantidadDisparo++;
+        AyudaPower.text = ("DobleDisparo: " + n);
     }
     public void MasVida(int n)
     {
         VidaMaxima++;
         VidaActual++;
+        AyudaPower.text = ("Aumento de Vida");
     }
     public void RecuperarVida()
     {
         VidaActual = VidaMaxima;
+        AyudaPower.text = ("Recuperar vida");
     }
     public void AumentarDañoDisparo(int n)
     {
         bulletDamage++;
+        AyudaPower.text = ("AumentarDaño: "+n);
     }
     public void AumentarAlcance(int n)
     {
         radius++;
+        AyudaPower.text = ("AumentarAlcanze: " + n);
     }
    
     public void AumentarVelocidadMovimiento(int n)
     {
-
+        AyudaPower.text = ("AumentarVelocidadMovimiento: " + n);
     }
     protected void PowerUpSierra(int nivel)
     {
@@ -262,13 +282,15 @@ public class Player : MonoBehaviour
                 s3_2.Colocar(3);
                 break;
         }
+        AyudaPower.text = ("Sierra: " + nivel);
 
 
     }
 
     public void GetPower()
     {
-        int random = (int)Random.Range(0, 5);
+        
+        int random = (int)Random.Range(0, 7);
 
         if (random != 3)
         {
@@ -278,6 +300,11 @@ public class Player : MonoBehaviour
             }
             Powers[random]++;
         }
+
+        //modo debug 
+      //  int random = 1;
+      //  Powers[random]++;
+        //fin 
 
         switch (random)
         {
@@ -296,18 +323,20 @@ public class Player : MonoBehaviour
             case 4:
                 PowerUpSierra(Powers[random]);
                 break;
-                /*
+              
             case 5:
                 AumentarDañoDisparo(Powers[random]);
                 break;
             case 6:
                 AumentarAlcance(Powers[random]);
                 break;
-            case 7:
-                AumentarVelocidadMovimiento(Powers[random]);
-                break;*/
+                /*
+          case 7:
+              AumentarVelocidadMovimiento(Powers[random]);
+              break;*/
         }
         PowersUP[random].gameObject.SetActive(true);
+        Ayuda.SetActive(true);
         NImagenActiva = random;
         ImagenActivada = 1;
     }

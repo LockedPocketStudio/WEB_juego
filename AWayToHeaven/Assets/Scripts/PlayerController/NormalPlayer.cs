@@ -5,6 +5,7 @@ using UnityEngine;
 public class NormalPlayer : Player
 {
     public GameManager GM;
+    List<Enemy> list = new List<Enemy>();
     
     protected override void Update()
     {
@@ -28,18 +29,29 @@ public class NormalPlayer : Player
                   ShootAt(furthestEnemy);
                 }
         */
+        list = FindFurthestEnemy();
 
-        if (fireCooldownLeft <= 0)
+        if (fireCooldownLeft <= 0 && list.Count!=0)
         {
+            //El fallo esque al volver a calcular un enemigo cercano coge el mismo que antes 
             fireCooldownLeft = fireCooldown;
+       
             for(int i = 0; i < CantidadDisparo; i++)
             {
+                int random = Random.Range(0, list.Count);
+                ShootAt(list[random]);
+                list.RemoveAt(random);
+
+                if (list.Count == 0)
+                    return;
+                /*
+                Debug.LogError(CantidadDisparo);
                 Enemy furthestEnemy = FindFurthestEnemy();
                 if (furthestEnemy == null)
                 {
                     return;
                 }
-                ShootAt(furthestEnemy);
+                ShootAt(furthestEnemy);*/
             }
           
         }
