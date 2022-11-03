@@ -17,4 +17,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Anillo1/LevelMenuA1Scene.unity
     guid: c19e441e4034dd9448436885f4bf2886
+  - enabled: 1
+    path: Assets/Scenes/Anillo2/LevelMenuA2Scene.unity
+    guid: a79159d434b522145ae640bb0a7e54d4
+  - enabled: 1
+    path: Assets/Scenes/Anillo2/Anillo2.unity
+    guid: ad1d253f4e0b59d4eb150b8177f3bf51
+  - enabled: 1
+    path: Assets/Scenes/Anillo3/LevelMenuA3Scene.unity
+    guid: d5968de941b486d4e8aa2b07c32812c1
+  - enabled: 1
+    path: Assets/Scenes/Anillo3/Anillo3.unity
+    guid: 3841548ce9a998746821f7d0d40c714e
+  - enabled: 1
+    path: Assets/Scenes/Anillo4/LevelMenuA4Scene.unity
+    guid: 7871f8df36990c04b9dc66c2f06ac2dc
+  - enabled: 1
+    path: Assets/Scenes/Anillo4/Anillo4.unity
+    guid: 1ab8b493364a2db42b6b2a3c47c512ff
   m_configObjects: {}

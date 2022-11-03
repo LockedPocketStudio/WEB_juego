@@ -19,12 +19,18 @@ public class LevelManager : MonoBehaviour
 
     public GameObject levelButton;
     public Transform Spacer;
+
+    public Sprite salaSubir;
     
     public List<Level> LevelList;
+
+    public int currentScene;
     
     // Start is called before the first frame update
     void Start()
     {
+        //Movimiento entre escenaas
+        currentScene = SceneManager.GetActiveScene().buildIndex;
         FillList();
     }
 
@@ -41,6 +47,34 @@ public class LevelManager : MonoBehaviour
             {
                 level.unlocked = 1;
                 level.isInteractable = true;
+            }
+
+
+            //En el menú de selección de nivel se marca la sala con la escalera para subir al siguiente anillo con un sprite distnto
+            if(currentScene==3) //Anillo 1
+            {
+                if(button.levelText.text == "Sala3_3")
+                {
+                    button.GetComponent<Image>().sprite = salaSubir;
+                }
+            }else if(currentScene==4)   //Anillo 2
+            {
+                if(button.levelText.text == "Sala1_1")
+                {
+                    button.GetComponent<Image>().sprite = salaSubir;
+                }
+            }else if(currentScene==6)   //Anillo 3
+            {
+                if(button.levelText.text == "Sala2_4")
+                {
+                    button.GetComponent<Image>().sprite = salaSubir;
+                }
+            }else if(currentScene==8)   //Anillo 4
+            {
+                if(button.levelText.text == "Sala4_2")
+                {
+                    button.GetComponent<Image>().sprite = salaSubir;
+                }
             }
 
             button.unlockedButton = level.unlocked;
@@ -79,7 +113,29 @@ public class LevelManager : MonoBehaviour
         //Guardamos qué boton a pulsado el jugador en el PlayerPrefs para poder consultarlo en la escena con las distintas salas
         //y poder saber en qué sala aparece el personaje
         PlayerPrefs.SetString("selectedLevel", value);
-        SceneManager.LoadScene(2);  //recibe el nombre de la escena
+
+        //Cambiar a la escena correspondiente según en qué anillo se encuentre el jugador
+        switch(currentScene)
+         {
+            case 3: //Anillo 1
+                SceneManager.LoadScene(2);  //recibe el nombre de la escena
+                break;
+
+            case 4: //Anillo 2
+                SceneManager.LoadScene(5);  
+                break;
+            
+            case 6: //Anillo 3
+                SceneManager.LoadScene(7);
+                break;
+            
+            case 8: //Anillo 4
+                SceneManager.LoadScene(9);
+                break;
+
+         }
+
+        
 
     }
 

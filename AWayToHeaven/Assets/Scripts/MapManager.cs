@@ -6,6 +6,8 @@ public class MapManager : MonoBehaviour
 {
     #region variables
     public GameObject jugador;
+
+    public GameObject escalera;
     
 
     #endregion variables
