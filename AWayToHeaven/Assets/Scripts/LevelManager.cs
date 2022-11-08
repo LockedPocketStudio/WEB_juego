@@ -13,8 +13,8 @@ public class LevelManager : MonoBehaviour
     [System.Serializable]
     public class Level{
         public string levelText;
-        public int unlocked;
-        public bool isInteractable;
+        public int unlocked = 0;
+        public bool isInteractable = false;
     }
 
     public GameObject levelButton;
@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
         //Movimiento entre escenaas
         currentScene = SceneManager.GetActiveScene().buildIndex;
         if(currentScene == 3){
-            lastLevel = "Sala1_1";  //En el primer anillo se empieza en la sala 1_1
+            lastLevel = "Sala2_2";  //En el primer anillo se empieza en la sala 1_1
         }else{
             lastLevel = PlayerPrefs.GetString("selectedLevel");
         }
@@ -51,29 +51,38 @@ public class LevelManager : MonoBehaviour
             button.levelText.text = level.levelText;
             
             //En el menú de selección de nivel se marca la sala con la escalera para subir al siguiente anillo con un sprite distnto
+            //Además, estos niveles siempre estarán desbloqueados desde el principio y serán interactuables
             if(currentScene==3) //Anillo 1
             {
                 if(button.levelText.text == "Sala3_3")
                 {
                     button.GetComponent<Image>().sprite = salaSubir;
+                    button.unlockedButton = 1;
+                    button.GetComponent<Button>().interactable = true;
                 }
             }else if(currentScene==4)   //Anillo 2
             {
                 if(button.levelText.text == "Sala1_1")
                 {
                     button.GetComponent<Image>().sprite = salaSubir;
+                    button.unlockedButton = 1;
+                    button.GetComponent<Button>().interactable = true;
                 }
             }else if(currentScene==6)   //Anillo 3
             {
                 if(button.levelText.text == "Sala2_4")
                 {
                     button.GetComponent<Image>().sprite = salaSubir;
+                    button.unlockedButton = 1;
+                    button.GetComponent<Button>().interactable = true;
                 }
             }else if(currentScene==8)   //Anillo 4
             {
                 if(button.levelText.text == "Sala4_2")
                 {
                     button.GetComponent<Image>().sprite = salaSubir;
+                    button.unlockedButton = 1;
+                    button.GetComponent<Button>().interactable = true;
                 }
             }
 
@@ -103,16 +112,23 @@ public class LevelManager : MonoBehaviour
                     level.isInteractable = true;
 
                 }else if(("Sala"+(x+1)+"_"+y) == button.levelText.text){
+                    level.unlocked = 1;
                     level.isInteractable = true;
 
                 }else if(("Sala"+(x-1)+"_"+y) == button.levelText.text){
+                    level.unlocked = 1;
                     level.isInteractable = true;
 
                 }else if(("Sala"+x+"_"+(y+1)) == button.levelText.text){
+                    level.unlocked = 1;
                     level.isInteractable = true;
                     
                 }else if(("Sala"+x+"_"+(y-1)) == button.levelText.text){
+                    level.unlocked = 1;
                     level.isInteractable = true;
+                }else{
+                    level.unlocked = 0;
+                    level.isInteractable = false;
                 }
 
             button.unlockedButton = level.unlocked;
@@ -141,6 +157,7 @@ public class LevelManager : MonoBehaviour
         {
             LevelButton button = buttons.GetComponent<LevelButton>();
             PlayerPrefs.SetInt(button.levelText.text, button.unlockedButton);
+
         }
 
     }

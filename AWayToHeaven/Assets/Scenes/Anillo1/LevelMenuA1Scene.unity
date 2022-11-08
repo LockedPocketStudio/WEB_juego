@@ -175,51 +175,52 @@ MonoBehaviour:
     unlocked: 0
     isInteractable: 0
   - levelText: Sala1_2
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala1_3
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala1_4
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala2_1
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala2_2
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala2_3
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala2_4
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala3_1
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala3_2
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala3_3
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala3_4
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala4_1
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala4_2
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala4_3
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala4_4
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   currentScene: 0
+  lastLevel: 
 --- !u!1 &498125609
 GameObject:
   m_ObjectHideFlags: 0
