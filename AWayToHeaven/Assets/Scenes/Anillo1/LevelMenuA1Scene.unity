@@ -172,7 +172,7 @@ MonoBehaviour:
   salaSubir: {fileID: -1162401410, guid: e83e958889f277f469544b17f613f014, type: 3}
   LevelList:
   - levelText: Sala1_1
-    unlocked: 1
+    unlocked: 0
     isInteractable: 0
   - levelText: Sala1_2
     unlocked: 1
@@ -219,6 +219,7 @@ MonoBehaviour:
   - levelText: Sala4_4
     unlocked: 1
     isInteractable: 0
+  currentScene: 0
 --- !u!1 &498125609
 GameObject:
   m_ObjectHideFlags: 0
