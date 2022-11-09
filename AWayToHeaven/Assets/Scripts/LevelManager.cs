@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
         //Movimiento entre escenaas
         currentScene = SceneManager.GetActiveScene().buildIndex;
         if(currentScene == 3){
-            lastLevel = "Sala2_2";  //En el primer anillo se empieza en la sala 1_1
+            lastLevel = "Sala1_1";  //En el primer anillo se empieza en la sala 1_1
         }else{
             lastLevel = PlayerPrefs.GetString("selectedLevel");
         }

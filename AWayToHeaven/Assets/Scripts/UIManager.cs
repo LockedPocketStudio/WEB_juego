@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
         // buttonModoHistoria.onClick.AddListener(() => { mainMenu.SetActive(false); modoJuego = 0;});
        // buttonModoHistoria.onClick.AddListener(() => { SceneManager.LoadScene(0); modoJuego = 0; });
         //  buttonModoHordas.onClick.AddListener(() => { mainMenu.SetActive(false); modoJuego = 1 ;}) ; 
-       buttonModoHordas.onClick.AddListener(() => { SceneManager.LoadScene(1);});
+        buttonModoHordas.onClick.AddListener(() => { SceneManager.LoadScene(1);});
     }
 
     // Update is called once per frame
