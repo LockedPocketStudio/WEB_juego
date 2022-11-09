@@ -172,7 +172,7 @@ public class LevelManager : MonoBehaviour
 
         //Cambiar a la escena correspondiente según en qué anillo se encuentre el jugador
         switch(currentScene)
-         {
+        {
             case 3: //Anillo 1
                 SceneManager.LoadScene(2);  //recibe el nombre de la escena
                 break;
@@ -189,89 +189,8 @@ public class LevelManager : MonoBehaviour
                 SceneManager.LoadScene(9);
                 break;
 
-         }
+        }
         
     }
-
-
-
-
-/*
-    //el jugador solo puede seleccionar una de las salas vecinas a la última que ha visitado
-    //o una sala en la que ya haya estado antes
-    void unlockedLevels(string value)
-    {
-        
-        //Creamos un array que contenga el string "SalaX_Y"
-        char[] num = new char[value.Length];
-        
-        for(int i=0; i < value.Length; i++)
-        {
-            num[i] = value[i];
-        }
-
-        //Seleccionamos las posiciones del array que correspondan a las coordenadas X, Y para
-        //saber a qué posicion del grid nos referimos
-        //Debug.Log(num[4]);    //Comprobamos que el array está cogiendo el valor correctamente
-        int x = (int)char.GetNumericValue(num[4]);
-        int y = (int)char.GetNumericValue(num[6]);
-
-        //todos los botones del grid
-        GameObject[] allButtons = GameObject.FindGameObjectsWithTag("levelButton");
-        foreach(GameObject buttons in allButtons)
-        {
-            LevelButton button = buttons.GetComponent<LevelButton>();
-            string btnSelec = "Sala"+x+"_"+y;
-            string btnIzq = "Sala"+x+"_"+(y-1);
-            string btnDch = "Sala"+x+"_"+(y+1);
-            string btnArrib = "Sala"+(x-1)+"_"+y;
-            string btnAbaj = "Sala"+(x+1)+"_"+y;
-
-            if(button.levelText.text)
-            //PlayerPrefs.SetInt(button.levelText.text, button.unlockedButton);
-        }
-
-        //Desbloqueamos las salas vecinas, teniendo cuidado de que no se intenta acceder a 
-        //posiciones fuera de las dimensiones del grid. Para ello recorremos el grid y seleccionamos las salas
-        for(int n=1; n <= 4; n++)   //Y
-        {
-            for(int m=1; m<=4; m++) //X
-            {
-                if(y==1){
-                    if(x==1){ //esquina (1, 1)
-                        
-                    }else if(x==4){ //esquina (4, 1)
-
-                    }else{  //lateral izq
-
-                    }
-                }else if(y==4){
-                    if(x==1){ //esquina (1, 4)
-
-                    }else if(x==4){ //esquina (4, 4)
-
-                    }else{  //lateral dch
-
-                    }
-                }
-                
-                if(x==1){   //lado superior
-
-                }else if(x==4){ //lado inferior
-
-                }
-
-                //posiciones del centro del grid
-                if(((x==2)||(x==3))&&((y==2)||(y==3)))  
-                {
-
-                }
-                
-            }
-        }
-        
-
-
-    }*/
 
 }

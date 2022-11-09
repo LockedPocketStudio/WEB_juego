@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     public static int Masvida = 0; //2
     public static int recuperarvida = -1; //3
     public static int controlsierra = 0;  //4
-    public static int aumentarDañodisparo = 0; //5
+    public static int aumentarDanodisparo = 0; //5
     public static int aumentarAlcance = 0;  //6
     public static int aumentarVelocidadMovimiento = 0;  //7
     public static int[] Powers = { 0, 0, 0, 0, 0, 0, 0, 0 };
@@ -220,10 +220,10 @@ public class Player : MonoBehaviour
         VidaActual = VidaMaxima;
         AyudaPower.text = ("Recuperar vida");
     }
-    public void AumentarDañoDisparo(int n)
+    public void AumentarDanoDisparo(int n)
     {
         bulletDamage++;
-        AyudaPower.text = ("AumentarDaño: "+n);
+        AyudaPower.text = ("AumentarDano: "+n);
     }
     public void AumentarAlcance(int n)
     {
@@ -325,7 +325,7 @@ public class Player : MonoBehaviour
                 break;
               
             case 5:
-                AumentarDañoDisparo(Powers[random]);
+                AumentarDanoDisparo(Powers[random]);
                 break;
             case 6:
                 AumentarAlcance(Powers[random]);
