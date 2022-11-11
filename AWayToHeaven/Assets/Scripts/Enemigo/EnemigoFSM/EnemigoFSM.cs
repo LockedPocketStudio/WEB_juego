@@ -96,7 +96,7 @@ public class EnemigoFSM : MonoBehaviour
 
     private void Descansando()
     {
-        Debug.Log("Enemigo: Descansado");
+     //   Debug.Log("Enemigo: Descansado");
         estadoActual = estadosEnemigo.Descansando;
 
         //Se comprueba constantemente que el jugador sea visisble ( esté cerca). Cuando lo sea, pasrá al estado de Acercandose()
@@ -104,7 +104,7 @@ public class EnemigoFSM : MonoBehaviour
     
     private void Acercandose()
     {
-        Debug.Log("Enemigo: Acercándose al jugador");
+       // Debug.Log("Enemigo: Acercándose al jugador");
         estadoActual = estadosEnemigo.Acercandose;
 
         //Va hacia el jugador
@@ -115,7 +115,7 @@ public class EnemigoFSM : MonoBehaviour
 
     private void Atacando()
     {
-        Debug.Log("Enemigo: Atacando al jugador");
+  //      Debug.Log("Enemigo: Atacando al jugador");
         estadoActual = estadosEnemigo.Atacando;
 
         //restar vida al jugador
@@ -162,7 +162,7 @@ public class EnemigoFSM : MonoBehaviour
         {
                 //Va hacia el jugador
             float step = speed * Time.deltaTime;
-            Debug.Log("step " + step);
+         //   Debug.Log("step " + step);
             transform.position = Vector2.MoveTowards(transform.position, destino, step);    //MoveTowards(posicion actual, destino, distancia máxima)
         }
     }

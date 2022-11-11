@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    private int health = 1;
+    public int health = 1;
     public GameObject ExpPrefab;
+    public int bala = 0;
 
     // Start is called before the first frame update
     void Start()

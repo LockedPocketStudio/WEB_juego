@@ -19,6 +19,25 @@ public class PlayerLife : MonoBehaviour
         Playerpos = player.transform.position;
         this.transform.position = Playerpos;
     }
+    public void TakeDamage()
+    {
+        Player e = player.GetComponent<Player>();
+        if (e.InvencibleTimeLeft <= 0)
+        {
+            e.VidaActual--;
+            e.InvencibleTimeLeft = e.InvencibleTime;
+
+            Debug.LogWarning("He perdido una vida");
+        }
+        if (e.VidaActual <= 0)
+        {
+            e.BarraVida.fillAmount = 0;
+            Destroy(e);
+
+            GM.PlayerState(-1);
+            Destroy(this);
+        }
+    }
 
     public void OnTriggerEnter2D(Collider2D c)
     {

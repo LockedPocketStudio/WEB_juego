@@ -9,6 +9,7 @@ TagManager:
   - Radio
   - levelButton
   - Experiencia
+  - BulletEnemy
   layers:
   - Default
   - TransparentFX

@@ -100,12 +100,12 @@ public class EnemigoBT : MonoBehaviour
     {
         haDisparado = false;
 
-        Debug.Log("enemyBT is moving");
+       // Debug.Log("enemyBT is moving");
 
             //Va hacia el jugador
             Vector2 posInicial = transform.position;
             float step = speed * Time.deltaTime;
-            Debug.Log("step " + step);
+       //     Debug.Log("step " + step);
             transform.position = Vector2.MoveTowards(transform.position, destino, step);    //MoveTowards(posicion actual, destino, distancia máxima)
             Vector2 posFinal = transform.position;
 
@@ -113,12 +113,12 @@ public class EnemigoBT : MonoBehaviour
             //Comprobar si el movimiento se ha realizado correctamente
             if ((posInicial != posFinal))
             {
-                Debug.Log("Ha avanzado");
+           //     Debug.Log("Ha avanzado");
                 haAvanzado = true;
             }
             else
             {
-                Debug.Log("NO ha avanzado");
+          //      Debug.Log("NO ha avanzado");
                 haAvanzado = false;
             }
     
@@ -128,7 +128,7 @@ public class EnemigoBT : MonoBehaviour
     {
         //base.ShootAt(p);
 
-        Debug.Log("enemyBT is SHOOTING");
+      //  Debug.Log("enemyBT is SHOOTING");
 
         // Create bullet
         Quaternion rot = new Quaternion(0, 0, 0, 0);
@@ -149,20 +149,20 @@ public class EnemigoBT : MonoBehaviour
     private ReturnValues comprobarJugadorVisible()
     {
 
-        Debug.Log("enemyBT is CHECKING PLAYERS POSITION");
+       // Debug.Log("enemyBT is CHECKING PLAYERS POSITION");
 
         float distanceTo = Vector2.Distance(destino, transform.position);
         //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
 
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
         if(distanceTo <= 20){
-            Debug.Log("player VISIBLE");
+           // Debug.Log("player VISIBLE");
             veJugador = true;
             return ReturnValues.Succeed;
         }
         else
         {
-            Debug.Log("player NOT VISIBLE");
+         //   Debug.Log("player NOT VISIBLE");
             veJugador = false;
             return ReturnValues.Failed;
         }

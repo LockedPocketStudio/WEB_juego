@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI timer;
     public float time =0f;
-
+    public  int vidasEnemigos = 1;
+    int dificultad = 0;
    // public Text timer;
    
     void Start()
@@ -47,6 +48,26 @@ public class GameManager : MonoBehaviour
             
 
         }
+
+        if(time >= 180 && dificultad==0){
+            vidasEnemigos++;
+            dificultad++;
+
+        }
+        if(time >= 240 && dificultad == 1)
+        {
+            vidasEnemigos++;
+            dificultad++;
+
+        }
+        if (time >= 300 && dificultad == 2)
+        {
+            vidasEnemigos++;
+            dificultad++;
+
+        }
+
+
     }
 
     public void PlayerState(int n)

@@ -43,6 +43,7 @@ public class SpawnEnemy : MonoBehaviour
 
         spawnPosition = new Vector3(Random.Range(xRangeLeft.position.x, XRangeRight.position.y), Random.Range(yRangeDown.position.y, yRangeUP.position.y), 0);
         GameObject enemie= Instantiate(enemies[1],spawnPosition,gameObject.transform.rotation);
-    
+      var a=  enemie.GetComponent<Enemy>();
+        a.health = GM.vidasEnemigos;
     }
 }
