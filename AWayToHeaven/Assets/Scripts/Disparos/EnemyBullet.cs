@@ -39,12 +39,7 @@ public class EnemyBullet : MonoBehaviour
         switch (coll.gameObject.tag)
         {
             case "Player":
-                if (!colliding)
-                {
-                    colliding = true;
-                    coll.gameObject.GetComponent<PlayerLife>().TakeDamage();
-                    
-                }
+                Destroy(gameObject);
                 break;
             case "BulletWall":
                 Destroy(gameObject);

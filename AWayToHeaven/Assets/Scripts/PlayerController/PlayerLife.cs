@@ -42,7 +42,7 @@ public class PlayerLife : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D c)
     {
 
-        if (c.gameObject.tag == "Enemy")
+        if (c.gameObject.tag == "Enemy" || c.gameObject.tag =="BulletEnemy")
         {
 
             Player e = player.GetComponent<Player>();
