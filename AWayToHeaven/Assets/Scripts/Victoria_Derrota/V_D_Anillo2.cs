@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Anillo1 : MonoBehaviour
+public class V_D_Anillo2 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
