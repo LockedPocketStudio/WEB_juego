@@ -120,10 +120,10 @@ TextureImporter:
       name: Pesadilla_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 213
+        y: 1513
+        width: 724
+        height: 706
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,10 +137,241 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1597
+        width: 931
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dedfe96a2cc38498d9b733d2dae85e
+      internalID: -201319177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 1632
+        width: 1009
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ef11241c2bb904fa8f89ebb17fc826
+      internalID: -1271349632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 1495
+        width: 681
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880c1bf28a613b84e92e12ccb51b3773
+      internalID: 1574893597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 1513
+        width: 573
+        height: 766
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f14aa8f6ee66544f81bc2219f318c3e
+      internalID: 1058003950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 6288
+        y: 1495
+        width: 464
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08f248d92cfbd5449e0475c04122e2d
+      internalID: 1539124927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 315
+        width: 571
+        height: 762
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095df4bdb5e3b604a9e0c2b73594e4a2
+      internalID: 520410434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 297
+        width: 682
+        height: 748
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7e585f1bfa6a1409d1f5e407706e6c
+      internalID: -590513188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 431
+        width: 1009
+        height: 579
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1f5019af3e1d2409ddabade2f1e008
+      internalID: -1790554608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 399
+        width: 935
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dc6c02e37ce944e9b4fdb0ad042065
+      internalID: -1043690041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 5015
+        y: 315
+        width: 721
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414dcfcc85ddfac409b601932cec34cc
+      internalID: -1096876338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pesadilla_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 6207
+        y: 287
+        width: 721
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e75b173630949c4a8e37ca4eba17178
+      internalID: 113600053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 58b86955ce1fed249b9d1845555a40fb
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Pesadilla_Spritesheet_10: -1096876338
+      Pesadilla_Spritesheet_2: -1271349632
+      Pesadilla_Spritesheet_9: -1043690041
+      Pesadilla_Spritesheet_1: -201319177
+      Pesadilla_Spritesheet_6: 520410434
+      Pesadilla_Spritesheet_11: 113600053
+      Pesadilla_Spritesheet_5: 1539124927
+      Pesadilla_Spritesheet_4: 1058003950
       Pesadilla_Spritesheet_0: -1980328703778914049
+      Pesadilla_Spritesheet_8: -1790554608
+      Pesadilla_Spritesheet_7: -590513188
+      Pesadilla_Spritesheet_3: 1574893597
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
