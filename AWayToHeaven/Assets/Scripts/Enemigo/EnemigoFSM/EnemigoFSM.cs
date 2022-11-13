@@ -30,8 +30,14 @@ public class EnemigoFSM : MonoBehaviour
     public GameManager GM;
 
     private Vector2 destino;    //la posicion del jugador en ese momento
-    
+
+
+    //Control Sprite
+    SpriteRenderer sprite;
+    private Vector2 destinoAnterior;
+
     #endregion variables
+
 
 
     // Start is called before the first frame update
@@ -40,6 +46,9 @@ public class EnemigoFSM : MonoBehaviour
         //Buscar objetos de la escena 
         GM = GameManager.FindObjectOfType<GameManager>();
         jugador = GameObject.Find("Player");
+
+        //Coger sprite
+        sprite = this.GetComponent<SpriteRenderer>();
 
 
         estadosEnemigo = new EstadosEnemigo();
@@ -124,7 +133,17 @@ public class EnemigoFSM : MonoBehaviour
 
     void actualizarDestino()
     {
+       float PosAnterior = this.transform.position.x;
         destino = new Vector2(jugador.transform.position.x, jugador.transform.position.y);
+
+        if(destino.x >PosAnterior)
+        {
+           sprite.flipX = true;
+        }
+        else
+        {
+            sprite.flipX = false;
+        }
     }
 
     void comprobarDestino()
