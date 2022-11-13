@@ -28,7 +28,9 @@ public class UIManager : MonoBehaviour
     {
 
         // buttonModoHistoria.onClick.AddListener(() => { mainMenu.SetActive(false); modoJuego = 0;});
-        buttonModoHistoria.onClick.AddListener(() => { SceneManager.LoadScene(2);});
+        buttonModoHistoria.onClick.AddListener(() => { 
+            PlayerPrefs.SetString("selectedLevel", "Sala1_1");
+            SceneManager.LoadScene(2);});
         //  buttonModoHordas.onClick.AddListener(() => { mainMenu.SetActive(false); modoJuego = 1 ;}) ; 
         buttonModoHordas.onClick.AddListener(() => { SceneManager.LoadScene(1);});
     }

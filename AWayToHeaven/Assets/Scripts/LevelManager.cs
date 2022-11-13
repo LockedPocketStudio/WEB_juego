@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
 
+    #region variables
     [System.Serializable]
     public class Level{
         public string levelText;
@@ -21,30 +22,31 @@ public class LevelManager : MonoBehaviour
     public Transform Spacer;
 
     public Sprite salaSubir;
+    public Sprite playerSpt;
+    //public GameObject playerSpt;
+    //float playerPosX;
+    //float playerPosY;
     
     public List<Level> LevelList;
 
     public int currentScene;
-    public string lastLevel = "";
+    public string lastLevel = "Sala1_1";
+    #endregion variables;
     
     // Start is called before the first frame update
     void Start()
     {
         //Movimiento entre escenaas
         currentScene = SceneManager.GetActiveScene().buildIndex;
-        if(currentScene == 3){
-            lastLevel = "Sala1_1";  //En el primer anillo se empieza en la sala 1_1
-        }else{
-            lastLevel = PlayerPrefs.GetString("selectedLevel");
-        }
-        
+        lastLevel = PlayerPrefs.GetString("selectedLevel");
+                
         FillList();
     }
 
     // Update is called once per frame
     void Update()
     {
-        lastLevel = PlayerPrefs.GetString("selectedLevel");
+        //FillList();
     }
 
 
@@ -91,6 +93,14 @@ public class LevelManager : MonoBehaviour
                     button.GetComponent<Button>().interactable = true;
                 }
             }
+
+            //Se muestra al jugador en qué sala se encuentra
+            if(button.levelText.text == lastLevel)
+                {
+                    button.GetComponent<Image>().sprite = playerSpt;
+                    button.unlockedButton = 1;
+                    button.GetComponent<Button>().interactable = true;
+                }
 
             //Se hacen interactuables los botones de las salas vecinas a la última en la que se ha estado
             //Para que el jugador solo pueda acceder a una de estas
@@ -141,16 +151,10 @@ public class LevelManager : MonoBehaviour
             button.GetComponent<Button>().interactable = level.isInteractable;
             button.GetComponent<Button>().onClick.AddListener(() => {
                 lastLevel = button.levelText.text;
+                PlayerPrefs.SetString("selectedLevel", lastLevel);
                 button.unlockedButton = level.unlocked;
                 button.GetComponent<Button>().interactable = level.isInteractable;
                 loadLevels(button.levelText.text);});
-
-            /*
-            if(PlayerPrefs.GetInt(button.levelText.text + "_score")>0)
-            {
-                button.SpriteSalaBloq.SetActive(false);
-            }
-            */
 
             newButton.transform.SetParent(Spacer);
         }
