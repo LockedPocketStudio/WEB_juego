@@ -34,16 +34,24 @@ public class EnemigoBT : MonoBehaviour
 
     //Otras variables
     private int health = 1;
-    private float speed = 4f;  
-   
+    private float speed = 2f;
+
+    //Control sprite
+    SpriteRenderer sprite;
+    private Vector2 destinoAnterior;
+
     #endregion variables
-    
+
     // Start is called before the first frame update
     void Start()
     {
         //Buscar objetos de la escena 
         GM = GameManager.FindObjectOfType<GameManager>();
         jugador = GameObject.Find("Player");
+
+        //Coger sprite
+        sprite = this.GetComponent<SpriteRenderer>();
+
 
         CreateBehaviourTree();
     }
@@ -54,21 +62,31 @@ public class EnemigoBT : MonoBehaviour
 
         //Leaf Nodes
         LeafNode jugadorNode = behaviourTree.CreateLeafNode("Ve al jugador", () => moving(), comprobarJugadorVisible); //(name, action, evaluation function)
-        LeafNode disparaNode = behaviourTree.CreateLeafNode("Dispara al jugador", () => ShootAt(jugador), yaHaDisparado);
-        LeafNode patrullaNode = behaviourTree.CreateLeafNode("Patrullar", () => moving(), haPatrullado);
+                                                                                                                       // LeafNode disparaNode = behaviourTree.CreateLeafNode("Dispara al jugador", () => ShootAt(jugador), yaHaDisparado);
+                                                                                                                       //LeafNode patrullaNode = behaviourTree.CreateLeafNode("Patrullar", () => moving(), haPatrullado);
+        LeafNode ComprobacionArmaNode = behaviourTree.CreateLeafNode("armaRecargada", () => { }, comprobarArmaRecargada); //(name, action, evaluation function)
+        LeafNode RecargaNode = behaviourTree.CreateLeafNode("Recargar", () => Recargar(), comprobarRecargada);
+        LeafNode disparaNode = behaviourTree.CreateLeafNode("Disparar", () => ShootAt(jugador), comprobarJugadorVisible);
+        TimerDecoratorNode timer = behaviourTree.CreateTimerNode("timer", RecargaNode, 2);
 
         //Sequence node
         SequenceNode sequenceRoute = behaviourTree.CreateSequenceNode("Sequence route", false); //es false para que los nodos hijos se recorran en el orden
-                                                                                                //en el que se han añadido
-        sequenceRoute.AddChild(jugadorNode);
-        sequenceRoute.AddChild(disparaNode);     
-        
-        //Primer selector node
-        SelectorNode selectorRoute = behaviourTree.CreateSelectorNode("Selector route");
-        selectorRoute.AddChild(sequenceRoute);
-        selectorRoute.AddChild(patrullaNode);
+        SelectorNode selectorNode = behaviourTree.CreateSelectorNode("selecion");                                                                                            //en el que se han añadido
+        //SelectorNode
+        selectorNode.AddChild(ComprobacionArmaNode);
+        selectorNode.AddChild(timer);
 
-        LoopDecoratorNode loopNode = behaviourTree.CreateLoopNode("Loop root", selectorRoute);
+
+
+        //Añadir secuencia
+        sequenceRoute.AddChild(jugadorNode);
+        sequenceRoute.AddChild(selectorNode);
+        sequenceRoute.AddChild(disparaNode);
+
+
+        //Primer selector node
+
+        LoopDecoratorNode loopNode = behaviourTree.CreateLoopNode("Loop root", sequenceRoute);
 
         behaviourTree.SetRootNode(loopNode);
     }
@@ -84,16 +102,60 @@ public class EnemigoBT : MonoBehaviour
         behaviourTree.Update();
 
         actualizarDestino();
-        moving();
+        moving();  //Para que solo se mueva si el jugador se encuenta a una distacia de 40
         
     }
 
 
     void actualizarDestino()
     {
+        float PosAnterior = this.transform.position.x;
         destino = new Vector2(jugador.transform.position.x, jugador.transform.position.y);
+
+        if (destino.x > PosAnterior)
+        {
+            sprite.flipX = false;
+        }
+        else
+        {
+            sprite.flipX = true;
+        }
+    }
+    private ReturnValues comprobarArmaRecargada()
+    {
+        var a = this.GetComponent<Enemy>();
+        int recarga = a.bala;
+        if (recarga == 0)
+        {
+            Debug.Log("No hay bala , RECARGAR");
+            return ReturnValues.Failed;
+        }
+        else
+        {
+            return ReturnValues.Succeed;
+        }
     }
 
+    private ReturnValues comprobarRecargada()
+    {
+        var a = this.GetComponent<Enemy>();
+        int recarga = a.bala;
+        if (recarga == 1)
+        {
+            Debug.Log("Tengo el arma recargada");
+            return ReturnValues.Succeed;
+        }
+        else
+        {
+            return ReturnValues.Failed;
+
+        }
+    }
+    private void Recargar()
+    {
+        var a = this.GetComponent<Enemy>();
+        a.bala = 1;
+    }
 
     //Acciones
     private void moving()
@@ -133,10 +195,13 @@ public class EnemigoBT : MonoBehaviour
         // Create bullet
         Quaternion rot = new Quaternion(0, 0, 0, 0);
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
-        bullet b = bulletGO.GetComponent<bullet>();
+        EnemyBullet b = bulletGO.GetComponent<EnemyBullet>();
         b.dir = p.transform.position - this.transform.position;
         b.damage = bulletDamage;
         b.health = bulletHealth;
+
+        var a = this.GetComponent<Enemy>();
+        a.bala = 0;
 
         haAvanzado = false;
         haDisparado = true;
@@ -155,7 +220,7 @@ public class EnemigoBT : MonoBehaviour
         //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
 
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
-        if(distanceTo <= 20){
+        if(distanceTo <= 40){
            // Debug.Log("player VISIBLE");
             veJugador = true;
             return ReturnValues.Succeed;
