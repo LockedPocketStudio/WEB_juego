@@ -41,6 +41,12 @@ public class LevelManager : MonoBehaviour
         FillList();
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+        lastLevel = PlayerPrefs.GetString("selectedLevel");
+    }
+
 
     void FillList()
     {
@@ -133,7 +139,11 @@ public class LevelManager : MonoBehaviour
 
             button.unlockedButton = level.unlocked;
             button.GetComponent<Button>().interactable = level.isInteractable;
-            button.GetComponent<Button>().onClick.AddListener(() => loadLevels(button.levelText.text));
+            button.GetComponent<Button>().onClick.AddListener(() => {
+                lastLevel = button.levelText.text;
+                button.unlockedButton = level.unlocked;
+                button.GetComponent<Button>().interactable = level.isInteractable;
+                loadLevels(button.levelText.text);});
 
             /*
             if(PlayerPrefs.GetInt(button.levelText.text + "_score")>0)

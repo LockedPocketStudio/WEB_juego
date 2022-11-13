@@ -1611,6 +1611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: --DIALOGO--
       objectReference: {fileID: 0}
+    - target: {fileID: 278204646867100813, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 278204646867100814, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

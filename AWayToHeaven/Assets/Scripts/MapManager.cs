@@ -34,9 +34,9 @@ public class MapManager : MonoBehaviour
             case "Sala1_1":
                 Debug.Log("SALA 1_ 1");
                 if(currentScene == 2){
-                    jugador.transform.position = new Vector2(-35.34f, 14.79f);
+                    jugador.transform.position = new Vector2(-44.23f, 16.84f);
                 }else{
-                    jugador.transform.position = new Vector2(-44.23f, 14.79f);
+                    jugador.transform.position = new Vector2(-44.23f, 16.84f);
                 }
                 
             break;
