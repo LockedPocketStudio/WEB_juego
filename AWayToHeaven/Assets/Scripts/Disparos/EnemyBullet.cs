@@ -13,15 +13,28 @@ public class EnemyBullet : MonoBehaviour
     public Rigidbody2D rb;
     private float LifeTime = 3f;
 
+    GameManager GM;
+
     void Start()
     {
         dir = dir.normalized;
         rb = GetComponent<Rigidbody2D>();
+        GM = GameManager.FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (GM.estadoJugador != 1)
+        {
+            return;
+        }
+
+
+        if (GM.modoJuego == -1)
+        {
+            return;
+        }
         colliding = false;
         float distThisFrame = speed * Time.deltaTime;
 

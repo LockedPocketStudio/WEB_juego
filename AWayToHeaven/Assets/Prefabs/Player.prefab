@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4548097797418069925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -159.79, y: 70.59144, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4548097798722874156}
@@ -83,8 +83,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2102785823
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -109,7 +109,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.25
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb5b300677b2c80499cb55fc99375a35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 6
   GM: {fileID: 0}
 --- !u!114 &4548097797418069923
 MonoBehaviour:
@@ -144,8 +144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a1d74722a8374c408f861be72bf5e66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GM: {fileID: 0}
   bulletPrefab: {fileID: 331188518327026958, guid: 3f64a174989c3844f92dd56572602383, type: 3}
-  fireCooldown: 0.75
+  fireCooldown: 1
   fireCooldownLeft: 1
   radius: 3
   bulletDamage: 1
@@ -158,10 +159,9 @@ MonoBehaviour:
   VidaActual: 3
   VidaMaxima: 3
   BarraVida: {fileID: 0}
-  InvencibleTime: 2
+  InvencibleTime: 1
   InvencibleTimeLeft: 0
   BarraExp: {fileID: 0}
-  experiencia: 0
   nivelSierra: 0
   LevelUpReq: 
   AleatorioPowerUps: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
   CantidadDisparo: 1
   Ayuda: {fileID: 0}
   AyudaPower: {fileID: 0}
-  GM: {fileID: 0}
+  LevelUp: 0
 --- !u!61 &4548097797418069924
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -417,7 +417,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 7
   m_Depth: -5
   m_CullingMask:
     serializedVersion: 2

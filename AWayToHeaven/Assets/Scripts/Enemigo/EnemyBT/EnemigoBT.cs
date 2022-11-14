@@ -95,7 +95,13 @@ public class EnemigoBT : MonoBehaviour
     void Update()
     {
         //si el jugador muere, el enemigo para de actualizarse
-        if(GM.estadoJugador != 1)
+        if (GM.estadoJugador != 1)
+        {
+            return;
+        }
+
+
+        if (GM.modoJuego == -1)
         {
             return;
         }
