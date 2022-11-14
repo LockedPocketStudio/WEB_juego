@@ -6,15 +6,11 @@ using UnityEngine.SceneManagement;
 public class escalera : MonoBehaviour
 {
 
-    //public Text textoPuerta;
-    #region variables
+   #region variables
     public int currentScene;
     
 
     #endregion variables
-
-    
-
 
     void Start()
     {
@@ -56,61 +52,13 @@ public class escalera : MonoBehaviour
                             break;
 
                         case 5: //Anillo 2
-                            SceneManager.LoadScene(4);  //va a la sala final
+                            if(PlayerPrefs.GetString("selectedLevel")=="Sala3_3"){  //volver al anillo 1
+                                SceneManager.LoadScene(2);
+                            }else{
+                                SceneManager.LoadScene(10);  //Sala Final 
+                            }
+                            
                             break;
-                        
-
                     }
     }
-
-/*
-    public bool colliding = false;
-    public GameObject escaleraCol;
-
-    public int currentScene;
-
-    void Start()
-    {
-        //Movimiento entre escenaas
-        currentScene = SceneManager.GetActiveScene().buildIndex;
-        //escaleraCol = escaleraCol.GetComponent<Collider2D>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        colliding = false;
-
-    }
-
-    protected virtual void OnTriggerEnter2D(Collider2D coll)
-    {
-        if(coll.gameObject.tag == "Player")
-        {
-                if (!colliding)
-                {
-                    colliding = true;
-                    switch(currentScene)
-                    {
-                        case 2: //Anillo 1
-                            SceneManager.LoadScene(4);  //recibe el nombre de la escena
-                            break;
-
-                        case 5: //Anillo 2
-                            SceneManager.LoadScene(6);  
-                            break;
-                        
-                        case 7: //Anillo 3
-                            SceneManager.LoadScene(8);
-                            break;
-                        
-                        case 9: //Anillo 4
-                            SceneManager.LoadScene(0);
-                            break;
-
-                    }
-                    
-                }
-        }
-    }*/
 }
