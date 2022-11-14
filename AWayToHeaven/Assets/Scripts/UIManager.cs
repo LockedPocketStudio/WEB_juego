@@ -12,13 +12,17 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private Button buttonModoHordas;
     [SerializeField] private Button buttonModoHistoria;
+    [SerializeField] public Button btnTutorial;
 
- //   public int modoJuego = -1;//0 - Modo historia  // 1 - Modo hordas 
+    public GameObject Tutorial;
+ 
+
+    //   public int modoJuego = -1;//0 - Modo historia  // 1 - Modo hordas 
 
     //Control Hordas
-   // [Header("Hordas Mode")]
-   // [SerializeField] public Text timer;
-   // float time = 0f;
+    // [Header("Hordas Mode")]
+    // [SerializeField] public Text timer;
+    // float time = 0f;
 
     private void Awake()
     {
@@ -26,6 +30,8 @@ public class UIManager : MonoBehaviour
     }
     void Start()
     {
+      
+       // Tutorial.SetActive(false);
 
         // buttonModoHistoria.onClick.AddListener(() => { mainMenu.SetActive(false); modoJuego = 0;});
         buttonModoHistoria.onClick.AddListener(() => { 
@@ -33,6 +39,8 @@ public class UIManager : MonoBehaviour
             SceneManager.LoadScene(2);});
         //  buttonModoHordas.onClick.AddListener(() => { mainMenu.SetActive(false); modoJuego = 1 ;}) ; 
         buttonModoHordas.onClick.AddListener(() => { SceneManager.LoadScene(1);});
+
+        btnTutorial.onClick.AddListener(() => { mainMenu.SetActive(false);});
     }
 
     // Update is called once per frame

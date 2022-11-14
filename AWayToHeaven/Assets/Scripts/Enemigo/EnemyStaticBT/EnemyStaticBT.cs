@@ -171,6 +171,12 @@ public class EnemyStaticBT : MonoBehaviour
         {
             return;
         }
+
+
+        if (GM.modoJuego == -1)
+        {
+            return;
+        }
         destino = jugador.transform.position;
         behaviourTree.Update();
 

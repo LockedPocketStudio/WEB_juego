@@ -76,10 +76,15 @@ public class Player : MonoBehaviour
     #region Unity
     protected void Start()
     {
-        for(int i = 0; i < PowersUP.Length; i++)
+        if(GM.modoJuego != 2 && GM.modoJuego != -1)
         {
-            PowersUP[i].gameObject.SetActive(false);
+            for (int i = 0; i < PowersUP.Length; i++)
+            {
+                PowersUP[i].gameObject.SetActive(false);
+            }
+            Ayuda.SetActive(false);
         }
+       
         /*
          for (int i=2;i<160;i = i * 2)
          {
@@ -107,7 +112,7 @@ public class Player : MonoBehaviour
           Sierras[i].SetActive(false);
         }
         BarraExp.fillAmount = experiencia;
-        Ayuda.SetActive(false);
+      
     }
 
     // Update is called once per frame
@@ -137,18 +142,26 @@ public class Player : MonoBehaviour
             PowerUpSierra(nivelSierra);
             nivelSierraAnterior = nivelSierra;
         }*/
-      if(LevelUpReq[0] <= experiencia && GM.modoJuego ==1)
+       if(GM.modoJuego == 1)
         {
-          GetPower();
-            LevelUpReq.RemoveAt(0);
-            experiencia = 0;
-            BarraExp.fillAmount = 0;
+            if (LevelUpReq[0] <= experiencia)
+            {
+                GetPower();
+                LevelUpReq.RemoveAt(0);
+                experiencia = 0;
+                BarraExp.fillAmount = 0;
+            }
+        }
+     
+       if(GM.modoJuego == 0)
+        {
+            if (LevelUpReq[0] <= experiencia)
+            {
+                LevelUp = true;
+            }
         }
 
-        if (LevelUpReq[0] <= experiencia && GM.modoJuego == 0)
-        {
-            LevelUp = true;
-        }
+        
     }
     #endregion
   /*  protected Enemy FindFurthestEnemy()
