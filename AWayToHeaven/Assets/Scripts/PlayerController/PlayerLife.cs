@@ -65,9 +65,10 @@ public class PlayerLife : MonoBehaviour
         }
         if (c.gameObject.tag == "Experiencia")
         {
-            Player e = player.GetComponent<Player>();
+             Player e = player.GetComponent<Player>();
             GameObject exp = c.gameObject;
-            e.experiencia++;
+            Player.experiencia++;
+           
             Destroy(exp);
         }
 

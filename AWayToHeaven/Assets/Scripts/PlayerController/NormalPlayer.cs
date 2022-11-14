@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NormalPlayer : Player
 {
-    public GameManager GM;
+
     List<Enemy> list = new List<Enemy>();
     
     protected override void Update()

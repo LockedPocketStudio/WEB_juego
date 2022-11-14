@@ -5,8 +5,10 @@ using UnityEngine.UI;
 using TMPro;
 public class Player : MonoBehaviour
 {
-    
+
     #region variables
+
+    public GameManager GM;
     //  protected Transform turretTransform;
     public GameObject bulletPrefab;
 
@@ -32,7 +34,7 @@ public class Player : MonoBehaviour
     public float InvencibleTime = 2;
     public float InvencibleTimeLeft = 0f;
     public Image BarraExp;
-    public int experiencia = 0;
+    public static int experiencia = 0;
 
     //Control power ups
 
@@ -65,6 +67,10 @@ public class Player : MonoBehaviour
     public GameObject Ayuda;
     public TextMeshProUGUI AyudaPower;
 
+    //Control del Modo historia
+    public static int nivelHistoria =0 ;
+    public bool LevelUp = false;
+
     #endregion
 
     #region Unity
@@ -79,16 +85,28 @@ public class Player : MonoBehaviour
          {
              LevelUpReq.Add(i);
          }*/
-        for (int i = 2; i < 20; i+=2)
+        if(GM.modoJuego == 1)
         {
-            LevelUpReq.Add(i);
+            for (int i = 2; i < 20; i += 2)
+            {
+                LevelUpReq.Add(i);
+            }
+
         }
-        
-     for (int i = 0; i < 4; i++)
+        else  //Modo historia
+        {
+           
+                LevelUpReq.Add(1); //Cada 10 niveles un power up;
+            
+            
+        }
+
+
+        for (int i = 0; i < 4; i++)
         {
           Sierras[i].SetActive(false);
         }
-        BarraExp.fillAmount = 0;
+        BarraExp.fillAmount = experiencia;
         Ayuda.SetActive(false);
     }
 
@@ -119,12 +137,17 @@ public class Player : MonoBehaviour
             PowerUpSierra(nivelSierra);
             nivelSierraAnterior = nivelSierra;
         }*/
-      if(LevelUpReq[0] <= experiencia)
+      if(LevelUpReq[0] <= experiencia && GM.modoJuego ==1)
         {
           GetPower();
             LevelUpReq.RemoveAt(0);
             experiencia = 0;
             BarraExp.fillAmount = 0;
+        }
+
+        if (LevelUpReq[0] <= experiencia && GM.modoJuego == 0)
+        {
+            LevelUp = true;
         }
     }
     #endregion
@@ -168,6 +191,7 @@ public class Player : MonoBehaviour
         return list;
     }
 
+   
     protected virtual void ShootAt(Enemy e)
     {
       //  PointTurretAt(e);
