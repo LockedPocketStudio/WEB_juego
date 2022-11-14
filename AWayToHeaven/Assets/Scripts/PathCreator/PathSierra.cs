@@ -12,7 +12,7 @@ public class PathSierra : MonoBehaviour
     public GameManager GM;
     void Start()
     {
-
+        GM = FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame

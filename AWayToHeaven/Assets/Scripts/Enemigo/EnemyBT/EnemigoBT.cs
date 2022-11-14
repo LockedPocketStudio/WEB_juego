@@ -162,27 +162,35 @@ public class EnemigoBT : MonoBehaviour
     {
         haDisparado = false;
 
-       // Debug.Log("enemyBT is moving");
+        // Debug.Log("enemyBT is moving");
+        float distanceTo = Vector2.Distance(destino, transform.position);
+        //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
+
+        //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
+        if (distanceTo <= 20)
+        {
 
             //Va hacia el jugador
             Vector2 posInicial = transform.position;
             float step = speed * Time.deltaTime;
-       //     Debug.Log("step " + step);
+            //     Debug.Log("step " + step);
             transform.position = Vector2.MoveTowards(transform.position, destino, step);    //MoveTowards(posicion actual, destino, distancia máxima)
             Vector2 posFinal = transform.position;
 
-
-            //Comprobar si el movimiento se ha realizado correctamente
             if ((posInicial != posFinal))
             {
-           //     Debug.Log("Ha avanzado");
+                //     Debug.Log("Ha avanzado");
                 haAvanzado = true;
             }
             else
             {
-          //      Debug.Log("NO ha avanzado");
+                //      Debug.Log("NO ha avanzado");
                 haAvanzado = false;
             }
+
+        }
+            //Comprobar si el movimiento se ha realizado correctamente
+          
     
     }
 
@@ -220,7 +228,7 @@ public class EnemigoBT : MonoBehaviour
         //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
 
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
-        if(distanceTo <= 40){
+        if(distanceTo <= 20){
            // Debug.Log("player VISIBLE");
             veJugador = true;
             return ReturnValues.Succeed;

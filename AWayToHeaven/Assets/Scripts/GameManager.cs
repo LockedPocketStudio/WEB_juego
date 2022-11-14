@@ -14,11 +14,13 @@ public class GameManager : MonoBehaviour
     public float time =0f;
     public  int vidasEnemigos = 1;
     int dificultad = 0;
+
+    GameObject player;
    // public Text timer;
    
     void Start()
     {
-
+       // player = FindObjectOfType("Player");
     }
 
     // Update is called once per frame
@@ -32,7 +34,9 @@ public class GameManager : MonoBehaviour
         }
         else if(modoJuego == 0)
         {
-            //Comenzamos modo historia
+         
+            timer.text = "Nivel : "+ Player.nivelHistoria;
+
         }
         else if(modoJuego == 1)
         {
