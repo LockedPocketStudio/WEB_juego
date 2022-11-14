@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Anillo4/Anillo4.unity
     guid: 1ab8b493364a2db42b6b2a3c47c512ff
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: dc624ded6c3d8c941a65a3fd07fdb21b
   m_configObjects: {}

@@ -8,18 +8,27 @@ public class puertaCollider : MonoBehaviour
    //public Text textoPuerta;
     #region variables
     public int currentScene;
+
+    public SpriteRenderer spriteRend;
+
+    public Sprite pRojaCerrada;
+    public Sprite pRojaAbierta;
+    public Sprite pGrisCerrada;
+    public Sprite pGrisAbierta;
     
 
     #endregion variables
-
-    
-
 
     void Start()
     {
         //Movimiento entre escenaas
         currentScene = SceneManager.GetActiveScene().buildIndex;
-        //escaleraCol = escaleraCol.GetComponent<Collider2D>();
+        
+        if(currentScene == 2){
+            spriteRend.sprite = pRojaCerrada;
+        }else if(currentScene == 5){
+            spriteRend.sprite = pGrisCerrada;
+        }
     }
 
     // Update is called once per frame
@@ -41,6 +50,13 @@ public class puertaCollider : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col){
         
         if(col.gameObject.tag == "Player"){
+
+            if(currentScene == 2){
+                spriteRend.sprite = pRojaAbierta;
+            }else if(currentScene == 5){
+                spriteRend.sprite = pGrisAbierta;
+            }
+
             newScene(currentScene);
         }
     }
