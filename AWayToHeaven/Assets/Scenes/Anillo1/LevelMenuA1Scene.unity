@@ -533,7 +533,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelButton: {fileID: 3903961139454241555, guid: be0e0dc5abe52f645bba7be46f98ad27, type: 3}
   Spacer: {fileID: 1120995999}
-  salaSubir: {fileID: -1162401410, guid: e83e958889f277f469544b17f613f014, type: 3}
+  salaSubirRoja: {fileID: 21300000, guid: 9a94ddcccf4351943940c58f7434d1bc, type: 3}
+  salaRoja: {fileID: 21300000, guid: 0337104c65abccb4ca4040177f91615e, type: 3}
+  salaSubirGris: {fileID: 21300000, guid: 41ac89a661e817843b31e638e021c793, type: 3}
+  salaGris: {fileID: 21300000, guid: 2b953fba524dd88489fcfc05dd8abc47, type: 3}
   playerSpt: {fileID: 2110187091, guid: e83e958889f277f469544b17f613f014, type: 3}
   LevelList:
   - levelText: Sala1_1

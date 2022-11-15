@@ -21,7 +21,11 @@ public class LevelManager : MonoBehaviour
     public GameObject levelButton;
     public Transform Spacer;
 
-    public Sprite salaSubir;
+    public Sprite salaSubirRoja;
+    public Sprite salaRoja;
+    public Sprite salaSubirGris;
+    public Sprite salaGris;
+
     public Sprite playerSpt;
     //public GameObject playerSpt;
     //float playerPosX;
@@ -58,13 +62,19 @@ public class LevelManager : MonoBehaviour
             LevelButton button = newButton.GetComponent<LevelButton>();
             button.levelText.text = level.levelText;
             
+            if(currentScene == 3){
+                button.GetComponent<Image>().sprite = salaRoja;
+            }else if(currentScene == 4){
+                button.GetComponent<Image>().sprite = salaGris;
+            }
+            
             //En el menú de selección de nivel se marca la sala con la escalera para subir al siguiente anillo con un sprite distnto
             //Además, estos niveles siempre estarán desbloqueados desde el principio y serán interactuables
             if(currentScene==3) //Anillo 1
             {
                 if(button.levelText.text == "Sala3_3")
                 {
-                    button.GetComponent<Image>().sprite = salaSubir;
+                    button.GetComponent<Image>().sprite = salaSubirRoja;
                     button.unlockedButton = 1;
                     button.GetComponent<Button>().interactable = true;
                 }
@@ -72,11 +82,15 @@ public class LevelManager : MonoBehaviour
             {
                 if(button.levelText.text == "Sala1_1")
                 {
-                    button.GetComponent<Image>().sprite = salaSubir;
+                    button.GetComponent<Image>().sprite = salaSubirGris;
                     button.unlockedButton = 1;
                     button.GetComponent<Button>().interactable = true;
                 }
-            }else if(currentScene==6)   //Anillo 3
+            }
+
+            
+
+            /*else if(currentScene==6)   //Anillo 3
             {
                 if(button.levelText.text == "Sala2_4")
                 {
@@ -92,7 +106,7 @@ public class LevelManager : MonoBehaviour
                     button.unlockedButton = 1;
                     button.GetComponent<Button>().interactable = true;
                 }
-            }
+            }*/
 
             //Se muestra al jugador en qué sala se encuentra
             if(button.levelText.text == lastLevel)
