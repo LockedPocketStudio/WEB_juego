@@ -16,8 +16,13 @@ public class GameManager : MonoBehaviour
     int dificultad = 0;
 
     GameObject player;
-   // public Text timer;
-   
+    // public Text timer;
+
+    float tleftModo2 = 0;
+    public bool finModo2 = false;
+
+    public GameObject EscenaDialogo;
+
     void Start()
     {
        // player = FindObjectOfType("Player");
@@ -32,6 +37,7 @@ public class GameManager : MonoBehaviour
         {
             return;
         }
+
         else if(modoJuego == 0)
         {
          
@@ -71,6 +77,18 @@ public class GameManager : MonoBehaviour
 
         }
 
+        if(modoJuego == 2 && EscenaDialogo.active == false)
+        {
+            tleftModo2 += Time.deltaTime;
+
+            if(tleftModo2 >= 25f)
+            {
+                finModo2 = true;
+                EscenaDialogo.SetActive(true);
+            }
+
+
+        }
 
     }
 

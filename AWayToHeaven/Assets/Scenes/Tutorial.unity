@@ -618,6 +618,8 @@ MonoBehaviour:
   timer: {fileID: 0}
   time: 0
   vidasEnemigos: 1
+  finModo2: 0
+  EscenaDialogo: {fileID: 937943713}
 --- !u!4 &839658876
 Transform:
   m_ObjectHideFlags: 0

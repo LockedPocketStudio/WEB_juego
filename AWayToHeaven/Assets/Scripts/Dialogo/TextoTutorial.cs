@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class TextoTutorial : MonoBehaviour
 {
     public GameObject EscenaDialogo;
@@ -22,6 +22,7 @@ public class TextoTutorial : MonoBehaviour
     string s4 = "Cuando tu barra de experiencia se llene , en el modo hordas obtendras un power up de manera automatica pero en el modo historia necesitas acercarte a un cofre para obtenerlo";
     string s5 = "Con todo esto dicho te dejo que lo pruebes tu mismo, ¡Ánimo!";
 
+    string final = "Bueno ... y eso ha sido todo, te mando a la pantalla principal para que puedas jugar otros modos . ¡Suerte!";
     public float tText = 0.15f;
     public float tLeft = 0;
     void Start()
@@ -46,9 +47,24 @@ public class TextoTutorial : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PresentarTexto();
-    }
+        if (!GM.finModo2)
+        {
+            PresentarTexto();
+        }
+        else
+        {
+            Textofinal();
+        }
+       
 
+
+    }
+    public void Textofinal()
+    {
+        t.text = final;
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            SceneManager.LoadScene(1);
+    }
     public void PresentarTexto()
     {
        
