@@ -43,6 +43,8 @@ public class EnemyStaticBT : MonoBehaviour
         GM = GameManager.FindObjectOfType<GameManager>();
         jugador = GameObject.Find("Player");
 
+        var ene = this.GetComponent<Enemy>();
+        ene.Esestatico(true);
         CreateBehaviourTree();
     }
 
@@ -90,7 +92,7 @@ public class EnemyStaticBT : MonoBehaviour
         //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
 
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
-        if (distanceTo <= 20)
+        if (distanceTo <= 10)
         {
         Debug.Log("player VISIBLE");
             veJugador = true;
@@ -177,6 +179,12 @@ public class EnemyStaticBT : MonoBehaviour
         {
             return;
         }
+
+        if (GM.modoJuego == 1 && GM.ModoHordasDificultad == -1)
+        {
+            return;
+        }
+
         destino = jugador.transform.position;
         behaviourTree.Update();
 

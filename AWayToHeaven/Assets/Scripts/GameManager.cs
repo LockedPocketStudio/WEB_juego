@@ -23,9 +23,27 @@ public class GameManager : MonoBehaviour
 
     public GameObject EscenaDialogo;
 
+    //Control modo hordas
+    public int ModoHordasDificultad = -1; //0- facil, 1-medio , 2-dificil 
+    public GameObject SeleccionDificultad;
+    public Button btnFacil;
+    public Button btnMedio;
+    public Button btnDificil;
+
+    public GameObject DificultadMedia;
+    public GameObject DificultadDificil;
+
+
     void Start()
     {
-       // player = FindObjectOfType("Player");
+        // player = FindObjectOfType("Player");
+
+        if (modoJuego == 1) //hordas
+        {
+            btnFacil.onClick.AddListener(() => { ModoHordasDificultad = 0; SeleccionDificultad.SetActive(false); });
+            btnMedio.onClick.AddListener(() => { ModoHordasDificultad = 1; SeleccionDificultad.SetActive(false); });
+            btnDificil.onClick.AddListener(() => { ModoHordasDificultad = 2; SeleccionDificultad.SetActive(false); });
+        }
     }
 
     // Update is called once per frame
@@ -44,7 +62,7 @@ public class GameManager : MonoBehaviour
             timer.text = "Nivel : "+ Player.nivelHistoria;
 
         }
-        else if(modoJuego == 1)
+        else if(modoJuego == 1 && ModoHordasDificultad != -1)
         {
             //Comenzamos modo hordas
             if(estadoJugador  != -1)
@@ -58,30 +76,53 @@ public class GameManager : MonoBehaviour
             
 
         }
+        if(modoJuego == 1)
+        {
+            if (ModoHordasDificultad == 0)
+            {
+                DificultadMedia.SetActive(false);
+                DificultadDificil.SetActive(false);
+            }
+            else if(ModoHordasDificultad ==1)
+            {
+                DificultadMedia.SetActive(true);
+                DificultadDificil.SetActive(false);
+            }
+            else if (ModoHordasDificultad == 2)
+            {
+                DificultadMedia.SetActive(true);
+                DificultadDificil.SetActive(true);
+            }
+        }
+        
 
-        if(time >= 180 && dificultad==0){
+        if(time >= 60 && dificultad==0){
             vidasEnemigos++;
             dificultad++;
 
         }
-        if(time >= 240 && dificultad == 1)
+        if(time >= 180 && dificultad == 1)
         {
             vidasEnemigos++;
             dificultad++;
 
         }
-        if (time >= 300 && dificultad == 2)
+        if (time >= 260 && dificultad == 2)
         {
             vidasEnemigos++;
             dificultad++;
+        }
 
+        if(time >= 300)
+        {
+            //Fin del juego
         }
 
         if(modoJuego == 2 && EscenaDialogo.active == false)
         {
             tleftModo2 += Time.deltaTime;
 
-            if(tleftModo2 >= 25f)
+            if(tleftModo2 >= 15f)
             {
                 finModo2 = true;
                 EscenaDialogo.SetActive(true);

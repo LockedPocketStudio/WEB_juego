@@ -24,6 +24,10 @@ public class movement : MonoBehaviour
         {
             return;
         }
+        if(GM.modoJuego ==1 && GM.ModoHordasDificultad == -1)
+        {
+            return;
+        }
 
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
         {

@@ -105,6 +105,11 @@ public class EnemigoBT : MonoBehaviour
         {
             return;
         }
+
+        if (GM.modoJuego == 1 && GM.ModoHordasDificultad == -1)
+        {
+            return;
+        }
         behaviourTree.Update();
 
         actualizarDestino();

@@ -111,8 +111,9 @@ public class Player : MonoBehaviour
         {
           Sierras[i].SetActive(false);
         }
+        experiencia = 0;
         BarraExp.fillAmount = experiencia;
-      
+     
     }
 
     // Update is called once per frame

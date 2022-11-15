@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     public int health = 1;
     public GameObject ExpPrefab;
     public int bala = 0;
+    private bool estatico =false;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,11 @@ public class Enemy : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+    }
+
+    public void Esestatico(bool a)
+    {
+        estatico = a;
     }
     
    /* public void OnTriggerEnter2D(Collider2D c)

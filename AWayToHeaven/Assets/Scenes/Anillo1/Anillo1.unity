@@ -8746,7 +8746,7 @@ PrefabInstance:
       objectReference: {fileID: 1046854957}
     - target: {fileID: 4548097797509274143, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: orthographic size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797509274143, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -10750,6 +10750,8 @@ MonoBehaviour:
   timer: {fileID: 224125316}
   time: 0
   vidasEnemigos: 1
+  finModo2: 0
+  EscenaDialogo: {fileID: 0}
 --- !u!4 &1448599430
 Transform:
   m_ObjectHideFlags: 0

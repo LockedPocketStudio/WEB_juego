@@ -3,45 +3,91 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class TextoTutorial : MonoBehaviour
 {
     public GameObject EscenaDialogo;
     public GameManager GM;
-    List<string> Dialogo;
+    List<string> DialogoHistoria;
+    List<string> DialogoHordas;
+    List<string> DialogoControles;
 
+    public GameObject eleccion;
+    public Button controles;  //0
+    public Button mH;  //1
+    public Button mordas;  //2
+    public Button prueba; //3
+    public int tipoTexto = -1;
+   public  int i=0; //historia
+    public int z = 0;//hordas
+    public int y = 0;//controles
     
     public TMP_Text t;
-    string a ="¿Hola? , bueno , veo que no sabes muy bien que hacer. Ya que estoy dejame contarte unas cuantas de cosas";
-    string a2 = "En cuanto a la navegacion entre modos : El modo hordas consiste en sobrevivir 5 minutos, existen 3 niveles de dificultad. Te animo a probarlo";
-    string a3 = "En cambio en el modo historia te contare el como he acabado aqui. Seguro que tienes ganas de saberlo";
-    string a4 = "Ahora voy a hablarte de como moverte por este mundo";
-    string a5 = "Puedes moverte tocando hacia donde quieres ir y no te preocupes ya que puedes disparar de manera automática";
-    string s1 = " Como puedes ver existen diferentes tipos de enemigos, aqui te presento a estos 3 : al esqueleto , murcielago y la torre";
-    string s2 = "En el modo historia existirán salas en las cuales tienes que acabar con todos estos enemigos o huir encontrando una puerta";
-    string s3 = "Tambien como ves arriba a la izquierda esa es tu barra de estado. La barra de arriba muestra tu vida y la de abajo la experiencia que vayas acumulando";
-    string s4 = "Cuando tu barra de experiencia se llene , en el modo hordas obtendras un power up de manera automatica pero en el modo historia necesitas acercarte a un cofre para obtenerlo";
-    string s5 = "Con todo esto dicho te dejo que lo pruebes tu mismo, ¡Ánimo!";
+    string a ="¿Hola? , bueno... veo que no sabes muy bien que hacer. ¿Qué tipo de información necesitas?";
+    
+    string o = "En cuanto al modo hordas consiste en sobrevivir 5 minutos, existen 3 niveles de dificultad. Te animo a probarlo";
+    
+    string h1 = "En el modo historia te contaré el cómo he acabado aqui. Seguro que tienes ganas de saberlo";
+    string h2 = "El objetivo es escapar de las salas en busca de unas escaleras ... que ya irás conociendo";
+    string h3 = "Para escapar de las salas tendrás que buscar una puerta ";
+    string h4 = "al salir de una sala podrás elegir la siguiente sala a la que irás de entre las adyacentes a ella";
+    string h5 = " Por último, cuando tu barra de experiencia se llene , no obtendrás un power up de manera automática. Tendrás que buscar un cofre para poder conseguirlo";
+    string hf = "¿Necesitas más información?";
 
-    string final = "Bueno ... y eso ha sido todo, te mando a la pantalla principal para que puedas jugar otros modos . ¡Suerte!";
+    string s1 = "Ahora voy a hablarte de como moverte por este mundo";
+    string s2 = "Puedes moverte tocando hacia donde quieres ir y no te preocupes, ya que puedes disparar de manera automática";
+    string s3 = " Como puedes ver existen diferentes tipos de enemigos, aqui te presento a estos 3 : al esqueleto , murcielago y la torre";
+    string s4 = "Tambien como ves arriba a la izquierda, esta es tu barra de estado. La barra de arriba muestra tu vida y la de abajo la experiencia que vayas acumulando";
+    string s5 = "Cuando tu barra de experiencia se llene , en el modo hordas obtendrás un power up de manera automática pero en el modo historia necesitas acercarte a un cofre para obtenerlo";
+  
+    
+    string s6 = "Con todo esto dicho te dejo que lo pruebes tu mismo, ¡Ánimo!";
+
+    string final = "Bueno ... y eso ha sido todo, te mando a la pantalla principal para que puedas jugar otros modos ... ¡Suerte!";
+
     public float tText = 0.15f;
     public float tLeft = 0;
+
+    float tiempofinal = 2f;
+    float tfleft=0;
     void Start()
     {
-        GM = GameManager.FindObjectOfType<GameManager>();
-        Dialogo = new List<string>();
-       // Dialogo.Add(a);
-        Dialogo.Add(a2);
-        Dialogo.Add(a3);
-        Dialogo.Add(a4);
-        Dialogo.Add(a5);
-        Dialogo.Add(s1);
-        Dialogo.Add(s2);
-        Dialogo.Add(s3);
-        Dialogo.Add(s4);
-        Dialogo.Add(s5);
 
+        GM = GameManager.FindObjectOfType<GameManager>();
+        DialogoHistoria = new List<string>();
+        DialogoHordas = new List<string>();
+        DialogoControles = new List<string>();
+        // DialogoHistoria
+        DialogoHistoria.Add(h1);
+        DialogoHistoria.Add(h2);
+        DialogoHistoria.Add(h3);
+        DialogoHistoria.Add(h4);
+        DialogoHistoria.Add(h5);
+        DialogoHistoria.Add(hf);
+
+        // DialogoHordas
+        DialogoHordas.Add(o);
+        DialogoHordas.Add(hf);
+
+        //DialogoControles
+        DialogoControles.Add(s1);
+        DialogoControles.Add(s2);
+        DialogoControles.Add(s3);
+        DialogoControles.Add(s4);
+        DialogoControles.Add(s5);
+        DialogoControles.Add(hf);
+
+
+        mH.onClick.AddListener(() => { tipoTexto = 1; i = 0; eleccion.SetActive(false); t.text = DialogoHistoria[0]; i++; });
+        mordas.onClick.AddListener(() => { tipoTexto = 2; z = 0; eleccion.SetActive(false); t.text = DialogoHordas[0]; z++; });
+        controles.onClick.AddListener(() => { tipoTexto = 0; y = 0; eleccion.SetActive(false); t.text = DialogoControles[0]; y++; });
+        prueba.onClick.AddListener(() => { eleccion.SetActive(false); EscenaDialogo.SetActive(false);
+            GM.modoJuego = 2;
+        });
         t.text = a;
 
+        
+      //  eleccion.SetActive(false);
     }
 
     // Update is called once per frame
@@ -49,10 +95,26 @@ public class TextoTutorial : MonoBehaviour
     {
         if (!GM.finModo2)
         {
-            PresentarTexto();
+            switch (tipoTexto)
+            {
+                case 0:
+                    PresentarTextoControles();
+                    break;
+                case 1:
+                    PresentarTextoHistoria();
+                   
+                    break;
+                case 2:
+                    PresentarTextoHordas();
+                    break;
+                
+                case -1:
+                    break;
+            }
         }
         else
         {
+            EscenaDialogo.SetActive(false);
             Textofinal();
         }
        
@@ -61,18 +123,84 @@ public class TextoTutorial : MonoBehaviour
     }
     public void Textofinal()
     {
+       
         t.text = final;
-        if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
-            SceneManager.LoadScene(1);
-    }
-    public void PresentarTexto()
-    {
+        if (tfleft > tiempofinal)
+        {
+            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+                SceneManager.LoadScene(0);
+        }
        
 
+        tfleft += Time.deltaTime;
+    }
+    public void PresentarTextoControles()
+    {
+        if (tLeft > tText)
+        {
+            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            {
+                if (DialogoControles.Count != y)
+                {
+                    t.text = DialogoControles[y];
+                    y++;
+                    tLeft = 0;
+                }
+                else
+                {
+                    eleccion.SetActive(true);
+                }
+
+            }
+
+
+        }
+
+        tLeft += Time.deltaTime;
+    }
+
+    public void PresentarTextoHordas()
+    {
+        if (tLeft > tText)
+        {
+            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            {
+                if (DialogoHordas.Count != z)
+                {
+                    t.text = DialogoHordas[z];
+                    z++;
+                    tLeft = 0;
+                }
+                else
+                {
+                    eleccion.SetActive(true);
+                }
+               
+            }
+
+
+        }
+
+        tLeft += Time.deltaTime;
+    }
+    public void PresentarTextoHistoria()
+    {
+        
         if(tLeft > tText)
         {
             if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
             {
+                if(DialogoHistoria.Count != i)
+                {
+                    t.text = DialogoHistoria[i];
+                    i++;
+                    tLeft = 0;
+                }
+                else
+                {
+                    eleccion.SetActive(true);
+                }
+                /*
                 if (Dialogo.Count == 0)
                 {
                     EscenaDialogo.SetActive(false);
@@ -86,6 +214,7 @@ public class TextoTutorial : MonoBehaviour
                 }
                
                 tLeft = 0;
+                */
             }
 
         

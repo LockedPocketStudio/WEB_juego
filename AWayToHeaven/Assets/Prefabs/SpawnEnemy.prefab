@@ -144,12 +144,14 @@ MonoBehaviour:
   enemies:
   - {fileID: 5601748292124767470, guid: abfd17eb111ebcd448c4128ff30669d3, type: 3}
   - {fileID: 5601748292124767470, guid: 74803d78cfc3567479105960bc836a0d, type: 3}
+  - {fileID: 9194669164869768253, guid: 98cef189a93930d4184fed1a10ce0396, type: 3}
   timeSpawn: 3
   SpawnRate: 1
   xRangeLeft: {fileID: 7630725264015049309}
   XRangeRight: {fileID: 531609353061314619}
   yRangeUP: {fileID: 8343649289742911836}
   yRangeDown: {fileID: 6308424483012226784}
+  especial: 0
   GM: {fileID: 0}
 --- !u!1 &8539781129708318806
 GameObject:

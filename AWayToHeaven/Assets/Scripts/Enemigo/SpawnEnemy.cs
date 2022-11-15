@@ -7,17 +7,32 @@ public class SpawnEnemy : MonoBehaviour
 {
     public GameObject[] enemies;
     public float timeSpawn = 1;
-    public float SpawnRate = 1; //cada 3 segundos spawnea un enemigo
+    public float SpawnRate = 5; //cada 3 segundos spawnea un enemigo
     public Transform xRangeLeft;
     public Transform XRangeRight;
     public Transform yRangeUP;
     public Transform yRangeDown;
+    public int especial = 0; // 0= sin enemigos estáticos , 1 =con estaticos 
+
+    //estatico
+    private int TiempoCreado;
+    private int TiempoMuerto;
 
     public GameManager GM;
     void Start()
     {
         GM = GameManager.FindObjectOfType<GameManager>();
-        InvokeRepeating("SpawnEnemies",timeSpawn, SpawnRate);
+        if(especial == 0)
+        {
+            InvokeRepeating("SpawnEnemies", timeSpawn, SpawnRate);
+        }
+        else
+        {
+            
+               // SpawnEstaticEnemy();
+            
+        }
+        
     }
 
     // Update is called once per frame
@@ -37,13 +52,25 @@ public class SpawnEnemy : MonoBehaviour
         {
             return;
         }
+
+        if (GM.modoJuego == 1 && GM.ModoHordasDificultad == -1)
+        {
+            return;
+        }
+
         Vector3 spawnPosition = new Vector3(0, 0, 0);
 
         var seleccionEnemigo = Random.Range(0,2);
 
-        spawnPosition = new Vector3(Random.Range(xRangeLeft.position.x, XRangeRight.position.y), Random.Range(yRangeDown.position.y, yRangeUP.position.y), 0);
-        GameObject enemie= Instantiate(enemies[1],spawnPosition,gameObject.transform.rotation);
+      //  spawnPosition = new Vector3(Random.Range(xRangeLeft.position.x, XRangeRight.position.y), Random.Range(yRangeDown.position.y, yRangeUP.position.y), 0);
+        GameObject enemie= Instantiate(enemies[seleccionEnemigo],this.transform.position,gameObject.transform.rotation);
       var a=  enemie.GetComponent<Enemy>();
         a.health = GM.vidasEnemigos;
+    }
+
+    public void SpawnEstaticEnemy()
+    {
+        
+        GameObject enemie = Instantiate(enemies[2], this.transform.position, gameObject.transform.rotation);
     }
 }
