@@ -17,6 +17,7 @@ public class TextoTutorial : MonoBehaviour
     public Button mH;  //1
     public Button mordas;  //2
     public Button prueba; //3
+    public Button salir;
     public int tipoTexto = -1;
    public  int i=0; //historia
     public int z = 0;//hordas
@@ -84,6 +85,8 @@ public class TextoTutorial : MonoBehaviour
         prueba.onClick.AddListener(() => { eleccion.SetActive(false); EscenaDialogo.SetActive(false);
             GM.modoJuego = 2;
         });
+
+        salir.onClick.AddListener(() => SceneManager.LoadScene(0));
         t.text = a;
 
         
@@ -114,7 +117,9 @@ public class TextoTutorial : MonoBehaviour
         }
         else
         {
+            eleccion.SetActive(false);
             EscenaDialogo.SetActive(false);
+           
             Textofinal();
         }
        
@@ -123,7 +128,7 @@ public class TextoTutorial : MonoBehaviour
     }
     public void Textofinal()
     {
-       
+        EscenaDialogo.SetActive(true);
         t.text = final;
         if (tfleft > tiempofinal)
         {

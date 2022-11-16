@@ -44,6 +44,7 @@ public class movement : MonoBehaviour
         if(moving && (Vector2)transform.position != lastClick)
         {
             float step = speed * Time.deltaTime;
+           
             transform.position = Vector2.MoveTowards(transform.position, lastClick, step);
         }
         else

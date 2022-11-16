@@ -121,7 +121,7 @@ public class GameManager : MonoBehaviour
         if(modoJuego == 2 && EscenaDialogo.active == false)
         {
             tleftModo2 += Time.deltaTime;
-
+           
             if(tleftModo2 >= 15f)
             {
                 finModo2 = true;
