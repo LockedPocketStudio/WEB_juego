@@ -30,12 +30,26 @@ public class UIManager : MonoBehaviour
     }
     void Start()
     {
-      
+        
+        //Se inician los player prefs de los botones para asegurarnos que todas las salas
+        //están bloqueadas al principio
+        for(int i = 3; i<=4; i++){
+            for(int x = 1; x<=4; x++){
+                for(int y = 1; y<=4; y++){
+                    PlayerPrefs.SetInt("Sala"+x+"_"+y+i, 0);
+                }
+            }
+        }
+        
+
+
+
        // Tutorial.SetActive(false);
 
         // buttonModoHistoria.onClick.AddListener(() => { mainMenu.SetActive(false); modoJuego = 0;});
         buttonModoHistoria.onClick.AddListener(() => { 
             PlayerPrefs.SetString("selectedLevel", "Sala1_1");
+            PlayerPrefs.SetInt("Sala1_1"+3, 1);
             SceneManager.LoadScene(2);});
         //  buttonModoHordas.onClick.AddListener(() => { mainMenu.SetActive(false); modoJuego = 1 ;}) ; 
         buttonModoHordas.onClick.AddListener(() => { SceneManager.LoadScene(1);});
