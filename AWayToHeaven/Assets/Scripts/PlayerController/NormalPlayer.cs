@@ -6,6 +6,7 @@ public class NormalPlayer : Player
 {
 
     List<Enemy> list = new List<Enemy>();
+    private Vector2 posAnimacion;
     
     protected override void Update()
     {
@@ -56,10 +57,16 @@ public class NormalPlayer : Player
           
         }
 
-        if (InvencibleTimeLeft >= 0)
+        if (InvencibleTimeLeft > 0)
         {
+            animacion.SetBool("daño", true);
             InvencibleTimeLeft -= Time.deltaTime;
         }
+        else
+        {
+            animacion.SetBool("daño", false);
+        }
+
     }
 
     protected override void ShootAt(Enemy e)

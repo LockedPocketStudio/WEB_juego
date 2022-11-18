@@ -8,9 +8,16 @@ public class movement : MonoBehaviour
     Vector2 lastClick;
     bool moving;
     public GameManager GM;
+
+    //Animacion
+    Animator animacion;
+    SpriteRenderer sprite;
+    private Vector2 destinoAnterior;
+
     void Start()
     {
-        
+        animacion = this.GetComponent<Animator>();
+        sprite = this.GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -44,12 +51,28 @@ public class movement : MonoBehaviour
         if(moving && (Vector2)transform.position != lastClick)
         {
             float step = speed * Time.deltaTime;
-           
+            destinoAnterior = transform.position;
             transform.position = Vector2.MoveTowards(transform.position, lastClick, step);
+
+            if (transform.position.x > destinoAnterior.x)
+            {
+                sprite.flipX = true;
+            }
+            else
+            {
+                sprite.flipX = false;
+            }
         }
         else
         {
             moving = false;
+        }
+        if(moving == true)
+        {
+            animacion.SetBool("mov", true);
+        }
+        else{
+            animacion.SetBool("mov", false);
         }
     }
 }
