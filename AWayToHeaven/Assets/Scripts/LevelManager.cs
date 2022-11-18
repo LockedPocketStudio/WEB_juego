@@ -21,12 +21,13 @@ public class LevelManager : MonoBehaviour
     public GameObject levelButton;
     public Transform Spacer;
 
-    public Sprite salaSubirRoja;
-    public Sprite salaRoja;
-    public Sprite salaSubirGris;
-    public Sprite salaGris;
+    public Sprite salaBloqGris;
+    public Sprite salaDesbloqGris;
+    public Sprite salaBloqRoja;
+    public Sprite salaDesbloqRoja;
 
-    public Sprite playerSpt;
+    public Sprite playerSptGris;
+    public Sprite playerSptRoja;
     //public GameObject playerSpt;
     //float playerPosX;
     //float playerPosY;
@@ -62,15 +63,26 @@ public class LevelManager : MonoBehaviour
             LevelButton button = newButton.GetComponent<LevelButton>();
             button.levelText.text = level.levelText;
             
-            if(currentScene == 3){
-                button.GetComponent<Image>().sprite = salaRoja;
+            if(currentScene == 3){  //Anillo 1
+                if(PlayerPrefs.GetInt(button.levelText.text+currentScene) == 1){
+                    button.GetComponent<Image>().sprite = salaDesbloqRoja;
+                }else{
+                    button.GetComponent<Image>().sprite = salaBloqRoja;
+                }
+                
             }else if(currentScene == 4){
-                button.GetComponent<Image>().sprite = salaGris;
+                if(PlayerPrefs.GetInt(button.levelText.text+currentScene) == 1){
+                    button.GetComponent<Image>().sprite = salaDesbloqGris;
+                }else if(button.levelText.text == "Sala3_3"){
+                    PlayerPrefs.SetInt(button.levelText.text + currentScene, 1);
+                }else{
+                    button.GetComponent<Image>().sprite = salaBloqGris;
+                }
             }
             
             //En el menú de selección de nivel se marca la sala con la escalera para subir al siguiente anillo con un sprite distnto
             //Además, estos niveles siempre estarán desbloqueados desde el principio y serán interactuables
-            if(currentScene==3) //Anillo 1
+            /*if(currentScene==3) //Anillo 1
             {
                 if(button.levelText.text == "Sala3_3")
                 {
@@ -86,9 +98,7 @@ public class LevelManager : MonoBehaviour
                     button.unlockedButton = 1;
                     button.GetComponent<Button>().interactable = true;
                 }
-            }
-
-            
+            }*/
 
             /*else if(currentScene==6)   //Anillo 3
             {
@@ -111,7 +121,14 @@ public class LevelManager : MonoBehaviour
             //Se muestra al jugador en qué sala se encuentra
             if(button.levelText.text == lastLevel)
                 {
-                    button.GetComponent<Image>().sprite = playerSpt;
+                    if(currentScene == 3){  //Anillo 1
+                        button.GetComponent<Image>().sprite = playerSptRoja;        
+
+                    }else if(currentScene == 4){
+                        button.GetComponent<Image>().sprite = playerSptGris;  
+                    }
+
+                    
                     button.unlockedButton = 1;
                     button.GetComponent<Button>().interactable = true;
                 }
@@ -197,6 +214,7 @@ public class LevelManager : MonoBehaviour
         //Guardamos qué boton a pulsado el jugador en el PlayerPrefs para poder consultarlo en la escena con las distintas salas
         //y poder saber en qué sala aparece el personaje --> se ultiliza esto en el MapManager
         PlayerPrefs.SetString("selectedLevel", value);
+        PlayerPrefs.SetInt(value + currentScene, 1);
 
         //Cambiar a la escena correspondiente según en qué anillo se encuentre el jugador
         switch(currentScene)
