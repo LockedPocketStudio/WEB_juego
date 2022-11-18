@@ -2687,7 +2687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5851992157905824900, guid: a931244213849bf46b712a89e1705212, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5851992157905824900, guid: a931244213849bf46b712a89e1705212, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3396,7 +3396,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5601748292124767468, guid: abfd17eb111ebcd448c4128ff30669d3, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 5601748292124767468, guid: abfd17eb111ebcd448c4128ff30669d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7441,7 +7441,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5601748292124767468, guid: abfd17eb111ebcd448c4128ff30669d3, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5601748292124767468, guid: abfd17eb111ebcd448c4128ff30669d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8670,11 +8670,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797418069855, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 55.84
+      value: 117
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797418069855, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -78.91
+      value: -116.44
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797418069920, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_SortingLayer
@@ -10752,6 +10752,13 @@ MonoBehaviour:
   vidasEnemigos: 1
   finModo2: 0
   EscenaDialogo: {fileID: 0}
+  ModoHordasDificultad: -1
+  SeleccionDificultad: {fileID: 0}
+  btnFacil: {fileID: 0}
+  btnMedio: {fileID: 0}
+  btnDificil: {fileID: 0}
+  DificultadMedia: {fileID: 0}
+  DificultadDificil: {fileID: 0}
 --- !u!4 &1448599430
 Transform:
   m_ObjectHideFlags: 0
