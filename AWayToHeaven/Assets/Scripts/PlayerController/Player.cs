@@ -92,7 +92,7 @@ public class Player : MonoBehaviour
          }*/
         if(GM.modoJuego == 1)
         {
-            for (int i = 2; i < 20; i += 2)
+            for (int i = 2; i < 450; i += 20)
             {
                 LevelUpReq.Add(i);
             }
