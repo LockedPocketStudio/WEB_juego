@@ -71,11 +71,15 @@ public class Player : MonoBehaviour
     public static int nivelHistoria =0 ;
     public bool LevelUp = false;
 
+    //Control animación
+   protected  Animator animacion;
+
     #endregion
 
     #region Unity
     protected void Start()
     {
+        animacion = this.GetComponent<Animator>();
         if(GM.modoJuego != 2 && GM.modoJuego != -1)
         {
             for (int i = 0; i < PowersUP.Length; i++)
