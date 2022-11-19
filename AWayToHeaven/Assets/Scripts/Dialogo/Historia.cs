@@ -20,74 +20,230 @@ public class Historia : MonoBehaviour
 
     List<string> Introduccion;
 
-
+    //DIÃLOGOS OBLIGATORIOS
     List<string> Sala1;
+    List<string> Esc2;  //Escena 2
+    List<string> Esc3;  //Escena 3
+    List<string> Esc4;  //Escena 4
+    List<string> Esc5;  //Escena 5
+
     public int y = 0;//Sala1
 
-   
-    string s1 = "..."; 
-    string s2 = "…nnngghhhn…";
-    string s3 = "Mi espalda… cómo duele…";
-    string s4 = "Siento que he dormido 3 días, no volveré a comer Timbre BurritoTM";
+    //DIÃLOGOS OPCIONALES
+    List<string> EscOp1;  //Escena op 1
+    List<string> EscOp2;  //Escena op 2
+    List<string> EscOp3;  //Escena op 3
+    List<string> EscOp4;  //Escena op 4
+    List<string> EscOp5;  //Escena op 5
+    List<string> EscOp6;  //Escena op 6
 
-    string c1 = "¡Por fin despiertas! Ya era hora, llevo aquí como mil años esperando.";
-    string s5="¿Qué llevas cuánto? Espera un momento, y tú quién eres. ¿Dónde estoy?";
-    string c2="Bueno yo también me alegro de conocerte eh, qué maleducado…";
+    //DIALOGOS OBLIGATORIOS
+
+   //Primera escena s=elias c=clavis
+    string s1 = "..."; 
+    string s2 = "ï¿½nnngghhhnï¿½";
+    string s3 = "Mi espaldaï¿½ cï¿½mo dueleï¿½";
+    string s4 = "Siento que he dormido 3 dï¿½as, no volverï¿½ a comer Timbre BurritoTM";
+
+    string c1 = "ï¿½Por fin despiertas! Ya era hora, llevo aquï¿½ como mil aï¿½os esperando.";
+    string s5="ï¿½Quï¿½ llevas cuï¿½nto? Espera un momento, y tï¿½ quiï¿½n eres. ï¿½Dï¿½nde estoy?";
+    string c2="Bueno yo tambiï¿½n me alegro de conocerte eh, quï¿½ maleducadoï¿½";
     string s6 = "Oye lo siento, pero-";
-    string c3 = "Estás muerto.";
+    string c3 = "Estï¿½s muerto.";
     string s7 = "Qu-";
-    string c4 = "¡Sorpresa!";
+    string c4 = "ï¿½Sorpresa!";
     string s8 = "Espera un m-";
-    string c5 ="Siento ser yo quien te de la noticia pero has venido a parar aquí, así que ¡bienvenido!";
-    string s9 =  "Bueno este sueño es raro que flipas, cómo hago para despertarme… El examen de literatura no se estudia solo ¿sabes?";
-    string c6 = "Ughhh la gente que no sabe de lo que habla es la peor de la que viene a parar aquí.Tú te lo has buscado";
-    string s10 = "¡¡AAAAAAGH!! OYE ESO HA DOLIDO";
-    string c7 = "Escúchame bien zoquete, la cosa va así, tú mueres, vienes aquí y nosotros… “cuidamos” de tí ¡por el resto de la eternidad!";
-    string s11 = "¡Pero qué dices! si yo solo estaba echándome una siesta después de come";
-    string c8 = "Bueno y qué culpa tengo yo de las cosas cuestionables que ingieres. ¿Quieres que vuelva a mostrarte un dolor muy real para que te entre en ese pequeño cerebro que tienes?";
-    string s12="No, no… pero no puede ser…";
-    string s13="¡¿QUE HE MUERTO?! Ni siquiera he llegado a la salida de A Flower’s Dream: The Beginning… ¿y ahora qué hago? este sitio no tiene muy buena pinta… ¿Tengo que quedarme aquí para siempre? Ohhh… ya puedo sentir cómo me empiezo a volver loco.";
-    string  s14="¡Tú! vas a torturarme ¡¿es eso?! ¿Qué he hecho yo para merecer estar aquí? Si es por lo de Mateo no iba en serio, ¡solo bromeábamos";
-    string c9 = "Bueno, bueno, primero que todo, tengo nombre, segundo ¡tranquilízate! Tampoco es para tanto, no es como si nadie hubiese muerto nunca.";
+    string c5 ="Siento ser yo quien te de la noticia pero has venido a parar aquï¿½, asï¿½ que ï¿½bienvenido!";
+    string s9 =  "Bueno este sueï¿½o es raro que flipas, cï¿½mo hago para despertarmeï¿½ El examen de literatura no se estudia solo ï¿½sabes?";
+    string c6 = "Ughhh la gente que no sabe de lo que habla es la peor de la que viene a parar aquï¿½.Tï¿½ te lo has buscado";
+    string s10 = "ï¿½ï¿½AAAAAAGH!! OYE ESO HA DOLIDO";
+    string c7 = "Escï¿½chame bien zoquete, la cosa va asï¿½, tï¿½ mueres, vienes aquï¿½ y nosotrosï¿½ ï¿½cuidamosï¿½ de tï¿½ ï¿½por el resto de la eternidad!";
+    string s11 = "ï¿½Pero quï¿½ dices! si yo solo estaba echï¿½ndome una siesta despuï¿½s de come";
+    string c8 = "Bueno y quï¿½ culpa tengo yo de las cosas cuestionables que ingieres. ï¿½Quieres que vuelva a mostrarte un dolor muy real para que te entre en ese pequeï¿½o cerebro que tienes?";
+    string s12="No, noï¿½ pero no puede serï¿½";
+    string s13="ï¿½ï¿½QUE HE MUERTO?! Ni siquiera he llegado a la salida de A Flowerï¿½s Dream: The Beginningï¿½ ï¿½y ahora quï¿½ hago? este sitio no tiene muy buena pintaï¿½ ï¿½Tengo que quedarme aquï¿½ para siempre? Ohhhï¿½ ya puedo sentir cï¿½mo me empiezo a volver loco.";
+    string  s14="ï¿½Tï¿½! vas a torturarme ï¿½ï¿½es eso?! ï¿½Quï¿½ he hecho yo para merecer estar aquï¿½? Si es por lo de Mateo no iba en serio, ï¿½solo bromeï¿½bamos";
+    string c9 = "Bueno, bueno, primero que todo, tengo nombre, segundo ï¿½tranquilï¿½zate! Tampoco es para tanto, no es como si nadie hubiese muerto nunca.";
     string s15 ="ES LA PRIMERA VEZ QUE MUERO YO.";
     string c10 ="Tampoco eres tan importante.";
-    string s16 ="Tú…";
-    string c11 = "Yo me llamo Clavis. Digamos que … trabajo aquí, recibiendo a las pobres almas que vienen a parar a este… curioso reino";
-    string s17 = "Escucha, Clavis, tiene que haber una forma de salir de aquí, esto tiene que ser una especie de prueba, no puedo haber acabado en el infierno, ¡no tiene ningún sentido!";
+    string s16 ="Tï¿½ï¿½";
+    string c11 = "Yo me llamo Clavis. Digamos que ï¿½ trabajo aquï¿½, recibiendo a las pobres almas que vienen a parar a esteï¿½ curioso reino";
+    string s17 = "Escucha, Clavis, tiene que haber una forma de salir de aquï¿½, esto tiene que ser una especie de prueba, no puedo haber acabado en el infierno, ï¿½no tiene ningï¿½n sentido!";
     string c12 = "Mira que eres insistente, si quieres respuestas ve a hablar con el jefe, si es que te atreves.";
-    string s18 ="…¿Si me atrevo…?";
-    string c13 ="¡Por supuesto! Hacen falta agallas para atravesar este lugar y llegar a él…";
-    string c14 ="Mira, tengo una propuesta para tí. Si estás tan seguro de que esto es un error, yo puedo llevarte, y ya tú negocias con el jefe, a ver si así resuelves tus dudas.";
-    string c15 ="Para llegar habrás de pasar las distintas pruebas que yo personalmente me encargaré de poner en tu camino, pero con la condición de que cada vez que falles volverás a empezar, desde el principio";
-    string c16 = "¿Trato hecho?";
-    string s19 ="… ¡Sí sí, claro que trato hecho! ";
-    string c17 = "Heheheh… ¡Genial! Me alegra hacer tratos contigo… ¿Cómo decías que te llamabas?";
-    string s20 ="Elías, me llamo Elías. Como el profeta.";
-    string c18 ="Mucho gusto Eli, pues como me has caido bien te voy a contar cómo va a funcionar esto.";
-    string s21 ="Elías… mejor llámame Elías. ";
-    string s22 ="...Eli es nombre de niña...";
-    string c19 = "… Bueno Eli, te explico:";
-    string c20 = "El jefe se encuentra dos plantas por encima de esta. En realidad, preferimos llamarlo anillos en vez de plantas, suena mucho mejor, tiene más gancho.";
-    string c21 = "Cada anillo está formado por unas cuantas salas, por las cuales te podrás mover gracias a mi ayuda y mis llaves. Cuando llegues a la puerta de cada sala yo te la abriré, para que puedas ir a alguna de las de alrededor.";
-    string c22 = "En una de estas salas habrá unas escaleras por las que podrás subir al siguiente anillo, así que céntrate en llegar hasta allí.";
-    string c23 = "Tengo amigos en muchas de estas salas, pero ten cuidado, a veces se ponen un poco… agresivos. Ya te los iré presentando.";
-    string c24 = "Además, tengo algunas sorpresas preparadas en ciertas salas para darle un poco de sabor a este viaje, al fin y al cabo ¡esta es mi forma de divertirme! Es tu decisión cuánto quieras investigar";
-    string c25 = "Cuando hayas superado los dos anillos podrás hablar con el jefe. ¡Venga Eli a trabajar, que aún no es Domingo!";
-    string c26 = "No hace falta que lo diga pero no te preocupes por morir, solo dolerá un montón pero ahí estaré para volver a recibirte HA HA HA. ";
+    string s18 ="ï¿½ï¿½Si me atrevoï¿½?";
+    string c13 ="ï¿½Por supuesto! Hacen falta agallas para atravesar este lugar y llegar a ï¿½lï¿½";
+    string c14 ="Mira, tengo una propuesta para tï¿½. Si estï¿½s tan seguro de que esto es un error, yo puedo llevarte, y ya tï¿½ negocias con el jefe, a ver si asï¿½ resuelves tus dudas.";
+    string c15 ="Para llegar habrï¿½s de pasar las distintas pruebas que yo personalmente me encargarï¿½ de poner en tu camino, pero con la condiciï¿½n de que cada vez que falles volverï¿½s a empezar, desde el principio";
+    string c16 = "ï¿½Trato hecho?";
+    string s19 ="ï¿½ ï¿½Sï¿½ sï¿½, claro que trato hecho! ";
+    string c17 = "Hehehehï¿½ ï¿½Genial! Me alegra hacer tratos contigoï¿½ ï¿½Cï¿½mo decï¿½as que te llamabas?";
+    string s20 ="Elï¿½as, me llamo Elï¿½as. Como el profeta.";
+    string c18 ="Mucho gusto Eli, pues como me has caido bien te voy a contar cï¿½mo va a funcionar esto.";
+    string s21 ="Elï¿½asï¿½ mejor llï¿½mame Elï¿½as. ";
+    string s22 ="...Eli es nombre de niï¿½a...";
+    string c19 = "ï¿½ Bueno Eli, te explico:";
+    string c20 = "El jefe se encuentra dos plantas por encima de esta. En realidad, preferimos llamarlo anillos en vez de plantas, suena mucho mejor, tiene mï¿½s gancho.";
+    string c21 = "Cada anillo estï¿½ formado por unas cuantas salas, por las cuales te podrï¿½s mover gracias a mi ayuda y mis llaves. Cuando llegues a la puerta de cada sala yo te la abrirï¿½, para que puedas ir a alguna de las de alrededor.";
+    string c22 = "En una de estas salas habrï¿½ unas escaleras por las que podrï¿½s subir al siguiente anillo, asï¿½ que cï¿½ntrate en llegar hasta allï¿½.";
+    string c23 = "Tengo amigos en muchas de estas salas, pero ten cuidado, a veces se ponen un pocoï¿½ agresivos. Ya te los irï¿½ presentando.";
+    string c24 = "Ademï¿½s, tengo algunas sorpresas preparadas en ciertas salas para darle un poco de sabor a este viaje, al fin y al cabo ï¿½esta es mi forma de divertirme! Es tu decisiï¿½n cuï¿½nto quieras investigar";
+    string c25 = "Cuando hayas superado los dos anillos podrï¿½s hablar con el jefe. ï¿½Venga Eli a trabajar, que aï¿½n no es Domingo!";
+    string c26 = "No hace falta que lo diga pero no te preocupes por morir, solo dolerï¿½ un montï¿½n pero ahï¿½ estarï¿½ para volver a recibirte HA HA HA. ";
 
     public bool FinDialogo1 = false;
 
-public List<string> TextoElias;
-   public List<string> c;
+    //Segunda escena x= Clavis b= ElÃ­as
+    string x1 = "Vaya, vaya ... pero si has conseguido llegar hasta la primera escalera. Â¡QuiÃ©n lo dirÃ­a Emilio!";
+    string x2 = "CÃ³mo consiga llegar hasta el jefe me voy a llevar una buena bronca..."; //cambiar color
+    string b1 = "ElÃ­as ... me llamo ElÃ­as";
+    string x3 = "Â¡Eso eso! Es verdad, Eli, disculpa jejeje.";
+    string b2 = "... ... ElÃ­as";
+    string x4 = "Bueno, a lo que iba Â¿QuÃ© tal lo estÃ¡s pasando? Yo lo estoy pasando de maravilla viÃ©ndote ... hablar con mis amigos. Son muy divertidos, Â¿a que sÃ­?";
+    string b3 = "Creo que no tenemos el mismo concepto de divertido...Â¡Â¿Por quÃ© no me avisaste de que me iban a disparar?! Â¡Este camino es un infierno! Â¡Cada vez que entro en una sala me encuentro a tus amiguitos disparÃ¡ndome!";
+    string x5 = "Bueno hombre Esteban, tampoco hay que ponerse asÃ­. Ya te avisÃ© de que eran un poco raritos. AdemÃ¡s, no tiene ninguna gracia si no te lo pongo un poco difÃ­cil Â¡hay que trabajar duro!";
+    string b4 = "Â¡Que me llamo ElÃ­as!";
+    string x6 = "Â¡Venga chaval, mucho Ã¡nimo! El siguiente anillo serÃ¡ un poco mÃ¡s difÃ­cil, para aÃ±adirle emociÃ³n";
+    string x7 = "Espero que no lo consigas superar..."; //Cambiar color
+
+    public bool FinDialogo2 = false;
+
+    //Tercera escena i=clavis j=elÃ­as
+    string i1 = "Â¡Bienvenido al siguiente anillo! Como puedes ver, en este hace un poco mÃ¡s de frÃ­o, pero confÃ­o en que mis amigos harÃ¡n que te sientas arropado. Nos vemos despuÃ©s Eliseo";
+    string j1 = "...ElÃ­as";
+
+    public bool FinDialogo3 = false;
+
+    //Cuarta escena m=clavis o=elias
+    string m1 = "Â¡Anda Enrique! No me esperaba que llegaras hasta aquÃ­, no te voy a mentir...";
+    string m2 = "...";
+    string m3 = "...";
+    string m4 = "Bueno, supongo que entonces puedes subir a hablar con el jefe. Eso sÃ­, dÃ©jame adelantarme para avisarle de que tiene visita, no es muy fan de las sorpresas que digamos.";
+    string m5 = "Por Dios, espero que no se enfade mucho..."; //Cambiar color
+    string o1 = "... No me puedo creer que todavÃ­a no se haya aprendido mi nombre";
+
+    public bool FinDialogo4 = false;
+
+    //Quinta escena --- Escena final a=anonimo d=dios e=elias l=clavis
+    string a1 = "Clavis...";
+    string l1 = "Â¡No es culpa mÃ­a!";
+    string a2 = "Â¡POR SUPUESTO QUE LO ES! Â¿UN TRATO CON UN HUMANO?Â¿EN QUÃ‰ PIENSA ESA CABEZA QUE TE HAN DADO?";
+    string l2 = "OYE YO SOLO HAGO MI TRABAJO";
+    string a3 = "TU TRABAJO ES TORTURARLOS NO TRAERMELOS.";
+    string l3 = "Â¡Ã‰chale la culpa a tus juguetes rotos! Ellos no han sido capaces de mantenerlo a raya. AdemÃ¡s, Â¿preferÃ­as que le dejase ahÃ­ lamentÃ¡ndose? AburridÃ­simo. No pensÃ© que Evar-";
+    string e1 = "Â¡ElÃ­as! Me llamo ElÃ­as.";
+    string e2 = "Y he cumplido mi parte del trato, ahora tengo derecho a una charla con el jefe.";
+    string l4 = "Ay Dios...";
+    string e3 = "Mire no quiero molestarle demasiado, simplemente quiero pedirle que me sacase de aquÃ­ y me mande al Cielo. Claramente ha habido una confusiÃ³n, exijo saber quÃ© le hace pensar que merezco ser torturado.";
+    string a4 = "Â¿Al Cielo? Mejor te hago yo una pregunta, Â¿quÃ© te hace pensar que mereces ir al cielo?";
+    string e4 = "Pues... No estoy seguro SeÃ±or... Â¡Pero desde luego nunca hice nada como para acabar aquÃ­!";
+    string a5 = "Ya... Â¿y quÃ© es â€œaquÃ­â€?";
+    string e5 = "Â¡El infierno obviamente! EstÃ¡ lleno de monstruos que quieren eliminarme, estÃ¡ oscuro, hace calor y huele que apesta.";
+    string a6 = "PffffttJAJAJAJAJAJAJAJAJAJAJAJAJ OYES ESO CLAVIS";
+    string l5 = "JAJAJAJJAJAJAJAJAJJAJAA TE LO DIJEE";
+    string e6 = "...";
+    string e7 = "Â¿QuÃ© es tan gracioso?";
+    string a7 = "Ahhh... Realmente no sabes nada chico. Este lugar donde ahora te encuentras...";
+    string a8 = "Esto es el Cielo";
+    string e8 = "Desde cuÃ¡ndo SatÃ¡n reina el cielo a ver.";
+    string l6 = "no hace mÃ¡s que liarla...";    //Cambiar color
+    string d1 = "Yo soy el mismÃ­simo Dios que tanto adorÃ¡is.";
+    string d2 = "Â¿A quÃ© has venido entonces? Si realmente eras un hombre bueno este es tu sitio, Â¿de quÃ© te quejas?";
+    string e9 = "Oh... Dios";
+    string e10 = "D- discÃºlpeme SeÃ±or, no pretendÃ­a ofenderos. PerdÃ³neme por favor. E- Es solo que... no me imaginaba el Cielo asÃ­... Desde que he llegado no han parado de sucederme cosas malas...";
+    string e11 = "Y este lugar no se parece en nada al ParaÃ­so...";
+    string l7 = "DeberÃ­as cuidar tus palabras Emanuel... hehehe";
+    string d3 = "... Â¿no se llamaba ElÃ­as?";  //cambiar color
+    string d4 = "Bueno chico siento decirte que la imagen que tenÃ©is los humanos del Cielo no es real. Â¡No sÃ© en quÃ© momento se inventaron semejante chorrada! JAJAJAJA";
+    string d5 = "Yo la verdad que dejÃ© de prestaros atenciÃ³n hace bastantes siglos, me parece mÃ¡s entretenido ver cÃ³mo os desenvolvÃ©is por aquÃ­.";
+    string d6 = "Espero que no estÃ©s decepcionado, al fin y al cabo, estÃ¡s en el Cielo y has conocido al mismÃ­simo Dios.";
+    string e12 = "Entonces... Â¿fue usted quiÃ©n me puso tan difÃ­cil el camino hasta aquÃ­? Â¿ha estado observÃ¡ndome todo este tiempo?";
+    string d7 = "Â¡AsÃ­ es! Debo decirte que has sido uno de los mÃ¡s valientes que ha aparecido por aquÃ­ en mucho tiempo.Â¡Has dado un espectÃ¡culo fantÃ¡stico!";
+    string d8 = "Y ahora, si me disculpas, quiero ver al siguiente que acaba de llegar Â¡a ver quÃ© tal se le da el camino a este ancianito!";
+    string d9 = "ElÃ­as, Â¡bienvenido al cielo!";
+
+    public bool FinDialogo5 = false;
+
+
+    //DIALOGOS OPCIONALES
+    //SALA 4_4 DEL ANILLO 1 V=clavis w= elias
+    string v1 = "Â¡Hola Ernesto! Â¡QuÃ© bien verte por aquÃ­!";
+    string v2 = "Mira te he preparado esta pequeÃ±a sala de descanso, que por que veo has tomado el camino largo jajajaj AsÃ­ que nada, aprovecha y descansas un ratillo, Â¡cuando quieras seguimos!";
+    string w1 = "Um... Gracias, pero me llamo ElÃ­as.";
+    string w2 = "Por cierto, tus amigos estÃ¡n siendo un poco ... antipÃ¡ticos. Â¿PodrÃ­as decirles que dejaran de dispararme? Por favor.";
+    string w3 = "Me defiendo como puedo pero a veces lo ponen realmente difÃ­cil.";
+    string v3 = "Â¡Ah sÃ­! Perdona es que Pesadilla estÃ¡ empezando a competir en tiro al plato y tiene que entrenar mucho jajajaj";
+    string w4 = "Â¿Pesadilla?";
+    string v4 = "SÃ­, claro. Ese es el apodo de mi amigo. El que es asÃ­ pequeÃ±ito y va volando por ahÃ­";
+    string w5 = "Ya veo ya... Muy apropiado";
+    string v5 = "Bueno te dejo descansar tranquilo. Cuando quieras seguir me avisas";
+
+    public bool FinDialogoOp1 = false;
+
+    //SALA 3_2 DEL ANILLO 1 f=clavis g=elias
+    string g1 = "Â¡Â¿Clavis cuÃ¡nto queda para la escalera?! Â¡No aguanto mÃ¡s!";
+    string f1 = "Â¡Ay Eloy!, tranquilÃ­zate...";
+    string g2 = "Clavis me llamo ElÃ­as... que siempre te equivocas";
+    string f2 = "Venga anda, para que se te haga mÃ¡s corto lo que queda voy a dejarte un pequeÃ±o regalo en el cofre. Eso sÃ­, mÃ¡s te vale haberte esforzado porque si no el cofre no se abrirÃ¡.";
+    string g3 = "Â¡Pero bueno! Â¡Claro que me he esforzado! Â¿O es que no me ves?";
+    string f3 = "Ve a por tu recompensa entonces y sigue cuando estÃ©s listo, que ya queda poco para la escalera";
+
+    public bool FinDialogoOp2 = false;
+
+    //SALA 1_3 DEL ANILLO 1 h=clavis k=elÃ­as
+    string k1 = "Â¿QuÃ© es esto Clavis? Â¿Una sala tranquila? Â¡Por fin!";
+    string h1 = "Bueno hombre tÃº tambiÃ©n eres un poco exagerado, Â¡ni que te estuvieras esforzando tanto!";
+    string h2 = "AdemÃ¡s no te puedes quejar, que en esta sala te he dejado un regalito. Mira a ver en el cofre anda";
+
+    public bool FinDialogoOp3 = false;
+
+    //SALA 3_1 DEL ANILLO 2 p=clavis q=elias
+    string p1 = "Â¡CuÃ¡nto tiempo sin verte Eduardo! Â¿QuÃ© tal vas? Ya queda poco, pero esta parte es la mÃ¡s difÃ­cil jejejeje";
+    string p2 = "y la mÃ¡s divertida para mÃ­";   //cambiar color
+    string q1 = "... me tiene que estar vacilando con esto del nombre";   //Cambiar de color
+    string q2 = "Clavis, me llamo ElÃ­as, ya te lo he dicho varias veces. Si no te importa voy a aprovechar para descansar aquÃ­ un poco, que estoy muerto.";
+    string p3 = "SÃ­, muerto sÃ­ que estÃ¡s jajajaj. Bueno pues, mientras descansas, Â¿por quÃ© no aprovechas y me cuentas algo de ti? Â¿CuÃ¡ntos aÃ±os tenÃ­as? Â¿A quÃ© te dedicabas?";
+    string p4 = "... aunque seguro que no tienes nada interesante que contar, pareces un poco pringado jajajaj"; //cambiar color
+    string q3 = "Â¿QuÃ© decÃ­as? Â¿Sobre mÃ­? Bueno no sÃ©, teng- tenÃ­a 18 aÃ±os y trabajaba en un Timbre Burrito TM , ya sabes, hay que ahorrar para pagar el viaje a Mallorca... A todo esto Â¿tÃº cÃ³mo has acabado aquÃ­?";
+    string q4 = "A todo esto Â¿tÃº cÃ³mo has acabado aquÃ­?";
+    string p5 = "Uf Bachillerato, que intenso. Yo morÃ­ hace mucho. Cuando lleguÃ© aquÃ­ le caÃ­ bien al jefe y he sido una de sus â€œpersonasâ€ de confianza desde entonces. Dice que hay poca gente como yo aquÃ­.";
+    string p6 = "por lo visto aquÃ­ solo viene gente buena y aburrida"; //cambiar color
+    string p7 = "AsÃ­ que nada, empecÃ© a echarle una mano con tareas importantes, como recibir a los reciÃ©n llegados como tÃº. Bueno yo creo que ya has descansado lo suficiente Epicuro Â¡A seguir buscando!";
+
+    public bool FinDialogoOp4 = false;
+
+    //SALA 2_1 DEL ANILLO 2 r=clavis t=elias
+    string r1 = "Espero que estÃ©s contento Eusebio, ya estÃ¡s muy cerca del final.Â¡Cualquiera lo dirÃ­a eh! Â¡Esto ya empezaba a parecer un castigo eterno!";
+    string r2 = "aunque para castigo eterno el que me va a caer a mÃ­ por dejarte llegar hasta aquÃ­";    //cambiar color
+    string t1 = "...";
+    string t2 = "Gracias Clavis, pero mi nombre es ElÃ­as.";
+
+    public bool FinDialogoOp5 = false;
+
+    //SALA 1_3 DEL ANILLO 2 u=clavis z=elÃ­as
+    string z1 = "Uf menos mal, otra sala tranquila. Ya no podÃ­a mÃ¡s.";
+    string u1 = "Y ademÃ¡s te he dejado un regalo y todo, para que luego digas que no te trato bien eh...";
+
+    public bool FinDialogoOp6 = false;
+
+
+    public List<string> TextoElias;
+    public List<string> c;
+    public List<string> TextoAnon;
+    public List<string> TextoDios;
 
     void Start()
     {
         GM = GameManager.FindObjectOfType<GameManager>();
 
-        Sala1 = new List<string>();
         TextoElias = new List<string>();
         c= new List<string>();
+        TextoDios = new List<string>();
+        TextoAnon = new List<string>();
 
+        //DIALOGOS OBLIGATORIOS
+        //Escena 1
+        Sala1 = new List<string>();
+        
         Sala1.Add(s1);
         Sala1.Add(s2);
         Sala1.Add(s3);
@@ -95,12 +251,115 @@ public List<string> TextoElias;
         Sala1.Add(c1); Sala1.Add(s5); Sala1.Add(c2); Sala1.Add(s6); Sala1.Add(c3); Sala1.Add(s7); Sala1.Add(c4); Sala1.Add(s8); Sala1.Add(c5); Sala1.Add(s9); Sala1.Add(c6); Sala1.Add(s10); Sala1.Add(c7); Sala1.Add(s11); Sala1.Add(c8); Sala1.Add(s12);
         Sala1.Add(s13); Sala1.Add(s14); Sala1.Add(c9); Sala1.Add(s15); Sala1.Add(c10); Sala1.Add(s16); Sala1.Add(c11); Sala1.Add(s17); Sala1.Add(c12); Sala1.Add(s18); Sala1.Add(c13); Sala1.Add(c14); Sala1.Add(c15); Sala1.Add(c16); Sala1.Add(s19);
         Sala1.Add(c17); Sala1.Add(s20); Sala1.Add(c18); Sala1.Add(s21); Sala1.Add(s22); Sala1.Add(c19); Sala1.Add(c20); Sala1.Add(c21); Sala1.Add(c22); Sala1.Add(c23); Sala1.Add(c24); Sala1.Add(c25); Sala1.Add(c26);
-
-
      
-        c.Add(c1); c.Add(c1); c.Add(c3); c.Add(c4);  c.Add(c5); c.Add(c6);  c.Add(c7); c.Add(c8);
-        c.Add(s13);  c.Add(c9);  c.Add(c10);  c.Add(c11);  c.Add(c12);  c.Add(c13); c.Add(c14); c.Add(c15); c.Add(c16); 
+        c.Add(c1); c.Add(c2); c.Add(c3); c.Add(c4);  c.Add(c5); c.Add(c6);  c.Add(c7); c.Add(c8);
+        c.Add(c9);  c.Add(c10);  c.Add(c11);  c.Add(c12);  c.Add(c13); c.Add(c14); c.Add(c15); c.Add(c16); 
         c.Add(c17);  c.Add(c18);   c.Add(c19); c.Add(c20); c.Add(c21); c.Add(c22); c.Add(c23); c.Add(c24); c.Add(c25); c.Add(c26);
+
+        TextoElias.Add(s1); TextoElias.Add(s2); TextoElias.Add(s3); TextoElias.Add(s4); TextoElias.Add(s5); TextoElias.Add(s6); TextoElias.Add(s7); TextoElias.Add(s8); 
+        TextoElias.Add(s9); TextoElias.Add(s10); TextoElias.Add(s11); TextoElias.Add(s12); TextoElias.Add(s13); TextoElias.Add(s14); TextoElias.Add(s15); TextoElias.Add(s16);
+        TextoElias.Add(s17); TextoElias.Add(s18); TextoElias.Add(s19); TextoElias.Add(s20); TextoElias.Add(s21); TextoElias.Add(s22);
+
+
+        Esc2 = new List<string>();  //Escena 2
+
+        Esc2.Add(x1); Esc2.Add(x2); Esc2.Add(b1); Esc2.Add(x3); Esc2.Add(b2); Esc2.Add(x4); Esc2.Add(b3); Esc2.Add(x5); Esc2.Add(b4); Esc2.Add(x6); Esc2.Add(x7);
+
+        c.Add(x1); c.Add(x2); c.Add(x3); c.Add(x4); c.Add(x5); c.Add(x6); c.Add(x7);
+
+        TextoElias.Add(b1); TextoElias.Add(b2); TextoElias.Add(b3); TextoElias.Add(b4); 
+
+
+        Esc3 = new List<string>();  //Escena 3
+
+        Esc3.Add(i1); Esc3.Add(j1);
+
+        c.Add(i1);
+        TextoElias.Add(j1);
+
+
+        Esc4 = new List<string>();  //Escena 4
+
+        Esc4.Add(m1); Esc4.Add(m2); Esc4.Add(m3); Esc4.Add(m4); Esc4.Add(m5); Esc4.Add(o1);
+
+        c.Add(m1); c.Add(m2); c.Add(m3); c.Add(m4); c.Add(m5);     
+
+        TextoElias.Add(o1);
+
+
+        Esc5 = new List<string>();  //Escena 5
+
+        Esc5.Add(a1); Esc5.Add(l1); Esc5.Add(a2); Esc5.Add(l2); Esc5.Add(a3); Esc5.Add(l3); Esc5.Add(e1); Esc5.Add(e2); Esc5.Add(l4); Esc5.Add(e3); Esc5.Add(a4);
+        Esc5.Add(e4); Esc5.Add(a5); Esc5.Add(e5); Esc5.Add(a6); Esc5.Add(l5); Esc5.Add(e6); Esc5.Add(e7); Esc5.Add(a7); Esc5.Add(a8); Esc5.Add(e8); Esc5.Add(l6);
+        Esc5.Add(d1); Esc5.Add(d2); Esc5.Add(e9); Esc5.Add(e10); Esc5.Add(e11); Esc5.Add(l7); Esc5.Add(d3); Esc5.Add(d4); Esc5.Add(d5); Esc5.Add(d6);
+        Esc5.Add(e12); Esc5.Add(d7); Esc5.Add(d8); Esc5.Add(d9);
+
+        c.Add(l1); c.Add(l2); c.Add(l3); c.Add(l4); c.Add(l5); c.Add(l6); c.Add(l7);
+
+        TextoElias.Add(e1); TextoElias.Add(e2); TextoElias.Add(e3); TextoElias.Add(e4); TextoElias.Add(e5); TextoElias.Add(e6); TextoElias.Add(e7); TextoElias.Add(e8);
+        TextoElias.Add(e9); TextoElias.Add(e10); TextoElias.Add(e11); TextoElias.Add(e12);
+
+        TextoDios.Add(d1); TextoDios.Add(d2); TextoDios.Add(d3); TextoDios.Add(d4); TextoDios.Add(d5); TextoDios.Add(d6); TextoDios.Add(d7); TextoDios.Add(d8);
+        TextoDios.Add(d9);
+
+        TextoAnon.Add(a1); TextoAnon.Add(a2); TextoAnon.Add(a3); TextoAnon.Add(a4); TextoAnon.Add(a5); TextoAnon.Add(a6); TextoAnon.Add(a7); TextoAnon.Add(a8);
+
+
+        //DIÃLOGOS OPCIONALES
+        EscOp1 = new List<string>();  //Escena op 1
+
+        EscOp1.Add(v1); EscOp1.Add(v2); EscOp1.Add(w1); EscOp1.Add(w2); EscOp1.Add(w3); EscOp1.Add(v3); EscOp1.Add(w4); EscOp1.Add(v4); EscOp1.Add(w5); EscOp1.Add(v5);
+
+        c.Add(v1); c.Add(v2); c.Add(v3); c.Add(v4); c.Add(v5);
+
+        TextoElias.Add(w1); TextoElias.Add(w2); TextoElias.Add(w3); TextoElias.Add(w4); TextoElias.Add(w5);
+
+
+        EscOp2 = new List<string>();  //Escena op 2
+
+        EscOp2.Add(g1); EscOp2.Add(f1); EscOp2.Add(g2); EscOp2.Add(f2); EscOp2.Add(g3); EscOp2.Add(f3);
+
+        c.Add(f1); c.Add(f3); c.Add(f3);
+
+        TextoElias.Add(g1); TextoElias.Add(g2); TextoElias.Add(g3);
+
+
+        EscOp3 = new List<string>();  //Escena op 3
+
+        EscOp3.Add(k1); EscOp3.Add(h1); EscOp3.Add(h2);
+
+        c.Add(h1); c.Add(h2);
+
+        TextoElias.Add(k1);
+
+
+        EscOp4 = new List<string>();  //Escena op 4
+
+        EscOp4.Add(p1); EscOp4.Add(p2); EscOp4.Add(q1); EscOp4.Add(q2); EscOp4.Add(p3); EscOp4.Add(p4); EscOp4.Add(q3); EscOp4.Add(q4); EscOp4.Add(p5); EscOp4.Add(p6);
+        EscOp4.Add(p7);
+
+        c.Add(p1); c.Add(p2); c.Add(p3); c.Add(p4); c.Add(p5); c.Add(p6); c.Add(p7);
+
+        TextoElias.Add(q1); TextoElias.Add(q2); TextoElias.Add(q3); TextoElias.Add(q4);
+
+
+        EscOp5 = new List<string>();  //Escena op 5
+
+        EscOp5.Add(r1); EscOp5.Add(r2); EscOp5.Add(t1); EscOp5.Add(t2);
+
+        c.Add(r1); c.Add(r2);
+
+        TextoElias.Add(t1); TextoElias.Add(t2);
+
+
+        EscOp6 = new List<string>();  //Escena op 6
+
+        EscOp6.Add(z1); EscOp6.Add(u1);
+
+        c.Add(u1);
+
+        TextoElias.Add(z1);
+        
 
         GM.modoJuego = 3;
 
