@@ -60,6 +60,31 @@ public class SpawnEnemy : MonoBehaviour
 
         Vector3 spawnPosition = new Vector3(0, 0, 0);
 
+        //Seleccion Especial
+        if(GM.ModoHordasDificultad == 1)
+        {
+            var num1 = Random.Range(0, 10);
+            var num2 = Random.Range(0, 10);
+            var num3= Random.Range(0, 10);
+            var num4 = Random.Range(0, 10);
+            if(num4>num1 && num4>num2 && num4>num3)
+            {
+                GameObject enemie2 = Instantiate(enemies[2], this.transform.position, gameObject.transform.rotation);
+            }
+        }
+        if (GM.ModoHordasDificultad == 2)
+        {
+            var num1 = Random.Range(0, 10);
+            var num2 = Random.Range(0, 10);
+           
+            var num4 = Random.Range(0, 10);
+            if (num4 > num1 && num4 > num2 )
+            {
+                GameObject enemie2 = Instantiate(enemies[2], this.transform.position, gameObject.transform.rotation);
+            }
+        }
+
+
         var seleccionEnemigo = Random.Range(0,2);
 
       //  spawnPosition = new Vector3(Random.Range(xRangeLeft.position.x, XRangeRight.position.y), Random.Range(yRangeDown.position.y, yRangeUP.position.y), 0);

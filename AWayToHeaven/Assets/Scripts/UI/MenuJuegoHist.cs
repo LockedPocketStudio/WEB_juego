@@ -14,8 +14,14 @@ public class MenuJuegoHist : MonoBehaviour
     public bool pausa = false;
     public int currentScene;
     public GameManager GM;
+
+    public GameObject panel;
+    public GameObject panelOcultar;
     void Start()
     {
+        panelOcultar.SetActive(false);
+        panel.SetActive(false);
+
         currentScene = SceneManager.GetActiveScene().buildIndex;
 
         Reanudar.gameObject.SetActive(false);
@@ -23,11 +29,15 @@ public class MenuJuegoHist : MonoBehaviour
         MainMenu.onClick.AddListener(() => { pausa = true; Reanudar.gameObject.SetActive(true);
            Exit.gameObject.SetActive(true);
             GM.modoJuego = -1;
+            panel.SetActive(true);
+            panelOcultar.SetActive(true);
         });
         Reanudar.onClick.AddListener(() => {
             pausa = false; Reanudar.gameObject.SetActive(false);
             Exit.gameObject.SetActive(false);
-            GM.modoJuego = 1;
+            GM.modoJuego = 0;
+            panel.SetActive(false);
+            panelOcultar.SetActive(false);
         });
         Exit.onClick.AddListener(() => { exitFunction(); });
        

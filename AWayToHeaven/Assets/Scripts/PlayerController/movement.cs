@@ -35,6 +35,10 @@ public class movement : MonoBehaviour
         {
             return;
         }
+        if (GM.modoJuego == 3)
+        {
+            return;
+        }
 
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
         {

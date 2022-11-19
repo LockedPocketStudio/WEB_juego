@@ -118,9 +118,13 @@ public class EnemigoEspecialFSM : MonoBehaviour
         {
             return;
         }
+        if (GM.modoJuego == 1 && GM.ModoHordasDificultad == -1)
+        {
+            return;
+        }
 
         enemigoEspecialFSM.Update();
-        Debug.Log(estadoActual);
+       // Debug.Log(estadoActual);
 
         actualizarDestino();
         comprobarJugadorVisible();
@@ -179,7 +183,7 @@ public class EnemigoEspecialFSM : MonoBehaviour
             if (Time.time - lastTimeAttack >= attackCD)
             {
                 lastTimeAttack = Time.time;
-                Debug.Log("Enemigo a melee ataca al jugador");
+              //  Debug.Log("Enemigo a melee ataca al jugador");
                 //esto es una ñapa porque playerLife es un objeto distinto de player
          //       FindObjectOfType<PlayerLife>().TakeDamage();
             }

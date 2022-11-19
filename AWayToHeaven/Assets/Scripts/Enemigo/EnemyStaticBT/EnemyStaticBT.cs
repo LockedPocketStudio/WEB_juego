@@ -94,13 +94,13 @@ public class EnemyStaticBT : MonoBehaviour
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
         if (distanceTo <= 10)
         {
-        Debug.Log("player VISIBLE");
+      //  Debug.Log("player VISIBLE");
             veJugador = true;
             return ReturnValues.Succeed;
         }
         else
         {
-          Debug.Log("player NOT VISIBLE");
+       //   Debug.Log("player NOT VISIBLE");
             veJugador = false;
             return ReturnValues.Failed;
         }
@@ -112,7 +112,7 @@ public class EnemyStaticBT : MonoBehaviour
         int recarga = a.bala;
         if(recarga == 0)
         {
-            Debug.Log("No hay bala , RECARGAR");
+        //    Debug.Log("No hay bala , RECARGAR");
             return ReturnValues.Failed;
         }
         else
@@ -126,7 +126,7 @@ public class EnemyStaticBT : MonoBehaviour
         int recarga = a.bala;
         if (recarga == 1)
         {
-            Debug.Log("Tengo el arma recargada");
+           // Debug.Log("Tengo el arma recargada");
             return ReturnValues.Succeed;
         }
         else
@@ -144,7 +144,7 @@ public class EnemyStaticBT : MonoBehaviour
     {
         //base.ShootAt(p);
 
-        Debug.Log("enemyBT is SHOOTING");
+      //  Debug.Log("enemyBT is SHOOTING");
 
         // Create bullet
         Quaternion rot = new Quaternion(0, 0, 0, 0);

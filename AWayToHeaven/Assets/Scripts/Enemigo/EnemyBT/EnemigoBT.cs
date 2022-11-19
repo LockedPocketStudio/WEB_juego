@@ -138,7 +138,7 @@ public class EnemigoBT : MonoBehaviour
         int recarga = a.bala;
         if (recarga == 0)
         {
-            Debug.Log("No hay bala , RECARGAR");
+           // Debug.Log("No hay bala , RECARGAR");
             return ReturnValues.Failed;
         }
         else
@@ -153,7 +153,7 @@ public class EnemigoBT : MonoBehaviour
         int recarga = a.bala;
         if (recarga == 1)
         {
-            Debug.Log("Tengo el arma recargada");
+          //  Debug.Log("Tengo el arma recargada");
             return ReturnValues.Succeed;
         }
         else

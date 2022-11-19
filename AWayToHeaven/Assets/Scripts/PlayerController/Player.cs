@@ -96,9 +96,17 @@ public class Player : MonoBehaviour
          }*/
         if(GM.modoJuego == 1)
         {
-            for (int i = 2; i < 450; i += 20)
+            int i = 10;
+            LevelUpReq.Add(5);
+            LevelUpReq.Add(5);
+            for (int a= 0 ; a < 4; a ++)
             {
                 LevelUpReq.Add(i);
+              
+            }
+            for(int b =10; b < 420; b += 10)
+            {
+                LevelUpReq.Add(b);
             }
 
         }

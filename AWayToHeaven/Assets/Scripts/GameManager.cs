@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI timer;
     public float time =0f;
     public  int vidasEnemigos = 1;
-    int dificultad = 0;
+    int dificultad = 0;  //hordas
 
     GameObject player;
     // public Text timer;
@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
             timer.text = "Nivel : "+ Player.nivelHistoria;
 
         }
+
         else if(modoJuego == 1 && ModoHordasDificultad != -1)
         {
             //Comenzamos modo hordas
@@ -105,13 +106,13 @@ public class GameManager : MonoBehaviour
             dificultad++;
 
         }
-        if(time >= 180 && dificultad == 1)
+        if(time >= 180 && dificultad == 1 && ModoHordasDificultad>=1)
         {
             vidasEnemigos++;
             dificultad++;
 
         }
-        if (time >= 260 && dificultad == 2)
+        if (time >= 260 && dificultad == 2 && ModoHordasDificultad==2)
         {
             vidasEnemigos++;
             dificultad++;
@@ -120,6 +121,7 @@ public class GameManager : MonoBehaviour
         if(time >= 300)
         {
             //Fin del juego
+            estadoJugador = -1;
         }
 
         if(modoJuego == 2 && EscenaDialogo.active == false)
@@ -141,6 +143,11 @@ public class GameManager : MonoBehaviour
             }
 
 
+        }
+
+        if(modoJuego == 3)
+        {
+            //TEXTO
         }
 
     }
