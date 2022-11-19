@@ -1,0 +1,1631 @@
+fileFormatVersion: 2
+guid: 5b73ef5269c77de478239ebcf72f6543
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3920
+        width: 883
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2945c16ffedc87d439cbc6e2d05e2cc4
+      internalID: 1424996263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3920
+        width: 883
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2120bc6d1da9f943bf1b036b38eea07
+      internalID: 144039159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 3920
+        width: 905
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e8cabd72a16d4469553d2ef21af241
+      internalID: 1842033512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 4654
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2669d354df811aa46b780e9bdb09d8cc
+      internalID: 1483963828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 3920
+        width: 905
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a743201c9e9734e91ded99686cd4b3
+      internalID: 69032578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 4393
+        y: 4654
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5fcdc7bba45924594d494c11db2719
+      internalID: -1844945029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 4124
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ded4e2cced4e847a52d621972e831c
+      internalID: 1577106406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 4124
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0744090ba84f88c49a1d47ebaa4a3453
+      internalID: -224597835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 4124
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31186d0e7d4a93d44be539ddf26aa522
+      internalID: -403754069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4698
+        y: 4124
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df4e75f5771f0a4bbf6569f8f021e3a
+      internalID: -1483618262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 4042
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75490ad9fa01fa0428006dcb18a02fb1
+      internalID: -1302300929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 4042
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7602baa711280a4b9673460f1a78f80
+      internalID: 1081128796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3878
+        width: 108
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792a13ed05bea8e4e8368bac58a27158
+      internalID: 1183625080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 3899
+        width: 107
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcd2d3316245fe4197b2345f6d16b52
+      internalID: 1797414776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 3878
+        width: 108
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de72ec3d20c6cc84c90803b607cf38c6
+      internalID: -1785495033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 3899
+        width: 107
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4503e470a710bec4da8cc2cfdb66272c
+      internalID: -1238225870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3899
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a608d8d830a054468bccc262370e3fd
+      internalID: 1570859743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 3899
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267511ac5f14c9b49bfc55e7eec9b660
+      internalID: 1356897372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 3899
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dd395f94e9b8d41b8af8cecfdb1c57
+      internalID: -1932619341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 3899
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6980053a93481ed4987f42853098da66
+      internalID: 484713673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 3515
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b2e53862d3f8145bd290b98f599d9b
+      internalID: 1009838875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 3515
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8820ed2e0aa7f04fbe47111676b5ea8
+      internalID: -364893828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3189
+        width: 107
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209f8c634b55c174d8a865ebfcca3056
+      internalID: -2147113520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2699
+        width: 823
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc40480d15034b84d8cfa3e8df8d650f
+      internalID: 64729260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 3292
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cafe11914622b9429a802fb04311a00
+      internalID: -738359028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 3189
+        width: 107
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b817f6a87506444bc3ced130d498fc
+      internalID: 1666542003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 2699
+        width: 823
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3c378f394b83d4da008538c09ec8e1
+      internalID: 1748786204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 3292
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394139cc7411fc64d90ff8dde68e5b53
+      internalID: -2024413337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 3250
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640da67d6734ebd4db4e415924e9b4bf
+      internalID: 1289861667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 2659
+        width: 881
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b1020eb05327c44a9198c517fd84be
+      internalID: -1708544638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 3679
+        y: 3250
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac93a8cbd15df104d840f475f5dd5b0d
+      internalID: 953473817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 2659
+        width: 881
+        height: 841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980fbf6931f3c024a8924023c0406f35
+      internalID: -440949160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2699
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc154a077b4ae54eba596bab0ba3f13
+      internalID: -1739340220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2678
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d07da499f0214a4bbea054535552efa
+      internalID: 1390123497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 2699
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d766806ff5aac4439f7cfba2966be93
+      internalID: 164111304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 2678
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe72123098813534ebb62a0ecd3c1cec
+      internalID: 11547952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1478
+        width: 965
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e89c37100fa2c4d98352e9812c47ad
+      internalID: -2048717919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1478
+        width: 965
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da71f9238dd3e0e4493c4a9449ad941b
+      internalID: -317766495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1478
+        width: 945
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc19946453600b547a0290dfc6ccb3f3
+      internalID: 1520802217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 2296
+        width: 108
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6d299b976bf8f4bb06fa6b80902b4e
+      internalID: -1795807960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 1478
+        width: 945
+        height: 822
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe61e41ab234c184c80f0a262e6de5e6
+      internalID: 248059638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 2296
+        width: 108
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f961e08b379914244b45ce9439342aab
+      internalID: 842472279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1928
+        width: 68
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c5f35971a1fd546a76b38dcf3dc462
+      internalID: -1147870182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1928
+        width: 68
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb06ea70ba52a1f4f9e11e3720a13812
+      internalID: -1973886563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 2050
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8157407890ff54bb150292c3fbc247
+      internalID: 1053607448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 2050
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba84fac3a3a7dd541806eefde0cc9e2e
+      internalID: 881465310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 1703
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3f4a47f53688546806c26f6e5d61b6
+      internalID: -92118381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 1703
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b6546cd1c5b4b48bce4162ebc1aaf3
+      internalID: 1880424086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1136
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965d069f8916ff8468b0c9f056269dc4
+      internalID: -1793706298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 1136
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b082bedc2194fef41bd89d7419adffd3
+      internalID: -1230358983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 1096
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e96bfa088c14d343bc8ee26ff1751e5
+      internalID: -1421278955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 4515
+        y: 1096
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b027f8495f36834e8c73157084cea74
+      internalID: 1599069464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 259
+        width: 944
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264d1016c3545bd42b24e27379f38e18
+      internalID: -2133435109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1035
+        width: 87
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1647d725fea194980839ceb27164f7
+      internalID: -1365161712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 259
+        width: 944
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd2fe992b3540543af0b4678ca2d6e5
+      internalID: -82554158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 1035
+        width: 87
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e0bd45450635948aa58b5b19c77a97
+      internalID: 1683971364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 259
+        width: 923
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b21cbee3a508548ae4ec023a8a31c2
+      internalID: 2103792370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 259
+        width: 923
+        height: 823
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bf059f7b2205c4fbac13e8636ed7ba
+      internalID: 422045390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 892
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2170b9dbfc72745b53ecfffb07a4a7
+      internalID: 1400580950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 892
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e161cc8a9b5bb541a782d0616ac86f2
+      internalID: -855458794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 728
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc79e1e467acb84a917f8a234468fc2
+      internalID: 276109136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 728
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da45f30953492c4bb56a4a6c487a225
+      internalID: -1445000366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 688
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5026394d80e596e41a59620b20e18314
+      internalID: 595340294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 688
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a3da0ac7a131e4f99d0fdc93ac26e5
+      internalID: -667056027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 625
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65707b4f98ecc2d4d90fd2f98ef0b6f7
+      internalID: 858766230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 625
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7ed56c877f8794185dadef7189b96e
+      internalID: -1250235446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 503
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01816c8226f13084185efb2bde446764
+      internalID: -1081875102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Fuego_Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 503
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66ebbaee400b734b8c46f791ae8bbfe
+      internalID: -684336581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bala_Fuego_Spritesheet_22: -2147113520
+      Bala_Fuego_Spritesheet_18: -1932619341
+      Bala_Fuego_Spritesheet_26: 1748786204
+      Bala_Fuego_Spritesheet_20: 1009838875
+      Bala_Fuego_Spritesheet_15: -1238225870
+      Bala_Fuego_Spritesheet_16: 1570859743
+      Bala_Fuego_Spritesheet_31: -440949160
+      Bala_Fuego_Spritesheet_19: 484713673
+      Bala_Fuego_Spritesheet_6: 1577106406
+      Bala_Fuego_Spritesheet_9: -1483618262
+      Bala_Fuego_Spritesheet_36: -2048717919
+      Bala_Fuego_Spritesheet_3: 1483963828
+      Bala_Fuego_Spritesheet_13: 1797414776
+      Bala_Fuego_Spritesheet_49: -1230358983
+      Bala_Fuego_Spritesheet_17: 1356897372
+      Bala_Fuego_Spritesheet_14: -1785495033
+      Bala_Fuego_Spritesheet_29: -1708544638
+      Bala_Fuego_Spritesheet_44: 1053607448
+      Bala_Fuego_Spritesheet_67: -684336581
+      Bala_Fuego_Spritesheet_59: -855458794
+      Bala_Fuego_Spritesheet_46: -92118381
+      Bala_Fuego_Spritesheet_60: 276109136
+      Bala_Fuego_Spritesheet_39: -1795807960
+      Bala_Fuego_Spritesheet_43: -1973886563
+      Bala_Fuego_Spritesheet_0: 1424996263
+      Bala_Fuego_Spritesheet_48: -1793706298
+      Bala_Fuego_Spritesheet_35: 11547952
+      Bala_Fuego_Spritesheet_38: 1520802217
+      Bala_Fuego_Spritesheet_28: 1289861667
+      Bala_Fuego_Spritesheet_11: 1081128796
+      Bala_Fuego_Spritesheet_27: -2024413337
+      Bala_Fuego_Spritesheet_21: -364893828
+      Bala_Fuego_Spritesheet_64: 858766230
+      Bala_Fuego_Spritesheet_25: 1666542003
+      Bala_Fuego_Spritesheet_66: -1081875102
+      Bala_Fuego_Spritesheet_58: 1400580950
+      Bala_Fuego_Spritesheet_61: -1445000366
+      Bala_Fuego_Spritesheet_7: -224597835
+      Bala_Fuego_Spritesheet_51: 1599069464
+      Bala_Fuego_Spritesheet_30: 953473817
+      Bala_Fuego_Spritesheet_10: -1302300929
+      Bala_Fuego_Spritesheet_40: 248059638
+      Bala_Fuego_Spritesheet_63: -667056027
+      Bala_Fuego_Spritesheet_1: 144039159
+      Bala_Fuego_Spritesheet_5: -1844945029
+      Bala_Fuego_Spritesheet_45: 881465310
+      Bala_Fuego_Spritesheet_4: 69032578
+      Bala_Fuego_Spritesheet_34: 164111304
+      Bala_Fuego_Spritesheet_32: -1739340220
+      Bala_Fuego_Spritesheet_33: 1390123497
+      Bala_Fuego_Spritesheet_37: -317766495
+      Bala_Fuego_Spritesheet_12: 1183625080
+      Bala_Fuego_Spritesheet_23: 64729260
+      Bala_Fuego_Spritesheet_24: -738359028
+      Bala_Fuego_Spritesheet_53: -1365161712
+      Bala_Fuego_Spritesheet_42: -1147870182
+      Bala_Fuego_Spritesheet_41: 842472279
+      Bala_Fuego_Spritesheet_52: -2133435109
+      Bala_Fuego_Spritesheet_54: -82554158
+      Bala_Fuego_Spritesheet_8: -403754069
+      Bala_Fuego_Spritesheet_55: 1683971364
+      Bala_Fuego_Spritesheet_65: -1250235446
+      Bala_Fuego_Spritesheet_2: 1842033512
+      Bala_Fuego_Spritesheet_47: 1880424086
+      Bala_Fuego_Spritesheet_56: 2103792370
+      Bala_Fuego_Spritesheet_62: 595340294
+      Bala_Fuego_Spritesheet_57: 422045390
+      Bala_Fuego_Spritesheet_50: -1421278955
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

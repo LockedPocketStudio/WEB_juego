@@ -29,16 +29,16 @@ public class TextoTutorial : MonoBehaviour
     string o = "En cuanto al modo hordas consiste en sobrevivir 5 minutos, existen 3 niveles de dificultad. Te animo a probarlo";
     
     string h1 = "En el modo historia te contaré como has acabado aqui... Seguro que tienes ganas de saberlo";
-    string h2 = "El objetivo es escapar de las salas en busca de unas escaleras ... que ya irás conociendo";
+    string h2 = "Tu objetivo será buscar unas escaleras ... No te diré el porque , eso tendrás que averiguarlo tu";
     string h3 = "Para escapar de las salas tendrás que buscar una puerta ";
-    string h4 = "al salir de una sala podrás elegir la siguiente sala a la que irás de entre las adyacentes a ella";
-    string h5 = " Por último, cuando tu barra de experiencia se llene , no obtendrás un power up de manera automática. Tendrás que buscar un cofre para poder conseguirlo";
+    string h4 = "Al salir de una sala podrás elegir la siguiente sala a la que irás de entre las adyacentes a ella";
+    string h5 = "Por último, cuando tu barra de experiencia se llene , no obtendrás un power up de manera automática. Tendrás que buscar un cofre para poder conseguirlo";
     string hf = "¿Necesitas más información?";
 
     string s1 = "Ahora voy a hablarte de como moverte por este mundo";
     string s2 = "Puedes moverte tocando hacia donde quieres ir y no te preocupes, ya que puedes disparar de manera automática";
-    string s3 = " Como puedes ver existen diferentes tipos de enemigos, aqui te presento a estos 3 : al esqueleto , murcielago y la torre";
-    string s4 = "Tambien como ves arriba a la izquierda, esta es tu barra de estado. La barra de arriba muestra tu vida y la de abajo la experiencia que vayas acumulando";
+    string s3 = "Existen diferentes tipos de enemigos, aquí te presento a estos 3 : al esqueleto , murcielago y la torre";
+    string s4 = "También como ves arriba a la izquierda se encuentra tu barra de estado. La barra de arriba muestra tu vida y la de abajo la experiencia que vayas acumulando";
     string s5 = "Cuando tu barra de experiencia se llene , en el modo hordas obtendrás un power up de manera automática pero en el modo historia necesitas acercarte a un cofre para obtenerlo";
   
     
@@ -84,6 +84,7 @@ public class TextoTutorial : MonoBehaviour
         controles.onClick.AddListener(() => { tipoTexto = 0; y = 0; eleccion.SetActive(false); t.text = DialogoControles[0]; y++; });
         prueba.onClick.AddListener(() => { eleccion.SetActive(false); EscenaDialogo.SetActive(false);
             GM.modoJuego = 2;
+            tipoTexto = -1;
         });
 
         salir.onClick.AddListener(() => SceneManager.LoadScene(0));
@@ -129,6 +130,7 @@ public class TextoTutorial : MonoBehaviour
     public void Textofinal()
     {
         EscenaDialogo.SetActive(true);
+        eleccion.SetActive(false);
         t.text = final;
         if (tfleft > tiempofinal)
         {

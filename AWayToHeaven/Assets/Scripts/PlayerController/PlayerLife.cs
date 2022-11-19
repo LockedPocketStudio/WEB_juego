@@ -7,10 +7,13 @@ public class PlayerLife : MonoBehaviour
    private Vector3 Playerpos;
     public GameObject player;
     public GameManager GM;
+    protected AudioSource musica;
+    
     void Start()
     {
         Playerpos = player.transform.position;
         this.transform.position = Playerpos;
+        musica = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -48,6 +51,7 @@ public class PlayerLife : MonoBehaviour
             Player e = player.GetComponent<Player>();
             if (e.InvencibleTimeLeft <= 0)
             {
+                musica.Play();
                 e.VidaActual--;
                 e.InvencibleTimeLeft = e.InvencibleTime;
                 

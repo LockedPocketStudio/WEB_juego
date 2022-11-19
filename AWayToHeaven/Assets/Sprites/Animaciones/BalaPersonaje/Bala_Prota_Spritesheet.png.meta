@@ -1,0 +1,1851 @@
+fileFormatVersion: 2
+guid: da284a4ce0fd7d842879521cb9780e5d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 3798
+        width: 870
+        height: 773
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a549c3a3d22d94fb87a48d0dd3271e
+      internalID: -1252064438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 3798
+        width: 870
+        height: 773
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec10a77717d5264282f851db6d9a0e7
+      internalID: 1812920636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 4548
+        width: 64
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b051c032bb6e54e827196e249e4b7c
+      internalID: -1872857900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 4365
+        y: 4548
+        width: 64
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e43730aa50500642aaade7c8b01c47f
+      internalID: -254498180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 3990
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51901c3e6dbf5634b87d125fa2462e69
+      internalID: -1621233030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 3990
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d03e65b72554146bf9449808feefa3
+      internalID: -1858694634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 3798
+        width: 910
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdabbe4ffd0c4348a17a29c0ae42e92
+      internalID: 918339816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 4009
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa48012fcf440f42ad40aac8406293b
+      internalID: -632722154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 3798
+        width: 910
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6586dbe8ef55de942893b75ab701bf35
+      internalID: -1670750143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 4009
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcd9ada092104341a997371e54dd2f3
+      internalID: -1735380245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 3913
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a21fb15c81237f43bb056edb58036a3
+      internalID: 248859485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 3913
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d211e9a126393a540a26afa5b0c8f6ee
+      internalID: -507609656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 3761
+        width: 103
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4607a51540ed64991650ce46d9cdf9
+      internalID: 1698168648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 3779
+        width: 103
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff516d6436d830242a76f20babcfadf9
+      internalID: -1313741200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 3761
+        width: 103
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bea560c7351d54a91b9503c249ff05
+      internalID: 1972175018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 3779
+        width: 103
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34002385dffe0349bb557b9f2f0c750
+      internalID: 1506931342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 3761
+        width: 82
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac88571cd3d986d46b4b162cc4d65cbe
+      internalID: 733516365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 3761
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc91438ae95f6f643b93158ecda39721
+      internalID: -1168297468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 3761
+        width: 82
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d36e203ee11cc4c87a04ac57bf03cc
+      internalID: 1866775647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3904
+        y: 3761
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5086e5c08204d1444a6981239bcce946
+      internalID: 740010756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 3386
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e84ba4535d53249ac3865e49329362
+      internalID: 355191588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 3386
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442ef876195a9874eaec31b370fe6c1c
+      internalID: -220823612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 3386
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed9a8719763f264c8cd7d0316b88aeb
+      internalID: -402216949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 4154
+        y: 3386
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa1f4ed05841ab40a1136dc9076ffc7
+      internalID: -321563884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 3079
+        width: 101
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b5b72878e7c9949bba5bda501f4378
+      internalID: 425776417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2579
+        width: 814
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1c79937b39ecc4b9c1abeeb53c97a3
+      internalID: -858520396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 3175
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9344d51a2506b146b3585d6b4d30321
+      internalID: 1705884924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 3079
+        width: 101
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bbf90c1ea31214eacc03b0078e432f
+      internalID: -1075473041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2579
+        width: 814
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3882d93a7a6ed84fa172344976f10b2
+      internalID: 1562620900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 3175
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018a009b134d41a48aa2f933516ec3dc
+      internalID: 466234132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 3137
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2511204fb17b5443abc7a2ef6eb1fd5
+      internalID: -1208259028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 2542
+        width: 869
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91932d248e6fbc646aeb96a2ab3a506a
+      internalID: 763064217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 3674
+        y: 3137
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e693a624136284c87528ac2cb1a705
+      internalID: 1463120317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 2542
+        width: 869
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0092cd37474392946a93e538942ef97f
+      internalID: -392984301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2579
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b600e3741ee2294fb294fc86ca1e722
+      internalID: 17797050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2561
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4d0d7c0113b44fb2ee6f9134c4a06
+      internalID: 1542938080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 2579
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b60219372e8c74a8c258f864ccf59c
+      internalID: 125014408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 2561
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330499d4bdab85045b37265febacdc45
+      internalID: 1288775147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1361
+        width: 947
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18399620bab10249896f7f10e414e0c
+      internalID: -1534226666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1361
+        width: 947
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed55ccd524b88954ebdbb471266a0013
+      internalID: -570914464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 1361
+        width: 947
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455d7009d2c7d804ebe9d36cbcb1ecb2
+      internalID: -535027932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 2167
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87420c314dd630344b10f8993b048329
+      internalID: -546143877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 1361
+        width: 947
+        height: 832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a722b3c514c94d47bb8941c30cc7d11
+      internalID: 1843575348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 4077
+        y: 2167
+        width: 82
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7253e8155c212d94a812f5c56d2c7f9e
+      internalID: -1027219734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1841
+        width: 45
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad98070a8fde5c4aab0c90b229385ba
+      internalID: 1031157195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1841
+        width: 45
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72742f9c08220584cb532b3d5e0561f4
+      internalID: -274898238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 1918
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76a864d8e606ae459a685d2bd6d8825
+      internalID: 2087891740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3693
+        y: 1918
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b022efc7bb4b54abe7a8d9aa011f66
+      internalID: 1475221570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1801
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4bf12c2247cf84cbf7143b844369d4
+      internalID: -405346822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1801
+        width: 25
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834a20a178e857546b56dd5bc051094e
+      internalID: -429889491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 1841
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39feccac4fa39bf4daea068bed9315d4
+      internalID: -126088100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 1841
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7222699cae475894ca0a5abc204006c6
+      internalID: -163396289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1801
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedec951cfed3b74f90a5c881a37a6d9
+      internalID: 1536125879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1801
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f5698a5338c604986564bb6b6b12bd
+      internalID: 1026449757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1513
+        width: 24
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a83cb13b6aef414b86756e246b0f933
+      internalID: 602928272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1513
+        width: 24
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8a81bc6e3ee08419feb22c761fbdb1
+      internalID: 1976131676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1342
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aab136a61b70e4f923930d2ffee3b3
+      internalID: -472917318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1342
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d312f1488c74dc48bd63ba49e846554
+      internalID: 1482576125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1025
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1363d88223c423343a41b984d0ca1a81
+      internalID: -263456211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1025
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6f5d3b4e4b5c24e80b5c266286b66a
+      internalID: -877909480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 2877
+        y: 1044
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43460e4b8aa34c429c2fe33169f8789
+      internalID: -538868567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 4077
+        y: 1044
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d548ac81ca2def04b94720c27dd02854
+      internalID: 2118688469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 121
+        width: 928
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cc1cadafa3f5f4eb68554c805596af
+      internalID: -1107714913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 908
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a0e545d6ec2214cbc631271ea328b0
+      internalID: 1744789178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 121
+        width: 928
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ac83ef67378c64eb9ed7ddfd66f70a
+      internalID: 641482293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 908
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1b9cdf53a506c429e01c837b27132f
+      internalID: 2055142183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 121
+        width: 909
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5bd1940799bde49933093b9cf1efb9
+      internalID: -359313861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 967
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d93718d6b82284c9227b46d88476c6
+      internalID: 1823296187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 121
+        width: 909
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639f765e2cc67fc40a9b44a32b154527
+      internalID: 2037389134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 967
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df84533425b86e428119b960caca826
+      internalID: 756737210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 737
+        width: 24
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed012a9225f9ff4e90556b4f3360679
+      internalID: 2133463033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 737
+        width: 24
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d3e528b358e2b4897b4d0d4194490f
+      internalID: 1916084120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 622
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86529e0ff6b25e24d99bc662224f47f1
+      internalID: -1057007476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 622
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbb39322f2223941b95ee28806d2b12
+      internalID: -1117216592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 505
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2b2d75c90e6ba40a2d307014bcb5af
+      internalID: 606638559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 505
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46c4e678a991044e8b56fb8371c1995
+      internalID: 543508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 353
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6e2a3aa67d6c242abc19a4b8c59258
+      internalID: -1539344385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala_Prota_Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 353
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0798170433f7b4149b82432216bc882e
+      internalID: -1091044761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bala_Prota_Spritesheet_0: -1252064438
+      Bala_Prota_Spritesheet_71: 1916084120
+      Bala_Prota_Spritesheet_66: -359313861
+      Bala_Prota_Spritesheet_60: -538868567
+      Bala_Prota_Spritesheet_73: -1117216592
+      Bala_Prota_Spritesheet_4: -1621233030
+      Bala_Prota_Spritesheet_62: -1107714913
+      Bala_Prota_Spritesheet_30: -1208259028
+      Bala_Prota_Spritesheet_28: 1562620900
+      Bala_Prota_Spritesheet_7: -632722154
+      Bala_Prota_Spritesheet_26: 1705884924
+      Bala_Prota_Spritesheet_33: -392984301
+      Bala_Prota_Spritesheet_50: -126088100
+      Bala_Prota_Spritesheet_59: -877909480
+      Bala_Prota_Spritesheet_19: 740010756
+      Bala_Prota_Spritesheet_57: 1482576125
+      Bala_Prota_Spritesheet_34: 17797050
+      Bala_Prota_Spritesheet_22: -402216949
+      Bala_Prota_Spritesheet_61: 2118688469
+      Bala_Prota_Spritesheet_68: 2037389134
+      Bala_Prota_Spritesheet_75: 543508
+      Bala_Prota_Spritesheet_47: 1475221570
+      Bala_Prota_Spritesheet_67: 1823296187
+      Bala_Prota_Spritesheet_21: -220823612
+      Bala_Prota_Spritesheet_35: 1542938080
+      Bala_Prota_Spritesheet_9: -1735380245
+      Bala_Prota_Spritesheet_40: -535027932
+      Bala_Prota_Spritesheet_56: -472917318
+      Bala_Prota_Spritesheet_12: 1698168648
+      Bala_Prota_Spritesheet_63: 1744789178
+      Bala_Prota_Spritesheet_42: 1843575348
+      Bala_Prota_Spritesheet_18: 1866775647
+      Bala_Prota_Spritesheet_15: 1506931342
+      Bala_Prota_Spritesheet_58: -263456211
+      Bala_Prota_Spritesheet_5: -1858694634
+      Bala_Prota_Spritesheet_44: 1031157195
+      Bala_Prota_Spritesheet_76: -1539344385
+      Bala_Prota_Spritesheet_43: -1027219734
+      Bala_Prota_Spritesheet_3: -254498180
+      Bala_Prota_Spritesheet_6: 918339816
+      Bala_Prota_Spritesheet_32: 1463120317
+      Bala_Prota_Spritesheet_8: -1670750143
+      Bala_Prota_Spritesheet_55: 1976131676
+      Bala_Prota_Spritesheet_24: 425776417
+      Bala_Prota_Spritesheet_52: 1536125879
+      Bala_Prota_Spritesheet_1: 1812920636
+      Bala_Prota_Spritesheet_74: 606638559
+      Bala_Prota_Spritesheet_54: 602928272
+      Bala_Prota_Spritesheet_65: 2055142183
+      Bala_Prota_Spritesheet_64: 641482293
+      Bala_Prota_Spritesheet_23: -321563884
+      Bala_Prota_Spritesheet_25: -858520396
+      Bala_Prota_Spritesheet_27: -1075473041
+      Bala_Prota_Spritesheet_51: -163396289
+      Bala_Prota_Spritesheet_13: -1313741200
+      Bala_Prota_Spritesheet_45: -274898238
+      Bala_Prota_Spritesheet_38: -1534226666
+      Bala_Prota_Spritesheet_37: 1288775147
+      Bala_Prota_Spritesheet_29: 466234132
+      Bala_Prota_Spritesheet_41: -546143877
+      Bala_Prota_Spritesheet_17: -1168297468
+      Bala_Prota_Spritesheet_70: 2133463033
+      Bala_Prota_Spritesheet_48: -405346822
+      Bala_Prota_Spritesheet_36: 125014408
+      Bala_Prota_Spritesheet_69: 756737210
+      Bala_Prota_Spritesheet_10: 248859485
+      Bala_Prota_Spritesheet_72: -1057007476
+      Bala_Prota_Spritesheet_49: -429889491
+      Bala_Prota_Spritesheet_16: 733516365
+      Bala_Prota_Spritesheet_31: 763064217
+      Bala_Prota_Spritesheet_2: -1872857900
+      Bala_Prota_Spritesheet_39: -570914464
+      Bala_Prota_Spritesheet_11: -507609656
+      Bala_Prota_Spritesheet_46: 2087891740
+      Bala_Prota_Spritesheet_77: -1091044761
+      Bala_Prota_Spritesheet_14: 1972175018
+      Bala_Prota_Spritesheet_20: 355191588
+      Bala_Prota_Spritesheet_53: 1026449757
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

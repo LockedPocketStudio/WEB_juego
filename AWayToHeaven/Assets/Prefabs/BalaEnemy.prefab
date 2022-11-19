@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7870367978004323679}
   - component: {fileID: 5997539876399400585}
   - component: {fileID: 7445666151819398202}
+  - component: {fileID: 4390579856110222679}
   m_Layer: 0
   m_Name: BalaEnemy
   m_TagString: BulletEnemy
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 8722333161147009638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -149.93976, y: 70.38237, z: -0.041712806}
-  m_LocalScale: {x: 1.3182, y: 1.3182, z: 1.3182}
+  m_LocalScale: {x: 0.06, y: 0.06, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -73,7 +74,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.2}
+    oldSize: {x: 8.83, y: 7.8}
     newSize: {x: 0.2, y: 0.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -94,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35817aadced1cbe409100d893d6f6474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 12
   dir: {x: 0, y: 0}
   colliding: 0
   rb: {fileID: 0}
@@ -139,7 +140,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 1424996263, guid: 5b73ef5269c77de478239ebcf72f6543, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -150,3 +151,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &4390579856110222679
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8722333161147009638}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 37b69caf3d99c8e4fbde9bb58e6f5b34, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

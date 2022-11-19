@@ -18,10 +18,14 @@ public class GameManager : MonoBehaviour
     GameObject player;
     // public Text timer;
 
+    //Dialogo tutorial
     float tleftModo2 = 0;
     public bool finModo2 = false;
-
     public GameObject EscenaDialogo;
+    public GameObject eleccion;
+    public AudioSource musica;
+    public AudioClip m;
+    bool SeleccionMusica = false;
 
     //Control modo hordas
     public int ModoHordasDificultad = -1; //0- facil, 1-medio , 2-dificil 
@@ -120,7 +124,15 @@ public class GameManager : MonoBehaviour
 
         if(modoJuego == 2 && EscenaDialogo.active == false)
         {
+            eleccion.SetActive(false);
             tleftModo2 += Time.deltaTime;
+            if (!SeleccionMusica)
+            {
+                musica.clip = m;
+                musica.Play();
+                musica.volume = 0.3f;
+                SeleccionMusica = true;
+            }
            
             if(tleftModo2 >= 15f)
             {
