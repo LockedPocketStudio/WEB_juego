@@ -28,7 +28,7 @@ public class TextoTutorial : MonoBehaviour
     
     string o = "En cuanto al modo hordas consiste en sobrevivir 5 minutos, existen 3 niveles de dificultad. Te animo a probarlo";
     
-    string h1 = "En el modo historia te contaré el cómo he acabado aqui. Seguro que tienes ganas de saberlo";
+    string h1 = "En el modo historia te contaré como has acabado aqui... Seguro que tienes ganas de saberlo";
     string h2 = "El objetivo es escapar de las salas en busca de unas escaleras ... que ya irás conociendo";
     string h3 = "Para escapar de las salas tendrás que buscar una puerta ";
     string h4 = "al salir de una sala podrás elegir la siguiente sala a la que irás de entre las adyacentes a ella";
