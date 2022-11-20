@@ -1089,6 +1089,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 798147913}
     m_Modifications:
+    - target: {fileID: 278204644898315858, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_Text
+      value: ELIAS
+      objectReference: {fileID: 0}
     - target: {fileID: 278204644907764237, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
       propertyPath: m_Color.a
       value: 0.74509805
