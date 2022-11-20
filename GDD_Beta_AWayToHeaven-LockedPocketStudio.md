@@ -54,72 +54,72 @@ Versión 0.
 
 ### 1 1 Concepto y género
 
-AWaytoHeavenesunvideojuego 2 Ddeaccióntiporoguelikedondesedebe
+A Way to Heaven es un videojuego 2 D de acción tipo rogue like donde se debe
 explorar las diferentes salas de las mazmorras que se presentan ante el
 jugador mientras mejora las habilidades de su personaje y conoce a
 diferentespersonajesquelepermitirándescubrirmejoreloscuroymisterioso
 mundo en el que se encuentra.
 
-Eljuegotomalugarenunreinoambientadoenelinfiernoformadoporsalas
+El juego toma lugar en un reino ambientado en el infierno formado por salas
 en forma de prisión medieval.
 
 ### 1 2 Narrativa
 
-Elprotagonista, Elíasdespiertaenunlugardesconocido,dondeClavis, que
-hará deguía duranteeljuego,ledalabienvenidayleexplicaquehaido a
-pararaeselugarporquehamuerto.Elías,enpánicoyconfusión,exigesaber
-másyunaformadesalirdeallí,yaquenocomprendeporquéalguiencomo
+El protagonista, Elías despierta en un lugar desconocido, donde Clavis, que
+hará de guía durante el juego, le da la bienvenida y le explica que ha ido a
+parar a ese lugar porque ha muerto. Elías, en pánico y confusión, exige saber
+más y una forma de salir de allí, ya que no comprende por qué alguien como
 él acabaría en un sitio tan hostil tras la muerte.
 
-Clavis,elpersonajeencargadodemanejarellugar,ayudaráaElíasallegaral
-finaldelreinodondeseencuentrasujefe,conelquepodráhablarynegociar
-sus peticiones. Sin embargo, la condición queponepara abrirlepaso por
+Clavis, el personaje encargado de manejar el lugar, ayudará a Elías a llegar al
+final del reino donde se encuentra su jefe, con el que podrá hablar y negociar
+sus peticiones. Sin embargo, la condición que pone para abrirle paso por
 donde vaya, es que debe ir superando las pruebas que le ponga en cada sala.
 
-Laspruebasconsistiránenderrotarnumerososenemigos,loscualestendrán
-distintas habilidades y formas de atacar al jugador. Además, uno deellos
-tendrálallaveparaabrirlapuertaquellevaalassalascontiguas,eljugador
+Las pruebas consistirán en derrotar numerosos enemigos, los cuales tendrán
+distintas habilidades y formas de atacar al jugador. Además, uno de ellos
+tendrá la llave para abrir la puerta que lleva a las salas contiguas.
 
 
-deberá irderrotando enemigosabasedepruebayerrorparaencontrarla
-llave.Siresultaderrotado,volveráalasaladondeempezóytendráquevolver
+El jugador deberá ir derrotando enemigos a base de prueba y error para encontrar la
+llave. Si resulta derrotado, volverá a la sala donde empezó y tendrá que volver
 a superar los retos.
 
-Amedidaqueeljugadorvayaprogresandoeneljuego,seleapareceráClavis
-ocasionalmenteparaconversarconElías,haciendocomentariossarcásticos,
-disfrutando desusufrimientoocontarlealgoquedebasaber(instrucciones,
+A medida que el jugador vaya progresando en el juego, se le aparecerá Clavis
+ocasionalmente para conversar con Elías, haciendo comentarios sarcásticos,
+disfrutando de su sufrimiento o contarle algo que deba saber(instrucciones,
 información de la sala, etc).
 
 Cuando Elías llega al final, puede escuchar como Clavis discute con otro
-personajeenlaúltimasala,esteúltimoleregañasobrecómo“elhumano”no
+personaje en la última sala, este último le regaña sobre cómo“el humano”no
 debería haber llegado hasta él. Elías los interrumpe impaciente por tener
-respuestas, descubriendo que el jefedellugares en realidadDiosyqueel
-lugardondeseencuentrarealmentesiemprefueloqueenlaTierraconocen
-comoelCielo.EljuegoterminacuandoDiosleexplicalosucedido,expresasu
-interéshaciaelprotagonistaysuhabilidadyfinalmenteledalabienvenidaal
+respuestas, descubriendo que el jefe del lugares en realidad Dios y que el
+lugar donde se encuentra realmente siempre fue lo que en la Tierra conocen
+como el Cielo. El juego termina cuando Dios le explica lo sucedido, expresa su
+interés hacia el protagonista y su habilidad y finalmente le da la bienvenida al
 “Cielo”, revelando un nuevo título del juego: A Way **through** Heaven.
 
 ### 1 3 Características Principales
 
-Aquelloquemásdefineeljuegoeslaposibilidaddequeeljugadorformesu
-propiarutahacialavictoria,yaqueofrecelaposibilidaddeelegirexplorarel
+Aquello quemás define el juego es la posibilidad de que el jugador forme su
+propia ruta hacia la victoria, ya que ofrece la posibilidad de elegir explorar el
 mapa completo o ir directamente hacia la salida. Aún así, se animará al
-jugadoraexplorarenciertamedidaparafacilitarsupasoporlosnivelesmás
-difíciles adquiriendo ayuda de distintos power-ups. Se busca lograr un
-equilibrio entre las distintas formasdejugar, de forma queel jugadorsea
+jugador a explorar en cierta medida para facilitar su paso por los niveles más
+difíciles, adquiriendo así distintos power-ups. Se busca lograr un
+equilibrio entre las distintas formas de jugar, de forma que el jugador sea
 consecuente con sus decisiones.
 
-Por otro lado, uno delos puntos importantesdel juego esla aleatoriedad.
-Aquellasayudasquepuedaencontrareljugadorserángeneradasdeforma
-aleatoriaenelmomentoenelquelasrecoja,nosiempreserá loquemásle
-convengaydeberáadaptarsealascircunstancias,creandounaexperiencia
+Por otro lado, uno delos puntos importantes del juego es la aleatoriedad.
+Aquellas ayudas que pueda encontrar el jugador serán generadas de forma
+aleatoria en el momento en el que las recoja, no siempre será lo que más le
+convenga y deberá adaptarse a las circunstancias, creando una experiencia
 diferente para cada jugador o partida jugada.
 
 ### 1 4 Público objetivo y plataformas
 
-Diseñado para jugarsetanto en ordenador como en smartphone, Awayto
-Heavenestádirigidoaunpúblicodeentre 12 y 30 años,puestoqueelhumor
-quesepretendepresentareneljuegoleresultarámáscómicoaadolescentes
+Diseñado para jugarse tanto en ordenador como en smartphone, A Way to
+Heaven está dirigido a un público de entre 12 y 30 años, puesto que el humor
+que se pretende presentar en el juego le resultará más cómico a adolescentes
 y jóvenes adultos.
 
 
@@ -129,19 +129,19 @@ y jóvenes adultos.
 
 **Modo Historia**
 
-Una vezcomienceelretotraslaintroducciónaluniverso,eljugadordeberá
-moverseporlassalasesquivandolosataquesenemigosmientrasdisparade
+Una vez comience el reto tras la introducción al universo, el jugador deberá
+moverse por las salas esquivando los ataques enemigos mientras dispara de
 forma automática.
 
-Las puertas queconducen a los siguientes niveles permanecerán cerradas
-hasta que el jugadorderrotealenemigoqueposealallavedelapuerta,el
+Las puertas que conducen a los siguientes niveles permanecerán cerradas
+hasta que el jugador derrote al enemigo que posea la llave de la puerta, el
 cuál no sabrá cuál es hasta que el propio enemigo suelte una llave tras
 desaparecer.
 
-Paraaccederaunnuevopisoeljugadortendráquesubirporlasescaleras
+Para acceder a un nuevo piso el jugador tendrá que subir por las escaleras
 que podrá encontrar en la sala de subida, la cuál estará indicada en el mapa.
 
-Eljugadorconseguirá una nueva habilidadcuando alcanceunbaúlconel
+El jugador conseguirá una nueva habilidad cuando alcance un baúl con el
 que pueda interactuar. Dicha habilidad será aleatoria, y contará con una
 descripción sobre los efectos de esta.
 
@@ -149,24 +149,24 @@ Las habilidades no se pueden desactivar, funcionan de forma automática
 junto a los disparos o de forma continuada en bucle.
 
 Los distintos tipos de enemigos requieren más o menos golpes para ser
-derrotadossegúnlacantidaddepuntosdevidaquetenganylapotenciadel
+derrotados según la cantidad de puntos de vida que tengan y la potencia del
 ataque del jugador actual.
 
-Ser derrotado por un enemigo implicavolver a empezar eljuego desdeel
+Ser derrotado por un enemigo implica volver a empezar el juego desde el
 principio en caso de escoger la opción de reintentar en el menú que
 aparecerá para la derrota.
 
 **Modo Hordas**
 
-Una vezcomienceelretoeljugadordeberámoverseporlasalaesquivando
+Una vez comience el reto el jugador deberá moverse por la sala esquivando
 los ataques enemigos mientras dispara de forma automática.
 
-Cadavezquederroteunenemigoestedejarácaerunobjetoquerepresentará
+Cada vez que derrote un enemigo, este dejará caer un objeto que representará
 la experiencia ganada, el cual debe ser recogido (colisionar con él) para
 obtenerlo.
 
-Llegaraunnúmeroconcretodeexperienciaharáqueeljugadorsubadenivel
-yobtengaunodelosdiferentespowerups disponiblesdemaneraaleatoria.
+Llegar a un número concreto de experiencia hará que el jugador suba de nivel
+y obtenga uno de los diferentes power ups disponibles de manera aleatoria.
 Al igual que en el modo historia, las habilidades funcionarán de forma
 automática junto a los disparos, así como de forma continuada en bucle.
 
@@ -176,84 +176,82 @@ mostrando el tiempo logrado.
 
 ### 2. 2 Cámara
 
-Elángulodecámarautilizadoenelvideojuegoescenital,esdecir,lassalasen
+El ángulo d ecámara utilizado en el videojuego es cenital, es decir, las salas en
 las que se encuentra el jugador se ven completamente desde arriba. Sin
-embargo,lospersonajes,enemigosyprops(columnas,puertas,cofres,etc.)no
-sevencompletamentedesdearriba,sinoconciertainclinación,conelfinde
+embargo, los personajes, enemigos y props (columnas, puertas, cofres, etc.) no
+se ven completamente desde arriba, sino con cierta inclinación, con el fin de
 darle al usuario más información acerca de la sala y de los enemigos.
 
-De esta forma el movimiento delospersonajesesen coordenadas dedos
+De esta forma el movimiento de los personajes es en coordenadas de dos
 dimensiones pero con un efecto de 3 D.
 
 ### 2 2 Controles
 
 El personaje controlado por el jugador disparará automáticamente al
-enemigo máscercano,golpeándoloa menosquealgúnobjetoseencuentre
+enemigo más cercano, golpeándolo a menos que algún objeto se encuentre
 entre ambos.
 
 Por otra parte, será posible desplazarse por el escenario manteniendo
-pulsado el botón izquierdo delratón o deslizando eldedoenunapantalla
-táctilenelcasodejugarenmóvil.Elpersonajesemoveráhacialadirección
+pulsado el botón izquierdo del ratón o deslizando el dedo en una pantalla
+táctil en el caso de jugar en móvil. El personaje se moverá hacia la dirección
 en la que se ha hecho click y se quedará quieto una vez se levante el dedo.
 
-Será posible interactuar conlosdistintoselementosdelainterfazhaciendo
+Será posible interactuar con los distintos elementos de la interfaz haciendo
 click izquierdo o pulsando en la pantalla sobre los botones
 
 ### 2 3 Diseño de mapa
 
-Elmapa sedivideen **2 pisos(denominadosanillos)** ,ycada unocontiene 16
-**habitaciones** .Cadaanillotieneunaestéticadiferente:elprimerodeellosmás
-
-
-ambientadoenelinfiernoconelementosdefuegoyelsegundodeellosmás
-haciaunamazmorratradicionaloscura.Estaestéticaseveráreflejadaenlas
-propiassalas,especialmenteenelcolordelsuelo.Lashabitacionessedividen
-en **habitacionesdeascenso/descenso** , **habitacionesdemejora** , **habitaciones
+El mapa se divide en **2 pisos(denominados anillos)** ,y cada uno contiene 16
+**habitaciones** .Cada anillo tiene una estética diferente: el primero de ellos más 
+ambientado en el infierno con elementos de fuego y el segundo de ellos más
+hacia una mazmorra tradicional oscura. Esta estética se verá reflejada en las
+propias salas, especialmente en el color del suelo. Las habitaciones se dividen
+en **habitaciones de ascenso/descenso** , **habitaciones de mejora** , **habitaciones
 de narrativa** y **habitaciones de pelea**.
 
-Lascasillasdecolorverderepresentansalasconescalerasconlasquesubiro
+Las casillas de color verde representan salas con escaleras con las que subir o
 bajar de piso, las que tienen un círculo representan las salas en las que
-apareceelpersonajealprincipiodelanillo.Eljugadordeberásuperarelreto
-queselepresenteencadasalaparaavanzaraunadelasqueseencuentren
+aparece el personaje al principio del anillo. El jugador deberá superar el reto
+que se le presente en cada sala para avanzar a una de las que se encuentren
 de forma contigua, eligiendo así su propia ruta para hasta alcanzar las
 escaleras de cada piso.
 
 **¿Cómo se organiza una sala individual?**
 
-Eljugadorserácapazdevisualizarunafracciónde
+El jugador será capaz devisualizar una fracción de
 la sala completa, de forma que la cámara irá
-moviéndosejuntoaljugadorparaquesiempreesté
+moviéndose juntoa ljugador para que siempre esté
 su avatar en el centro.
 
 Dependiendo del tipo de sala en la que se
-encuentreeljugador,loselementosyladisposición
+encuentre el jugador, los elementos y la disposición
 de estos variarán.
 
 
-Cadasalatendráobjetosuobstáculoscolocadosenella,cadaunaconuna
+Cada sala tendrá objetos u obstáculos colocados en ella, cada una con una
 disposición diferente.
 
 **Las habitaciones de pelea**
 
-Estetipodesalassedistinguenporlaaparicióndeenemigosquetrataránde
-derrotar al jugador yobjetosdecorativos(p.ecolumnas)los cualespueden
-ayudar o entorpecer e incluso hacer daño, porlo quedeberá aprovechar
-estasestructurasconcabeza.Lacondición deestassalasseráencontrarel
+Este tipo de salas se distinguen por la aparición de enemigos que tratarán de
+derrotar al jugador y objetos decorativos(p.e columnas), los cuales pueden
+ayudar o entorpecer e incluso hacer daño, por lo que deberá aprovechar
+estas estructuras con cabeza. La condición de estas salas será encontrar el
 enemigo que posea la llave para salir y derrotarlo.
 
 **Las habitaciones de mejora**
 
-Estassalassonunlugarsegurolibredeenemigos, aquísepodráconseguir
+Estas salas son un lugar seguro libre de enemigos, aquí se podrá conseguir
 una habilidad para fortalecer al jugador.
 
-Enestassalasseencontraráunbaúl,elcualnecesitaráqueeljugadorhaya
-obtenido un número específico deexperiencia para abrirsey proporcionar
+En estas salas se encontrará un baúl, el cual necesitará que el jugador haya
+obtenido un número específico de experiencia para abrirse y proporcionar
 una habilidad aleatoria..
 
 **Las habitaciones de narrativa**
 
 Estas habitaciones están vacías y se caracterizan por la aparición del
-personaje guía yun breve diálogojunto al protagonista. Estosdiálogosno
+personaje guía y un breve diálogo junto al protagonista. Estos diálogos no
 son necesarios para seguir la trama de la historia.
 
 **Modo hordas**
@@ -262,11 +260,11 @@ Además del tradicional modo historia, existeotro modo dejuego, el modo
 hordas.Estemodoconsisteenaguantarelmayortiempoposible,enfrentando
 al jugador con enemigos de forma infinita hasta ser derrotado.
 
-Este modo está compuesto de una única salamucho másgrandequelas
-demásenlaqueiránapareciendolosenemigos.Aquíseintegraráun **sistema
+Este modo está compuesto de una única sala mucho más grande que las
+demás en la que irán apareciendo los enemigos. Aquí se integrará un **sistema
 de niveles** en el personaje, el cual acumula cada vez más experiencia
-haciendo progresivamente máscomplicado el desafío. Una vez sesubede
-nivel, sepremiaalpersonajeconla **posibilidaddeseleccionarunahabilidad
+haciendo progresivamente más complicado el desafío. Una vez se sube de
+nivel, se premia al personaje con la **posibilidad de seleccionar una habilidad
 nueva**.
 
 ### 2. 5 Sistema de progreso
@@ -277,22 +275,20 @@ La experiencia es necesaria para poder acceder a un mayor número de
 habilidades que faciliten el progreso del jugador.
 
 Para conseguir experiencia, tanto en el modo historia como en el modo
-hordas, esnecesario derrotarenemigosdela sala en la queel jugador se
-encuentra, loscuáles dejan caerun objeto enelsuelollamadoaurem.Este
-
-
-objetopodráserrecogidopasandoconelpersonajeporencimadeél,conlo
+hordas, es necesario derrotar enemigos de la sala en la que el jugador se
+encuentra, los cuáles dejan caer un objeto en el suelo llamado aurem. Este
+objeto podrá ser recogido pasando con el personaje por encima de él, con lo
 que se añadirá automáticamente al contador de experiencia.
 
 **Formas de mejora del personaje**
 
-Existennumerosospower-upsdentrodeljuego,cadaunodeellosconefectos
-sobreeljugadordiferentes.Estashabilidadespodránafectaraldisparodel
+Existen numerosos power-ups dentro del juego, cada uno de ellos con efectos
+sobre el jugador diferentes. Estas habilidades podrán afectar al disparo del
 jugador dándole efectos secundarios, creando más disparos en menos
-tiempo,haciendomásdaño,oafectandoalpropiojugadorcurandosusalud,
+tiempo, haciendo más daño, o afectando al propio jugador curando su salud,
 aumentando su velocidad de movimiento y más.
 
-Enlaversiónbetadeljuego,estossonlospower-upsquesepuedenencontrar
+En la versión beta del juego, estos son los power-ups que se pueden encontrar
 en el juego:
 
 ### 2 5 Sistema de combate
@@ -304,7 +300,7 @@ automática, apuntando al enemigo más cercano.
 
 ```
 ● Esqueletos : atacan al jugador cuando esté a su alcance. cuando el
-jugadorestélosuficientementecerca,sedirigiráhaciaélyleatacará
+jugador esté lo suficientemente cerca, se dirigirá hacia él y le atacará
 cuando lo alcance.
 ```
 ```
@@ -313,21 +309,21 @@ moverse por la sala sin necesidad de perseguir al jugador.
 ```
 ```
 ● Torre: no se mueve de su posición asignada y disparará proyectiles
-haciaeljugadorsiseencuentraensurangodetiroademásdesiposee
+hacia el jugador si se encuentra en su rango de tiro además de si posee
 su arma cargada para poder disparar al personaje.
 ```
 
 ```
-● Serpiente: seencontrarápatrullandohastaquedivisealjugador,una
-vezvisto, sedirigirá haciaély,alllegarasuposición,leatacará.Sisu
-vitalidadbaja del 50 % seretiraráfuera delalcance del jugador para
+● Serpiente: se encontrará patrullando hasta que divise al jugador, una
+vez visto, se dirigirá hacia él y, al llegara su posición, le atacará. Si su
+vitalidad baja del 50 % se retirará fuera del alcance del jugador para
 curarse y luego volverá a patrullar. Esta última acción solo podrá
 realizarla una sola vez.
 ```
 **Sistema de daño**
 
-Eljugadorposeeunabarradevidaqueiráreduciéndosesegúnlosproyectiles
-o enemigos impacten con él. Una vez la vida del usuario lleguea 0 , sele
+El jugador posee una barra de vida que irá reduciéndose según los proyectiles
+o enemigos impacten con él. Una vez la vida del usuario llegue a 0 , se le
 ofrecerá al jugador terminar la partida o volver a empezar.
 
 El jugador puede recuperar vida de dos maneras diferentes:
@@ -342,44 +338,44 @@ habilidades del personaje.
 ### 2 6 Flujo de pantallas
 
 ```
-● Pantalladeinicio: Muestralaportadayeltítulodeljuego, ylepideal
+● Pantalla de inicio: Muestra la portada y el título del juego, y le pide al
 jugador una confirmación para continuar.
-● Menúprincipal: Enestemenúpodránverselosbotonesquellevanalas
+● Menú principal: En este menú podrán verse los botones que llevan a las
 distintas pantallas principales del juego.
-● Jugar :Unavezenestapantallaseledaráaelegirentreunmodouotro
-alquejugar,juntoaunadescripcióndeloqueconsistecadamodode
+● Jugar :Una vez en esta pantalla se le dará a elegir entre un modo  u otro
+al que jugar, junto a una descripción de lo que consiste cada modo de
 juego.
 ```
 
-● **Créditos** :Enestapantallapodránverseloscréditosdetodoloutilizado
-en el juego tanto delequipo dedesarrollo como deassetsexternos,
+● **Créditos** :En esta pantalla podrán verse los créditos de todo lo utilizado
+en el juego tanto del equipo de desarrollo como de assets externos,
 fuentes, música, etcétera.
-● **Ajustes** :Aquíserealizanloscambiosqueeljugadordeseerespectoal
-volúmendelamúsicaoefectosdesonidoylaposibilidaddecambiarel
-periférico con el que manejar losinputs.
-● **Contacto/Ayuda** :Estapantallaesaccesibledesdetodaslasdemás,de
-forma quesi en algún momento alguien setopa con un errorquele
-impidaavanzaroretrocederestesepacómocontactarconelequipoy
+● **Ajustes** :Aquí se realizan los cambios que el jugador desee respecto al
+volumen de la música o efectos de sonido y la posibilidad de cambiar el
+periférico con el que manejar los inputs.
+● **Contacto/Ayuda** :Esta pantalla es accesible desde todas las demás, de
+forma que si en algún momento alguien se topa con un error que le
+impida avanzar o retroceder este sepa cómo contactar con el equipo y
 poder resolverlo.
-● **ModoHordasymodoHistoria** :Lainterfazdeestosmodosdejuegoes
-similar,mostrandoelestadodeljugador(salud),laexperienciaobtenida
-enelmomento,un botónconelquepoderpausareljuego,y,encaso
+● **Modo Hordas y modo Historia** :La interfaz de estos modos de juego es
+similar, mostrando el estado del jugador (salud),la experiencia obtenida
+en el momento, un botón con el que poder pausar el juego, y, en caso
 del modo hordas un temporizador con el tiempo que lleva sin ser
 derrotado.
-● **Pausa** : Detiene el juego y muestra los botones correspondientespara:
+● **Pausa** : Detiene el juego y muestra los botones correspondientes para:
 ○ Retomar el juego y volver al modo en el que estaba.
 ○ Salir del juego y volver al menú principal.
 ○ Ir a la pantalla de ajustes y volver.
 ○ Pedir ayuda/mostrar contacto.
-● **DerrotamodoHordas** :Estapantallaapareceunavezeljugadorpierda
-enelmodohordas,enlacuálseenseñarálapuntuaciónobtenidaen
-esapartida yseleofreceráreintentarlo(vuelvealmodohordas)osalir
+● **Derrota modo Hordas** :Esta pantalla aparece una vez el jugador pierda
+en el modo hordas, en la cuál seenseñará la puntuación obtenida en
+esa partida y se le ofrecerá reintentarlo (vuelve al modo hordas) o salir
 (vuelve al menú principal).
-**● DerrotamodoHistoria:** Estapantallaapareceunavezeljugadorpierda
-enelmodohistoria,seleofreceráreintentarlo(vuelvealmodohistoria,
+**● Derrota modo Historia:** Esta pantalla aparece una vez el jugador pierda
+en el modo historia, se le ofrecerá reintentarlo (vuelve al modo historia,
 desde el principio) o salir (vuelve al menú principal).
-● **Victoria** : Accesiblesolo desdeelmodo historia,estapantalla aparece
-cadavezqueeljugadorsupereeldesafíodeunasala.Cuandosepasa,
+● **Victoria** : Accesible solo desde el modo historia, esta pantalla aparece
+cada vez que el jugador supere el desafío de una sala. Cuando se pasa,
 volverá automáticamente al modo historia.
 ● **Fin de Juego** : Una vez superado el desafío final del modo historia,
 aparece una animación que cambiará el logo del título del juego y
@@ -391,13 +387,13 @@ menú principal automáticamente.
 
 ### 3. 1 Estilo visual
 
-Eljuegocuentaconunaestéticadefantasíamedievalenunestilodedibujo
-2 D pixelart. El lugarestá principalmenteambientado en un infierno ficticio
+El juego cuenta con una estética de fantasía medieval en un estilo de dibujo
+2 D pixelart. El lugar está principalmente ambientado en un infierno ficticio
 formado por mazmorras medievales.
 
 Imagen de:https://szadiart.itch.io/rogue-fantasy-catacombs
 
-Eljuego sepresentaconun pixelartsencilloypersonajesen unestilochibi.
+El juego se presenta con un pixelart sencillo y personajes en un estilo chibi.
 Para los diálogos se podrá ver a los personajes en detalle con imágenes
 completamente renderizadas en un estilo más realista.
 
@@ -407,15 +403,15 @@ Imagen de: Corpse Party
 ### 3 2 Inspiración y referencias
 
 ```
-● ArquitecturaGótica :lasedificacionesconunaarquitecturagótica,yen
-especial lasiglesias, hansido la mayorfuentedeinspiración para el
+● Arquitectura Gótica : las edificaciones con una arquitectura gótica, y en
+especial las iglesias, han sido la mayor fuente de inspiración para el
 diseño de los escenarios y la construcción del ambiente del juego.
 ```
 ```
 Fotos tomadas por nuestro equipo en una catedral de Dublín, Irlanda
 ```
 ```
-“Tenebroso pero carismático” : Se ha enfocado el diseñode los
+“Tenebroso pero carismático” : Se ha enfocado el diseño de los
 personajes con la idea de hacerlos con un aspecto amenazante y
 tenebroso, pero a la vez que, hasta cierto punto, resulten estéticamente
 atractivos para el jugador.
@@ -424,12 +420,12 @@ atractivos para el jugador.
 
 **Protagonista: ELÍAS**
 
-Elíaseselprotagonista deestahistoria,unjovensimpleconformahumana.
+Elías es el protagonista de esta historia, un joven simple con forma humana.
 Este chico despierta en un mundo desconocido desorientado y deberá
-aprenderadesenvolverseentresuspeligrosparaencontrarlasrespuestasa
+aprender  a desenvolverse entre sus peligros para encontrar las respuestas a
 sus preguntas sobre su paradero.
 
-Elíasesunbuenchico,unpococobardeynomuypaciente,peroharátodolo
+Elías es un buen chico, un poco cobarde y no muy paciente,pero hará todo lo
 que esté en su mano para llegar al fin del asunto y salvarse.
 
 
@@ -440,17 +436,17 @@ Sprite idle de Elías durante el gameplay
 
 **Guía: CLAVIS**
 
-Claviseselpersonajeque hará deguía para eljugador.Eslacriatura que
+Clavis es el personaje que hará de guía para el jugador. Es la criatura que
 maneja el lugar, mantiene el orden y castiga a sus habitantes.
 
-Estepersonajedeaspectodiabólicoquemuestraunapersonalidadchulesca
-ysarcástica,esunodelossirvientesdelseñorencargadosdehacersufrira
-sus invitados. Su papel de guía viene dadoporsu interés en elinsistente
+Este personaje de aspecto diabólico que muestra una personalidad chulesca
+y sarcástica, es uno de los sirvientes del señor encargados de hacer sufrir a
+sus invitados. Su papel de guía viene dado por su interés en el insistente
 protagonista, le hará saber cómo funciona su jueguecito de tortura y le
 vigilará de cerca.
 
-Elobjetivo deClavisesdivertirse viendo cómo sufreel jugador, apesarde
-guiaresquien ponelos desafíosyquienhacequevuelva alprincipiocada
+El objetivo de Clavis es divertirse viendo cómo sufre el jugador, a pesar de
+guiar es quien pone los desafíos y quien hace que vuelva al principio cada
 vez.
 
 
@@ -461,16 +457,16 @@ Sprite idle de Clavis durante el gameplay
 
 **Señor del reino: DIOS**
 
-Un entemisterioso pareceserel jefedetodo el extraño reinoenelquese
+Un ente misterioso parece ser el jefe de todo el extraño reino en el que se
 encuentra el jugador. Su aspecto y su identidad permanecerán un secreto
 hasta el final del juego.
 
-Alfinaldeljuegoserevelaqueloquealprotagonistaleparecíauninfiernoera
-realmentelo quelos humanos mortalesconocen comoelCieloyqueelser
-quereinaallíesquienconocencomoDios,elcualestanpoderosoysuperior
+Al final del juego se revela que lo que al protagonista le parecía un infierno era
+realmente lo que los humanos mortales conocen como el Cielo y que el ser
+que reina allí es quien conocen como Dios, el cual es tan poderoso y superior
 que es capaz de hacer aquello que le plazca.
 
-EsteDiosesegoísta,egocéntricoycomojefedeClavisleordenaentretenerle
+Este Dios es egoísta, egocéntrico y como jefe de Clavis le ordena entretenerle
 trayendo las almas de los fallecidos a su reino.
 
 Silueta de Dios para mantener en secreto su identidad Render completo Dios
@@ -478,7 +474,7 @@ Silueta de Dios para mantener en secreto su identidad Render completo Dios
 
 ### 4 4 Concept de enemigos
 
-Para los enemigos se ha decidido diseñar un modelobasedel cual partir
+Para los enemigos se ha decidido diseñar un modelo base del cual partir
 comoideageneralparacrearlasdiferentesvariantesdeestosenlosdiversos
 niveles de fuego, tierra, agua y viento.
 
@@ -496,9 +492,9 @@ niveles de fuego, tierra, agua y viento.
 ● Torre de vigilancia
 ```
 ### 4. 4 Concept de escenarios
-
-Encuantoalosescenarios,seharealizadoundiseñobasedelatemáticade
-unanillomedianteelusodeassets,apartirdelcuálsehanidodesarrollando
+-
+En cuanto a los escenarios, se ha realizado un diseño base de la temática de
+un anillo mediante el uso de assets, a partir del cuál se han ido desarrollando
 los diseños para los anillos restantes.
 
 ```
@@ -521,7 +517,7 @@ los diseños para los anillos restantes.
 
 ### 4 1 Banda sonora
 
-La banda sonora del juego refierealamúsicautilizadaparaambientarlas
+La banda sonora del juego refiere a la música utilizada para ambientarlas
 distintas situaciones que tendrán lugar durante el juego.
 
 ```
@@ -536,7 +532,7 @@ ambientadas de forma diferente.
 
 ### 4 2 Efectos de sonido
 
-Se cuenta con una pista deaudio para lassiguientesaccionesdentro del
+Se cuenta con una pista de audio para las siguientes acciones dentro del
 juego:
 
 ```
@@ -553,26 +549,26 @@ juego:
 
 ### 5 1 Tipo de modelo de monetización
 
-Eljuegopasadountiemposerá **paytoplay** ,porloquelagranmayoríadelos
-beneficiosdel juegovendrán deahí. Además, los usuarios podrán comprar
-**aurem’s** (monedas dentro del juego) queservirán para intercambiarlas por
-power ups globales (solo se usan en modo hordas) oporskinsdentro del
-juego.Elauremtambiénsepuedeconseguirdentrodeljuegoenmodohordas
-yalfinaldelmodohistoria(seconseguirásegúncuántosenemigossehayan
+El juego pasado un tiempo será **pay to play** , por lo que la gran mayoría de los
+beneficios del juego vendrán de ahí. Además, los usuarios podrán comprar
+**aurem’s** (monedas dentro del juego) que servirán para intercambiarlas por
+power ups globales (solo se usan en modo hordas) o por skins dentro del
+juego.El aurem también se puede conseguir dentro del juego en modo hordas
+y al final del modo historia (se conseguirá según cuántos enemigos se hayan
 derrotado en la partida).
 
-Porotraparte,enmodohistoriahabráuna **monedapropia(laexperiencia)** de
-cada partida, quesepodrácanjeareneltranscursodedicha partidapara
-poderabrircofresquedaránaljugadorpowerupsaleatorios.Estamoneda
+Por otra parte, en modo historia habrá una **moneda propia(la experiencia)** de
+cada partida, que se podrá canjear en el transcurso de dicha partida para
+poder abrir cofres quedarán al jugador power ups aleatorios. Esta moneda
 no se podrá comprar externamente, tan solo se obtiene jugando.
 
 ### 5 2 Plan de negocio a dos años
 
-Paramantener el interésdel consumidor seharán varios **eventos** .Enestos
-eventos seañadirán **nuevas temáticas** para los escenarios y **nuevas skins**
-para lospersonajes, deforma quelosjugadorespuedan elegirlos. Porotra
-parte,serealizaránalgunos **sorteos** enlosquelosusuariospuedanconseguir
-**merchandisingdeljuegoydelestudio** .Estossorteoscoincidiránconalgunos
+Para mantener el interés del consumidor se harán varios **eventos** .En estos
+eventos se añadirán **nuevas temáticas** para los escenarios y **nuevas skins**
+para los personajes, de forma que los jugadores puedan elegirlos. Por otra
+parte,se realizarán algunos **sorteos** en los que los usuarios puedan conseguir
+**merchandising del juego y delestudio** .Estos sorteos coincidirán con algunos
 eventos o temporadas concretos. Los eventos planificados para los dos
 primeros años son:
 
@@ -613,17 +609,17 @@ Halloween 2024
 ```
 Navidad 2024 + sorteo
 ```
-Ademásdeestoseventos,seharánalgunascolaboracionesconotrasmarcas
+Además de estos eventos, se harán algunas colaboraciones con otras marcas
 o videojuegos a lo largo de este tiempo.
 
 ### 5 3 Toolkit
 
 ```
 ● Compañías externas:
-○ Itch.io: nosaportalaplataformayexposiciónyles daríamosexposicióny
+○ Itch.io: nos aporta la plataforma y exposición y les daríamos exposición y
 dinero (10% de las ganancias) una vez el juego sea de pago.
-○ Unity :nosofrecenunservicio(elmotordeljuego)ylaslicenciasparausarsu
-plataforma,asícomoexperienciagraciasalasayudasytutorialesqueofrece.
+○ Unity :nos ofrecen un servicio (el motor del juego) y las licencias para usar su
+plataforma, asícomo experiencia gracias a las ayudas y tutoriales que ofrece.
 Unityrecibeeldineroquecuestanlaslicencias,asícomounporcentajede
 dinero en función de las ganancias generadas con el producto.
 ○ Github :nosdanunsoporteparatrabajaryexperienciagraciasalostutoriales
