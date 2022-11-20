@@ -43,11 +43,12 @@ public class FinPartidaHist : MonoBehaviour
         switch(currentScene)
         {
             case 2: //Anillo 1
-                SceneManager.LoadScene(3);  //recibe el nombre de la escena -> LevelMenuA1
+                    //  SceneManager.LoadScene(3);  //recibe el nombre de la escena -> LevelMenuA1
+                SceneManager.LoadScene(2);
                 break;
 
             case 5: //Anillo 2
-                SceneManager.LoadScene(4);  
+                SceneManager.LoadScene(5);  
                 break;
             
             case 7: //Anillo 3
