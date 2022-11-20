@@ -110,6 +110,10 @@ public class EnemigoBT : MonoBehaviour
         {
             return;
         }
+        if (GM.modoJuego == 3)
+        {
+            return;
+        }
         behaviourTree.Update();
 
         actualizarDestino();

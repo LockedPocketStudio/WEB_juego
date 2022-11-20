@@ -19,6 +19,7 @@ public class MenuJuegoHist : MonoBehaviour
     public GameObject panelOcultar;
     void Start()
     {
+        if(panelOcultar!=null)
         panelOcultar.SetActive(false);
         panel.SetActive(false);
 
@@ -77,6 +78,10 @@ public class MenuJuegoHist : MonoBehaviour
             
             case 9: //Anillo 4
                 SceneManager.LoadScene(8);
+                break;
+
+            default:
+                SceneManager.LoadScene(0);
                 break;
 
         }

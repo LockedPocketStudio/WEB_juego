@@ -100,6 +100,10 @@ public class EnemigoFSM : MonoBehaviour
         {
             return;
         }
+        if (GM.modoJuego == 3)
+        {
+            return;
+        }
         enemigoFSM.Update();
 
         actualizarDestino();

@@ -64,13 +64,21 @@ public class puertaCollider : MonoBehaviour
         
         if(col.gameObject.tag == "Player"){
 
-            if(currentScene == 2){
-                spriteRend.sprite = pRojaAbierta;
-            }else if(currentScene == 5){
-                spriteRend.sprite = pGrisAbierta;
-            }
+            Player e = col.GetComponent<Player>();
+            if (e.PasarSala)
+            {
+                if (currentScene == 2)
+                {
+                    spriteRend.sprite = pRojaAbierta;
+                }
+                else if (currentScene == 5)
+                {
+                    spriteRend.sprite = pGrisAbierta;
+                }
 
-            newScene(currentScene);
+                newScene(currentScene);
+            }
+           
         }
     }
 

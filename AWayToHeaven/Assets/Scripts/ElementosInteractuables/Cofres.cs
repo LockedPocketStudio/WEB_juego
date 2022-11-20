@@ -28,6 +28,7 @@ public class Cofres : MonoBehaviour
             {
                 e.GetPower();
                 Player.experiencia = 0;
+                PlayerPrefs.SetInt("exp", 0);
                 e.BarraExp.fillAmount = 0;
                 Player.nivelHistoria++;
                 e.LevelUp = false;

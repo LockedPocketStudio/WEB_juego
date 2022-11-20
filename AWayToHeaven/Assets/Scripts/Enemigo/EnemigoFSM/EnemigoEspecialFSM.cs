@@ -122,6 +122,10 @@ public class EnemigoEspecialFSM : MonoBehaviour
         {
             return;
         }
+        if (GM.modoJuego == 3)
+        {
+            return;
+        }
 
         enemigoEspecialFSM.Update();
        // Debug.Log(estadoActual);

@@ -13,6 +13,10 @@ public class FinPartida : MonoBehaviour
     [SerializeField] private Button buttonReiniciar;
     [SerializeField] private Button buttonVolver;
     [SerializeField] private Text tex;
+    
+    public Image imagen;
+    public Sprite victoria;
+    public Sprite Derrota;
     public GameManager GM;
 
 
@@ -21,6 +25,7 @@ public class FinPartida : MonoBehaviour
         EndGame.SetActive(false);
         buttonVolver.onClick.AddListener(() => { SceneManager.LoadScene(0);});
         buttonReiniciar.onClick.AddListener(() => { SceneManager.LoadScene(1);});
+
     }
 
     // Update is called once per frame
@@ -29,6 +34,14 @@ public class FinPartida : MonoBehaviour
         if(GM.estadoJugador == -1)
         {
             EndGame.SetActive(true);
+            if (GM.victoria)
+            {
+                imagen.sprite = victoria;
+            }
+            else
+            {
+                imagen.sprite = Derrota;
+            }
         }
     }
 }

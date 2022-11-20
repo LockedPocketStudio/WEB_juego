@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button buttonModoHordas;
     [SerializeField] private Button buttonModoHistoria;
     [SerializeField] public Button btnTutorial;
+    [SerializeField] public Button btnCreditos;
 
     public GameObject Tutorial;
  
@@ -55,6 +56,7 @@ public class UIManager : MonoBehaviour
         buttonModoHordas.onClick.AddListener(() => { SceneManager.LoadScene(1);});
 
         btnTutorial.onClick.AddListener(() =>  SceneManager.LoadScene(11));
+        btnCreditos.onClick.AddListener(() => SceneManager.LoadScene(12));
     }
 
     // Update is called once per frame

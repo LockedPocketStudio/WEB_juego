@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     public float InvencibleTimeLeft = 0f;
     public Image BarraExp;
     public static int experiencia = 0;
+    public bool reanudarExp = false;
 
     //Control power ups
 
@@ -70,6 +71,7 @@ public class Player : MonoBehaviour
     //Control del Modo historia
     public static int nivelHistoria =0 ;
     public bool LevelUp = false;
+    public bool PasarSala = false;
 
     //Control animación
    protected  Animator animacion;
@@ -88,7 +90,7 @@ public class Player : MonoBehaviour
             }
             Ayuda.SetActive(false);
         }
-       
+        
         /*
          for (int i=2;i<160;i = i * 2)
          {
@@ -125,7 +127,7 @@ public class Player : MonoBehaviour
         }
         experiencia = 0;
         BarraExp.fillAmount = experiencia;
-     
+        RecuperarDatos();
     }
 
     // Update is called once per frame
@@ -168,6 +170,12 @@ public class Player : MonoBehaviour
      
        if(GM.modoJuego == 0)
         {
+            if (!reanudarExp)
+            {
+                experiencia = PlayerPrefs.GetInt("exp");
+                reanudarExp = true;
+            }
+
             if (LevelUpReq[0] <= experiencia)
             {
                 LevelUp = true;
@@ -221,6 +229,64 @@ public class Player : MonoBehaviour
     protected virtual void ShootAt(Enemy e)
     {
       //  PointTurretAt(e);
+    }
+
+    public void RecuperarDatos()
+    {
+        int v = PlayerPrefs.GetInt("vel");
+        Powers[0] = v;
+        if (v != 0)
+        {
+            for(int i=0;i < Powers[0];i++)
+            AumentarVelocidadDisparo(Powers[0]);
+        }
+      
+
+        int d = PlayerPrefs.GetInt("dob");
+        Powers[1] = d;
+        if (d != 0)
+        {
+            for (int i = 0; i < Powers[1]; i++)
+                DobleDisparo(Powers[1]);
+        }
+            
+
+        int vi = PlayerPrefs.GetInt("li");
+        Powers[2] = vi;
+        if (vi != 0)
+        {
+            for (int i = 0; i < Powers[2]; i++)
+                MasVida(Powers[2]);
+        }
+            
+
+        int sie = PlayerPrefs.GetInt("sierra");
+        Powers[4] = sie;
+        if (sie != 0)
+        {
+            PowerUpSierra(Powers[4]);
+        }
+        
+
+        int da = PlayerPrefs.GetInt("daño");
+        Powers[5] = da;
+        if (da != 0)
+        {
+            for (int i = 0; i < Powers[5]; i++)
+                AumentarDanoDisparo(Powers[5]);
+        }
+           
+
+        int alc = PlayerPrefs.GetInt("alc");
+        Powers[6] = alc;
+        if (alc != 0)
+        {
+            for (int i = 0; i < Powers[6]; i++)
+                AumentarAlcance(Powers[6]);
+        }
+            
+
+
     }
 
     protected void PointTurretAt(Enemy e)
@@ -342,13 +408,26 @@ public class Player : MonoBehaviour
         
         int random = (int)Random.Range(0, 7);
 
-        if (random != 3)
+        if (GM.modoJuego == 1)
         {
-            while (Powers[random] == 4)
+            if (random != 3)
             {
-                random = (int)Random.Range(0, 5);
+                while (Powers[random] == 4)
+                {
+                    random = (int)Random.Range(0, 5);
+                }
+                Powers[random]++;
             }
-            Powers[random]++;
+        }
+        if (GM.modoJuego == 0)
+        {
+            if (random == 3)
+            {
+                while (random == 3) //Para que no salga curación
+                {
+                    random= (int)Random.Range(0, 7);
+                }
+            }
         }
 
         //modo debug 
@@ -360,25 +439,55 @@ public class Player : MonoBehaviour
         {
             case 0:
                 AumentarVelocidadDisparo(Powers[random]);
+                if (GM.modoJuego == 0)
+                {
+                    Powers[random]++;
+                    PlayerPrefs.SetInt("vel", Powers[random]);
+                }
                 break;
             case 1:
                 DobleDisparo(Powers[random]);
+                if (GM.modoJuego == 0)
+                {
+                    Powers[random]++;
+                    PlayerPrefs.SetInt("dob", Powers[random]);
+                }
                 break;
             case 2:
                 MasVida(Powers[random]);
+                if (GM.modoJuego == 0)
+                {
+                    Powers[random]++;
+                    PlayerPrefs.SetInt("li", Powers[random]);
+                }
                 break;
             case 3:
                 RecuperarVida();
                 break;
             case 4:
                 PowerUpSierra(Powers[random]);
+                if (GM.modoJuego == 0)
+                {
+                    Powers[random]++;
+                    PlayerPrefs.SetInt("sierra", Powers[random]);
+                }
                 break;
               
             case 5:
                 AumentarDanoDisparo(Powers[random]);
+                if (GM.modoJuego == 0)
+                {
+                    Powers[random]++;
+                    PlayerPrefs.SetInt("daño", Powers[random]);
+                }
                 break;
             case 6:
                 AumentarAlcance(Powers[random]);
+                if (GM.modoJuego == 0)
+                {
+                    Powers[random]++;
+                    PlayerPrefs.SetInt("alc", Powers[random]);
+                }
                 break;
                 /*
           case 7:

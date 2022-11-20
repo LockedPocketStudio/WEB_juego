@@ -8,12 +8,14 @@ public class GameManager : MonoBehaviour
 {
   
     public int modoJuego; //-1 pausa //0 historia //1 hordas
+    public int modoJuegoanteriro;
     public int estadoJugador = 1; //-1-muerto 1-vivo
 
     public TextMeshProUGUI timer;
     public float time =0f;
     public  int vidasEnemigos = 1;
     int dificultad = 0;  //hordas
+    public bool victoria = false;
 
     GameObject player;
     // public Text timer;
@@ -25,7 +27,9 @@ public class GameManager : MonoBehaviour
     public GameObject eleccion;
     public AudioSource musica;
     public AudioClip m;
+    public AudioClip mDialogo;
     bool SeleccionMusica = false;
+    bool SeleccionMusica2 = false;
 
     //Control modo hordas
     public int ModoHordasDificultad = -1; //0- facil, 1-medio , 2-dificil 
@@ -59,10 +63,16 @@ public class GameManager : MonoBehaviour
         {
             return;
         }
+       
 
-        else if(modoJuego == 0)
+        if(modoJuego == 0)
         {
-         
+            if (!SeleccionMusica2)
+            {
+                musica.clip = m;
+                musica.Play();
+                SeleccionMusica2 = true;
+            }
             timer.text = "Nivel : "+ Player.nivelHistoria;
 
         }
@@ -120,8 +130,8 @@ public class GameManager : MonoBehaviour
 
         if(time >= 300)
         {
-            //Fin del juego
-            estadoJugador = -1;
+            victoria = true;
+             estadoJugador = -1;
         }
 
         if(modoJuego == 2 && EscenaDialogo.active == false)
@@ -147,8 +157,15 @@ public class GameManager : MonoBehaviour
 
         if(modoJuego == 3)
         {
-            //TEXTO
+            if (!SeleccionMusica)
+            {
+                musica.clip = mDialogo;
+                musica.Play();
+                SeleccionMusica = true;
+            }
+           
         }
+     
 
     }
 

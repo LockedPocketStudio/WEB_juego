@@ -324,6 +324,7 @@ MonoBehaviour:
   buttonModoHordas: {fileID: 1317979692}
   buttonModoHistoria: {fileID: 503780864}
   btnTutorial: {fileID: 84345848}
+  btnCreditos: {fileID: 1354052019}
   Tutorial: {fileID: 694710136}
 --- !u!1 &412978164
 GameObject:
