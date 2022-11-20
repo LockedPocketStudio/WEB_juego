@@ -7027,9 +7027,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 781905613}
     m_Modifications:
+    - target: {fileID: 278204644866175021, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -79
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204644898315858, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_Text
+      value: ELIAS
+      objectReference: {fileID: 0}
     - target: {fileID: 278204644907764237, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
       propertyPath: m_Color.a
       value: 0.74509805
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204645612960508, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 67.4718
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204645612960508, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 8.7359
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204646472154126, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 10.2686
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204646472154126, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.9323997
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204646472154126, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -173.17184
       objectReference: {fileID: 0}
     - target: {fileID: 278204646472154127, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
       propertyPath: m_Color.a
@@ -7133,7 +7161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 278204646867100814, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 9
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 278204646867100814, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7432,6 +7460,7 @@ MonoBehaviour:
   imagen: {fileID: 1843458529}
   elias: {fileID: 21300000, guid: 63694bb1f9701204b8d02527c0c708be, type: 3}
   canv: {fileID: 21300000, guid: a2a3410d156381e4db91225601cb43a0, type: 3}
+  anom: {fileID: 0}
   dios: {fileID: 0}
   y: 0
   s1: ...

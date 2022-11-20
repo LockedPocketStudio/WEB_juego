@@ -30,7 +30,7 @@ public class TextoTutorial : MonoBehaviour
     
     string h1 = "En el modo historia te contaré como has acabado aqui... Seguro que tienes ganas de saberlo";
     string h2 = "Tu objetivo será buscar unas escaleras ... No te diré el porque , eso tendrás que averiguarlo tu";
-    string h3 = "Para escapar de las salas tendrás que buscar una puerta ";
+    string h3 = "Para escapar de las salas tendrás que buscar una puerta y la llave que la abre claro... ";
     string h4 = "Al salir de una sala podrás elegir la siguiente sala a la que irás de entre las adyacentes a ella";
     string h5 = "Por último, cuando tu barra de experiencia se llene , no obtendrás un power up de manera automática. Tendrás que buscar un cofre para poder conseguirlo";
     string hf = "¿Necesitas más información?";

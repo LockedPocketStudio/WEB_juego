@@ -115,7 +115,7 @@ public class Player : MonoBehaviour
         else  //Modo historia
         {
            
-                LevelUpReq.Add(1); //Cada 10 niveles un power up;
+                LevelUpReq.Add(10); //Cada 10 niveles un power up;
             
             
         }
@@ -127,9 +127,10 @@ public class Player : MonoBehaviour
         }
         experiencia = 0;
         BarraExp.fillAmount = experiencia;
-        RecuperarDatos();
+        
+   
     }
-
+    bool primeraVez = true;
     // Update is called once per frame
     protected virtual void Update()
     {
@@ -165,6 +166,11 @@ public class Player : MonoBehaviour
                 LevelUpReq.RemoveAt(0);
                 experiencia = 0;
                 BarraExp.fillAmount = 0;
+            }
+            if (primeraVez)
+            {
+                primeraVez = false;
+                RecuperarDatos();
             }
         }
      
