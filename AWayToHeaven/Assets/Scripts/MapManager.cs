@@ -55,7 +55,7 @@ public class MapManager : MonoBehaviour
 
             case "Sala1_4":
                 Debug.Log("SALA 1_ 4");
-                jugador.transform.position = new Vector2(103.6f, 9.68f);
+                jugador.transform.position = new Vector2(103.6f, 7.87f);
             break;
 
             //Segunda fila
