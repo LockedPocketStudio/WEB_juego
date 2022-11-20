@@ -1105,6 +1105,26 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 278204645612960508, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 67.5947
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204645612960508, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.3026
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204646472154126, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -3.3761
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204646472154126, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.9323997
+      objectReference: {fileID: 0}
+    - target: {fileID: 278204646472154126, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -166.34944
+      objectReference: {fileID: 0}
     - target: {fileID: 278204646472154127, guid: 10aa80e5703560542b157a0ef1d52183, type: 3}
       propertyPath: m_Color.a
       value: 0.74509805
@@ -4377,7 +4397,8 @@ MonoBehaviour:
   imagen: {fileID: 835278022}
   elias: {fileID: 21300000, guid: 63694bb1f9701204b8d02527c0c708be, type: 3}
   canv: {fileID: 21300000, guid: a2a3410d156381e4db91225601cb43a0, type: 3}
-  dios: {fileID: 21300000, guid: 73b0b99b7ccd9074096d27fcfaa89ffa, type: 3}
+  anom: {fileID: 21300000, guid: 73b0b99b7ccd9074096d27fcfaa89ffa, type: 3}
+  dios: {fileID: 21300000, guid: e7ae6d1ccfeb33440b71c9b71ab35ab5, type: 3}
   y: 0
   s1: ...
   IniciarD1: 0
@@ -4402,9 +4423,20 @@ MonoBehaviour:
   k1: "\xBFQu\xE9 es esto Clavis? \xBFUna sala tranquila? \xA1Por fin!"
   Op3: 0
   op3: 0
+  p1: "\xA1Cu\xE1nto tiempo sin verte Eduardo! \xBFQu\xE9 tal vas? Ya queda poco,
+    pero esta parte es la m\xE1s dif\xEDcil jejejeje"
   FinDialogoOp4: 0
+  OP4: 0
+  op4: 1
+  r1: "Espero que est\xE9s contento Eusebio, ya est\xE1s muy cerca del final.\xA1Cualquiera
+    lo dir\xEDa eh! \xA1Esto ya empezaba a parecer un castigo eterno!"
   FinDialogoOp5: 0
+  OP5: 0
+  op5: 1
+  z1: "Uf menos mal, otra sala tranquila. Ya no pod\xEDa m\xE1s."
   FinDialogoOp6: 0
+  OP6: 0
+  op6: 1
   TextoElias: []
   c: []
   TextoAnon: []

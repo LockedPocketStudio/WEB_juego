@@ -17,6 +17,7 @@ public class Historia : MonoBehaviour
     public Image imagen;
     public Sprite elias;
     public Sprite canv;
+    public Sprite anom;
     public Sprite dios;
 
     List<string> Introduccion;
@@ -56,7 +57,7 @@ public class Historia : MonoBehaviour
     string s8 = "Espera un m-";
     string c5 = "Siento ser yo quien te de la noticia pero has venido a parar aquí, así que ¡bienvenido!";
     string s9 = "Bueno este sueño es raro que flipas, cómo hago para despertarme... El examen de literatura no se estudia solo ¿sabes?";
-    string c6 = "Ughhh la gente que no sabe de lo que habla es la peor de la que viene a parar aquí.Tú te lo has buscado";
+    string c6 = "Ughhh la gente que no sabe de lo que habla .... Tú te lo has buscado";
     string s10 = "¡¡AAAAAAGH!! OYE ESO HA DOLIDO";
     string c7 = "Escúchame bien zoquete, la cosa va así, tú mueres, vienes aquí y nosotros… “cuidamos” de tí ¡por el resto de la eternidad!";
     string s11 = "¡Pero qué dices! si yo solo estaba echándome una siesta después de comer";
@@ -368,7 +369,7 @@ public class Historia : MonoBehaviour
 
         EscOp2.Add(g1); EscOp2.Add(f1); EscOp2.Add(g2); EscOp2.Add(f2); EscOp2.Add(g3); EscOp2.Add(f3);
 
-        c.Add(f1); c.Add(f3); c.Add(f3);
+        c.Add(f1); c.Add(f2); c.Add(f3);
 
         TextoElias.Add(g1); TextoElias.Add(g2); TextoElias.Add(g3);
         #endregion
@@ -481,6 +482,10 @@ public class Historia : MonoBehaviour
         {
             EscenaDialogo.SetActive(true);
             TFinal();
+        }
+        if (FinDialogo5)
+        {
+            SceneManager.LoadScene(13);
         }
 
 
@@ -967,6 +972,7 @@ public class Historia : MonoBehaviour
                     //Buscar personaje
                     bool esc = false;
                     bool esD = false;
+                    bool esAnon = false;
                     for (int i = 0; i < c.Count; i++)
                     {
                         if (Esc5[fn] == c[i])
@@ -981,6 +987,13 @@ public class Historia : MonoBehaviour
                             esD = true;
                         }
                     }
+                    for (int i = 0; i < TextoAnon.Count; i++)
+                    {
+                        if (Esc5[fn] == TextoAnon[i])
+                        {
+                            esAnon = true;
+                        }
+                    }
 
                     if (esc)
                     {
@@ -989,8 +1002,13 @@ public class Historia : MonoBehaviour
                     }
                     else if(esD)
                     {
-                        nombre.text = "??";
+                        nombre.text = "DIOS";
                         imagen.sprite = dios;
+                    }
+                    else if (esAnon)
+                    {
+                        nombre.text = "??";
+                        imagen.sprite = anom;
                     }
                     else
                     {

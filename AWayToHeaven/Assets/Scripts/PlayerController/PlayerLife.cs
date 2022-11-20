@@ -116,6 +116,19 @@ public class PlayerLife : MonoBehaviour
                 d1 = true;
                 historia.t.text = historia.s1;
                 historia.imagen.sprite = historia.elias;
+                 
+                    PlayerPrefs.SetInt("vel",0);
+               
+                    PlayerPrefs.SetInt("dob", 0);
+              
+                    PlayerPrefs.SetInt("li", 0);
+               
+                
+                    PlayerPrefs.SetInt("sierra",0);
+               
+                    PlayerPrefs.SetInt("daño", 0);
+               
+                
             }
 
 
@@ -257,7 +270,8 @@ public class PlayerLife : MonoBehaviour
                 historia.FIN = true;
                 final = true;
                 historia.t.text = historia.a1;
-                historia.imagen.sprite = historia.dios;
+                historia.imagen.sprite = historia.anom;
+                historia.nombre.text = "??";
             }
 
 

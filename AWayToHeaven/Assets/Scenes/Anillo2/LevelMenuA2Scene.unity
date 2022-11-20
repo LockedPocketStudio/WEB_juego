@@ -880,7 +880,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 619582229, guid: 9166c654b43130648b1a6815318e82a9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cabf0a2cf82c87846921c8c5a06a75bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1321,7 +1321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 619582229, guid: 9166c654b43130648b1a6815318e82a9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cabf0a2cf82c87846921c8c5a06a75bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1678,7 +1678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1984616141, guid: 9166c654b43130648b1a6815318e82a9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 674d1570844c90f4297b4f101479fecb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1794,6 +1794,8 @@ MonoBehaviour:
   pausa: 0
   currentScene: 0
   GM: {fileID: 0}
+  panel: {fileID: 0}
+  panelOcultar: {fileID: 0}
 --- !u!4 &1980703783
 Transform:
   m_ObjectHideFlags: 0
