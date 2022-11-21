@@ -1133,6 +1133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modoJuego: 1
+  modoJuegoanteriro: 0
   estadoJugador: 1
   timer: {fileID: 2030499233}
   time: 0
@@ -1143,6 +1144,7 @@ MonoBehaviour:
   eleccion: {fileID: 0}
   musica: {fileID: 0}
   m: {fileID: 0}
+  mDialogo: {fileID: 0}
   ModoHordasDificultad: -1
   SeleccionDificultad: {fileID: 1857612572}
   btnFacil: {fileID: 900974573}
@@ -6673,7 +6675,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a2a3410d156381e4db91225601cb43a0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fe1c13341b7ee834abe9df9a8fc4f404, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
