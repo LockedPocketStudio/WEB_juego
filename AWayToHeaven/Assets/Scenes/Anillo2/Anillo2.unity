@@ -10292,8 +10292,8 @@ MonoBehaviour:
   t: {fileID: 680247482}
   nombre: {fileID: 1279323280}
   imagen: {fileID: 1843458529}
-  elias: {fileID: 21300000, guid: 63694bb1f9701204b8d02527c0c708be, type: 3}
-  canv: {fileID: 21300000, guid: a2a3410d156381e4db91225601cb43a0, type: 3}
+  elias: {fileID: 21300000, guid: 87add63fadd6dd24ab523068b03e05e8, type: 3}
+  canv: {fileID: 21300000, guid: fe1c13341b7ee834abe9df9a8fc4f404, type: 3}
   anom: {fileID: 0}
   dios: {fileID: 0}
   y: 0
@@ -21277,11 +21277,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96

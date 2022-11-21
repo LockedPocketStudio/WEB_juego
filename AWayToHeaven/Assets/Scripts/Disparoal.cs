@@ -9,17 +9,39 @@ public class Disparoal : MonoBehaviour
     private Vector2 destino;
     public GameObject jugador;
     public GameObject bulletPrefab;
+    public GameManager GM;
 
     public float timeShoot =0f;
     // Start is called before the first frame update
     void Start()
     {
         jugador = GameObject.Find("Player");
+        GM = GameManager.FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (GM.estadoJugador != 1)
+        {
+            return;
+        }
+
+
+        if (GM.modoJuego == -1)
+        {
+            return;
+        }
+
+        if (GM.modoJuego == 1 && GM.ModoHordasDificultad == -1)
+        {
+            return;
+        }
+        if (GM.modoJuego == 3)
+        {
+            return;
+        }
+
         float distanceTo = Vector2.Distance(jugador.transform.position, this.transform.position);
         if (timeShoot >=2.5f && distanceTo<=5)
         {
