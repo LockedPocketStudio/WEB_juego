@@ -44,7 +44,7 @@ public class EnemyBullet : MonoBehaviour
         LifeTime -= Time.deltaTime;
         if (LifeTime <= 0)
         {
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
     }
     protected virtual void OnTriggerEnter2D(Collider2D coll)

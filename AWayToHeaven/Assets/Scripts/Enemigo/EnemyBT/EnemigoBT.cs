@@ -5,6 +5,7 @@ using static UnityEngine.Random;
 using UnityEngine;
 using UnityEngine.AI;
 
+
 public class EnemigoBT : MonoBehaviour
 {
     
@@ -218,6 +219,7 @@ public class EnemigoBT : MonoBehaviour
         // Create bullet
         Quaternion rot = new Quaternion(0, 0, 0, 0);
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
+        
         EnemyBullet b = bulletGO.GetComponent<EnemyBullet>();
         b.dir = p.transform.position - this.transform.position;
         b.damage = bulletDamage;

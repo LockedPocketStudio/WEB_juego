@@ -3,12 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+
 public class EnemyStaticBT : MonoBehaviour
 {
     #region variables
     [Header("Destinos")]
     public GameObject jugador;
     public GameManager GM;
+
+    public GameObject[] objPoll;
+    public int index = 0;
+    public int maxObj = 500;
 
     //  protected Transform turretTransform;
     public GameObject bulletPrefab;
@@ -17,7 +22,7 @@ public class EnemyStaticBT : MonoBehaviour
     public int bulletDamage = 1;
     public int bulletHealth = 1;
 
-    //árbol de comportamiento
+    //ï¿½rbol de comportamiento
     private BehaviourTreeEngine behaviourTree;
 
     [Header("Variables de control")]
@@ -34,15 +39,27 @@ public class EnemyStaticBT : MonoBehaviour
     //Otras variables
     private int health = 1;
     private float speed = 4f;
-
+    public GameObject c;
     #endregion variables
+
+    void Awake()
+    {
+        Quaternion rot = new Quaternion(0, 0, 0, 0);
+
+        objPoll = new GameObject[maxObj];
+
+        for (int i = 0; i<maxObj; i++){
+            objPoll[i] = (GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
+        }
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
         //Buscar objetos de la escena 
         GM = GameManager.FindObjectOfType<GameManager>();
         jugador = GameObject.Find("Player");
-
         var ene = this.GetComponent<Enemy>();
         ene.Esestatico(true);
         CreateBehaviourTree();
@@ -61,7 +78,7 @@ public class EnemyStaticBT : MonoBehaviour
 
         //Sequence node
         SequenceNode sequenceRoute = behaviourTree.CreateSequenceNode("Sequence route", false); //es false para que los nodos hijos se recorran en el orden
-        SelectorNode selectorNode = behaviourTree.CreateSelectorNode("selecion");                                                                                   //en el que se han añadido
+        SelectorNode selectorNode = behaviourTree.CreateSelectorNode("selecion");                                                                                   //en el que se han aï¿½adido
 
         
         //SelectorNode
@@ -70,7 +87,7 @@ public class EnemyStaticBT : MonoBehaviour
        
 
 
-        //Añadir secuencia
+        //Aï¿½adir secuencia
         sequenceRoute.AddChild(jugadorRangoNode);
         sequenceRoute.AddChild(selectorNode);
         sequenceRoute.AddChild(disparaNode);
@@ -89,10 +106,10 @@ public class EnemyStaticBT : MonoBehaviour
       //  Debug.Log("enemyBT is CHECKING PLAYERS POSITION");
 
         float distanceTo = Vector2.Distance(destino, transform.position);
-        //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
+        //Debug.Log("-----El enemigo estï¿½ a distancia" + distanceTo);   //comprobar que la distancia se estï¿½ calculando correctamente 
 
-        //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
-        if (distanceTo <= 10)
+        //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verï¿½ y comenzarï¿½ a acercarse a ï¿½l.
+        if (distanceTo <= 100)
         {
       //  Debug.Log("player VISIBLE");
             veJugador = true;
@@ -147,12 +164,26 @@ public class EnemyStaticBT : MonoBehaviour
       //  Debug.Log("enemyBT is SHOOTING");
 
         // Create bullet
-        Quaternion rot = new Quaternion(0, 0, 0, 0);
-        GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
+        //Quaternion rot = new Quaternion(0, 0, 0, 0);
+        index = index%maxObj;
+        GameObject bulletGO = objPoll[index];
+        index++;
+
+        //(GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
+        /*
+        Color a = new Color(255,0,0,0);
+        SpriteRenderer a2 = c.GetComponent<SpriteRenderer>();
+        a2.Color = a;
+        */
+
         EnemyBullet b = bulletGO.GetComponent<EnemyBullet>();
         b.dir = p.transform.position - this.transform.position;
         b.damage = bulletDamage;
         b.health = bulletHealth;
+
+        var go=this.GetComponent<GameObject>();
+        Destroy(this.gameObject);
+        Debug.LogWarning("rompe");
 
         var a = this.GetComponent<Enemy>();
         a.bala = 0; 

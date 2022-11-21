@@ -67,6 +67,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jugador: {fileID: 0}
   GM: {fileID: 0}
+  objPoll: []
+  index: 0
+  maxObj: 500
   bulletPrefab: {fileID: 8722333161147009638, guid: 1580767522d86e04e919de9d1f6911da, type: 3}
   bulletDamage: 1
   bulletHealth: 1
