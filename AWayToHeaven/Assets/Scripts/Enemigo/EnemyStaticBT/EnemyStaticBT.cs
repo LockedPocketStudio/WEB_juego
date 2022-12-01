@@ -11,9 +11,6 @@ public class EnemyStaticBT : MonoBehaviour
     public GameObject jugador;
     public GameManager GM;
 
-    public GameObject[] objPoll;
-    public int index = 0;
-    public int maxObj = 500;
 
     //  protected Transform turretTransform;
     public GameObject bulletPrefab;
@@ -42,16 +39,7 @@ public class EnemyStaticBT : MonoBehaviour
     public GameObject c;
     #endregion variables
 
-    void Awake()
-    {
-        Quaternion rot = new Quaternion(0, 0, 0, 0);
-
-        objPoll = new GameObject[maxObj];
-
-        for (int i = 0; i<maxObj; i++){
-            objPoll[i] = (GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
-        }
-    }
+   
 
 
     // Start is called before the first frame update
@@ -165,9 +153,7 @@ public class EnemyStaticBT : MonoBehaviour
 
         // Create bullet
         //Quaternion rot = new Quaternion(0, 0, 0, 0);
-        index = index%maxObj;
-        GameObject bulletGO = objPoll[index];
-        index++;
+     
 
         //(GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
         /*
@@ -175,7 +161,7 @@ public class EnemyStaticBT : MonoBehaviour
         SpriteRenderer a2 = c.GetComponent<SpriteRenderer>();
         a2.Color = a;
         */
-
+        /*
         EnemyBullet b = bulletGO.GetComponent<EnemyBullet>();
         b.dir = p.transform.position - this.transform.position;
         b.damage = bulletDamage;
@@ -190,7 +176,7 @@ public class EnemyStaticBT : MonoBehaviour
 
 
         haAvanzado = false;
-        haDisparado = true;
+        haDisparado = true;*/
 
    
 
