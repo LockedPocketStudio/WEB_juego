@@ -2,10 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class TextoTutorial : MonoBehaviour
 {
+    public Button PasarTexto;
+    public bool puedePasar = false;
+
     public GameObject EscenaDialogo;
     public GameManager GM;
     List<string> DialogoHistoria;
@@ -28,7 +32,7 @@ public class TextoTutorial : MonoBehaviour
     
     string o = "En cuanto al modo hordas consiste en sobrevivir 5 minutos, existen 3 niveles de dificultad. Te animo a probarlo";
     
-    string h1 = "En el modo historia te contaré como has acabado aqui... Seguro que tienes ganas de saberlo";
+    string h1 = "En el modo historia te contaré como has acabado aquí... Seguro que tienes ganas de saberlo";
     string h2 = "Tu objetivo será buscar unas escaleras ... No te diré el porque , eso tendrás que averiguarlo tu";
     string h3 = "Para escapar de las salas tendrás que buscar una puerta y la llave que la abre claro... ";
     string h4 = "Al salir de una sala podrás elegir la siguiente sala a la que irás de entre las adyacentes a ella";
@@ -88,6 +92,7 @@ public class TextoTutorial : MonoBehaviour
         });
 
         salir.onClick.AddListener(() => SceneManager.LoadScene(0));
+        PasarTexto.onClick.AddListener(() => puedePasar = true);
         t.text = a;
 
         
@@ -134,8 +139,11 @@ public class TextoTutorial : MonoBehaviour
         t.text = final;
         if (tfleft > tiempofinal)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar == true)
+            {
                 SceneManager.LoadScene(0);
+            }
+        
         }
        
 
@@ -145,7 +153,8 @@ public class TextoTutorial : MonoBehaviour
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+           if(puedePasar)
+          //  if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
             {
                 if (DialogoControles.Count != y)
                 {
@@ -157,7 +166,7 @@ public class TextoTutorial : MonoBehaviour
                 {
                     eleccion.SetActive(true);
                 }
-
+                puedePasar = false;
             }
 
 
@@ -170,7 +179,7 @@ public class TextoTutorial : MonoBehaviour
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (DialogoHordas.Count != z)
                 {
@@ -182,7 +191,7 @@ public class TextoTutorial : MonoBehaviour
                 {
                     eleccion.SetActive(true);
                 }
-               
+                puedePasar = false;
             }
 
 
@@ -195,7 +204,7 @@ public class TextoTutorial : MonoBehaviour
         
         if(tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if(DialogoHistoria.Count != i)
                 {
@@ -207,6 +216,7 @@ public class TextoTutorial : MonoBehaviour
                 {
                     eleccion.SetActive(true);
                 }
+                puedePasar = false;
                 /*
                 if (Dialogo.Count == 0)
                 {

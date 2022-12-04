@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     //Dialogo tutorial
     float tleftModo2 = 0;
     public bool finModo2 = false;
+    public bool iniciopelea = false;
     public GameObject EscenaDialogo;
     public GameObject eleccion;
     public AudioSource musica;
@@ -136,6 +137,7 @@ public class GameManager : MonoBehaviour
 
         if(modoJuego == 2 && EscenaDialogo.active == false)
         {
+            iniciopelea = true;
             eleccion.SetActive(false);
             tleftModo2 += Time.deltaTime;
             if (!SeleccionMusica)
