@@ -25,7 +25,9 @@ public class movement : MonoBehaviour
     {
         if (GM.modoJuego == -1)
         {
+            animacion.enabled = false;
             return;
+            
         }
         if(GM.estadoJugador == -1)
         {
@@ -39,6 +41,8 @@ public class movement : MonoBehaviour
         {
             return;
         }
+        if (animacion.enabled == false)
+            animacion.enabled = true;
 
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
         {
