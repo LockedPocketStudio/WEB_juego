@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class TextoTutorial : MonoBehaviour
 {
     public Button PasarTexto;
+    public GameObject Pasa;
     public bool puedePasar = false;
 
     public GameObject EscenaDialogo;
@@ -87,6 +88,7 @@ public class TextoTutorial : MonoBehaviour
         mordas.onClick.AddListener(() => { tipoTexto = 2; z = 0; eleccion.SetActive(false); t.text = DialogoHordas[0]; z++; });
         controles.onClick.AddListener(() => { tipoTexto = 0; y = 0; eleccion.SetActive(false); t.text = DialogoControles[0]; y++; });
         prueba.onClick.AddListener(() => { eleccion.SetActive(false); EscenaDialogo.SetActive(false);
+            Pasa.SetActive(false);
             GM.modoJuego = 2;
             tipoTexto = -1;
         });
@@ -137,9 +139,12 @@ public class TextoTutorial : MonoBehaviour
         EscenaDialogo.SetActive(true);
         eleccion.SetActive(false);
         t.text = final;
+        
+        Pasa.SetActive(false);
+        
         if (tfleft > tiempofinal)
         {
-            if (puedePasar == true)
+            if ((Input.GetMouseButtonDown(0) || Input.GetMouseButton(0)))
             {
                 SceneManager.LoadScene(0);
             }

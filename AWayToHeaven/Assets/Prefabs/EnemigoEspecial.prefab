@@ -52,7 +52,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -99,6 +99,7 @@ MonoBehaviour:
   health: 4
   ExpPrefab: {fileID: 6768550097269240772, guid: 14377c43d7e253a469748b424202326c, type: 3}
   bala: 0
+  GM: {fileID: 0}
 --- !u!114 &5337490152887319532
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -23,6 +23,7 @@ TagManager:
   - OP5
   - Llave
   - Lava
+  - wall
   layers:
   - Default
   - TransparentFX

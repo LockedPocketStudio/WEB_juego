@@ -99,6 +99,8 @@ public class Player : MonoBehaviour
         if(GM.modoJuego == 1)
         {
             int i = 10;
+             //LevelUpReq.Add(2);
+            //LevelUpReq.Add(2);
             LevelUpReq.Add(5);
             LevelUpReq.Add(5);
             for (int a= 0 ; a < 4; a ++)
@@ -114,10 +116,8 @@ public class Player : MonoBehaviour
         }
         else  //Modo historia
         {
-           
-                LevelUpReq.Add(10); //Cada 10 niveles un power up;
-            
-            
+            LevelUpReq.Add(1);
+            LevelUpReq.Add(10); //Cada 10 niveles un power up;   
         }
 
 
@@ -192,28 +192,7 @@ public class Player : MonoBehaviour
         
     }
     #endregion
-  /*  protected Enemy FindFurthestEnemy()
-    {
-        
-        // Create sphere collider of radius
-        Enemy furthestEnemy = null;
-
-        Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, radius);
-        foreach (Collider2D c in cols)
-        {
-            if (c.gameObject.tag == "Enemy")
-            {
-                Enemy e = c.gameObject.GetComponent<Enemy>();
-                // If we collided with an enemy, check if it's distanced traveled
-                if (furthestEnemy == null )
-                {
-                    furthestEnemy = e;
-                }
-            }
-        }
-
-        return furthestEnemy;
-    }*/
+ 
 
     protected List<Enemy> FindFurthestEnemy()
     {
@@ -296,22 +275,7 @@ public class Player : MonoBehaviour
 
     }
 
-    protected void PointTurretAt(Enemy e)
-    {
-        /*
-        // Find direction to enemy
-        Vector3 dir = e.transform.position - this.transform.position;
-        // Calculate angle to enemy
-        Quaternion lookRot = Quaternion.LookRotation(dir, Vector3.up);
-
-        // Turn turret to enemy
-        float rotation = lookRot.eulerAngles.x + 90f;
-        if (lookRot.eulerAngles.y != 270)
-        {
-            rotation = -lookRot.eulerAngles.x - 90f;
-        }
-       // turretTransform.rotation = Quaternion.Euler(0, 0, rotation);*/
-    }
+   
 
   
 
@@ -336,7 +300,7 @@ public class Player : MonoBehaviour
     {
         VidaMaxima++;
         VidaActual++;
-        AyudaPower.text = ("Aumento de Vida");
+        AyudaPower.text = ("Aumento de Vida: " +n);
     }
     public void RecuperarVida()
     {
@@ -346,12 +310,12 @@ public class Player : MonoBehaviour
     public void AumentarDanoDisparo(int n)
     {
         bulletDamage++;
-        AyudaPower.text = ("AumentarDano: "+n+1);
+        AyudaPower.text = ("AumentarDaño: "+n);
     }
     public void AumentarAlcance(int n)
     {
         radius++;
-        AyudaPower.text = ("AumentarAlcanze: " + n);
+        AyudaPower.text = ("AumentarAlcance: " + n);
     }
    
     public void AumentarVelocidadMovimiento(int n)
@@ -421,9 +385,9 @@ public class Player : MonoBehaviour
             {
                 while (Powers[random] == 4)
                 {
-                    random = (int)Random.Range(0, 5);
+                    random = (int)Random.Range(0, 7);
                 }
-                Powers[random]++;
+              
             }
         }
         if (GM.modoJuego == 0)
@@ -436,19 +400,19 @@ public class Player : MonoBehaviour
                 }
             }
         }
-
+        Powers[random] = Powers[random] + 1;
         //modo debug 
         //  int random = 1;
         //  Powers[random]++;
         //fin 
-        
+
         switch (random)
         {
             case 0:
                 AumentarVelocidadDisparo(Powers[random]);
                 if (GM.modoJuego == 0)
                 {
-                    Powers[random] = Powers[random] +1;
+                   // Powers[random] = Powers[random] +1;
                     PlayerPrefs.SetInt("vel", Powers[random]);
                 }
                 break;
@@ -456,7 +420,7 @@ public class Player : MonoBehaviour
                 DobleDisparo(Powers[random]);
                 if (GM.modoJuego == 0)
                 {
-                    Powers[random] = Powers[random] + 1;
+                    //Powers[random] = Powers[random] + 1;
                     PlayerPrefs.SetInt("dob", Powers[random]);
                 }
                 break;
@@ -464,7 +428,7 @@ public class Player : MonoBehaviour
                 MasVida(Powers[random]);
                 if (GM.modoJuego == 0)
                 {
-                    Powers[random] = Powers[random] + 1;
+                   // Powers[random] = Powers[random] + 1;
                     PlayerPrefs.SetInt("li", Powers[random]);
                 }
                 break;
@@ -472,7 +436,7 @@ public class Player : MonoBehaviour
                 RecuperarVida();
                 break;
             case 4:
-                Powers[random] = Powers[random] + 1;
+              //  Powers[random] = Powers[random] + 1;
                 PowerUpSierra(Powers[random]);
                 if (GM.modoJuego == 0)
                 {
@@ -485,7 +449,7 @@ public class Player : MonoBehaviour
                 AumentarDanoDisparo(Powers[random]);
                 if (GM.modoJuego == 0)
                 {
-                    Powers[random] = Powers[random] + 1;
+                 //   Powers[random] = Powers[random] + 1;
                     PlayerPrefs.SetInt("daño", Powers[random]);
                 }
                 break;
@@ -493,7 +457,7 @@ public class Player : MonoBehaviour
                 AumentarAlcance(Powers[random]);
                 if (GM.modoJuego == 0)
                 {
-                    Powers[random] = Powers[random] + 1;
+                    //Powers[random] = Powers[random] + 1;
                     PlayerPrefs.SetInt("alc", Powers[random]);
                 }
                 break;
