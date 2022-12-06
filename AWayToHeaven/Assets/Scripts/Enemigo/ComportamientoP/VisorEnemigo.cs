@@ -28,6 +28,7 @@ public class VisorEnemigo : MonoBehaviour
     public bool EEs;
     void Awake()
     {
+        detected = false;
         if (!EEs)
         {
             nav = this.GetComponent<ControlNavMesh>();
@@ -178,7 +179,7 @@ public class VisorEnemigo : MonoBehaviour
         Vector2 p1, p2;
         p1 = PointForAngle(halfVision, visionDistance);
         p2 = PointForAngle(-halfVision, visionDistance);
-        if (EFSM)
+        if (EFSM || EBT)
         {
             Gizmos.color = detected ? Color.red : Color.green;
             Gizmos.DrawLine(head.position, (Vector2)head.position + p1);
@@ -203,5 +204,27 @@ public class VisorEnemigo : MonoBehaviour
 
         return head.TransformDirection(new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad)) * distance);
     
+    }
+
+    public bool ChequearObstaculo()
+    {
+        bool res = false;
+        Vector3 origenRayo = new Vector3(head.transform.position.x, head.transform.position.y+1, head.transform.position.z);
+        Vector3 DireccionRayo = new Vector3(player.transform.position.x, player.transform.position.y + 1, player.transform.position.z);
+        DireccionRayo -= origenRayo;
+        Ray ray = new Ray(origenRayo, DireccionRayo);
+
+        RaycastHit hit;
+
+        if(Physics.Raycast(ray,out hit))
+        {
+
+            if(hit.collider !=null && hit.collider.tag.Equals("Player"))
+            {
+                res = true;
+            }
+
+        }
+        return res;
     }
 }

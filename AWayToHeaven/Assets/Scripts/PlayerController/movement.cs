@@ -17,7 +17,8 @@ public class movement : MonoBehaviour, IPointerDownHandler
     Animator animacion;
     SpriteRenderer sprite;
     private Vector2 destinoAnterior;
-   
+
+    public bool hacerRuido = false;
 
     void Start()
     {
@@ -129,11 +130,12 @@ public class movement : MonoBehaviour, IPointerDownHandler
                 sprite.flipX = false;
             }
 
-
+            hacerRuido = true;
         }
         else
         {
             moving = false;
+            hacerRuido = false;
         }
         
         

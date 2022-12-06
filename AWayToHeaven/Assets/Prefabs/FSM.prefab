@@ -263,6 +263,9 @@ MonoBehaviour:
   nav: {fileID: 0}
   player: {fileID: 0}
   detected: 0
+  EFSM: 0
+  EBT: 0
+  EEs: 0
 --- !u!114 &5878091279972766709
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -42,6 +42,8 @@ public class FSM1: MonoBehaviour
     public Transform[] targetPoints;
     ControlNavMesh control;
     VisorEnemigo visor;
+    Escuchar sonido;
+    movement movimientoJugador;
 
     #endregion variables
 
@@ -53,8 +55,10 @@ public class FSM1: MonoBehaviour
         //Buscar objetos de la escena 
         GM = GameManager.FindObjectOfType<GameManager>();
         jugador = GameObject.Find("Player");
+        movimientoJugador = jugador.GetComponent<movement>();
         control = this.GetComponent<ControlNavMesh>();
         visor = this.GetComponent<VisorEnemigo>();
+        sonido = this.GetComponent<Escuchar>();
         //Coger sprite
         sprite = this.GetComponent<SpriteRenderer>();
 
@@ -187,7 +191,7 @@ public class FSM1: MonoBehaviour
         //Debug.Log("-----El enemigo está a distancia" + distanceTo);   //comprobar que la distancia se está calculando correctamente 
 
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
-        if (visor.detected == true)
+        if (visor.detected == true || (sonido.detected ==true && movimientoJugador.hacerRuido))
         {
             veJugador = true;
             haAlcanzado = true;
@@ -219,13 +223,13 @@ public class FSM1: MonoBehaviour
             */
             if (control.destinoAsignado == false)
             {
-                int a = Random.RandomRange(0, 4);
+                int a = Random.RandomRange(0, targetPoints.Length);
                 control.Destino(targetPoints[a].position);
             }
            // if(control.destinoAsignado)
         if(control.Hemosllegado() ==true )
            {
-               int a = Random.RandomRange(0, 4);
+               int a = Random.RandomRange(0, targetPoints.Length);
                control.Destino(targetPoints[a].position);
            }
         }
@@ -233,9 +237,10 @@ public class FSM1: MonoBehaviour
         if(estadoActual == estadosEnemigo.Atacando)
         {
             //Va hacia el jugador
-            float step = speed * Time.deltaTime;
+            // float step = speed * Time.deltaTime;
             //   Debug.Log("step " + step);
-            transform.position = Vector2.MoveTowards(transform.position, destino, step);
+            //transform.position = Vector2.MoveTowards(transform.position, destino, step);
+            control.Destino(destino);
         }
     }
 
