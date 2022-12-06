@@ -27,8 +27,8 @@ public class EnemyStaticBT : MonoBehaviour
 
     //
     public bool veJugador = false;
-    public bool haAvanzado = false;
-    public bool haDisparado = false;
+   // public bool haAvanzado = false;
+    //public bool haDisparado = false;
 
     public bool JugadorRango = false;
     private Vector2 destino;    //la posicion del jugador en ese momento
@@ -37,9 +37,11 @@ public class EnemyStaticBT : MonoBehaviour
     private int health = 1;
     private float speed = 4f;
     public GameObject c;
+    VisorEnemigo visor;
+
     #endregion variables
 
-   
+
 
 
     // Start is called before the first frame update
@@ -50,6 +52,7 @@ public class EnemyStaticBT : MonoBehaviour
         jugador = GameObject.Find("Player");
         var ene = this.GetComponent<Enemy>();
         ene.Esestatico(true);
+        visor = this.GetComponent<VisorEnemigo>();
         CreateBehaviourTree();
     }
 
@@ -97,7 +100,8 @@ public class EnemyStaticBT : MonoBehaviour
         //Debug.Log("-----El enemigo est� a distancia" + distanceTo);   //comprobar que la distancia se est� calculando correctamente 
 
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le ver� y comenzar� a acercarse a �l.
-        if (distanceTo <= 100)
+       // if (distanceTo <= 100)
+        if(visor.detected ==true)
         {
       //  Debug.Log("player VISIBLE");
             veJugador = true;
@@ -147,6 +151,7 @@ public class EnemyStaticBT : MonoBehaviour
     }
     private void ShootAt(GameObject p)
     {
+        //Script DisparoAl
         //base.ShootAt(p);
 
       //  Debug.Log("enemyBT is SHOOTING");

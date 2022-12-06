@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button buttonModoHistoria;
     [SerializeField] public Button btnTutorial;
     [SerializeField] public Button btnCreditos;
+    public Button btnIA;
 
     public GameObject Tutorial;
  
@@ -57,6 +58,7 @@ public class UIManager : MonoBehaviour
 
         btnTutorial.onClick.AddListener(() =>  SceneManager.LoadScene(11));
         btnCreditos.onClick.AddListener(() => SceneManager.LoadScene(12));
+        btnIA.onClick.AddListener(() => SceneManager.LoadScene(14));
     }
 
     // Update is called once per frame

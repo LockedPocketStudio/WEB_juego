@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EstadosEnemigo
 {
-    public string Descansando;
-    public string Acercandose;
-    public string Atacando;
+    public string Descansando;  //no existe el jugador por lo que no hace nada
+    public string Acercandose; //existe el jugador por lo que lo busca por el mapa
+    public string Atacando; //el jugador ha aparecido en su radar por lo que va por el
 
     public EstadosEnemigo()
     {
