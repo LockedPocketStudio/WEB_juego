@@ -2,10 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class TextoTutorial : MonoBehaviour
 {
+    public Button PasarTexto;
+    public GameObject Pasa;
+    public bool puedePasar = false;
+
     public GameObject EscenaDialogo;
     public GameManager GM;
     List<string> DialogoHistoria;
@@ -24,43 +29,33 @@ public class TextoTutorial : MonoBehaviour
     public int y = 0;//controles
     
     public TMP_Text t;
-    string a ="¿Hola? parece que no sabes muy bien qué hacer… ¿Te echo una mano? ¿Qué tipo de información necesitas?";
+    string a ="�Hola? , bueno... veo que no sabes muy bien que hacer. �Qu� tipo de informaci�n necesitas?";
     
-    string o1 = "El modo hordas consiste en sobrevivir 5 minutos. En este tiempo irán apareciendo enemigos que vayan a atacarte, procura defenderte y recoger el aurem que dejen a su paso.";
-    string o2 = "Cuando reúnas suficiente aurem conseguirás una ventaja que te ayudará el resto de la partida.";
-    string o3 = "Existen tres niveles de dificultad ¡te animo a probarlo!";
+    string o = "En cuanto al modo hordas consiste en sobrevivir 5 minutos, existen 3 niveles de dificultad. Te animo a probarlo";
     
-    string h1 = "En el modo historia te contaré cómo has acabado aquí… Seguro que tienes ganas de saberlo.";
-    string h2 = "Supongo que quieres llegar al final de todo este lío, así que céntrate en encontrar las escaleras de cada anillo para poder avanzar.";
-    string h3 = "Para encontrar las escaleras tendrás que explorar varias salas, pero… tendrás que conseguir abrir sus puertas antes.";
-    string h4 = "En cada sala se esconde una llave que te permitirá salir de ella.";
-    string h5 = "Esta llave en algunas ocasiones estará custodiada por uno de tus enemigos, pero… ¿cuál de ellos? ¡Tendrás que derrotarlos para conseguirla!";
-    string h6 = "Al salir de una sala podrás elegir a cuál quieres moverte de las adyacentes a ella.";
-    string h7 = "Por último, cuando encuentres un cofre, si tienes suficientes aurems, este se abrirá al acercarte a él y te dará una habilidad para ayudarte en el resto de las salas.";
-    string h8 = "Sin embargo, si no tienes suficiente aurem no se abrirá.";
-    string hf = "¿Quieres saber alguna otra cosa?";
+    string h1 = "En el modo historia te contar� como has acabado aqu�... Seguro que tienes ganas de saberlo";
+    string h2 = "Tu objetivo ser� buscar unas escaleras ... No te dir� el porque , eso tendr�s que averiguarlo tu";
+    string h3 = "Para escapar de las salas tendr�s que buscar una puerta y la llave que la abre claro... ";
+    string h4 = "Al salir de una sala podr�s elegir la siguiente sala a la que ir�s de entre las adyacentes a ella";
+    string h5 = "Por �ltimo, cuando tu barra de experiencia se llene , no obtendr�s un power up de manera autom�tica. Tendr�s que buscar un cofre para poder conseguirlo";
+    string hf = "�Necesitas m�s informaci�n?";
 
-    string s1 = "Es importante que sepas cómo moverte por este mundo antes de explorarlo.";
-    string s2 = "Para moverte, solo debes hacer click en el lugar al que quieres ir o mantener el click pulsado en la dirección en la que quieras andar."; 
-    string s3 = "Si estás jugando en un dispositivo móvil, puedes hacer esto tocando la pantalla.";
-    string s4 = "Para que te puedas defender de los enemigos que te encuentres por este mundo te he concedido el poder de dispararles, ¡aprovéchalo!";
-    string s5 = "Para disparar debes estar cerca de un enemigo. El disparo será automático, por lo que no tienes que preocuparte por nada más.";
-    string s6 = "Existen diferentes tipos de enemigos a los que te irás enfrentando, algunos más fuertes y resistentes que otros. ";
-    string s7 = "Aquí te presento a tres de ellos para que sepas cómo son: Huesitos, Pesadilla y la Torre. Te dejo que conozcas tú mismo a los demás…";
-    string s8 = "Ten cuidado al enfrentarte a ellos, ¡te pueden matar!";
-    string s9 = "Puedes saber cuánta vida te queda gracias a la barra de estado que se encuentra en la parte superior izquierda de la pantalla."; 
-    string s10 = "También en esa posición podrás consultar cuántos aurem has acumulado hasta el momento.";
-    string s11 = "Ya descubrirás para qué sirve el aurem en cada modo de juego…";
-    string s12 = "Con todo esto dicho, te dejo que pruebes tú mismo. ¡Ánimo!";
+    string s1 = "Ahora voy a hablarte de como moverte por este mundo";
+    string s2 = "Puedes moverte tocando hacia donde quieres ir y no te preocupes, ya que puedes disparar de manera autom�tica";
+    string s3 = "Existen diferentes tipos de enemigos, aqu� te presento a estos 3 : al esqueleto , murcielago y la torre";
+    string s4 = "Tambi�n como ves arriba a la izquierda se encuentra tu barra de estado. La barra de arriba muestra tu vida y la de abajo la experiencia que vayas acumulando";
+    string s5 = "Cuando tu barra de experiencia se llene , en el modo hordas obtendr�s un power up de manera autom�tica pero en el modo historia necesitas acercarte a un cofre para obtenerlo";
+  
+    
+    string s6 = "Con todo esto dicho te dejo que lo pruebes tu mismo, ��nimo!";
 
-    string final = "Parece que esto es todo, te mando a la pantalla principal para que puedas empezar a explorar. ¡Suerte!";
+    string final = "Bueno ... y eso ha sido todo, te mando a la pantalla principal para que puedas jugar otros modos ... �Suerte!";
 
     public float tText = 0.15f;
     public float tLeft = 0;
 
     float tiempofinal = 2f;
     float tfleft=0;
-
     void Start()
     {
 
@@ -74,15 +69,10 @@ public class TextoTutorial : MonoBehaviour
         DialogoHistoria.Add(h3);
         DialogoHistoria.Add(h4);
         DialogoHistoria.Add(h5);
-        DialogoHistoria.Add(h6);
-        DialogoHistoria.Add(h7);
-        DialogoHistoria.Add(h8);
         DialogoHistoria.Add(hf);
 
         // DialogoHordas
-        DialogoHordas.Add(o1);
-        DialogoHordas.Add(o2);
-        DialogoHordas.Add(o3);
+        DialogoHordas.Add(o);
         DialogoHordas.Add(hf);
 
         //DialogoControles
@@ -91,13 +81,6 @@ public class TextoTutorial : MonoBehaviour
         DialogoControles.Add(s3);
         DialogoControles.Add(s4);
         DialogoControles.Add(s5);
-        DialogoControles.Add(s6);
-        DialogoControles.Add(s7);
-        DialogoControles.Add(s8);
-        DialogoControles.Add(s9);
-        DialogoControles.Add(s10);
-        DialogoControles.Add(s11);
-        DialogoControles.Add(s12);
         DialogoControles.Add(hf);
 
 
@@ -105,11 +88,13 @@ public class TextoTutorial : MonoBehaviour
         mordas.onClick.AddListener(() => { tipoTexto = 2; z = 0; eleccion.SetActive(false); t.text = DialogoHordas[0]; z++; });
         controles.onClick.AddListener(() => { tipoTexto = 0; y = 0; eleccion.SetActive(false); t.text = DialogoControles[0]; y++; });
         prueba.onClick.AddListener(() => { eleccion.SetActive(false); EscenaDialogo.SetActive(false);
+            Pasa.SetActive(false);
             GM.modoJuego = 2;
             tipoTexto = -1;
         });
 
         salir.onClick.AddListener(() => SceneManager.LoadScene(0));
+        PasarTexto.onClick.AddListener(() => puedePasar = true);
         t.text = a;
 
         
@@ -154,10 +139,16 @@ public class TextoTutorial : MonoBehaviour
         EscenaDialogo.SetActive(true);
         eleccion.SetActive(false);
         t.text = final;
+        
+        Pasa.SetActive(false);
+        
         if (tfleft > tiempofinal)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if ((Input.GetMouseButtonDown(0) || Input.GetMouseButton(0)))
+            {
                 SceneManager.LoadScene(0);
+            }
+        
         }
        
 
@@ -167,7 +158,8 @@ public class TextoTutorial : MonoBehaviour
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+           if(puedePasar)
+          //  if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
             {
                 if (DialogoControles.Count != y)
                 {
@@ -179,7 +171,7 @@ public class TextoTutorial : MonoBehaviour
                 {
                     eleccion.SetActive(true);
                 }
-
+                puedePasar = false;
             }
 
 
@@ -192,7 +184,7 @@ public class TextoTutorial : MonoBehaviour
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (DialogoHordas.Count != z)
                 {
@@ -204,7 +196,7 @@ public class TextoTutorial : MonoBehaviour
                 {
                     eleccion.SetActive(true);
                 }
-               
+                puedePasar = false;
             }
 
 
@@ -217,7 +209,7 @@ public class TextoTutorial : MonoBehaviour
         
         if(tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if(DialogoHistoria.Count != i)
                 {
@@ -229,6 +221,7 @@ public class TextoTutorial : MonoBehaviour
                 {
                     eleccion.SetActive(true);
                 }
+                puedePasar = false;
                 /*
                 if (Dialogo.Count == 0)
                 {

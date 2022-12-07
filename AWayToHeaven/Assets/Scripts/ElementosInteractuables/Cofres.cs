@@ -1,15 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
+using UnityEngine.UI;
 
 public class Cofres : MonoBehaviour
 {
     #region variables
-
+    public GameObject texto;
+    public static bool consumido = false;
     #endregion
     void Start()
     {
-        
+        texto.SetActive(false);
+        if (consumido == true){
+            Destroy(this.gameObject);
+
+        }
     }
 
     // Update is called once per frame
@@ -32,7 +39,13 @@ public class Cofres : MonoBehaviour
                 e.BarraExp.fillAmount = 0;
                 Player.nivelHistoria++;
                 e.LevelUp = false;
-           //     Destroy(this);
+                consumido = true;
+                     Destroy(this.gameObject);
+            }
+            else
+            {
+
+                texto.SetActive(true);
             }
         }
     }

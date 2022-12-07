@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class Historia : MonoBehaviour
 {
+    public Button PasarTexto;
+    bool puedePasar = false;
+
 
     public float tText = 0.15f;
     public float tLeft = 0;
@@ -281,6 +284,7 @@ public class Historia : MonoBehaviour
     int x = 1;
     void Start()
     {
+        PasarTexto.onClick.AddListener(() => puedePasar = true);
         GM = GameManager.FindObjectOfType<GameManager>();
 
         TextoElias = new List<string>();
@@ -449,52 +453,102 @@ public class Historia : MonoBehaviour
         {
             EscenaDialogo.SetActive(true);
             Texto3_3();
+            GM.modoJuego = 3;
+            if (FinDialogo2)
+            {
+                GM.modoJuego = 0;
+            }
         }
         if (inicio4_4 && !FinDialogoOp1)
         {
             EscenaDialogo.SetActive(true);
             Op1();
+            GM.modoJuego = 3;
+            if (FinDialogoOp1)
+            {
+                GM.modoJuego = 0;
+            }
         }
         if (IniOp2 && !FinDialogoOp2)
         {
             EscenaDialogo.SetActive(true);
             OpT2();
+            GM.modoJuego = 3;
+            if (FinDialogoOp2)
+            {
+                GM.modoJuego = 0;
+            }
         }
         if (Op3 && !FinDialogoOp3)
         {
             EscenaDialogo.SetActive(true);
             OpT3();
+            GM.modoJuego = 3;
+            if (FinDialogoOp3)
+            {
+                GM.modoJuego = 0;
+            }
         }
         if(D3 && !FinDialogo3)
         {
             EscenaDialogo.SetActive(true);
             S2D1();
+            GM.modoJuego = 3;
+            if (FinDialogo3)
+            {
+                GM.modoJuego = 0;
+            }
         }
         if (D4 && !FinDialogo4)
         {
             EscenaDialogo.SetActive(true);
             S2D2();
+            GM.modoJuego = 3;
+            if (FinDialogo4)
+            {
+                GM.modoJuego = 0;
+            }
         }
         if(OP4 && !FinDialogoOp4)
         {
             EscenaDialogo.SetActive(true);
             OPT4();
+            GM.modoJuego = 3;
+            if (FinDialogoOp4)
+            {
+                GM.modoJuego = 0;
+            }
         }
 
         if (OP6 && !FinDialogoOp6)
         {
             EscenaDialogo.SetActive(true);
             OPT6();
+            GM.modoJuego = 3;
+            if (FinDialogoOp6)
+            {
+                GM.modoJuego = 0;
+            }
         }
         if (OP5 && !FinDialogoOp5)
         {
             EscenaDialogo.SetActive(true);
             OPT5();
+            GM.modoJuego = 3;
+            if (FinDialogoOp5)
+            {
+                GM.modoJuego = 0;
+            }
         }
         if (FIN && !FinDialogo5)
         {
             EscenaDialogo.SetActive(true);
             TFinal();
+            GM.modoJuego = 3;
+            if (FinDialogo5)
+            {
+                GM.modoJuego = 0;
+            }
         }
         if (FinDialogo5)
         {
@@ -508,7 +562,7 @@ public class Historia : MonoBehaviour
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (Sala1.Count != y)
                 {
@@ -548,13 +602,14 @@ public class Historia : MonoBehaviour
         }
 
         tLeft += Time.deltaTime;
+        puedePasar = false;
     }
 
     public void Texto3_3(){
 
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (Esc2.Count != x)
                 {
@@ -595,14 +650,14 @@ public class Historia : MonoBehaviour
           
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 
     public void Op1()
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (EscOp1.Count != op1)
                 {
@@ -643,14 +698,14 @@ public class Historia : MonoBehaviour
          
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 
     public void OpT2()
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (EscOp2.Count != Op2)
                 {
@@ -691,14 +746,14 @@ public class Historia : MonoBehaviour
            
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 
     public void OpT3()
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (EscOp3.Count != op3)
                 {
@@ -738,14 +793,14 @@ public class Historia : MonoBehaviour
            
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 
     public void S2D1()
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (Esc3.Count != di3)
                 {
@@ -786,14 +841,14 @@ public class Historia : MonoBehaviour
          
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 
     public void S2D2()
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (Esc4.Count != di4)
                 {
@@ -832,14 +887,14 @@ public class Historia : MonoBehaviour
          
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 
     public void OPT4()
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (EscOp4.Count != op4)
                 {
@@ -878,14 +933,14 @@ public class Historia : MonoBehaviour
 
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 
     public void OPT5()
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (EscOp5.Count != op5)
                 {
@@ -924,14 +979,14 @@ public class Historia : MonoBehaviour
 
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 
     public void OPT6()
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (EscOp6.Count != op6)
                 {
@@ -970,14 +1025,14 @@ public class Historia : MonoBehaviour
 
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 
     public void TFinal()
     {
         if (tLeft > tText)
         {
-            if (Input.GetMouseButtonDown(0) || Input.GetMouseButton(0))
+            if (puedePasar)
             {
                 if (Esc5.Count != fn)
                 {
@@ -1043,7 +1098,7 @@ public class Historia : MonoBehaviour
 
         }
 
-        tLeft += Time.deltaTime;
+        tLeft += Time.deltaTime; puedePasar = false;
     }
 }
 

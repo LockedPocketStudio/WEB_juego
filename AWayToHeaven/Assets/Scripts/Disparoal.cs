@@ -12,11 +12,15 @@ public class Disparoal : MonoBehaviour
     public GameManager GM;
 
     public float timeShoot =0f;
-    // Start is called before the first frame update
+    
+   // VisorEnemigo visor;
+   // Escuchar sonido;
     void Start()
     {
         jugador = GameObject.Find("Player");
         GM = GameManager.FindObjectOfType<GameManager>();
+      //  visor = this.GetComponent<VisorEnemigo>();
+       // sonido = this.GetComponent<Escuchar>();
     }
 
     // Update is called once per frame

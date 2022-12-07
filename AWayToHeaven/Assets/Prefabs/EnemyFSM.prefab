@@ -151,6 +151,7 @@ MonoBehaviour:
   health: 1
   ExpPrefab: {fileID: 6768550097269240772, guid: 14377c43d7e253a469748b424202326c, type: 3}
   bala: 0
+  GM: {fileID: 0}
 --- !u!114 &5302919465405614838
 MonoBehaviour:
   m_ObjectHideFlags: 0

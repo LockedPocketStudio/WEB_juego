@@ -8,17 +8,38 @@ public class Enemy : MonoBehaviour
     public GameObject ExpPrefab;
     public int bala = 0;
     private bool estatico =false;
+    private Animator animacion;
+    public GameManager GM;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        animacion = this.GetComponent<Animator>(); 
+        GM = GameManager.FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(GM.modoJuego == -1)
+        {
+            animacion.enabled = false;
+            return;
+        }
+     
+
+        if(GM.estadoJugador == -1)
+        {
+            animacion.enabled = false;
+            return;
+        }
+           
+
+        if (animacion.enabled == false)
+        {
+            animacion.enabled = true;
        
+        }
     }
 
     public void TakeDamage(int amount)

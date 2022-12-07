@@ -14,26 +14,37 @@ public class EnemyBullet : MonoBehaviour
     private float LifeTime = 3f;
 
     GameManager GM;
+    private Animator animacion;
 
     void Start()
     {
         dir = dir.normalized;
         rb = GetComponent<Rigidbody2D>();
         GM = GameManager.FindObjectOfType<GameManager>();
+        animacion = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (GM.estadoJugador != 1)
+        if (GM.modoJuego == -1)
         {
+            animacion.enabled = false;
             return;
         }
 
 
-        if (GM.modoJuego == -1)
+        if (GM.estadoJugador == -1)
         {
+            animacion.enabled = false;
             return;
+        }
+
+
+        if (animacion.enabled == false)
+        {
+            animacion.enabled = true;
+
         }
         colliding = false;
         float distThisFrame = speed * Time.deltaTime;
@@ -54,7 +65,7 @@ public class EnemyBullet : MonoBehaviour
             case "Player":
                 Destroy(gameObject);
                 break;
-            case "BulletWall":
+            case "wall":
                 Destroy(gameObject);
                 break;
             default:

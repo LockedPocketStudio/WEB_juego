@@ -23,6 +23,11 @@ TagManager:
   - OP5
   - Llave
   - Lava
+  - wall
+  - Aire
+  - Roca
+  - Agua
+  - Suelo
   layers:
   - Default
   - TransparentFX
