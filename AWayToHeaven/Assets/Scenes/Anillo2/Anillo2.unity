@@ -19635,7 +19635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &781905613
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26374,7 +26374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1058608719
 Transform:
   m_ObjectHideFlags: 0
@@ -28430,16 +28430,20 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797509274143, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548097797509274143, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_BackGroundColor.b
-      value: 0.23584908
+      value: 0.03137255
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797509274143, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_BackGroundColor.g
-      value: 0.23584908
+      value: 0.03137255
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797509274143, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_BackGroundColor.r
-      value: 0.23584908
+      value: 0.03137255
       objectReference: {fileID: 0}
     - target: {fileID: 4580591855506094800, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_Interpolate
