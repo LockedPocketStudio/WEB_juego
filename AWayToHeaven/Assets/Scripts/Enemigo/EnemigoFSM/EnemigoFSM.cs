@@ -195,17 +195,5 @@ public class EnemigoFSM : MonoBehaviour
         }
     }
 
-
-    public void TakeDamage(int amount)
-    {
-        //El enemigo muere cuando le alcanza una bala del jugador
-        health = health - amount;
-        if (health <= 0)
-        {
-            veJugador = false;
-            Destroy(this.gameObject);
-            
-            return;
-        }
-    }
+  
 }

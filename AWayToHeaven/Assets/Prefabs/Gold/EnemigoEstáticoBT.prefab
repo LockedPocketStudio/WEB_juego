@@ -31,8 +31,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9194669164869768253}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -150.4104, y: 70.46, z: -0.017404784}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalPosition: {x: -151.6289, y: 71.5079, z: -0.017404784}
+  m_LocalScale: {x: 1.7129575, y: 1.7, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -50,10 +50,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f99e20fcb10fc47857b277b9093361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 2
   ExpPrefab: {fileID: 6768550097269240772, guid: 14377c43d7e253a469748b424202326c, type: 3}
   bala: 0
   GM: {fileID: 0}
+  bt: 0
 --- !u!114 &9194669164869768251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,8 +74,6 @@ MonoBehaviour:
   bulletHealth: 1
   nodoActual: 
   veJugador: 0
-  haAvanzado: 0
-  haDisparado: 0
   JugadorRango: 0
   c: {fileID: 0}
 --- !u!114 &9166469350112497312
@@ -95,6 +94,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8722333161147009638, guid: 1580767522d86e04e919de9d1f6911da, type: 3}
   GM: {fileID: 0}
   timeShoot: 0
+  EBT: 0
+  EEs: 0
 --- !u!212 &9194669164869768250
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -136,7 +137,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 590536343, guid: 5c2ba91ffa5e30b4a94f0a8a46dcafbc, type: 3}
+  m_Sprite: {fileID: 1038130162, guid: 21d8c27585283594f85efc760b37926e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -160,18 +161,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0.010718346, y: -0.09923965}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.19, y: 12.035874}
+    oldSize: {x: 1.1, y: 3}
     newSize: {x: 0.2, y: 0.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 9}
+  m_Size: {x: 0.80454516, y: 2.4803414}
   m_EdgeRadius: 0
 --- !u!50 &9194669164869768230
 Rigidbody2D:

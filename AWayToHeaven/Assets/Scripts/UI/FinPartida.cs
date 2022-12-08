@@ -33,6 +33,7 @@ public class FinPartida : MonoBehaviour
     {
         if(GM.estadoJugador == -1)
         {
+            GM.modoJuego = -1;
             EndGame.SetActive(true);
             if (GM.victoria)
             {

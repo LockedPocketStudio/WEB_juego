@@ -47,7 +47,9 @@ public class EnemigoEspecialFSM : MonoBehaviour
 
     //Control Sprite
     SpriteRenderer sprite;
-
+    private Animator animacion;
+    public bool animCurando;
+    public float tanim= 0.3f;
     #endregion variables
 
 
@@ -57,7 +59,7 @@ public class EnemigoEspecialFSM : MonoBehaviour
         //Buscar objetos de la escena 
         GM = GameManager.FindObjectOfType<GameManager>();
         jugador = GameObject.Find("Player");
-
+        animacion = this.GetComponent<Animator>();
         //Coger sprite
         sprite = this.GetComponent<SpriteRenderer>();
 
@@ -146,6 +148,15 @@ public class EnemigoEspecialFSM : MonoBehaviour
         {
             Curacion();
         }
+        if (animCurando)
+        {
+            if(tanim <= 0)
+            {
+                animCurando = false;
+                animacion.SetBool("Cura", false);
+            }
+            tanim -= Time.deltaTime;
+        }
     }
 
     
@@ -209,7 +220,8 @@ public class EnemigoEspecialFSM : MonoBehaviour
     {
         estadoActual = estadosEnemigo.Curando;
         enMovimiento = false;
-
+        animCurando = true;
+        animacion.SetBool("Cura", true);
         //Se cura hasta completar su vida
         //Cambia una flag porque solo se puede hacer una vez
         //Vuelve a patrullar
