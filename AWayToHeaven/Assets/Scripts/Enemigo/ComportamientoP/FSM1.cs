@@ -45,6 +45,9 @@ public class FSM1: MonoBehaviour
     Escuchar sonido;
     movement movimientoJugador;
 
+    public GameObject exclamacion;
+    public GameObject interrogacion;
+
     #endregion variables
 
 
@@ -61,7 +64,7 @@ public class FSM1: MonoBehaviour
         sonido = this.GetComponent<Escuchar>();
         //Coger sprite
         sprite = this.GetComponent<SpriteRenderer>();
-
+        exclamacion.SetActive(false);
 
         estadosEnemigo = new EstadosEnemigo();
 
@@ -193,17 +196,25 @@ public class FSM1: MonoBehaviour
         //Si el jugador se encuentra a una distancia menos de X del enemigo, el enemigo le verá y comenzará a acercarse a él.
         if (visor.detected == true || (sonido.detected ==true && movimientoJugador.hacerRuido))
         {
+            if(control.alertado == true)
+            {
+                control.alertado = false;
+                control.alerta.SetActive(false);
+            }
             veJugador = true;
             haAlcanzado = true;
             control.Destino(destino);
-         //   control.DestinoActualizado = destino;
+            exclamacion.SetActive(true);
+
+            //   control.DestinoActualizado = destino;
             //pasarle al visor la posicion del jugador para que apunte a el y no a los puntos del nav
-            
+
         }
         else
         {
             veJugador = false;
             haAlcanzado = false;
+            exclamacion.SetActive(false);
         }
 
     }

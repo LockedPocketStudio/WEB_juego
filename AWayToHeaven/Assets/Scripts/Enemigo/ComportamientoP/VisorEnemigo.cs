@@ -154,7 +154,7 @@ public class VisorEnemigo : MonoBehaviour
         Vector2 playerVector = player.position - head.transform.position;
        if(Vector3.Angle(playerVector.normalized,head.right) < visionAngle * 0.5f)
         {
-            if(playerVector.magnitude < visionDistance)
+            if(playerVector.magnitude < visionDistance && ChequearObstaculo() == true)
             {
                 detected = true;
             }
@@ -209,22 +209,50 @@ public class VisorEnemigo : MonoBehaviour
     public bool ChequearObstaculo()
     {
         bool res = false;
-        Vector3 origenRayo = new Vector3(head.transform.position.x, head.transform.position.y+1, head.transform.position.z);
-        Vector3 DireccionRayo = new Vector3(player.transform.position.x, player.transform.position.y + 1, player.transform.position.z);
+        Vector3 origenRayo = head.position;//new Vector3(head.transform.position.x, head.transform.position.y+1, head.transform.position.z);
+        Vector3 DireccionRayo = player.position;// new Vector3(player.transform.position.x, player.transform.position.y + 1, player.transform.position.z);
         DireccionRayo -= origenRayo;
         Ray ray = new Ray(origenRayo, DireccionRayo);
 
-        RaycastHit hit;
+        //  RaycastHit hit;
+        Debug.DrawRay(origenRayo, DireccionRayo);
 
-        if(Physics.Raycast(ray,out hit))
-        {
+        RaycastHit2D[] hit = Physics2D.RaycastAll(origenRayo, DireccionRayo);
+        //   if(Physics.Raycast(ray,out hit))
+        //  {
 
-            if(hit.collider !=null && hit.collider.tag.Equals("Player"))
+
+        if (hit[1].collider.tag == "Player" || hit[1].collider.tag == "Untagged" )
             {
                 res = true;
             }
-
+        if(hit[1].collider.tag =="BulletEnemy" && (hit[2].collider.tag =="Player" || hit[2].collider.tag == "Untagged"))
+        {
+            res = true;
         }
-        return res;
+        if(hit[1].collider.tag== "Enemy" && (hit[2].collider.tag == "Player" || hit[2].collider.tag == "Untagged"))
+        {
+            res = true;
+        }
+        if (hit[1].collider.tag == "Aire" && (hit[2].collider.tag == "Player" || hit[2].collider.tag == "Untagged"))
+        {
+            res = true;
+        }
+        if (hit[1].collider.tag == "Lava" && (hit[2].collider.tag == "Player" || hit[2].collider.tag == "Untagged"))
+        {
+            res = true;
+        }
+        if (hit[1].collider.tag == "Roca" && (hit[2].collider.tag == "Player" || hit[2].collider.tag == "Untagged"))
+        {
+            res = true;
+        }
+        if (hit[1].collider.tag == "Agua" && (hit[2].collider.tag == "Player" || hit[2].collider.tag == "Untagged"))
+        {
+            res = true;
+        }
+
+
+        //}
+        return res; //false si choca con algo 
     }
 }

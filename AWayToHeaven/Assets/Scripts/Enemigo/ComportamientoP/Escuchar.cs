@@ -9,8 +9,9 @@ public class Escuchar : MonoBehaviour
     public float visionDistance = 2f;
     public float DistanciaAlerta = 14f;
     public Transform head;
+   public Vector2 Distancia;
+    public ControlNavMesh nav;
 
-  
     public Transform player;
     public GameObject jugador;
     movement movimientoJugador; 
@@ -21,10 +22,12 @@ public class Escuchar : MonoBehaviour
     public bool EFSM;
     public bool EBT;
     public bool EEs;
+
+
     void Start()
     {
         visor = this.GetComponent<VisorEnemigo>();
-
+        nav = this.GetComponent<ControlNavMesh>();
         jugador = GameObject.Find("Player");
         movimientoJugador = jugador.GetComponent<movement>();
     }
@@ -78,7 +81,11 @@ public class Escuchar : MonoBehaviour
         p2 = PointForAngle(-halfVision, visionDistance);
         if (EFSM )
         {
-            Gizmos.color = detected ? Color.red : Color.blue;
+           Distancia = (((Vector2)head.position + p1) -(Vector2) head.position);
+            if(nav!=null)
+            nav.DistanciaEscuchar = Distancia.magnitude;
+            DistanciaAlerta = Distancia.magnitude + 4;
+        Gizmos.color = detected ? Color.red : Color.blue;
             Gizmos.DrawLine(head.position, (Vector2)head.position + p1);
             Gizmos.DrawLine(head.position, (Vector2)head.position + p2);
             Gizmos.DrawWireSphere(head.position, 4);
@@ -90,6 +97,10 @@ public class Escuchar : MonoBehaviour
             Gizmos.DrawLine(head.position, (Vector2)head.position + p1);
             Gizmos.DrawLine(head.position, (Vector2)head.position + p2);
             Gizmos.DrawWireSphere(head.position, 7);
+
+             Distancia = (((Vector2)head.position + p1) - (Vector2)head.position);
+            if (nav != null)
+                nav.DistanciaEscuchar = Distancia.magnitude;
         }
        
 
@@ -106,13 +117,15 @@ public class Escuchar : MonoBehaviour
     public void AlertarEnemigos()
     {
        ControlNavMesh[] enemigos = FindObjectsOfType<ControlNavMesh>();
-        
+    
         for(int i=0;i< enemigos.Length; i++)
         {
             Vector2 distancia = head.transform.position - enemigos[i].head.transform.position;
-            if (distancia.magnitude < DistanciaAlerta)
+            float Distanciaf = Distancia.magnitude + enemigos[i].DistanciaEscuchar;
+            if (distancia.magnitude < DistanciaAlerta && this.transform != enemigos[i].transform)
             {
                 enemigos[i].Destino(player.position);
+                enemigos[i].alertado = true;
             }
         }
     }

@@ -9,6 +9,11 @@ public class ControlNavMesh : MonoBehaviour
     private NavMeshAgent navMesh;
     public bool destinoAsignado=false;
     public VisorEnemigo head;
+    public float DistanciaEscuchar;
+    public bool alertado = false;
+    public GameObject alerta;
+    public bool hemosllegado;
+    public float b;
 
     [HideInInspector]
     public Transform perseguir; //a donde queremos que vaya el enemigo
@@ -22,6 +27,7 @@ public class ControlNavMesh : MonoBehaviour
     }
     void Start()
     {
+        alerta.SetActive(false);
         navMesh.updateRotation = false;
         navMesh.updateUpAxis = false;
     }
@@ -34,7 +40,10 @@ public class ControlNavMesh : MonoBehaviour
 
     public void Destino(Vector2 destino) //para los puntos donde tieen que buscar el camino
     {
-       
+        if (alertado == true)
+        {
+            alerta.SetActive(true);
+        }
         destinoAsignado = true;
         navMesh.destination = destino;
         navMesh.isStopped = false;
@@ -56,7 +65,18 @@ public class ControlNavMesh : MonoBehaviour
 
     public bool Hemosllegado()
     {
-        return navMesh.remainingDistance <= navMesh.stoppingDistance && !navMesh.pathPending;
+        bool hemosllegado = false;
+        b = Vector3.Distance(navMesh.destination, this.transform.position);
+        if (b < 0.7f)
+            hemosllegado = true;
+          ///  bool a = navMesh.remainingDistance <= navMesh.stoppingDistance && !navMesh.pathPending;
+        if ( hemosllegado && alertado)
+        {
+            alertado = false;
+            alerta.SetActive(false);
+        }
+
+        return hemosllegado;//navMesh.remainingDistance <= navMesh.stoppingDistance && !navMesh.pathPending;
     }
 
 
