@@ -12,15 +12,19 @@ public class Disparoal : MonoBehaviour
     public GameManager GM;
 
     public float timeShoot =0f;
+
+    public bool EBT;
+    public bool EEs;
     
-   // VisorEnemigo visor;
-   // Escuchar sonido;
+    VisorEnemigo visor;
+    Escuchar sonido;
     void Start()
     {
         jugador = GameObject.Find("Player");
         GM = GameManager.FindObjectOfType<GameManager>();
-      //  visor = this.GetComponent<VisorEnemigo>();
-       // sonido = this.GetComponent<Escuchar>();
+       visor = this.GetComponent<VisorEnemigo>();
+        if(EBT)
+       sonido = this.GetComponent<Escuchar>();
     }
 
     // Update is called once per frame
@@ -47,8 +51,8 @@ public class Disparoal : MonoBehaviour
         }
 
         float distanceTo = Vector2.Distance(jugador.transform.position, this.transform.position);
-        if (timeShoot >=2.5f && distanceTo<=5)
-        {
+        if (EEs && timeShoot >=2.5f && visor.detected)
+        {/*
             Quaternion rot = new Quaternion(0, 0, 0, 0);
             GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
             EnemyBullet b = bulletGO.GetComponent<EnemyBullet>();
@@ -58,9 +62,29 @@ public class Disparoal : MonoBehaviour
 
             var a = this.GetComponent<Enemy>();
             a.bala = 0;
-            timeShoot = 0;
+            timeShoot = 0;*/
+            Disparar(distanceTo);
+
+        }
+        else if(EBT && timeShoot >= 2.5f && sonido.detected)
+        {
+            Disparar(distanceTo);
         }
       timeShoot+=  Time.deltaTime;
         
+    }
+
+    public void Disparar(float distanceTo)
+    {
+        Quaternion rot = new Quaternion(0, 0, 0, 0);
+        GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
+        EnemyBullet b = bulletGO.GetComponent<EnemyBullet>();
+        b.dir = jugador.transform.position - this.transform.position;
+        b.damage = bulletDamage;
+        b.health = bulletHealth;
+
+        var a = this.GetComponent<Enemy>();
+        a.bala = 0;
+        timeShoot = 0;
     }
 }

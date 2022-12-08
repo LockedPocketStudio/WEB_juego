@@ -42,7 +42,7 @@ public class BT1 : MonoBehaviour
     ControlNavMesh control;
     VisorEnemigo visor;
     Escuchar sonido;
-
+    public GameObject exclamacion;
     #endregion variables
 
     // Start is called before the first frame update
@@ -59,7 +59,7 @@ public class BT1 : MonoBehaviour
         control = this.GetComponent<ControlNavMesh>();
         visor = this.GetComponent<VisorEnemigo>();
         sonido = this.GetComponent<Escuchar>();
-
+        exclamacion.SetActive(false);
         CreateBehaviourTree();
     }
 
@@ -250,6 +250,12 @@ public class BT1 : MonoBehaviour
 
         if (visor.detected == true || sonido.detected == true)
         {
+            if (control.alertado == true)
+            {
+                control.alertado = false;
+                control.alerta.SetActive(false);
+            }
+            exclamacion.SetActive(true);
             veJugador = true;
           
             control.Destino(destino);
@@ -261,7 +267,7 @@ public class BT1 : MonoBehaviour
         else
         {
             veJugador = false;
-  
+            exclamacion.SetActive(false);
             return ReturnValues.Failed;
         }
 

@@ -28,6 +28,7 @@ TagManager:
   - Roca
   - Agua
   - Suelo
+  - Obstaculo
   layers:
   - Default
   - TransparentFX
