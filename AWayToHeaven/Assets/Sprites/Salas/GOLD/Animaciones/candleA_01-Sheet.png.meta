@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e54e9d46be499f4da2d04d40997f9e4
+guid: e1d629827e75c744e8a18dfadfb518e4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Anillo1_AgujerAnimado_Spritesheet_0
+      name: candleA_01-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 7
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d566a3ffc8218e543a198df18b3188bf
-      internalID: -366866606
+      spriteID: 53a53119b67134d4891b1f06e8ed33f3
+      internalID: 773953548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Anillo1_AgujerAnimado_Spritesheet_1
+      name: candleA_01-Sheet_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 7
         y: 0
-        width: 64
-        height: 64
+        width: 7
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 409a83a4e5b1ad34f885f635db51d63f
-      internalID: -1362481612
+      spriteID: c4304a320eecbdd4bae26cb8b0af0336
+      internalID: 1126067696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Anillo1_AgujerAnimado_Spritesheet_2
+      name: candleA_01-Sheet_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 14
         y: 0
-        width: 64
-        height: 64
+        width: 7
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b565272088bcf3409dff2e090cc1990
-      internalID: 432636404
+      spriteID: b68515af30a13974eadf7bdf0d7130e8
+      internalID: 1486366714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Anillo1_AgujerAnimado_Spritesheet_3
+      name: candleA_01-Sheet_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 21
         y: 0
-        width: 64
-        height: 64
+        width: 7
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,71 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e47eec3c770122419bcd11535928cd8
-      internalID: 834902282
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Anillo1_AgujerAnimado_Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b741790b8095692408be53f0f75fc7af
-      internalID: 831890480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Anillo1_AgujerAnimado_Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75d5dfa5fdac7df4c9c6cdc97a1171f4
-      internalID: 468749951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Anillo1_AgujerAnimado_Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f15bb31bb2abf8548b345f7245748e25
-      internalID: 1512838580
+      spriteID: 04a11186757f333468c9aaa4fbe824fa
+      internalID: -279856010
       vertices: []
       indices: 
       edges: []
@@ -274,13 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Anillo1_AgujerAnimado_Spritesheet_4: 831890480
-      Anillo1_AgujerAnimado_Spritesheet_6: 1512838580
-      Anillo1_AgujerAnimado_Spritesheet_5: 468749951
-      Anillo1_AgujerAnimado_Spritesheet_0: -366866606
-      Anillo1_AgujerAnimado_Spritesheet_3: 834902282
-      Anillo1_AgujerAnimado_Spritesheet_1: -1362481612
-      Anillo1_AgujerAnimado_Spritesheet_2: 432636404
+      candleA_01-Sheet_2: 1486366714
+      candleA_01-Sheet_0: 773953548
+      candleA_01-Sheet_3: -279856010
+      candleA_01-Sheet_1: 1126067696
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
