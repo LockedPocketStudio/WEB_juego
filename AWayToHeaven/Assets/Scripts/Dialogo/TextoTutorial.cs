@@ -29,27 +29,32 @@ public class TextoTutorial : MonoBehaviour
     public int y = 0;//controles
     
     public TMP_Text t;
-    string a ="¿Hola? , bueno... veo que no sabes muy bien que hacer. ¿Qué tipo de información necesitas?";
+    string a ="Â¿Hola? parece que no sabes muy bien quÃ© hacerâ€¦ Â¿Te echo una mano? Â¿QuÃ© tipo de informaciÃ³n necesitas?";
     
     string o = "En cuanto al modo hordas consiste en sobrevivir 5 minutos, existen 3 niveles de dificultad. Te animo a probarlo";
     
-    string h1 = "En el modo historia te contaré como has acabado aquí... Seguro que tienes ganas de saberlo";
-    string h2 = "Tu objetivo será buscar unas escaleras ... No te diré el porque , eso tendrás que averiguarlo tu";
-    string h3 = "Para escapar de las salas tendrás que buscar una puerta y la llave que la abre claro... ";
-    string h4 = "Al salir de una sala podrás elegir la siguiente sala a la que irás de entre las adyacentes a ella";
-    string h5 = "Por último, cuando tu barra de experiencia se llene , no obtendrás un power up de manera automática. Tendrás que buscar un cofre para poder conseguirlo";
-    string hf = "¿Necesitas más información?";
+    string h1 = "En el modo historia te contarï¿½ como has acabado aquï¿½... Seguro que tienes ganas de saberlo";
+    string h2 = "Tu objetivo serï¿½ buscar unas escaleras ... No te dirï¿½ el porque , eso tendrï¿½s que averiguarlo tu";
+    string h3 = "Para escapar de las salas tendrï¿½s que buscar una puerta y la llave que la abre claro... ";
+    string h4 = "Al salir de una sala podrï¿½s elegir la siguiente sala a la que irï¿½s de entre las adyacentes a ella";
+    string h5 = "Por ï¿½ltimo, cuando tu barra de experiencia se llene , no obtendrï¿½s un power up de manera automï¿½tica. Tendrï¿½s que buscar un cofre para poder conseguirlo";
+    string hf = "ï¿½Necesitas mï¿½s informaciï¿½n?";
 
-    string s1 = "Ahora voy a hablarte de como moverte por este mundo";
-    string s2 = "Puedes moverte tocando hacia donde quieres ir y no te preocupes, ya que puedes disparar de manera automática";
-    string s3 = "Existen diferentes tipos de enemigos, aquí te presento a estos 3 : al esqueleto , murcielago y la torre";
-    string s4 = "También como ves arriba a la izquierda se encuentra tu barra de estado. La barra de arriba muestra tu vida y la de abajo la experiencia que vayas acumulando";
-    string s5 = "Cuando tu barra de experiencia se llene , en el modo hordas obtendrás un power up de manera automática pero en el modo historia necesitas acercarte a un cofre para obtenerlo";
-  
+    string s1 = "Es importante que sepas cÃ³mo moverte por este mundo antes de explorarlo.";
+    string s2 = "Para moverte, solo debes hacer click en el lugar al que quieres ir o mantener el click pulsado en la direcciÃ³n en la que quieras andar. ";
+    string s3 = "Si estÃ¡s jugando en un dispositivo mÃ³vil, puedes hacer esto tocando la pantalla.";
+    string s4 = "Para que te puedas defender de los enemigos que te encuentres por este mundo te he concedido el poder de dispararles, Â¡aprovÃ©chalo!";
+    string s5 = "Para disparar debes estar cerca de un enemigo. El disparo serÃ¡ automÃ¡tico, por lo que no tienes que preocuparte por nada mÃ¡s.";
+    string s6 = "Existen diferentes tipos de enemigos a los que te irÃ¡s enfrentando, algunos mÃ¡s fuertes y resistentes que otros.";
+    string s7 = "AquÃ­ te presento a tres de ellos para que sepas cÃ³mo son: Huesitos, Pesadilla y la Torre. Te dejo que conozcas tÃº mismo a los demÃ¡sâ€¦";
+    string s8 = "Ten cuidado al enfrentarte a ellos, Â¡te pueden matar!";
+    string s9 = "Puedes saber cuÃ¡nta vida te queda gracias a la barra de estado que se encuentra en la parte superior izquierda de la pantalla.";
+    string s10 = "TambiÃ©n en esa posiciÃ³n podrÃ¡s consultar cuÃ¡ntos aurem has acumulado hasta el momento.";
+    string s11 = "Ya descubrirÃ¡s para quÃ© sirve el aurem en cada modo de juegoâ€¦";
     
-    string s6 = "Con todo esto dicho te dejo que lo pruebes tu mismo, ¡Ánimo!";
+    string s12 = "Con todo esto dicho, te dejo que pruebes tÃº mismo. Â¡Ãnimo!";
 
-    string final = "Bueno ... y eso ha sido todo, te mando a la pantalla principal para que puedas jugar otros modos ... ¡Suerte!";
+    string final = "Bueno ... y eso ha sido todo, te mando a la pantalla principal para que puedas jugar otros modos ... ï¿½Suerte!";
 
     public float tText = 0.15f;
     public float tLeft = 0;
