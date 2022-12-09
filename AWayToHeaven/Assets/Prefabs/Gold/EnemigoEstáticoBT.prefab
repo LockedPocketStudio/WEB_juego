@@ -50,11 +50,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f99e20fcb10fc47857b277b9093361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 2
+  health: 6
   ExpPrefab: {fileID: 6768550097269240772, guid: 14377c43d7e253a469748b424202326c, type: 3}
   bala: 0
   GM: {fileID: 0}
   bt: 0
+  fsm: 0
 --- !u!114 &9194669164869768251
 MonoBehaviour:
   m_ObjectHideFlags: 0

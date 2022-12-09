@@ -55,6 +55,8 @@ public class PlayerLife : MonoBehaviour
         {
             e.BarraVida.fillAmount = 0;
             Destroy(e);
+            //Meter aqui animcaion de muerte
+            GM.modoJuego = -1;
 
             GM.PlayerState(-1);
             Destroy(this);

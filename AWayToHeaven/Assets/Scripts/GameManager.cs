@@ -129,7 +129,7 @@ public class GameManager : MonoBehaviour
             dificultad++;
         }
 
-        if(time >= 300)
+        if(time >= 10)
         {
             victoria = true;
              estadoJugador = -1;
