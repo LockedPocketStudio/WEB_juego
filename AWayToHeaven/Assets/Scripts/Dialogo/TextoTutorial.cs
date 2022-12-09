@@ -31,14 +31,20 @@ public class TextoTutorial : MonoBehaviour
     public TMP_Text t;
     string a ="¿Hola? parece que no sabes muy bien qué hacer… ¿Te echo una mano? ¿Qué tipo de información necesitas?";
     
-    string o = "En cuanto al modo hordas consiste en sobrevivir 5 minutos, existen 3 niveles de dificultad. Te animo a probarlo";
+    string o = "El modo hordas consiste en sobrevivir 5 minutos.";
+    string o2 = "En este tiempo irán apareciendo enemigos que vayan a atacarte, procura defenderte y recoger el aurem que dejen a su paso.";
+    string o3 = "Cuando reúnas suficiente aurem conseguirás una ventaja que te ayudará el resto de la partida.";
+    string o4 = "Existen tres niveles de dificultad ¡te animo a probarlo!";
     
-    string h1 = "En el modo historia te contar� como has acabado aqu�... Seguro que tienes ganas de saberlo";
-    string h2 = "Tu objetivo ser� buscar unas escaleras ... No te dir� el porque , eso tendr�s que averiguarlo tu";
-    string h3 = "Para escapar de las salas tendr�s que buscar una puerta y la llave que la abre claro... ";
-    string h4 = "Al salir de una sala podr�s elegir la siguiente sala a la que ir�s de entre las adyacentes a ella";
-    string h5 = "Por �ltimo, cuando tu barra de experiencia se llene , no obtendr�s un power up de manera autom�tica. Tendr�s que buscar un cofre para poder conseguirlo";
-    string hf = "�Necesitas m�s informaci�n?";
+    string h1 = "En el modo historia te contaré cómo has acabado aquí… Seguro que tienes ganas de saberlo.";
+    string h2 = "Supongo que quieres llegar al final de todo este lío, así que céntrate en encontrar las escaleras de cada anillo para poder avanzar.";
+    string h3 = "Para encontrar las escaleras tendrás que explorar varias salas, pero… tendrás que conseguir abrir sus puertas antes.";
+    string h4 = "En cada sala se esconde una llave que te permitirá salir de ella. ";
+    string h5 = "Esta llave en algunas ocasiones estará custodiada por uno de tus enemigos, pero… ¿cuál de ellos? ¡Tendrás que derrotarlos para conseguirla!";
+    string h6 = "Al salir de una sala podrás elegir a cuál quieres moverte de las adyacentes a ella.";
+    string h7 = "Por último, cuando encuentres un cofre, si tienes suficientes aurems, este se abrirá al acercarte a él y te dará una habilidad para ayudarte en el resto de las salas.";
+    string h8 = "Sin embargo, si no tienes suficiente aurem no se abrirá.";
+    string hf = "¿Quieres saber alguna otra cosa?";
 
     string s1 = "Es importante que sepas cómo moverte por este mundo antes de explorarlo.";
     string s2 = "Para moverte, solo debes hacer click en el lugar al que quieres ir o mantener el click pulsado en la dirección en la que quieras andar. ";
@@ -54,7 +60,7 @@ public class TextoTutorial : MonoBehaviour
     
     string s12 = "Con todo esto dicho, te dejo que pruebes tú mismo. ¡Ánimo!";
 
-    string final = "Bueno ... y eso ha sido todo, te mando a la pantalla principal para que puedas jugar otros modos ... �Suerte!";
+    string final = "Parece que esto es todo, te mando a la pantalla principal para que puedas empezar a explorar. ¡Suerte!";
 
     public float tText = 0.15f;
     public float tLeft = 0;
@@ -74,10 +80,16 @@ public class TextoTutorial : MonoBehaviour
         DialogoHistoria.Add(h3);
         DialogoHistoria.Add(h4);
         DialogoHistoria.Add(h5);
+        DialogoHistoria.Add(h6);
+        DialogoHistoria.Add(h7);
+        DialogoHistoria.Add(h8);
         DialogoHistoria.Add(hf);
 
         // DialogoHordas
         DialogoHordas.Add(o);
+        DialogoHordas.Add(o2);
+        DialogoHordas.Add(o3);
+        DialogoHordas.Add(o4);
         DialogoHordas.Add(hf);
 
         //DialogoControles
@@ -86,6 +98,12 @@ public class TextoTutorial : MonoBehaviour
         DialogoControles.Add(s3);
         DialogoControles.Add(s4);
         DialogoControles.Add(s5);
+        DialogoControles.Add(s6);
+        DialogoControles.Add(s7);
+        DialogoControles.Add(s8);
+        DialogoControles.Add(s9);
+        DialogoControles.Add(s10);
+        DialogoControles.Add(s11);
         DialogoControles.Add(hf);
 
 
