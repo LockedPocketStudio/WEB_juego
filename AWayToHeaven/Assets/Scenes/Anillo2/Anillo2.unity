@@ -34555,6 +34555,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: m_Depth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: far clip plane
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: near clip plane
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.03137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.03137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.03137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 221464294691881525, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4548097797418069855, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 55.65
@@ -34579,6 +34619,10 @@ PrefabInstance:
       propertyPath: Mover
       value: 
       objectReference: {fileID: 559407121}
+    - target: {fileID: 4548097797418069922, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
+      propertyPath: puedeMoverse
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4548097797418069923, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: GM
       value: 

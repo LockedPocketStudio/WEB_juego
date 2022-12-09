@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 1414790604229472713}
   - component: {fileID: 472035971060310447}
   m_Layer: 0
-  m_Name: puerta
+  m_Name: puerta_Anillo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -420,7 +420,7 @@ SpriteRenderer:
   m_SortingLayerID: -1083982075
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: d80657d6af556524da882e062ced2671, type: 3}
+  m_Sprite: {fileID: -1116372170, guid: c0f8da61836dd5246ab9894d732a587c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -448,7 +448,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.78, y: 1.03}
+    oldSize: {x: 0.63, y: 0.69}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -500,10 +500,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScene: 0
   spriteRend: {fileID: 2798407259668748789}
-  pRojaCerrada: {fileID: 21300000, guid: d80657d6af556524da882e062ced2671, type: 3}
-  pRojaAbierta: {fileID: 21300000, guid: 9879516d8acf3a34ca168400c7ac03cd, type: 3}
-  pGrisCerrada: {fileID: 21300000, guid: 91e7d4f4bcf89e846a81f5c475a13e75, type: 3}
-  pGrisAbierta: {fileID: 21300000, guid: 113bf7f39fdd72e4d84c2e236e86a833, type: 3}
+  pRojaCerrada: {fileID: -1116372170, guid: c0f8da61836dd5246ab9894d732a587c, type: 3}
+  pRojaAbierta: {fileID: -1497153886, guid: c0f8da61836dd5246ab9894d732a587c, type: 3}
+  pGrisCerrada: {fileID: -1102700367, guid: 871664672d9d4b14d97f83d83d6de3c2, type: 3}
+  pGrisAbierta: {fileID: 692255144, guid: 871664672d9d4b14d97f83d83d6de3c2, type: 3}
 --- !u!95 &472035971060310447
 Animator:
   serializedVersion: 4
