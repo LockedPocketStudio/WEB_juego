@@ -9,9 +9,12 @@ public class Cofres : MonoBehaviour
     #region variables
     public GameObject texto;
     public static bool consumido = false;
+    Animator anim;
+    float tiempoanim = 1.2f;
     #endregion
     void Start()
     {
+        anim = this.GetComponent<Animator>();
         texto.SetActive(false);
         if (consumido == true){
             Destroy(this.gameObject);
@@ -22,7 +25,14 @@ public class Cofres : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (consumido)
+        {
+            if(tiempoanim <= 0)
+            {
+                Destroy(this.gameObject);
+            }
+            tiempoanim -= Time.deltaTime;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -40,7 +50,8 @@ public class Cofres : MonoBehaviour
                 Player.nivelHistoria++;
                 e.LevelUp = false;
                 consumido = true;
-                     Destroy(this.gameObject);
+                anim.SetBool("Abrir", true);
+                   //  Destroy(this.gameObject);
             }
             else
             {
