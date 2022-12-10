@@ -74,7 +74,7 @@ public class Player : MonoBehaviour
     public bool PasarSala = false;
 
     //Control animación
-   protected  Animator animacion;
+   public Animator animacion;
 
     #endregion
 
