@@ -213,7 +213,7 @@ public class MapManager : MonoBehaviour
             }
 
         }else if(currentScene == 10){   //Sala final
-
+            jugador.transform.position = new Vector2(-37.189f, -8.131f);
         }
         
     }

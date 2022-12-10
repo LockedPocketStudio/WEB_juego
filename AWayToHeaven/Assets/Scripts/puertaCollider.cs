@@ -16,6 +16,9 @@ public class puertaCollider : MonoBehaviour
     public Sprite pGrisCerrada;
     public Sprite pGrisAbierta;
 
+    //Animacion
+    Animator animacion;
+
     //public GameObject[] enemigos;
     //public GameObject obj;
     //public List<GameObject> enemigosSala;
