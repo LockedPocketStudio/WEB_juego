@@ -82,7 +82,7 @@ public class movement : MonoBehaviour, IPointerDownHandler
     {
         if (GM.modoJuego == -1)
         {
-            animacion.enabled = false;
+          //  animacion.enabled = false;
             return;
             
         }

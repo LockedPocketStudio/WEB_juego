@@ -25,6 +25,9 @@ public class PlayerLife : MonoBehaviour
     static bool dop6 = false;
 
     static bool final = false;
+
+    float animMuerte = 2f;
+    bool Afinal = false;
     void Start()
     {
         Playerpos = player.transform.position;
@@ -40,6 +43,17 @@ public class PlayerLife : MonoBehaviour
     {
         Playerpos = player.transform.position;
         this.transform.position = Playerpos;
+
+        if (Afinal)
+        {
+            if(animMuerte <= 0)
+            {
+                GM.modoJuego = -1;
+                Destroy(this);
+                Destroy(player.gameObject.GetComponent<SpriteRenderer>());
+            }
+            animMuerte -= Time.deltaTime;
+        }
     }
     public void TakeDamage()
     {
@@ -54,12 +68,13 @@ public class PlayerLife : MonoBehaviour
         if (e.VidaActual <= 0)
         {
             e.BarraVida.fillAmount = 0;
-            Destroy(e);
+            Afinal = true;
+           // Destroy(e);
             //Meter aqui animcaion de muerte
-            GM.modoJuego = -1;
+           
 
             GM.PlayerState(-1);
-            Destroy(this);
+            
         }
     }
 
@@ -81,10 +96,11 @@ public class PlayerLife : MonoBehaviour
             if (e.VidaActual <= 0)
             {
                 e.BarraVida.fillAmount = 0;
-                Destroy(e);
-               
+                Afinal = true;
+                // Destroy(e);
+                e.animacion.SetBool("Muerte", true);
                 GM.PlayerState(-1);
-                Destroy(this);
+                //Destroy(this);
             }
 
         }
