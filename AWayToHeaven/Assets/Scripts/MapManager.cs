@@ -207,13 +207,13 @@ public class MapManager : MonoBehaviour
 
                 case "Sala4_4":
                     Debug.Log("SALA 4_ 4");
-                    jugador.transform.position = new Vector2(106.25f, --127.23f);
+                    jugador.transform.position = new Vector2(106.25f, -127.23f);
                                         
                 break;
             }
 
         }else if(currentScene == 10){   //Sala final
-
+            jugador.transform.position = new Vector2(-37.189f, -8.131f);
         }
         
     }
