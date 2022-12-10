@@ -105,29 +105,112 @@ public class MapManager : MonoBehaviour
 
                 case "Sala4_2":
                     Debug.Log("SALA 4_ 2");
-                    jugador.transform.position = new Vector2(6.74f, -123.93f);
+                    jugador.transform.position = new Vector2(6.77f, -127.6f);
                 break;
 
                 case "Sala4_3":
                     Debug.Log("SALA 4_ 3");
-                    jugador.transform.position = new Vector2(57.28f, -123.93f);
+                    jugador.transform.position = new Vector2(57.39f, -127.6f);
                 break;
 
                 case "Sala4_4":
                     Debug.Log("SALA 4_ 4");
-                    if(currentScene == 2){
-                        jugador.transform.position = new Vector2(99.2f, -116.55f);
-                    }else{
-                        jugador.transform.position = new Vector2(106.36f, -123.93f);
-                    }
-                    
+                    jugador.transform.position = new Vector2(106.39f, -127.6f);
+                                        
                 break;
-
-
             }
 
         }else if(currentScene == 5) //Anillo2
         {
+            switch(nivel)
+            {
+                //Primera fila
+                case "Sala1_1":
+                    Debug.Log("SALA 1_ 1");
+                    jugador.transform.position = new Vector2(-37.23f, 5.92f);
+                                        
+                break;
+
+                case "Sala1_2":
+                    Debug.Log("SALA 1_ 2");
+                    jugador.transform.position = new Vector2(6.16f,5.92f);
+                break;
+
+                case "Sala1_3":
+                    Debug.Log("SALA 1_ 3");
+                    jugador.transform.position = new Vector2(54.71f, 5.92f);
+                break;
+
+                case "Sala1_4":
+                    Debug.Log("SALA 1_ 4");
+                    jugador.transform.position = new Vector2(103.62f, 6.04f);
+                break;
+
+                //Segunda fila
+                case "Sala2_1":
+                    Debug.Log("SALA 2_ 1");
+                    jugador.transform.position = new Vector2(-37.21f, -35.6f);
+                break;
+
+                case "Sala2_2":
+                    Debug.Log("SALA 2_ 2");
+                    jugador.transform.position = new Vector2(6.06f, -35.6f);
+                break;
+
+                case "Sala2_3":
+                    Debug.Log("SALA 2_ 3");
+                    jugador.transform.position = new Vector2(54.82f, -35.6f);
+                break;
+
+                case "Sala2_4":
+                    Debug.Log("SALA 2_ 4");
+                    jugador.transform.position = new Vector2(104.36f, -35.6f);
+                break;
+
+                //Tercera fila
+                case "Sala3_1":
+                    Debug.Log("SALA 3_ 1");
+                    jugador.transform.position = new Vector2(-37.17f, -82.21f);
+                break;
+
+                case "Sala3_2":
+                    Debug.Log("SALA 3_ 2");
+                    jugador.transform.position = new Vector2(6.04f, -82.51f);
+                break;
+
+                case "Sala3_3":
+                    Debug.Log("SALA 3_ 3");
+                    jugador.transform.position = new Vector2(55.93f, -73.64f);
+                    
+                break;
+
+                case "Sala3_4":
+                    Debug.Log("SALA 3_ 4");
+                    jugador.transform.position = new Vector2(105.38f, -82.09f);
+                break;
+
+                //Cuarta fila
+                case "Sala4_1":
+                    Debug.Log("SALA 4_ 1");
+                    jugador.transform.position = new Vector2(-36.75f, -127.23f);
+                break;
+
+                case "Sala4_2":
+                    Debug.Log("SALA 4_ 2");
+                    jugador.transform.position = new Vector2(6.85f, -127.23f);
+                break;
+
+                case "Sala4_3":
+                    Debug.Log("SALA 4_ 3");
+                    jugador.transform.position = new Vector2(57.33f, -127.23f);
+                break;
+
+                case "Sala4_4":
+                    Debug.Log("SALA 4_ 4");
+                    jugador.transform.position = new Vector2(106.25f, --127.23f);
+                                        
+                break;
+            }
 
         }else if(currentScene == 10){   //Sala final
 
