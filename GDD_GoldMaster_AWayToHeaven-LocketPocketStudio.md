@@ -361,33 +361,41 @@ juego.
 ● **Créditos** :En esta pantalla podrán verse los créditos de todo lo utilizado
 en el juego tanto del equipo de desarrollo como de assets externos,
 fuentes, música, etcétera.
+
 ● **Ajustes** :Aquí se realizan los cambios que el jugador desee respecto al
 volúmen de la música o efectos de sonido y la posibilidad de cambiar el
 periférico con el que manejar los inputs.
+
 ● **Contacto/Ayuda** :Esta pantalla es accesible desde todas las demás, de
 forma que si en algún momento alguien se topa con un error que le
 impida avanzar o retroceder este sepa cómo contactar con el equipo y
 poder resolverlo.
+
 ● **Modo Hordas y modo Historia** : La interfaz de estos modos de juego es
 similar, mostrando el estado del jugador (salud), la experiencia obtenida
 en el momento, un botón con el que poder pausar el juego, y, en caso
 del modo hordas un temporizador con el tiempo que lleva sin ser
 derrotado.
+
 ● **Pausa** : Detiene el juego y muestra los botones correspondientes para:
 ○ Retomar el juego y volver al modo en el que estaba.
 ○ Salir del juego y volver al menú principal.
 ○ Ir a la pantalla de ajustes y volver.
 ○ Pedir ayuda/mostrar contacto.
+
 ● **Derrota modo Hordas** :Esta pantalla aparece una vez el jugador pierda
 en el modo hordas, en la cuál se enseñará la puntuación obtenida en
 esa partida y se le ofrecerá reintentarlo (vuelve al modo hordas) o salir
 (vuelve al menú principal).
+
 **● Derrota modo Historia:** Esta pantalla aparece una vez el jugador pierda
 en el modo historia, se le ofrecerá reintentarlo (vuelve al modo historia,
 desde el principio) o salir (vuelve al menú principal).
+
 ● **Victoria** : Accesible solo desde el modo historia, esta pantalla aparece
 cada vez que el jugador supere el desafío de una sala. Cuando se pasa,
 volverá automáticamente al modo historia.
+
 ● **Fin de Juego** : Una vez superado el desafío final del modo historia,
 aparece una animación que cambiará el logo del título del juego y
 posteriormente aparecen los créditos. Cuando termine, se vuelve al
@@ -1423,3 +1431,5 @@ https://www.kenney.nl/assets/impact-sounds
 
 
 https://patrickdearteaga.com/es/musica-libre-derechos-gratis/pagina- 5 /
+
+
