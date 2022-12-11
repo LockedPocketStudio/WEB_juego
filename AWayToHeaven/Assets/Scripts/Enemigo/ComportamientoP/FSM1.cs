@@ -77,12 +77,13 @@ public class FSM1: MonoBehaviour
     {
         #region Percepciones
         Perception existeJugadorPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => existeJugador);  //descansando
+        Perception noexisteJugadorPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => !existeJugador);
 
         Perception veJugadorPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => veJugador); // atacando (ir hacia el personaje)
         Perception noVeJugadorPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => !veJugador); //acercandose (ir hacia los navmesh)
 
-        Perception haAlcanzadoPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => haAlcanzado);
-        Perception noHaAlcanzadoPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => !haAlcanzado);
+       //Perception haAlcanzadoPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => haAlcanzado);
+      //  Perception noHaAlcanzadoPercepcion = enemigoFSM.CreatePerception<ValuePerception>(() => !haAlcanzado);
         #endregion Percepciones
 
         #region Estados
@@ -93,9 +94,11 @@ public class FSM1: MonoBehaviour
 
         #region Transiciones
         enemigoFSM.CreateTransition("El jugador existe", descansandoState, existeJugadorPercepcion, acercandoseState);  //si existe el jugador andar por el mapa
-        enemigoFSM.CreateTransition("Enemigo ha localizado al jugador", acercandoseState, haAlcanzadoPercepcion, atacandoState);
-        enemigoFSM.CreateTransition("El jugador se ha alejado", atacandoState, noHaAlcanzadoPercepcion, acercandoseState);
-        enemigoFSM.CreateTransition("El jugador ya no está a la vista", atacandoState, noVeJugadorPercepcion, descansandoState);
+       enemigoFSM.CreateTransition("Enemigo ha localizado al jugador", acercandoseState, veJugadorPercepcion, atacandoState);
+        enemigoFSM.CreateTransition("El jugador se ha alejado", atacandoState, noVeJugadorPercepcion, acercandoseState);
+
+        enemigoFSM.CreateTransition("El jugador ya no existe", atacandoState, noexisteJugadorPercepcion, descansandoState);
+        enemigoFSM.CreateTransition("El jugador ya no existe", acercandoseState, noexisteJugadorPercepcion, descansandoState);
         #endregion Transiciones
     }
 
@@ -202,7 +205,7 @@ public class FSM1: MonoBehaviour
                 control.alerta.SetActive(false);
             }
             veJugador = true;
-            haAlcanzado = true;
+     
             control.Destino(destino);
             exclamacion.SetActive(true);
 
@@ -213,7 +216,7 @@ public class FSM1: MonoBehaviour
         else
         {
             veJugador = false;
-            haAlcanzado = false;
+           
             exclamacion.SetActive(false);
         }
 
@@ -256,17 +259,6 @@ public class FSM1: MonoBehaviour
     }
 
 
-    public void TakeDamage(int amount)
-    {
-        //El enemigo muere cuando le alcanza una bala del jugador
-        health = health - amount;
-        if (health <= 0)
-        {
-            veJugador = false;
-            Destroy(this.gameObject);
-
-            return;
-        }
-    }
+   
 }
 
