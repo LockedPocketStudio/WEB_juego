@@ -73,7 +73,7 @@ public class Player : MonoBehaviour
     public bool LevelUp = false;
     public bool PasarSala = false;
 
-    //Control animación
+    //Control animaciï¿½n
    public Animator animacion;
 
     #endregion
@@ -254,7 +254,7 @@ public class Player : MonoBehaviour
         }
         
 
-        int da = PlayerPrefs.GetInt("daño");
+        int da = PlayerPrefs.GetInt("daï¿½o");
         Powers[5] = da;
         if (da != 0)
         {
@@ -287,20 +287,20 @@ public class Player : MonoBehaviour
         
     
         fireCooldown -= 0.15f;
-        AyudaPower.text=("AumentarVelocidadDisparo: "+n);
+        AyudaPower.text=("Aumentar velocidad del disparo: "+n);
 
 
     }
     public void DobleDisparo(int n)
     {
         CantidadDisparo++;
-        AyudaPower.text = ("DobleDisparo: " + n);
+        AyudaPower.text = ("Doble disparo: " + n);
     }
     public void MasVida(int n)
     {
         VidaMaxima++;
         VidaActual++;
-        AyudaPower.text = ("Aumento de Vida: " +n);
+        AyudaPower.text = ("Aumento de vida: " +n);
     }
     public void RecuperarVida()
     {
@@ -310,17 +310,17 @@ public class Player : MonoBehaviour
     public void AumentarDanoDisparo(int n)
     {
         bulletDamage++;
-        AyudaPower.text = ("AumentarDaño: "+n);
+        AyudaPower.text = ("Aumentar daÃ±o: "+n);
     }
     public void AumentarAlcance(int n)
     {
         radius++;
-        AyudaPower.text = ("AumentarAlcance: " + n);
+        AyudaPower.text = ("Aumentar alcance: " + n);
     }
    
     public void AumentarVelocidadMovimiento(int n)
     {
-        AyudaPower.text = ("AumentarVelocidadMovimiento: " + n);
+        AyudaPower.text = ("Aumentar velocidad del movimiento: " + n);
     }
     protected void PowerUpSierra(int nivel)
     {
@@ -369,7 +369,7 @@ public class Player : MonoBehaviour
                 s3_2.Colocar(3);
                 break;
         }
-        AyudaPower.text = ("Sierra: " + nivel);
+        AyudaPower.text = ("Orbital: " + nivel);
 
 
     }
@@ -394,7 +394,7 @@ public class Player : MonoBehaviour
         {
             if (random == 3)
             {
-                while (random == 3) //Para que no salga curación
+                while (random == 3) //Para que no salga curaciï¿½n
                 {
                     random= (int)Random.Range(0, 7);
                 }
@@ -450,7 +450,7 @@ public class Player : MonoBehaviour
                 if (GM.modoJuego == 0)
                 {
                  //   Powers[random] = Powers[random] + 1;
-                    PlayerPrefs.SetInt("daño", Powers[random]);
+                    PlayerPrefs.SetInt("daï¿½o", Powers[random]);
                 }
                 break;
             case 6:
