@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -28,9 +30,11 @@ public class GameManager : MonoBehaviour
     public GameObject eleccion;
     public AudioSource musica;
     public AudioClip m;
+    public AudioClip mExploracion;
     public AudioClip mDialogo;
     bool SeleccionMusica = false;
     bool SeleccionMusica2 = false;
+    bool SalaExplorar = false;
 
     //Control modo hordas
     public int ModoHordasDificultad = -1; //0- facil, 1-medio , 2-dificil 
@@ -43,8 +47,14 @@ public class GameManager : MonoBehaviour
     public GameObject DificultadDificil;
 
 
+    public int currentScene;
+
+
     void Start()
     {
+        
+        currentScene = SceneManager.GetActiveScene().buildIndex;
+
         // player = FindObjectOfType("Player");
 
         if (modoJuego == 1) //hordas
@@ -68,6 +78,135 @@ public class GameManager : MonoBehaviour
 
         if(modoJuego == 0)
         {
+            string nivel = PlayerPrefs.GetString("selectedLevel");
+
+            if(currentScene == 2)   //Anillo1
+            {
+                switch(nivel)
+                {
+                    //Primera fila
+                    case "Sala1_1":
+                        Debug.Log("SALA 1_ 1");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+                                            
+                    break;
+
+                    case "Sala1_3":
+                        Debug.Log("SALA 1_ 3");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+
+                    break;
+
+                    case "Sala3_2":
+                        Debug.Log("SALA 3_ 2");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+
+                    break;
+
+                    case "Sala3_3":
+                        Debug.Log("SALA 3_ 3");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+                                                
+                    break;
+
+                    case "Sala4_4":
+                        Debug.Log("SALA 4_ 4");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+                                            
+                    break;
+                }
+
+            }else if(currentScene == 5) //Anillo2
+            {
+                switch(nivel)
+                {
+                    //Primera fila
+                    case "Sala1_1":
+                        Debug.Log("SALA 1_ 1");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+                                            
+                    break;
+
+                    case "Sala1_3":
+                        Debug.Log("SALA 1_ 3");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+
+                    break;
+
+                    case "Sala2_1":
+                        Debug.Log("SALA 2_ 1");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+
+                    break;
+
+                    //Tercera fila
+                    case "Sala3_1":
+                        Debug.Log("SALA 3_ 1");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+
+                    break;
+
+                    case "Sala3_3":
+                        Debug.Log("SALA 3_ 3");
+                        if(!SalaExplorar)
+                        {
+                            musica.clip = mExploracion;
+                            musica.Play();
+                            SalaExplorar = true;
+                        }
+                                                
+                    break;
+   
+                }
+
+            }
+
+            
             if (!SeleccionMusica2)
             {
                 musica.clip = m;

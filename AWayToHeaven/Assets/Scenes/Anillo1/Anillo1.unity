@@ -56829,8 +56829,9 @@ MonoBehaviour:
   EscenaDialogo: {fileID: 0}
   eleccion: {fileID: 0}
   musica: {fileID: 1851144621}
-  m: {fileID: 8300000, guid: 8a41f73150ac3394abec587757e6bffc, type: 3}
-  mDialogo: {fileID: 8300000, guid: 15363be06efd9614bba7aeebf1f19884, type: 3}
+  m: {fileID: 8300000, guid: ebadff5bb13e2a040ba6ae11fd740283, type: 3}
+  mExploracion: {fileID: 8300000, guid: c7b8a3b6f0ba6c24684cc54cb20d0a72, type: 3}
+  mDialogo: {fileID: 8300000, guid: 6337f05e9d25eef458e3b167f202a96d, type: 3}
   ModoHordasDificultad: -1
   SeleccionDificultad: {fileID: 0}
   btnFacil: {fileID: 0}
@@ -56838,6 +56839,7 @@ MonoBehaviour:
   btnDificil: {fileID: 0}
   DificultadMedia: {fileID: 0}
   DificultadDificil: {fileID: 0}
+  currentScene: 0
 --- !u!4 &1448599430
 Transform:
   m_ObjectHideFlags: 0
@@ -71667,9 +71669,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

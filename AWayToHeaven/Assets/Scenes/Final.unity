@@ -6848,8 +6848,9 @@ MonoBehaviour:
   EscenaDialogo: {fileID: 0}
   eleccion: {fileID: 0}
   musica: {fileID: 691496866}
-  m: {fileID: 8300000, guid: 8a41f73150ac3394abec587757e6bffc, type: 3}
-  mDialogo: {fileID: 8300000, guid: 15363be06efd9614bba7aeebf1f19884, type: 3}
+  m: {fileID: 8300000, guid: ebadff5bb13e2a040ba6ae11fd740283, type: 3}
+  mExploracion: {fileID: 8300000, guid: c7b8a3b6f0ba6c24684cc54cb20d0a72, type: 3}
+  mDialogo: {fileID: 8300000, guid: 1339137a4bd7fcd488821ff7ce8f152c, type: 3}
   ModoHordasDificultad: -1
   SeleccionDificultad: {fileID: 0}
   btnFacil: {fileID: 0}
@@ -6857,6 +6858,7 @@ MonoBehaviour:
   btnDificil: {fileID: 0}
   DificultadMedia: {fileID: 0}
   DificultadDificil: {fileID: 0}
+  currentScene: 0
 --- !u!4 &1016678923
 Transform:
   m_ObjectHideFlags: 0
@@ -14507,13 +14509,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 786673725c1e8e443ab36a1440dad577, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -14537,7 +14539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 44.104202, y: -1.0249557}
+  m_AnchoredPosition: {x: -1.4, y: -1.0249557}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &278204645021327895
