@@ -101,8 +101,8 @@ public class Player : MonoBehaviour
             int i = 10;
              //LevelUpReq.Add(2);
             //LevelUpReq.Add(2);
-            LevelUpReq.Add(5);
-            LevelUpReq.Add(5);
+           // LevelUpReq.Add(5);
+            //LevelUpReq.Add(5);
             for (int a= 0 ; a < 4; a ++)
             {
                 LevelUpReq.Add(i);
@@ -116,7 +116,7 @@ public class Player : MonoBehaviour
         }
         else  //Modo historia
         {
-            LevelUpReq.Add(1);
+           // LevelUpReq.Add(1);
             LevelUpReq.Add(10); //Cada 10 niveles un power up;   
         }
 
