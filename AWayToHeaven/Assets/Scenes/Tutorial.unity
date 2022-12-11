@@ -5488,7 +5488,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CLAVIS
+  m_Text: Clavis
 --- !u!222 &5101381056200849349
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5585,8 +5585,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xBF...?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4ef53cdd7af8a7242b068c8b3367e73a, type: 2}
-  m_sharedMaterial: {fileID: -8641239597867594256, guid: 4ef53cdd7af8a7242b068c8b3367e73a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65c3a882e6b6a6349b89fbdb956f344d, type: 2}
+  m_sharedMaterial: {fileID: -2464533526535252385, guid: 65c3a882e6b6a6349b89fbdb956f344d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

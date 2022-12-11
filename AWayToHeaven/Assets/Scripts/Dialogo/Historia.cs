@@ -584,7 +584,7 @@ public class Historia : MonoBehaviour
         }
         if (FinDialogo5)
         {
-            SceneManager.LoadScene(13);
+            SceneManager.LoadScene(12);
         }
 
 
@@ -610,12 +610,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -657,12 +657,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -705,12 +705,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -753,12 +753,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -801,12 +801,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -848,12 +848,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -896,12 +896,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -942,12 +942,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -988,12 +988,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -1034,12 +1034,12 @@ public class Historia : MonoBehaviour
                     }
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 
@@ -1097,7 +1097,7 @@ public class Historia : MonoBehaviour
 
                     if (esc)
                     {
-                        nombre.text = "CLAVIS";
+                        nombre.text = "Clavis";
                         imagen.sprite = canv;
                     }
                     else if(esD)
@@ -1112,7 +1112,7 @@ public class Historia : MonoBehaviour
                     }
                     else
                     {
-                        nombre.text = "ELIAS";
+                        nombre.text = "Elias";
                         imagen.sprite = elias;
                     }
 

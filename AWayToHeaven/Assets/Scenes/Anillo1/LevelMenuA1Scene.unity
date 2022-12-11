@@ -1700,6 +1700,74 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1613979675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613979677}
+  - component: {fileID: 1613979676}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1613979676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613979675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5489287cb799727428ae252fc2db8817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modoJuego: 0
+  modoJuegoanteriro: 0
+  estadoJugador: 1
+  timer: {fileID: 0}
+  time: 0
+  vidasEnemigos: 1
+  victoria: 0
+  finModo2: 0
+  iniciopelea: 0
+  EscenaDialogo: {fileID: 0}
+  eleccion: {fileID: 0}
+  musica: {fileID: 1422641580}
+  m: {fileID: 8300000, guid: ebadff5bb13e2a040ba6ae11fd740283, type: 3}
+  mExploracion: {fileID: 8300000, guid: c7b8a3b6f0ba6c24684cc54cb20d0a72, type: 3}
+  mDialogo: {fileID: 8300000, guid: 6337f05e9d25eef458e3b167f202a96d, type: 3}
+  mSelSala: {fileID: 8300000, guid: 37158c40b592a0147823fb1c421ffc6c, type: 3}
+  ModoHordasDificultad: -1
+  SeleccionDificultad: {fileID: 0}
+  btnFacil: {fileID: 0}
+  btnMedio: {fileID: 0}
+  btnDificil: {fileID: 0}
+  DificultadMedia: {fileID: 0}
+  DificultadDificil: {fileID: 0}
+  currentScene: 0
+--- !u!4 &1613979677
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613979675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.339453, y: 11.16397, z: -0.25873208}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1645104519
 GameObject:
   m_ObjectHideFlags: 0

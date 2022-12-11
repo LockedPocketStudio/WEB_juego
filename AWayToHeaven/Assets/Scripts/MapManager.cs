@@ -180,7 +180,7 @@ public class MapManager : MonoBehaviour
 
                 case "Sala3_3":
                     Debug.Log("SALA 3_ 3");
-                    jugador.transform.position = new Vector2(55.93f, -73.64f);
+                    jugador.transform.position = new Vector2(55.9f, -74.18f);
                     
                 break;
 

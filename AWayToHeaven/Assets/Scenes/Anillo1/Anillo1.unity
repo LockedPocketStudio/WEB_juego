@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 2149559}
   m_Layer: 0
   m_Name: collider_obj (24)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 4899375}
   m_Layer: 0
   m_Name: collider_obj (39)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -736,7 +736,7 @@ GameObject:
   - component: {fileID: 15870155}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -966,7 +966,7 @@ GameObject:
   - component: {fileID: 18680434}
   m_Layer: 0
   m_Name: collider_obj (62)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1046,7 +1046,7 @@ GameObject:
   - component: {fileID: 18732541}
   m_Layer: 0
   m_Name: collider_obj (55)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1126,7 +1126,7 @@ GameObject:
   - component: {fileID: 20125393}
   m_Layer: 0
   m_Name: collider_obj (36)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1206,7 +1206,7 @@ GameObject:
   - component: {fileID: 21528075}
   m_Layer: 0
   m_Name: collider_obj (38)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1286,7 +1286,7 @@ GameObject:
   - component: {fileID: 24303166}
   m_Layer: 0
   m_Name: collider_obj (18)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1706,7 +1706,7 @@ GameObject:
   - component: {fileID: 34373882}
   m_Layer: 0
   m_Name: collider_obj (52)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1848,7 +1848,7 @@ GameObject:
   - component: {fileID: 35423814}
   m_Layer: 0
   m_Name: collider_obj (46)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1928,7 +1928,7 @@ GameObject:
   - component: {fileID: 38832186}
   m_Layer: 0
   m_Name: collider_obj (70)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2220,7 +2220,7 @@ GameObject:
   - component: {fileID: 46587155}
   m_Layer: 0
   m_Name: collider_muro_izq (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2299,7 +2299,7 @@ GameObject:
   - component: {fileID: 48545994}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2842,7 +2842,7 @@ GameObject:
   - component: {fileID: 63221483}
   m_Layer: 0
   m_Name: collider_obj (51)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3389,7 +3389,7 @@ GameObject:
   - component: {fileID: 95296349}
   m_Layer: 0
   m_Name: collider_obj (64)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3626,7 +3626,7 @@ GameObject:
   - component: {fileID: 106462052}
   m_Layer: 0
   m_Name: collider_obj (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3829,7 +3829,7 @@ GameObject:
   - component: {fileID: 112006567}
   m_Layer: 0
   m_Name: collider_obj (51)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3909,7 +3909,7 @@ GameObject:
   - component: {fileID: 112894465}
   m_Layer: 0
   m_Name: collider_obj (44)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4051,7 +4051,7 @@ GameObject:
   - component: {fileID: 114685094}
   m_Layer: 0
   m_Name: collider_obj (26)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4412,7 +4412,7 @@ GameObject:
   - component: {fileID: 124353305}
   m_Layer: 0
   m_Name: collider_obj (28)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4492,7 +4492,7 @@ GameObject:
   - component: {fileID: 127097836}
   m_Layer: 0
   m_Name: collider_obj (46)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4642,7 +4642,7 @@ GameObject:
   - component: {fileID: 134249997}
   m_Layer: 0
   m_Name: collider_obj (20)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4722,7 +4722,7 @@ GameObject:
   - component: {fileID: 135679341}
   m_Layer: 0
   m_Name: collider_obj (15)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4802,7 +4802,7 @@ GameObject:
   - component: {fileID: 135849333}
   m_Layer: 0
   m_Name: collider_obj (51)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4952,7 +4952,7 @@ GameObject:
   - component: {fileID: 141475520}
   m_Layer: 0
   m_Name: collider_obj (43)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5181,7 +5181,7 @@ GameObject:
   - component: {fileID: 149085120}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5240,7 +5240,7 @@ GameObject:
   - component: {fileID: 150218711}
   m_Layer: 0
   m_Name: collider_obj (33)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5320,7 +5320,7 @@ GameObject:
   - component: {fileID: 151786698}
   m_Layer: 0
   m_Name: collider_obj (32)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5458,7 +5458,7 @@ GameObject:
   - component: {fileID: 153501650}
   m_Layer: 0
   m_Name: collider_obj (27)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5618,7 +5618,7 @@ GameObject:
   - component: {fileID: 154366876}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5698,7 +5698,7 @@ GameObject:
   - component: {fileID: 154876300}
   m_Layer: 0
   m_Name: collider_obj (11)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6217,7 +6217,7 @@ GameObject:
   - component: {fileID: 164175525}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6439,7 +6439,7 @@ GameObject:
   - component: {fileID: 167619957}
   m_Layer: 0
   m_Name: collider_obj (12)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6599,7 +6599,7 @@ GameObject:
   - component: {fileID: 173910094}
   m_Layer: 0
   m_Name: collider_obj (19)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6897,7 +6897,7 @@ GameObject:
   - component: {fileID: 183411444}
   m_Layer: 0
   m_Name: collider_obj (36)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6977,7 +6977,7 @@ GameObject:
   - component: {fileID: 183484902}
   m_Layer: 0
   m_Name: collider_obj (16)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7207,7 +7207,7 @@ GameObject:
   - component: {fileID: 186633594}
   m_Layer: 0
   m_Name: collider_obj (40)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7886,7 +7886,7 @@ GameObject:
   - component: {fileID: 205194153}
   m_Layer: 0
   m_Name: collider_obj (50)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7966,7 +7966,7 @@ GameObject:
   - component: {fileID: 207552119}
   m_Layer: 0
   m_Name: collider_obj (60)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8303,7 +8303,7 @@ GameObject:
   - component: {fileID: 211588081}
   m_Layer: 0
   m_Name: collider_obj (9)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8383,7 +8383,7 @@ GameObject:
   - component: {fileID: 213478929}
   m_Layer: 0
   m_Name: collider_obj (49)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8533,7 +8533,7 @@ GameObject:
   - component: {fileID: 222335518}
   m_Layer: 0
   m_Name: collider_obj (20)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8675,7 +8675,7 @@ GameObject:
   - component: {fileID: 223609578}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8909,7 +8909,7 @@ GameObject:
   - component: {fileID: 228340200}
   m_Layer: 0
   m_Name: collider_obj (25)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9047,7 +9047,7 @@ GameObject:
   - component: {fileID: 242969177}
   m_Layer: 0
   m_Name: collider_muro_izq (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9127,7 +9127,7 @@ GameObject:
   - component: {fileID: 244850191}
   m_Layer: 0
   m_Name: collider_obj (21)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9265,7 +9265,7 @@ GameObject:
   - component: {fileID: 247958149}
   m_Layer: 0
   m_Name: collider_obj (78)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9345,7 +9345,7 @@ GameObject:
   - component: {fileID: 248890794}
   m_Layer: 0
   m_Name: collider_obj (36)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9430,7 +9430,7 @@ GameObject:
   - component: {fileID: 255484348}
   m_Layer: 0
   m_Name: collider_obj (63)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9594,7 +9594,7 @@ GameObject:
   - component: {fileID: 257562326}
   m_Layer: 0
   m_Name: collider_muro_arriba (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9892,7 +9892,7 @@ GameObject:
   - component: {fileID: 261023406}
   m_Layer: 0
   m_Name: collider_obj (30)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10052,7 +10052,7 @@ GameObject:
   - component: {fileID: 263803407}
   m_Layer: 0
   m_Name: collider_obj (41)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10759,7 +10759,7 @@ GameObject:
   - component: {fileID: 282958546}
   m_Layer: 0
   m_Name: collider_obj (12)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10919,7 +10919,7 @@ GameObject:
   - component: {fileID: 284906657}
   m_Layer: 0
   m_Name: collider_obj (17)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10999,7 +10999,7 @@ GameObject:
   - component: {fileID: 286823102}
   m_Layer: 0
   m_Name: collider_obj (50)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11229,7 +11229,7 @@ GameObject:
   - component: {fileID: 289313408}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11309,7 +11309,7 @@ GameObject:
   - component: {fileID: 289630507}
   m_Layer: 0
   m_Name: collider_obj (74)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11459,7 +11459,7 @@ GameObject:
   - component: {fileID: 292547147}
   m_Layer: 0
   m_Name: collider_obj (47)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12108,7 +12108,7 @@ GameObject:
   - component: {fileID: 309080057}
   m_Layer: 0
   m_Name: collider_obj (77)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12873,7 +12873,7 @@ GameObject:
   - component: {fileID: 329949342}
   m_Layer: 0
   m_Name: collider_obj (30)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12953,7 +12953,7 @@ GameObject:
   - component: {fileID: 332431032}
   m_Layer: 0
   m_Name: collider_obj (33)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13623,7 +13623,7 @@ GameObject:
   - component: {fileID: 352273681}
   m_Layer: 0
   m_Name: collider_obj (62)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13703,7 +13703,7 @@ GameObject:
   - component: {fileID: 354118439}
   m_Layer: 0
   m_Name: collider_obj (14)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13783,7 +13783,7 @@ GameObject:
   - component: {fileID: 356105189}
   m_Layer: 0
   m_Name: collider_obj (71)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14084,8 +14084,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2102785823
-  m_SortingLayer: 2
+  m_SortingLayerID: -1083982075
+  m_SortingLayer: 1
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: bfb997bbd2bf27045a7eb70a457c5363, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14111,7 +14111,7 @@ GameObject:
   - component: {fileID: 362407113}
   m_Layer: 0
   m_Name: collider_obj (18)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14461,7 +14461,7 @@ GameObject:
   - component: {fileID: 374348007}
   m_Layer: 0
   m_Name: collider_obj (40)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14625,7 +14625,7 @@ GameObject:
   - component: {fileID: 375027627}
   m_Layer: 0
   m_Name: collider_obj (23)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14847,7 +14847,7 @@ GameObject:
   - component: {fileID: 378646222}
   m_Layer: 0
   m_Name: collider_obj (51)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14927,7 +14927,7 @@ GameObject:
   - component: {fileID: 378915300}
   m_Layer: 0
   m_Name: collider_obj (8)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15505,7 +15505,7 @@ GameObject:
   - component: {fileID: 390031109}
   m_Layer: 0
   m_Name: collider_obj (17)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16051,7 +16051,7 @@ GameObject:
   - component: {fileID: 403498587}
   m_Layer: 0
   m_Name: collider_obj (79)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16266,7 +16266,7 @@ GameObject:
   - component: {fileID: 412139622}
   m_Layer: 0
   m_Name: collider_obj (37)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16346,7 +16346,7 @@ GameObject:
   - component: {fileID: 414047674}
   m_Layer: 0
   m_Name: collider_obj (20)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16664,7 +16664,7 @@ GameObject:
   - component: {fileID: 422655599}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16966,7 +16966,7 @@ GameObject:
   - component: {fileID: 426525275}
   m_Layer: 0
   m_Name: collider_obj (23)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17206,7 +17206,7 @@ GameObject:
   - component: {fileID: 430341660}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17286,7 +17286,7 @@ GameObject:
   - component: {fileID: 433466671}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17424,7 +17424,7 @@ GameObject:
   - component: {fileID: 434987419}
   m_Layer: 0
   m_Name: collider_obj (33)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17584,7 +17584,7 @@ GameObject:
   - component: {fileID: 438252829}
   m_Layer: 0
   m_Name: collider_obj (29)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17876,7 +17876,7 @@ GameObject:
   - component: {fileID: 453937897}
   m_Layer: 0
   m_Name: collider_obj (76)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17956,7 +17956,7 @@ GameObject:
   - component: {fileID: 454339433}
   m_Layer: 0
   m_Name: collider_obj (6)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18097,7 +18097,7 @@ GameObject:
   - component: {fileID: 455562751}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18156,7 +18156,7 @@ GameObject:
   - component: {fileID: 455649086}
   m_Layer: 0
   m_Name: collider_obj (42)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18414,7 +18414,7 @@ GameObject:
   - component: {fileID: 467676607}
   m_Layer: 0
   m_Name: collider_obj (41)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18494,7 +18494,7 @@ GameObject:
   - component: {fileID: 468522840}
   m_Layer: 0
   m_Name: collider_obj (26)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18574,7 +18574,7 @@ GameObject:
   - component: {fileID: 470504030}
   m_Layer: 0
   m_Name: collider_obj (39)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18738,7 +18738,7 @@ GameObject:
   - component: {fileID: 474335191}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18880,7 +18880,7 @@ GameObject:
   - component: {fileID: 474625432}
   m_Layer: 0
   m_Name: collider_obj (34)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19030,7 +19030,7 @@ GameObject:
   - component: {fileID: 478073000}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19256,7 +19256,7 @@ GameObject:
   - component: {fileID: 480729487}
   m_Layer: 0
   m_Name: collider_obj (51)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19412,7 +19412,7 @@ GameObject:
   - component: {fileID: 484919730}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19576,7 +19576,7 @@ GameObject:
   - component: {fileID: 487355807}
   m_Layer: 0
   m_Name: collider_obj (58)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19736,7 +19736,7 @@ GameObject:
   - component: {fileID: 489009185}
   m_Layer: 0
   m_Name: collider_muro_arriba (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19816,7 +19816,7 @@ GameObject:
   - component: {fileID: 491057137}
   m_Layer: 0
   m_Name: collider_obj (26)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19896,7 +19896,7 @@ GameObject:
   - component: {fileID: 492938534}
   m_Layer: 0
   m_Name: collider_obj (29)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19976,7 +19976,7 @@ GameObject:
   - component: {fileID: 494939500}
   m_Layer: 0
   m_Name: collider_obj (21)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20139,7 +20139,7 @@ GameObject:
   - component: {fileID: 499704178}
   m_Layer: 0
   m_Name: collider_obj (27)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20219,7 +20219,7 @@ GameObject:
   - component: {fileID: 500925840}
   m_Layer: 0
   m_Name: collider_obj (41)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20299,7 +20299,7 @@ GameObject:
   - component: {fileID: 501985980}
   m_Layer: 0
   m_Name: collider_obj (53)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20379,7 +20379,7 @@ GameObject:
   - component: {fileID: 505476901}
   m_Layer: 0
   m_Name: collider_obj (54)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20459,7 +20459,7 @@ GameObject:
   - component: {fileID: 505938354}
   m_Layer: 0
   m_Name: collider_obj (6)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20619,7 +20619,7 @@ GameObject:
   - component: {fileID: 507163703}
   m_Layer: 0
   m_Name: collider_obj (10)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20698,7 +20698,7 @@ GameObject:
   - component: {fileID: 514699709}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20841,7 +20841,7 @@ GameObject:
   - component: {fileID: 518444940}
   m_Layer: 0
   m_Name: collider_obj (16)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21104,7 +21104,7 @@ GameObject:
   - component: {fileID: 525417498}
   m_Layer: 0
   m_Name: collider_obj (37)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21424,7 +21424,7 @@ GameObject:
   - component: {fileID: 532251214}
   m_Layer: 0
   m_Name: collider_obj (70)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21698,7 +21698,7 @@ GameObject:
   - component: {fileID: 554656865}
   m_Layer: 0
   m_Name: collider_obj (13)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21836,7 +21836,7 @@ GameObject:
   - component: {fileID: 558353005}
   m_Layer: 0
   m_Name: collider_obj (50)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21916,7 +21916,7 @@ GameObject:
   - component: {fileID: 562182655}
   m_Layer: 0
   m_Name: collider_obj (44)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22240,7 +22240,7 @@ GameObject:
   - component: {fileID: 567666965}
   m_Layer: 0
   m_Name: collider_muro_arriba (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22695,7 +22695,7 @@ GameObject:
   - component: {fileID: 582884169}
   m_Layer: 0
   m_Name: collider_obj (20)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22913,7 +22913,7 @@ GameObject:
   - component: {fileID: 586364467}
   m_Layer: 0
   m_Name: collider_obj (63)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23077,7 +23077,7 @@ GameObject:
   - component: {fileID: 590932761}
   m_Layer: 0
   m_Name: collider_obj (7)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23157,7 +23157,7 @@ GameObject:
   - component: {fileID: 592628950}
   m_Layer: 0
   m_Name: collider_obj (39)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23525,7 +23525,7 @@ GameObject:
   - component: {fileID: 598007967}
   m_Layer: 0
   m_Name: collider_obj (50)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23946,7 +23946,7 @@ GameObject:
   - component: {fileID: 612187675}
   m_Layer: 0
   m_Name: collider_obj (21)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24026,7 +24026,7 @@ GameObject:
   - component: {fileID: 619302509}
   m_Layer: 0
   m_Name: collider_obj (48)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24164,7 +24164,7 @@ GameObject:
   - component: {fileID: 621636580}
   m_Layer: 0
   m_Name: collider_obj (22)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24244,7 +24244,7 @@ GameObject:
   - component: {fileID: 621739352}
   m_Layer: 0
   m_Name: collider_obj (11)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24324,7 +24324,7 @@ GameObject:
   - component: {fileID: 623451292}
   m_Layer: 0
   m_Name: collider_obj (65)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24607,7 +24607,7 @@ GameObject:
   - component: {fileID: 634027145}
   m_Layer: 0
   m_Name: collider_obj (7)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24771,7 +24771,7 @@ GameObject:
   - component: {fileID: 634972169}
   m_Layer: 0
   m_Name: collider_obj (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25123,7 +25123,7 @@ GameObject:
   - component: {fileID: 642229051}
   m_Layer: 0
   m_Name: collider_obj (66)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25376,7 +25376,7 @@ GameObject:
   - component: {fileID: 653885387}
   m_Layer: 0
   m_Name: collider_muro_abajo (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25817,7 +25817,7 @@ GameObject:
   - component: {fileID: 682722202}
   m_Layer: 0
   m_Name: collider_obj (13)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25967,7 +25967,7 @@ GameObject:
   - component: {fileID: 685783996}
   m_Layer: 0
   m_Name: collider_obj (56)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26211,7 +26211,7 @@ GameObject:
   - component: {fileID: 699395695}
   m_Layer: 0
   m_Name: collider_obj (29)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26613,7 +26613,7 @@ GameObject:
   - component: {fileID: 704370661}
   m_Layer: 0
   m_Name: collider_obj (38)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26693,7 +26693,7 @@ GameObject:
   - component: {fileID: 706108603}
   m_Layer: 0
   m_Name: collider_obj (36)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27061,7 +27061,7 @@ GameObject:
   - component: {fileID: 713920455}
   m_Layer: 0
   m_Name: collider_obj (15)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27221,7 +27221,7 @@ GameObject:
   - component: {fileID: 720341566}
   m_Layer: 0
   m_Name: collider_obj (25)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27301,7 +27301,7 @@ GameObject:
   - component: {fileID: 723362838}
   m_Layer: 0
   m_Name: collider_muro_arriba (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27502,7 +27502,7 @@ GameObject:
   - component: {fileID: 727170446}
   m_Layer: 0
   m_Name: collider_obj (52)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27582,7 +27582,7 @@ GameObject:
   - component: {fileID: 727427846}
   m_Layer: 0
   m_Name: collider_obj (13)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27662,7 +27662,7 @@ GameObject:
   - component: {fileID: 727933643}
   m_Layer: 0
   m_Name: collider_obj (77)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27889,7 +27889,7 @@ GameObject:
   - component: {fileID: 739992483}
   m_Layer: 0
   m_Name: collider_obj (6)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28529,8 +28529,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2102785823
-  m_SortingLayer: 2
+  m_SortingLayerID: -1083982075
+  m_SortingLayer: 1
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 0c0940c4409f0a147833f6aab03ad364, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -28556,7 +28556,7 @@ GameObject:
   - component: {fileID: 758692229}
   m_Layer: 0
   m_Name: collider_obj (37)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28938,7 +28938,7 @@ GameObject:
   - component: {fileID: 763471042}
   m_Layer: 0
   m_Name: collider_obj (68)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29317,7 +29317,7 @@ GameObject:
   - component: {fileID: 770668022}
   m_Layer: 0
   m_Name: collider_obj (46)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29396,7 +29396,7 @@ GameObject:
   - component: {fileID: 771031286}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29455,7 +29455,7 @@ GameObject:
   - component: {fileID: 772656019}
   m_Layer: 0
   m_Name: collider_obj (23)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29535,7 +29535,7 @@ GameObject:
   - component: {fileID: 775558403}
   m_Layer: 0
   m_Name: collider_obj (24)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29615,7 +29615,7 @@ GameObject:
   - component: {fileID: 778033501}
   m_Layer: 0
   m_Name: collider_obj (34)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29775,7 +29775,7 @@ GameObject:
   - component: {fileID: 781846475}
   m_Layer: 0
   m_Name: collider_obj (12)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29931,7 +29931,7 @@ GameObject:
   - component: {fileID: 788837603}
   m_Layer: 0
   m_Name: collider_obj (42)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30073,7 +30073,7 @@ GameObject:
   - component: {fileID: 788920759}
   m_Layer: 0
   m_Name: collider_obj (45)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30299,7 +30299,7 @@ GameObject:
   - component: {fileID: 798088285}
   m_Layer: 0
   m_Name: collider_obj (76)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30521,7 +30521,7 @@ GameObject:
   - component: {fileID: 807645225}
   m_Layer: 0
   m_Name: collider_obj (11)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30601,7 +30601,7 @@ GameObject:
   - component: {fileID: 807885943}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31075,7 +31075,7 @@ GameObject:
   - component: {fileID: 816092190}
   m_Layer: 0
   m_Name: collider_obj (8)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31155,7 +31155,7 @@ GameObject:
   - component: {fileID: 820508683}
   m_Layer: 0
   m_Name: collider_obj (43)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31585,7 +31585,7 @@ GameObject:
   - component: {fileID: 830010090}
   m_Layer: 0
   m_Name: collider_obj (27)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31727,7 +31727,7 @@ GameObject:
   - component: {fileID: 845297148}
   m_Layer: 0
   m_Name: collider_obj (66)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31872,7 +31872,7 @@ GameObject:
   - component: {fileID: 846112997}
   m_Layer: 0
   m_Name: collider_obj (23)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32376,7 +32376,7 @@ GameObject:
   - component: {fileID: 865512919}
   m_Layer: 0
   m_Name: collider_obj (41)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32456,7 +32456,7 @@ GameObject:
   - component: {fileID: 869158672}
   m_Layer: 0
   m_Name: collider_obj (42)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32691,7 +32691,7 @@ GameObject:
   - component: {fileID: 872171405}
   m_Layer: 0
   m_Name: collider_obj (12)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33005,7 +33005,7 @@ GameObject:
   - component: {fileID: 876341682}
   m_Layer: 0
   m_Name: collider_obj (39)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33085,7 +33085,7 @@ GameObject:
   - component: {fileID: 878457754}
   m_Layer: 0
   m_Name: collider_obj (49)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33165,7 +33165,7 @@ GameObject:
   - component: {fileID: 879709562}
   m_Layer: 0
   m_Name: collider_obj (79)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33382,7 +33382,7 @@ GameObject:
   - component: {fileID: 883441493}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33639,7 +33639,7 @@ GameObject:
   - component: {fileID: 888502806}
   m_Layer: 0
   m_Name: collider_obj (67)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33878,7 +33878,7 @@ GameObject:
   - component: {fileID: 890853166}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33999,7 +33999,7 @@ GameObject:
   - component: {fileID: 892131778}
   m_Layer: 0
   m_Name: collider_obj (25)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34276,7 +34276,7 @@ GameObject:
   - component: {fileID: 894573630}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34484,7 +34484,7 @@ GameObject:
   - component: {fileID: 899506175}
   m_Layer: 0
   m_Name: collider_obj (26)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34564,7 +34564,7 @@ GameObject:
   - component: {fileID: 901392780}
   m_Layer: 0
   m_Name: collider_obj (29)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34773,7 +34773,7 @@ GameObject:
   - component: {fileID: 903340818}
   m_Layer: 0
   m_Name: collider_obj (8)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35215,7 +35215,7 @@ GameObject:
   - component: {fileID: 919123388}
   m_Layer: 0
   m_Name: collider_obj (44)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35295,7 +35295,7 @@ GameObject:
   - component: {fileID: 924814291}
   m_Layer: 0
   m_Name: collider_obj (50)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35375,7 +35375,7 @@ GameObject:
   - component: {fileID: 925886240}
   m_Layer: 0
   m_Name: collider_obj (38)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35619,7 +35619,7 @@ GameObject:
   - component: {fileID: 930991975}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35757,7 +35757,7 @@ GameObject:
   - component: {fileID: 936107469}
   m_Layer: 0
   m_Name: collider_obj (48)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36253,7 +36253,7 @@ GameObject:
   - component: {fileID: 949401974}
   m_Layer: 0
   m_Name: collider_obj (72)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36541,7 +36541,7 @@ GameObject:
   - component: {fileID: 955674320}
   m_Layer: 0
   m_Name: collider_obj (44)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36745,7 +36745,7 @@ GameObject:
   - component: {fileID: 963151949}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36888,7 +36888,7 @@ GameObject:
   - component: {fileID: 969618502}
   m_Layer: 0
   m_Name: collider_obj (49)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37122,7 +37122,7 @@ GameObject:
   - component: {fileID: 981239866}
   m_Layer: 0
   m_Name: collider_obj (50)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37492,7 +37492,7 @@ GameObject:
   - component: {fileID: 991621537}
   m_Layer: 0
   m_Name: collider_obj (7)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37742,7 +37742,7 @@ GameObject:
   - component: {fileID: 1003358828}
   m_Layer: 0
   m_Name: collider_obj (11)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37822,7 +37822,7 @@ GameObject:
   - component: {fileID: 1006264417}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38052,7 +38052,7 @@ GameObject:
   - component: {fileID: 1010995231}
   m_Layer: 0
   m_Name: collider_obj (45)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38202,7 +38202,7 @@ GameObject:
   - component: {fileID: 1016764606}
   m_Layer: 0
   m_Name: collider_obj (61)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38417,7 +38417,7 @@ GameObject:
   - component: {fileID: 1030317373}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38556,7 +38556,7 @@ GameObject:
   - component: {fileID: 1034145808}
   m_Layer: 0
   m_Name: collider_obj (8)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38694,7 +38694,7 @@ GameObject:
   - component: {fileID: 1035034335}
   m_Layer: 0
   m_Name: collider_obj (55)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38854,7 +38854,7 @@ GameObject:
   - component: {fileID: 1036639816}
   m_Layer: 0
   m_Name: collider_obj (64)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38934,7 +38934,7 @@ GameObject:
   - component: {fileID: 1038520754}
   m_Layer: 0
   m_Name: collider_obj (57)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39136,7 +39136,7 @@ GameObject:
   - component: {fileID: 1041013187}
   m_Layer: 0
   m_Name: collider_obj (58)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39793,7 +39793,7 @@ GameObject:
   - component: {fileID: 1057210644}
   m_Layer: 0
   m_Name: collider_obj (22)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39873,7 +39873,7 @@ GameObject:
   - component: {fileID: 1058810393}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39953,7 +39953,7 @@ GameObject:
   - component: {fileID: 1058946859}
   m_Layer: 0
   m_Name: collider_obj (39)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40113,7 +40113,7 @@ GameObject:
   - component: {fileID: 1061478360}
   m_Layer: 0
   m_Name: collider_obj (40)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40639,7 +40639,7 @@ GameObject:
   - component: {fileID: 1080536399}
   m_Layer: 0
   m_Name: collider_obj (18)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40719,7 +40719,7 @@ GameObject:
   - component: {fileID: 1080825286}
   m_Layer: 0
   m_Name: collider_obj (28)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40799,7 +40799,7 @@ GameObject:
   - component: {fileID: 1081706393}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40879,7 +40879,7 @@ GameObject:
   - component: {fileID: 1082027101}
   m_Layer: 0
   m_Name: collider_obj (37)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40959,7 +40959,7 @@ GameObject:
   - component: {fileID: 1083520872}
   m_Layer: 0
   m_Name: collider_obj (28)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41039,7 +41039,7 @@ GameObject:
   - component: {fileID: 1085441449}
   m_Layer: 0
   m_Name: collider_obj (32)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41331,7 +41331,7 @@ GameObject:
   - component: {fileID: 1089604712}
   m_Layer: 0
   m_Name: collider_obj (9)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41491,7 +41491,7 @@ GameObject:
   - component: {fileID: 1091257892}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41757,7 +41757,7 @@ GameObject:
   - component: {fileID: 1095135999}
   m_Layer: 0
   m_Name: collider_obj (27)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42305,7 +42305,7 @@ GameObject:
   - component: {fileID: 1110895208}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42447,7 +42447,7 @@ GameObject:
   - component: {fileID: 1114377646}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42527,7 +42527,7 @@ GameObject:
   - component: {fileID: 1115218584}
   m_Layer: 0
   m_Name: collider_obj (40)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42691,7 +42691,7 @@ GameObject:
   - component: {fileID: 1116315782}
   m_Layer: 0
   m_Name: collider_obj (37)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42920,7 +42920,7 @@ GameObject:
   - component: {fileID: 1121640342}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43134,7 +43134,7 @@ GameObject:
   - component: {fileID: 1131512940}
   m_Layer: 0
   m_Name: collider_obj (72)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43214,7 +43214,7 @@ GameObject:
   - component: {fileID: 1132236606}
   m_Layer: 0
   m_Name: collider_obj (51)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43439,7 +43439,7 @@ GameObject:
   - component: {fileID: 1138157339}
   m_Layer: 0
   m_Name: collider_obj (15)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43519,7 +43519,7 @@ GameObject:
   - component: {fileID: 1140193336}
   m_Layer: 0
   m_Name: collider_obj (24)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43731,7 +43731,7 @@ GameObject:
   - component: {fileID: 1148714297}
   m_Layer: 0
   m_Name: collider_obj (24)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44036,7 +44036,7 @@ GameObject:
   - component: {fileID: 1156615720}
   m_Layer: 0
   m_Name: collider_obj (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44116,7 +44116,7 @@ GameObject:
   - component: {fileID: 1158830368}
   m_Layer: 0
   m_Name: collider_obj (45)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44328,7 +44328,7 @@ GameObject:
   - component: {fileID: 1167581847}
   m_Layer: 0
   m_Name: collider_obj (42)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44682,7 +44682,7 @@ GameObject:
   - component: {fileID: 1178835380}
   m_Layer: 0
   m_Name: collider_obj (33)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44762,7 +44762,7 @@ GameObject:
   - component: {fileID: 1179747392}
   m_Layer: 0
   m_Name: collider_obj (22)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44976,7 +44976,7 @@ GameObject:
   - component: {fileID: 1180206587}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45278,7 +45278,7 @@ GameObject:
   - component: {fileID: 1185967409}
   m_Layer: 0
   m_Name: collider_obj (56)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45578,7 +45578,7 @@ GameObject:
   - component: {fileID: 1197512211}
   m_Layer: 0
   m_Name: collider_obj (36)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45962,7 +45962,7 @@ GameObject:
   - component: {fileID: 1206664457}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46486,7 +46486,7 @@ GameObject:
   - component: {fileID: 1209574703}
   m_Layer: 0
   m_Name: collider_obj (28)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46628,7 +46628,7 @@ GameObject:
   - component: {fileID: 1211889090}
   m_Layer: 0
   m_Name: collider_obj (10)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46708,7 +46708,7 @@ GameObject:
   - component: {fileID: 1212772286}
   m_Layer: 0
   m_Name: collider_obj (53)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46788,7 +46788,7 @@ GameObject:
   - component: {fileID: 1216493040}
   m_Layer: 0
   m_Name: collider_obj (22)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46868,7 +46868,7 @@ GameObject:
   - component: {fileID: 1219615685}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47006,7 +47006,7 @@ GameObject:
   - component: {fileID: 1220334306}
   m_Layer: 0
   m_Name: collider_obj (37)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47086,7 +47086,7 @@ GameObject:
   - component: {fileID: 1221492908}
   m_Layer: 0
   m_Name: collider_obj (45)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47298,7 +47298,7 @@ GameObject:
   - component: {fileID: 1226898432}
   m_Layer: 0
   m_Name: collider_obj (9)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47378,7 +47378,7 @@ GameObject:
   - component: {fileID: 1228655087}
   m_Layer: 0
   m_Name: collider_obj (26)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47933,7 +47933,7 @@ GameObject:
   - component: {fileID: 1234623910}
   m_Layer: 0
   m_Name: collider_obj (47)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48013,7 +48013,7 @@ GameObject:
   - component: {fileID: 1238115644}
   m_Layer: 0
   m_Name: collider_obj (43)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49179,7 +49179,7 @@ GameObject:
   - component: {fileID: 1262616604}
   m_Layer: 0
   m_Name: collider_obj (46)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49398,7 +49398,7 @@ GameObject:
   - component: {fileID: 1269768847}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49595,7 +49595,7 @@ GameObject:
   - component: {fileID: 1272506777}
   m_Layer: 0
   m_Name: collider_obj (37)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49839,7 +49839,7 @@ GameObject:
   - component: {fileID: 1282250211}
   m_Layer: 0
   m_Name: collider_obj (19)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50208,7 +50208,7 @@ GameObject:
   - component: {fileID: 1288136195}
   m_Layer: 0
   m_Name: collider_obj (49)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50287,7 +50287,7 @@ GameObject:
   - component: {fileID: 1288664104}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50690,7 +50690,7 @@ GameObject:
   - component: {fileID: 1298400657}
   m_Layer: 0
   m_Name: collider_obj (14)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50770,7 +50770,7 @@ GameObject:
   - component: {fileID: 1299398020}
   m_Layer: 0
   m_Name: collider_obj (43)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50850,7 +50850,7 @@ GameObject:
   - component: {fileID: 1299755669}
   m_Layer: 0
   m_Name: collider_obj (46)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51200,7 +51200,7 @@ GameObject:
   - component: {fileID: 1302618527}
   m_Layer: 0
   m_Name: collider_obj (71)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51280,7 +51280,7 @@ GameObject:
   - component: {fileID: 1305575784}
   m_Layer: 0
   m_Name: collider_obj (19)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51430,7 +51430,7 @@ GameObject:
   - component: {fileID: 1314128964}
   m_Layer: 0
   m_Name: collider_obj (28)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51722,7 +51722,7 @@ GameObject:
   - component: {fileID: 1321350890}
   m_Layer: 0
   m_Name: collider_obj (38)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51802,7 +51802,7 @@ GameObject:
   - component: {fileID: 1323937585}
   m_Layer: 0
   m_Name: collider_obj (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52078,7 +52078,7 @@ GameObject:
   - component: {fileID: 1330793097}
   m_Layer: 0
   m_Name: collider_obj (60)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52158,7 +52158,7 @@ GameObject:
   - component: {fileID: 1332817853}
   m_Layer: 0
   m_Name: collider_obj (52)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52238,7 +52238,7 @@ GameObject:
   - component: {fileID: 1334615318}
   m_Layer: 0
   m_Name: collider_obj (46)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52540,7 +52540,7 @@ GameObject:
   - component: {fileID: 1340514677}
   m_Layer: 0
   m_Name: collider_obj (47)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52620,7 +52620,7 @@ GameObject:
   - component: {fileID: 1341060698}
   m_Layer: 0
   m_Name: collider_obj (19)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52831,7 +52831,7 @@ GameObject:
   - component: {fileID: 1345681911}
   m_Layer: 0
   m_Name: collider_obj (59)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52911,7 +52911,7 @@ GameObject:
   - component: {fileID: 1347471840}
   m_Layer: 0
   m_Name: collider_obj (75)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53007,7 +53007,7 @@ GameObject:
   - component: {fileID: 1347994187}
   m_Layer: 0
   m_Name: collider_obj (53)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53246,7 +53246,7 @@ GameObject:
   - component: {fileID: 1360279108}
   m_Layer: 0
   m_Name: collider_obj (12)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53406,7 +53406,7 @@ GameObject:
   - component: {fileID: 1362480334}
   m_Layer: 0
   m_Name: collider_obj (31)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53825,7 +53825,7 @@ GameObject:
   - component: {fileID: 1368863636}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53884,7 +53884,7 @@ GameObject:
   - component: {fileID: 1369873481}
   m_Layer: 0
   m_Name: collider_obj (49)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53963,7 +53963,7 @@ GameObject:
   - component: {fileID: 1372280674}
   m_Layer: 0
   m_Name: collider_muro_dch (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54164,7 +54164,7 @@ GameObject:
   - component: {fileID: 1376155765}
   m_Layer: 0
   m_Name: collider_obj (45)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54314,7 +54314,7 @@ GameObject:
   - component: {fileID: 1378704984}
   m_Layer: 0
   m_Name: collider_obj (34)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54784,7 +54784,7 @@ GameObject:
   - component: {fileID: 1391672886}
   m_Layer: 0
   m_Name: collider_obj (47)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54864,7 +54864,7 @@ GameObject:
   - component: {fileID: 1397899287}
   m_Layer: 0
   m_Name: collider_obj (78)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55024,7 +55024,7 @@ GameObject:
   - component: {fileID: 1398885404}
   m_Layer: 0
   m_Name: collider_obj (47)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55104,7 +55104,7 @@ GameObject:
   - component: {fileID: 1400323451}
   m_Layer: 0
   m_Name: collider_obj (42)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55915,7 +55915,7 @@ GameObject:
   - component: {fileID: 1416246733}
   m_Layer: 0
   m_Name: collider_obj (16)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56257,7 +56257,7 @@ GameObject:
   - component: {fileID: 1436896498}
   m_Layer: 0
   m_Name: collider_obj (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56337,7 +56337,7 @@ GameObject:
   - component: {fileID: 1438912629}
   m_Layer: 0
   m_Name: collider_obj (75)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56417,7 +56417,7 @@ GameObject:
   - component: {fileID: 1441284424}
   m_Layer: 0
   m_Name: collider_obj (38)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56726,7 +56726,7 @@ GameObject:
   - component: {fileID: 1446840866}
   m_Layer: 0
   m_Name: collider_muro_abajo (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56852,7 +56852,7 @@ GameObject:
   - component: {fileID: 1449708715}
   m_Layer: 0
   m_Name: collider_obj (11)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56932,7 +56932,7 @@ GameObject:
   - component: {fileID: 1449867491}
   m_Layer: 0
   m_Name: collider_obj (10)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57012,7 +57012,7 @@ GameObject:
   - component: {fileID: 1451213699}
   m_Layer: 0
   m_Name: collider_obj (36)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57257,7 +57257,7 @@ GameObject:
   - component: {fileID: 1461737671}
   m_Layer: 0
   m_Name: collider_obj (73)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57532,7 +57532,7 @@ GameObject:
   - component: {fileID: 1474502345}
   m_Layer: 0
   m_Name: collider_obj (69)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57932,7 +57932,7 @@ GameObject:
   - component: {fileID: 1485655457}
   m_Layer: 0
   m_Name: collider_obj (32)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58150,7 +58150,7 @@ GameObject:
   - component: {fileID: 1490656669}
   m_Layer: 0
   m_Name: collider_obj (17)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58310,7 +58310,7 @@ GameObject:
   - component: {fileID: 1494835805}
   m_Layer: 0
   m_Name: collider_obj (18)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58472,7 +58472,7 @@ GameObject:
   - component: {fileID: 1500295226}
   m_Layer: 0
   m_Name: collider_obj (54)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58636,7 +58636,7 @@ GameObject:
   - component: {fileID: 1502417762}
   m_Layer: 0
   m_Name: collider_obj (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59040,7 +59040,7 @@ GameObject:
   - component: {fileID: 1521700952}
   m_Layer: 0
   m_Name: collider_obj (68)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59120,7 +59120,7 @@ GameObject:
   - component: {fileID: 1525424122}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59200,7 +59200,7 @@ GameObject:
   - component: {fileID: 1526322844}
   m_Layer: 0
   m_Name: collider_obj (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59663,7 +59663,7 @@ GameObject:
   - component: {fileID: 1535487572}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59931,7 +59931,7 @@ GameObject:
   - component: {fileID: 1544565592}
   m_Layer: 0
   m_Name: collider_obj (17)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60011,7 +60011,7 @@ GameObject:
   - component: {fileID: 1544821949}
   m_Layer: 0
   m_Name: collider_obj (33)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60149,7 +60149,7 @@ GameObject:
   - component: {fileID: 1547024051}
   m_Layer: 0
   m_Name: collider_muro_izq (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60287,7 +60287,7 @@ GameObject:
   - component: {fileID: 1550575110}
   m_Layer: 0
   m_Name: collider_obj (24)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60611,7 +60611,7 @@ GameObject:
   - component: {fileID: 1561202789}
   m_Layer: 0
   m_Name: collider_obj (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60691,7 +60691,7 @@ GameObject:
   - component: {fileID: 1561265725}
   m_Layer: 0
   m_Name: collider_obj (19)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60921,7 +60921,7 @@ GameObject:
   - component: {fileID: 1563612179}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61085,7 +61085,7 @@ GameObject:
   - component: {fileID: 1569059388}
   m_Layer: 0
   m_Name: collider_obj (27)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61222,8 +61222,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2102785823
-  m_SortingLayer: 2
+  m_SortingLayerID: -1083982075
+  m_SortingLayer: 1
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 40268a30d7cd8ee4d91943ee097c86ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -61624,7 +61624,7 @@ GameObject:
   - component: {fileID: 1571368611}
   m_Layer: 0
   m_Name: collider_obj (22)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62084,7 +62084,7 @@ GameObject:
   - component: {fileID: 1576851694}
   m_Layer: 0
   m_Name: collider_obj (38)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62304,7 +62304,7 @@ GameObject:
   - component: {fileID: 1588882486}
   m_Layer: 0
   m_Name: collider_obj (44)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62442,7 +62442,7 @@ GameObject:
   - component: {fileID: 1595013126}
   m_Layer: 0
   m_Name: collider_obj (17)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62580,7 +62580,7 @@ GameObject:
   - component: {fileID: 1600191033}
   m_Layer: 0
   m_Name: collider_obj (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62660,7 +62660,7 @@ GameObject:
   - component: {fileID: 1601515604}
   m_Layer: 0
   m_Name: collider_obj (45)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62740,7 +62740,7 @@ GameObject:
   - component: {fileID: 1602072451}
   m_Layer: 0
   m_Name: collider_obj (15)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62882,7 +62882,7 @@ GameObject:
   - component: {fileID: 1603177143}
   m_Layer: 0
   m_Name: collider_obj (13)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63004,7 +63004,7 @@ GameObject:
   - component: {fileID: 1604215229}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63063,7 +63063,7 @@ GameObject:
   - component: {fileID: 1607031946}
   m_Layer: 0
   m_Name: collider_obj (33)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63143,7 +63143,7 @@ GameObject:
   - component: {fileID: 1607537527}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63303,7 +63303,7 @@ GameObject:
   - component: {fileID: 1610539126}
   m_Layer: 0
   m_Name: collider_obj (30)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63628,7 +63628,7 @@ GameObject:
   - component: {fileID: 1626359555}
   m_Layer: 0
   m_Name: collider_obj (40)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63857,7 +63857,7 @@ GameObject:
   - component: {fileID: 1631189723}
   m_Layer: 0
   m_Name: collider_obj (29)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64042,7 +64042,7 @@ GameObject:
   - component: {fileID: 1634667640}
   m_Layer: 0
   m_Name: collider_obj (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64122,7 +64122,7 @@ GameObject:
   - component: {fileID: 1635513212}
   m_Layer: 0
   m_Name: collider_obj (10)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64264,7 +64264,7 @@ GameObject:
   - component: {fileID: 1638851672}
   m_Layer: 0
   m_Name: collider_obj (43)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64414,7 +64414,7 @@ GameObject:
   - component: {fileID: 1650580137}
   m_Layer: 0
   m_Name: collider_obj (33)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64640,7 +64640,7 @@ GameObject:
   - component: {fileID: 1653750549}
   m_Layer: 0
   m_Name: collider_obj (7)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64720,7 +64720,7 @@ GameObject:
   - component: {fileID: 1654402607}
   m_Layer: 0
   m_Name: collider_obj (69)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64800,7 +64800,7 @@ GameObject:
   - component: {fileID: 1654914915}
   m_Layer: 0
   m_Name: collider_obj (73)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64880,7 +64880,7 @@ GameObject:
   - component: {fileID: 1657236367}
   m_Layer: 0
   m_Name: collider_obj (25)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65025,7 +65025,7 @@ GameObject:
   - component: {fileID: 1660146150}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65243,7 +65243,7 @@ GameObject:
   - component: {fileID: 1662456743}
   m_Layer: 0
   m_Name: collider_obj (25)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65580,7 +65580,7 @@ GameObject:
   - component: {fileID: 1677945333}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65824,7 +65824,7 @@ GameObject:
   - component: {fileID: 1690928974}
   m_Layer: 0
   m_Name: collider_obj (13)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66034,7 +66034,7 @@ GameObject:
   - component: {fileID: 1700316806}
   m_Layer: 0
   m_Name: collider_obj (43)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66113,7 +66113,7 @@ GameObject:
   - component: {fileID: 1702327475}
   m_Layer: 0
   m_Name: collider_muro_abajo (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66420,7 +66420,7 @@ GameObject:
   - component: {fileID: 1708830948}
   m_Layer: 0
   m_Name: collider_obj (80)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67005,7 +67005,7 @@ GameObject:
   - component: {fileID: 1719719300}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67319,7 +67319,7 @@ GameObject:
   - component: {fileID: 1723944574}
   m_Layer: 0
   m_Name: collider_obj (21)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67457,7 +67457,7 @@ GameObject:
   - component: {fileID: 1724393275}
   m_Layer: 0
   m_Name: collider_obj (40)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67537,7 +67537,7 @@ GameObject:
   - component: {fileID: 1724713767}
   m_Layer: 0
   m_Name: collider_obj (16)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67935,7 +67935,7 @@ GameObject:
   - component: {fileID: 1739131453}
   m_Layer: 0
   m_Name: collider_obj (54)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68095,7 +68095,7 @@ GameObject:
   - component: {fileID: 1743068124}
   m_Layer: 0
   m_Name: collider_obj (74)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68175,7 +68175,7 @@ GameObject:
   - component: {fileID: 1743593810}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68255,7 +68255,7 @@ GameObject:
   - component: {fileID: 1749684189}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68335,7 +68335,7 @@ GameObject:
   - component: {fileID: 1749721410}
   m_Layer: 0
   m_Name: collider_obj (80)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68556,7 +68556,7 @@ GameObject:
   - component: {fileID: 1757726266}
   m_Layer: 0
   m_Name: collider_obj (48)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68636,7 +68636,7 @@ GameObject:
   - component: {fileID: 1758408575}
   m_Layer: 0
   m_Name: collider_obj (9)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68879,7 +68879,7 @@ GameObject:
   - component: {fileID: 1760423768}
   m_Layer: 0
   m_Name: collider_muro_dch (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68938,7 +68938,7 @@ GameObject:
   - component: {fileID: 1760440636}
   m_Layer: 0
   m_Name: collider_obj (8)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69133,8 +69133,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2102785823
-  m_SortingLayer: 2
+  m_SortingLayerID: -1083982075
+  m_SortingLayer: 1
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: e9ec59606c416244fb8b1eee2e8714d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -69159,7 +69159,7 @@ GameObject:
   - component: {fileID: 1763243927}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69218,7 +69218,7 @@ GameObject:
   - component: {fileID: 1764556209}
   m_Layer: 0
   m_Name: collider_obj (31)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69619,7 +69619,7 @@ GameObject:
   - component: {fileID: 1776335963}
   m_Layer: 0
   m_Name: collider_obj (39)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69836,7 +69836,7 @@ GameObject:
   - component: {fileID: 1783645833}
   m_Layer: 0
   m_Name: collider_obj (36)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69915,7 +69915,7 @@ GameObject:
   - component: {fileID: 1785600406}
   m_Layer: 0
   m_Name: collider_muro_abajo (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70168,7 +70168,7 @@ GameObject:
   - component: {fileID: 1795352723}
   m_Layer: 0
   m_Name: collider_obj (10)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70248,7 +70248,7 @@ GameObject:
   - component: {fileID: 1807422494}
   m_Layer: 0
   m_Name: collider_obj (34)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70756,7 +70756,7 @@ GameObject:
   - component: {fileID: 1812878634}
   m_Layer: 0
   m_Name: collider_obj (15)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70836,7 +70836,7 @@ GameObject:
   - component: {fileID: 1815220766}
   m_Layer: 0
   m_Name: collider_obj (9)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71285,7 +71285,7 @@ GameObject:
   - component: {fileID: 1833057952}
   m_Layer: 0
   m_Name: collider_muro_dch (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71344,7 +71344,7 @@ GameObject:
   - component: {fileID: 1837390171}
   m_Layer: 0
   m_Name: collider_obj (7)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71428,7 +71428,7 @@ GameObject:
   - component: {fileID: 1838648209}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71557,7 +71557,7 @@ GameObject:
   - component: {fileID: 1847116897}
   m_Layer: 0
   m_Name: collider_obj (34)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71973,7 +71973,7 @@ GameObject:
   - component: {fileID: 1858825329}
   m_Layer: 0
   m_Name: collider_obj (53)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72268,7 +72268,7 @@ GameObject:
   - component: {fileID: 1870890333}
   m_Layer: 0
   m_Name: collider_obj (48)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72556,7 +72556,7 @@ GameObject:
   - component: {fileID: 1877104606}
   m_Layer: 0
   m_Name: collider_obj (35)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72636,7 +72636,7 @@ GameObject:
   - component: {fileID: 1877903124}
   m_Layer: 0
   m_Name: collider_obj (16)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72794,7 +72794,7 @@ GameObject:
   - component: {fileID: 1883001964}
   m_Layer: 0
   m_Name: collider_obj (49)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73037,7 +73037,7 @@ GameObject:
   - component: {fileID: 1888329760}
   m_Layer: 0
   m_Name: collider_obj (31)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73281,7 +73281,7 @@ GameObject:
   - component: {fileID: 1892311511}
   m_Layer: 0
   m_Name: collider_obj (6)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73493,7 +73493,7 @@ GameObject:
   - component: {fileID: 1894312337}
   m_Layer: 0
   m_Name: collider_obj (14)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73572,7 +73572,7 @@ GameObject:
   - component: {fileID: 1898010768}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73919,7 +73919,7 @@ GameObject:
   - component: {fileID: 1909998246}
   m_Layer: 0
   m_Name: collider_obj (20)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74057,7 +74057,7 @@ GameObject:
   - component: {fileID: 1912838104}
   m_Layer: 0
   m_Name: collider_obj (23)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74137,7 +74137,7 @@ GameObject:
   - component: {fileID: 1913510542}
   m_Layer: 0
   m_Name: collider_muro_izq (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74553,7 +74553,7 @@ GameObject:
   - component: {fileID: 1928950957}
   m_Layer: 0
   m_Name: collider_obj (44)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74774,7 +74774,7 @@ GameObject:
   - component: {fileID: 1933088757}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74833,7 +74833,7 @@ GameObject:
   - component: {fileID: 1934595704}
   m_Layer: 0
   m_Name: collider_obj (30)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74913,7 +74913,7 @@ GameObject:
   - component: {fileID: 1936042775}
   m_Layer: 0
   m_Name: collider_obj (21)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75540,7 +75540,7 @@ GameObject:
   - component: {fileID: 1949020132}
   m_Layer: 0
   m_Name: collider_obj (59)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75761,7 +75761,7 @@ GameObject:
   - component: {fileID: 1954269841}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76026,7 +76026,7 @@ GameObject:
   - component: {fileID: 1966419845}
   m_Layer: 0
   m_Name: collider_muro_dch (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76085,7 +76085,7 @@ GameObject:
   - component: {fileID: 1967121458}
   m_Layer: 0
   m_Name: collider_obj (67)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76165,7 +76165,7 @@ GameObject:
   - component: {fileID: 1969652963}
   m_Layer: 0
   m_Name: collider_obj (14)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76525,7 +76525,7 @@ GameObject:
   - component: {fileID: 1975206394}
   m_Layer: 0
   m_Name: collider_obj (57)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76604,7 +76604,7 @@ GameObject:
   - component: {fileID: 1977988672}
   m_Layer: 0
   m_Name: collider_muro_dch (5)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76663,7 +76663,7 @@ GameObject:
   - component: {fileID: 1980690102}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76896,7 +76896,7 @@ GameObject:
   - component: {fileID: 1984783977}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77570,8 +77570,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2102785823
-  m_SortingLayer: 2
+  m_SortingLayerID: -1083982075
+  m_SortingLayer: 1
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 5a266287a6dccd343a7a4384b68bc31a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -78113,7 +78113,7 @@ GameObject:
   - component: {fileID: 2016908606}
   m_Layer: 0
   m_Name: collider_obj (47)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78193,7 +78193,7 @@ GameObject:
   - component: {fileID: 2022294200}
   m_Layer: 0
   m_Name: collider_obj (41)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78937,7 +78937,7 @@ GameObject:
   - component: {fileID: 2035027477}
   m_Layer: 0
   m_Name: collider_obj (52)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79017,7 +79017,7 @@ GameObject:
   - component: {fileID: 2036287176}
   m_Layer: 0
   m_Name: collider_obj (61)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79097,7 +79097,7 @@ GameObject:
   - component: {fileID: 2037409885}
   m_Layer: 0
   m_Name: collider_muro_izq (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79399,7 +79399,7 @@ GameObject:
   - component: {fileID: 2050258001}
   m_Layer: 0
   m_Name: collider_obj (48)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79559,7 +79559,7 @@ GameObject:
   - component: {fileID: 2052465861}
   m_Layer: 0
   m_Name: collider_muro_arriba (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79639,7 +79639,7 @@ GameObject:
   - component: {fileID: 2053864646}
   m_Layer: 0
   m_Name: collider_obj (32)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79797,7 +79797,7 @@ GameObject:
   - component: {fileID: 2055615710}
   m_Layer: 0
   m_Name: collider_obj (6)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80017,7 +80017,7 @@ GameObject:
   - component: {fileID: 2060772798}
   m_Layer: 0
   m_Name: collider_obj (31)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80283,7 +80283,7 @@ GameObject:
   - component: {fileID: 2065538420}
   m_Layer: 0
   m_Name: collider_obj (41)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80747,7 +80747,7 @@ GameObject:
   - component: {fileID: 2070395545}
   m_Layer: 0
   m_Name: collider_obj (33)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80991,7 +80991,7 @@ GameObject:
   - component: {fileID: 2077928869}
   m_Layer: 0
   m_Name: collider_obj (14)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81198,7 +81198,7 @@ GameObject:
   - component: {fileID: 2087499440}
   m_Layer: 0
   m_Name: collider_obj (34)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81340,7 +81340,7 @@ GameObject:
   - component: {fileID: 2091210715}
   m_Layer: 0
   m_Name: collider_obj (18)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81552,7 +81552,7 @@ GameObject:
   - component: {fileID: 2097135492}
   m_Layer: 0
   m_Name: collider_obj (42)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81829,7 +81829,7 @@ GameObject:
   - component: {fileID: 2100822105}
   m_Layer: 0
   m_Name: collider_obj (65)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81913,7 +81913,7 @@ GameObject:
   - component: {fileID: 2120502659}
   m_Layer: 0
   m_Name: collider_muro_abajo (3)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82096,7 +82096,7 @@ GameObject:
   - component: {fileID: 2130827315}
   m_Layer: 0
   m_Name: collider_obj (48)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82176,7 +82176,7 @@ GameObject:
   - component: {fileID: 2135161050}
   m_Layer: 0
   m_Name: collider_obj (54)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82712,7 +82712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ELIAS
+  m_Text: Elias
 --- !u!224 &4930018523525573966
 RectTransform:
   m_ObjectHideFlags: 0
@@ -82781,8 +82781,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4ef53cdd7af8a7242b068c8b3367e73a, type: 2}
-  m_sharedMaterial: {fileID: -8641239597867594256, guid: 4ef53cdd7af8a7242b068c8b3367e73a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 65c3a882e6b6a6349b89fbdb956f344d, type: 2}
+  m_sharedMaterial: {fileID: -2464533526535252385, guid: 65c3a882e6b6a6349b89fbdb956f344d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

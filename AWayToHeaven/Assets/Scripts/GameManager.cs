@@ -32,9 +32,11 @@ public class GameManager : MonoBehaviour
     public AudioClip m;
     public AudioClip mExploracion;
     public AudioClip mDialogo;
+    //public AudioClip mSelSala;
     bool SeleccionMusica = false;
     bool SeleccionMusica2 = false;
     bool SalaExplorar = false;
+    //bool SelSala = false;
 
     //Control modo hordas
     public int ModoHordasDificultad = -1; //0- facil, 1-medio , 2-dificil 
@@ -214,7 +216,15 @@ public class GameManager : MonoBehaviour
    
                 }
 
-            }
+            }/*else if((currentScene == 3)||(currentScene == 4)){
+                        if(!SelSala)
+                        {
+                            musica.clip = mSelSala;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
+                            musica.Play();
+                            SelSala = true;
+                        }
+            }*/
 
             
             if (!SeleccionMusica2)
