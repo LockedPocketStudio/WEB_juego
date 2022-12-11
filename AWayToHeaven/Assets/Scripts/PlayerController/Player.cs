@@ -287,7 +287,7 @@ public class Player : MonoBehaviour
         
     
         fireCooldown -= 0.15f;
-        AyudaPower.text=("Aumentar velocidad del disparo: "+n);
+        AyudaPower.text=("Aumenta velocidad del disparo: "+n);
 
 
     }
@@ -305,22 +305,22 @@ public class Player : MonoBehaviour
     public void RecuperarVida()
     {
         VidaActual = VidaMaxima;
-        AyudaPower.text = ("Recuperar vida");
+        AyudaPower.text = ("Recupera vida");
     }
     public void AumentarDanoDisparo(int n)
     {
         bulletDamage++;
-        AyudaPower.text = ("Aumentar daño: "+n);
+        AyudaPower.text = ("Aumenta daño: "+n);
     }
     public void AumentarAlcance(int n)
     {
         radius++;
-        AyudaPower.text = ("Aumentar alcance: " + n);
+        AyudaPower.text = ("Aumenta alcance: " + n);
     }
    
     public void AumentarVelocidadMovimiento(int n)
     {
-        AyudaPower.text = ("Aumentar velocidad del movimiento: " + n);
+        AyudaPower.text = ("Aumenta velocidad del movimiento: " + n);
     }
     protected void PowerUpSierra(int nivel)
     {
