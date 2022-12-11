@@ -129,7 +129,7 @@ public class GameManager : MonoBehaviour
             dificultad++;
         }
 
-        if(time >= 20)
+        if(time >= 300)
         {
             victoria = true;
              estadoJugador = -1;
@@ -148,7 +148,7 @@ public class GameManager : MonoBehaviour
                 SeleccionMusica = true;
             }
            
-            if(tleftModo2 >= 300f)
+            if(tleftModo2 >= 15f)
             {
                 finModo2 = true;
                 EscenaDialogo.SetActive(true);

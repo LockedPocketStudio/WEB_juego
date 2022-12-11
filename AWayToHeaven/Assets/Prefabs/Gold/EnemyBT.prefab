@@ -193,7 +193,7 @@ MonoBehaviour:
   jugador: {fileID: 0}
   bulletPrefab: {fileID: 8722333161147009638, guid: 1580767522d86e04e919de9d1f6911da, type: 3}
   GM: {fileID: 0}
-  timeShoot: 0
+  timeShoot: 1
   EBT: 0
   EEs: 0
 --- !u!95 &2158098340281834505

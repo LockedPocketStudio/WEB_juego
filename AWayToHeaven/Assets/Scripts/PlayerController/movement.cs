@@ -82,7 +82,9 @@ public class movement : MonoBehaviour, IPointerDownHandler
     {
         if (GM.modoJuego == -1)
         {
-          //  animacion.enabled = false;
+            if (!animacion.GetBool("Muerte")) 
+            animacion.enabled = false;
+
             return;
             
         }

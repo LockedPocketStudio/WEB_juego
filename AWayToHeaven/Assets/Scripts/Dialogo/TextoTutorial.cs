@@ -32,7 +32,7 @@ public class TextoTutorial : MonoBehaviour
     string a ="¿Hola? parece que no sabes muy bien qué hacer… ¿Te echo una mano? ¿Qué tipo de información necesitas?";
     
     string o = "El modo hordas consiste en sobrevivir 5 minutos.";
-    string o2 = "En este tiempo irán apareciendo enemigos que vayan a atacarte, procura defenderte y recoger el aurem que dejen a su paso.";
+    string o2 = "En este tiempo irán apareciendo enemigos que van a atacarte, procura defenderte y recoger el aurem que dejen a su paso.";
     string o3 = "Cuando reúnas suficiente aurem conseguirás una ventaja que te ayudará el resto de la partida.";
     string o4 = "Existen tres niveles de dificultad ¡te animo a probarlo!";
     

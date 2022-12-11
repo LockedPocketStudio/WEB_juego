@@ -40,7 +40,7 @@ public class MenuJuegoHist : MonoBehaviour
             panel.SetActive(false);
             panelOcultar.SetActive(false);
         });
-        Exit.onClick.AddListener(() => { exitFunction(); });
+        Exit.onClick.AddListener(() => { SceneManager.LoadScene(0); });
        
     }
 
