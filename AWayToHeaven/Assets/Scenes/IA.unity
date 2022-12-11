@@ -2758,7 +2758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Size: {x: 8.795139, y: 11.408836, z: 4}
   m_Center: {x: -0.4795103, y: 0.9037149, z: 0}
-  m_Area: 3
+  m_Area: 0
   m_AffectedAgents: c3c0608d
 --- !u!1 &1607849821
 GameObject:
@@ -3742,6 +3742,8 @@ MonoBehaviour:
   DistanciaEscuchar: 0
   alertado: 0
   alerta: {fileID: 1969827222}
+  hemosllegado: 0
+  b: 0
   perseguir: {fileID: 0}
   DestinoActualizado: {x: 0, y: 0}
 --- !u!114 &1833883622812252200
@@ -3847,6 +3849,8 @@ MonoBehaviour:
   ExpPrefab: {fileID: 6768550097269240772, guid: 14377c43d7e253a469748b424202326c, type: 3}
   bala: 0
   GM: {fileID: 0}
+  bt: 0
+  fsm: 0
 --- !u!4 &1863525825045570225
 Transform:
   m_ObjectHideFlags: 0
@@ -4758,6 +4762,7 @@ MonoBehaviour:
   AyudaPower: {fileID: 0}
   LevelUp: 0
   PasarSala: 0
+  animacion: {fileID: 0}
 --- !u!212 &4548097797952068506
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5491,7 +5496,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.461089, y: 8.2699995}
+    oldSize: {x: 0.5, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5595,6 +5600,8 @@ MonoBehaviour:
   ExpPrefab: {fileID: 6768550097269240772, guid: 14377c43d7e253a469748b424202326c, type: 3}
   bala: 0
   GM: {fileID: 0}
+  bt: 0
+  fsm: 0
 --- !u!4 &5156898669289979159
 Transform:
   m_ObjectHideFlags: 0
@@ -5604,7 +5611,7 @@ Transform:
   m_GameObject: {fileID: 5156898669289979157}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 258.28, y: 41.28, z: 0}
-  m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7398694985104777094}
@@ -5840,6 +5847,8 @@ MonoBehaviour:
   ExpPrefab: {fileID: 6768550097269240772, guid: 14377c43d7e253a469748b424202326c, type: 3}
   bala: 0
   GM: {fileID: 0}
+  bt: 0
+  fsm: 0
 --- !u!61 &7151928313910333048
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6056,6 +6065,8 @@ MonoBehaviour:
   DistanciaEscuchar: 0
   alertado: 0
   alerta: {fileID: 490702697}
+  hemosllegado: 0
+  b: 0
   perseguir: {fileID: 0}
   DestinoActualizado: {x: 0, y: 0}
 --- !u!114 &9140814478530747799
