@@ -1,0 +1,2864 @@
+fileFormatVersion: 2
+guid: cd95f324ce2a8d2488801f3110821328
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 83
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff576ecb10214e34e84d5a85b6a0d12b
+      internalID: 1165842719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 10
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d93fd6100d1d9c4abc3b2ccab70b7b1
+      internalID: -822068094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 10
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79aafb93de1d82f4dbd08da1410786dc
+      internalID: 1297085059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_3
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 10
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58e84a97c0283843923e400978bb1d4
+      internalID: 160762623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_4
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 10
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d5ab4f57de6da43a6d3790b9c48c4f
+      internalID: -1375625695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_5
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 10
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517758c975cbd42409b974f919b6dd3f
+      internalID: 1953734039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_6
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 10
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92533b98cc523c4fbe1e7aba03a829a
+      internalID: -1177244481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_7
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 10
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3833bf73b69a6e469f67d925c3d5c2a
+      internalID: -902779868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_8
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 13
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4251d3bce3f2ec49bf8757adec5afae
+      internalID: -1084065217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_9
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 13
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fed4546308d4a48993a19421a6b2f0
+      internalID: 900986264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_10
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 13
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373e2b37bae65594a97852925c0c5284
+      internalID: -1985068133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_11
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 13
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967d1b66758555648b0af1e9fdd05e12
+      internalID: -57791643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_12
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 13
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaf8ce92f333d84c94f9a7bbb80f6a6
+      internalID: -1060412909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_13
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 13
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d5ab2d2296ff247b33174b12a75950
+      internalID: -1099271670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_14
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 13
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaafcec2104f364cb9a0b03ba559d23
+      internalID: 939217050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_15
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 13
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8349c46516abc334babb6275b6d61807
+      internalID: -1173220195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_16
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 13
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7375b44efe8d82d43bfb25452cc2bd9d
+      internalID: 1079277561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_17
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 70
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d97ac85802a89b40907628315b876bf
+      internalID: -510152025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_18
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 88
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafba5c34c3b6ef428c2d27a7f14a08e
+      internalID: -1113326517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_19
+      rect:
+        serializedVersion: 2
+        x: 2920
+        y: 118
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b532ca5e5e3564cb5f7492fc3a5b0a
+      internalID: -1251215871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_20
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 136
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff7e09db5883e64fb6bb434e63a6121
+      internalID: -1073817457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_21
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 138
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      physicsShape:
+      - - {x: 0, y: -89}
+        - {x: 50, y: 0}
+        - {x: 0, y: 89}
+        - {x: -50, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b449c78fa1de155439ffa1bc5d08cd5c
+      internalID: -1466477169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_22
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 156
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fa9eb16ad8bcb47b04d16e0bff1045
+      internalID: 856843776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_23
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 172
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23246c2cd68caa848804c7c9ad1d004f
+      internalID: -1409606835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_24
+      rect:
+        serializedVersion: 2
+        x: 3595
+        y: 165
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1da1923849cea4e861b7df4002a511
+      internalID: -554244359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_25
+      rect:
+        serializedVersion: 2
+        x: 3613
+        y: 159
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be969295805ff047a1232f1094a4952
+      internalID: 1516299652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_26
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 154
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de29416113823f4795b8bc7db3f630a
+      internalID: 403638218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_27
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 154
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d85c95d08014645ae7eba8301ac522
+      internalID: 380859447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_28
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 142
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142c983e171aab54d9182a2f224c0591
+      internalID: 112107903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_29
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 147
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e09ca5883050ce4d879dba0ee51a729
+      internalID: 1732540354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_30
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 150
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174c9c271b918bd4f8a957369708a610
+      internalID: -733839218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_31
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 140
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091e2938c4ca988499a92643d7bc9604
+      internalID: -446786676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_32
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 142
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b9225906f84694c9f7fd1c7eff76a2
+      internalID: -1935018691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_33
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 127
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653dab42bcf28514a853224e286c8da5
+      internalID: 1100782045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_34
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 122
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dbb9f3681d206439163e69948ae87f
+      internalID: 1867521342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_35
+      rect:
+        serializedVersion: 2
+        x: 3603
+        y: 124
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d5a0eb85a74324e8d42b5c8559c085
+      internalID: 719872226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_36
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 122
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bf959a565cf3140ba4297312d6ef1b
+      internalID: 1160008786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_37
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 120
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2655dacd53504438fe807449519e6e
+      internalID: 2132029484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_38
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 120
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfe066670b79a745befa9914cd3c642
+      internalID: 1430875798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_39
+      rect:
+        serializedVersion: 2
+        x: 3373
+        y: 118
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462159137edf506449a31aecb8bc3d6d
+      internalID: 30524012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_40
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 111
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd8db27401ca7a47a0de5eb9f6dfa64
+      internalID: -2060536192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_41
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 117
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab211d71093c3a4c8c67b84b4f2fb4d
+      internalID: 1100412831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_42
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 112
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d437d149ff68784479823abbb014700b
+      internalID: -26794754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_43
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 117
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa6743ed2d0ec14597d233748fc77bb
+      internalID: 2105014543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_44
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 108
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ae35bd7d92ed745a6b18a70ec955d2
+      internalID: 1009316293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_45
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 106
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3824db2dbc8e4b4429708df18876a997
+      internalID: -1217978338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_46
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 106
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a123402e0dc71e488c8d2e9c323941f
+      internalID: -251966573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_47
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 104
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a03099e484fe464d99bd1d84d5bacc0
+      internalID: 924577451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_48
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 108
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a0b1f1a593aa64a8f884f6ef7253c7
+      internalID: -1364228791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_49
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 106
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46cdc2cdde533d46b2e1fce1555a675
+      internalID: 72025057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_50
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 106
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e324614873852b54e95715deb979d863
+      internalID: 323652860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_51
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 110
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90375d784ed22f14da230ec124e8ac46
+      internalID: -302791822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_52
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 97
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4046452d6ba7abe45a9747e6e7c46edc
+      internalID: 1098563021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_53
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 102
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cc9a17d8b435d418ca69da3ba37a0f
+      internalID: 1058805767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_54
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 93
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0c170615616944791e8f7ddb09aa32
+      internalID: -1314591048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_55
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 88
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29b5d2b2a8dc0943a3cc57d8d0db3db
+      internalID: 898992543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_56
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 95
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6e597afb02bd640a0249ed0fee42b2
+      internalID: -1346395698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_57
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 92
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a9242b90ba0ad439ead89e454470c5
+      internalID: -1403674512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_58
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 92
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16318b347847cd4f87962678336ebbd
+      internalID: -265272932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_59
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 88
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c4d054c960abd43933e97919b4d334
+      internalID: 1403125928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_60
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 86
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83209e7857d556418d2706e314ccb98
+      internalID: 687668821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_61
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 79
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6b33077d302404e84c21344a02eb4c
+      internalID: 260069511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_62
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 79
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92688591360d03a4e9c2ee857cfbe45c
+      internalID: 90247847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_63
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 74
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120bec21c2982f5489a6e7ead4d779f1
+      internalID: -1978488612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_64
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 83
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffbba5a360ff214aacd5c3438656467
+      internalID: 1671925753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_65
+      rect:
+        serializedVersion: 2
+        x: 3061
+        y: 77
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc80aae2ea4918b4785e8526318ac96e
+      internalID: -1145700358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_66
+      rect:
+        serializedVersion: 2
+        x: 3084
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26cde50bb451d294f8be83cafb9e4fe2
+      internalID: -499007499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_67
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 77
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41345defc7187f944ae17adc81eaef95
+      internalID: -1161061228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_68
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 83
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b13d3df577b3f4fbd3709f31c4594f
+      internalID: 692486130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_69
+      rect:
+        serializedVersion: 2
+        x: 3560
+        y: 83
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6a1a28b8f5ecb4d872b77fa3b7f83f
+      internalID: -1307212363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_70
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ecbeedd2027164cb46e287166c958f
+      internalID: -378089206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_71
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 74
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c3602b7f8baeb4daeba4ccfc5fe9b7
+      internalID: -174615774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_72
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 69
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0bb1c1d9eb7a544a4f92e8899cce12
+      internalID: 467400840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_73
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 76
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8721e63037c3f4ebcee1ea20b40157
+      internalID: 436178361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_74
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 76
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063bc91ef54138e42b145bd2eb8f1776
+      internalID: -1922014541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_75
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 74
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e91b85593415e24ea0944cf962d7150
+      internalID: -1468857314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_76
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 76
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c340ec81ce9fd5f41ab9a4bf92459dd8
+      internalID: 1933596516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_77
+      rect:
+        serializedVersion: 2
+        x: 2748
+        y: 70
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a5741c8aad38d4ba3a99edb3d993c2
+      internalID: -1705121730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_78
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 69
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7622d6f574f710b4693b3e64b23827a8
+      internalID: -6052423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_79
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 58
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac81a6b225b72447b2817bfee3ec97d
+      internalID: -1226710875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_80
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 67
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b84684874a88d4ab204038de67cc2b
+      internalID: 419941395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_81
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 70
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388fa914c9e74114ca071ce13aed7920
+      internalID: -1524941804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_82
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 70
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2063460b4d4e6c043a6dc6294c600586
+      internalID: 35081877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_83
+      rect:
+        serializedVersion: 2
+        x: 3578
+        y: 70
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700fa1f8d43b41d4596de5731bc77f1b
+      internalID: -1712071490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_84
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 60
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141a2edf101a79247ac2e1e033c09e74
+      internalID: 1144359180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_85
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b522548ac77db4f428addb62c8d514d3
+      internalID: 1834042189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_86
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 53
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4876a982bca14ea46b46dcf37b6f97c1
+      internalID: 816088758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_87
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 60
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b51af8d29623e64389703dc4f65c62c
+      internalID: -1962805831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_88
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 60
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0144bf3c21cb141a15f54530be0a9c
+      internalID: -489995499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_89
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 61
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b898e025254f24a8fcf7aeb73d75cf
+      internalID: 1991053210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_90
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 63
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b478da80fe9f6a446929d9b1299aed9b
+      internalID: -120633428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_91
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 61
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f323fc0ad01741d4dae61b705da1f332
+      internalID: -793922086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_92
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 60
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77be547672db8a5468c51880867b2b95
+      internalID: 2074111642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_93
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 60
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6399f2260ad4a8448bda7deeb0c9fc9
+      internalID: 86226670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_94
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 13
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9aeb06d6048ea409b5fe96852beda8
+      internalID: 282990209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_95
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 13
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d1c9d62c7f6404cab6f070eabd511f
+      internalID: -386061974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_96
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 58
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18195b203b61f314d9ac132d2d001b9f
+      internalID: -1778391379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_97
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 56
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ca8c28fae3f4f41b4e7baf7e03b287
+      internalID: 1391122461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_98
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 53
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb0112cd5275c446a3ba5e97f99db34
+      internalID: -1961927868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_99
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 53
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3534a5089c39f4a89533d909269b87
+      internalID: 417438432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_100
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 53
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0c75579e40b9643ad52b5389794ddc
+      internalID: 815872003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_101
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 47
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e738fd1a4f2d2e4f8fa979a28c5365f
+      internalID: 1258767197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_102
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 53
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dafa08217121b43bd8557b3ef1c9c1
+      internalID: -1665616397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_103
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 51
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac85bee8e3ec83e4f89b8d9db073403c
+      internalID: -1068660884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_104
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 47
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2b73a9581c1074f8ffeea30ccb9336
+      internalID: 920528765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_105
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 51
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19a55fedc65a164595e830b4975ae72
+      internalID: 384956236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_106
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 13
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b55189c5e8b0944e95e174cf286d9ae
+      internalID: -1249000663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_107
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 13
+        width: 68
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1e79cbb97acfe4ea41647d6a3f9d61
+      internalID: -175652185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_108
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39360f22a05a154a977da04bba6b00b
+      internalID: -1837589063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_109
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 24
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e61ee0690bb09428dfa82bf6591590
+      internalID: -1506875537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_110
+      rect:
+        serializedVersion: 2
+        x: 3391
+        y: 44
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35482fd1ee629414abc7f31f6ae33acc
+      internalID: 1248177813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_111
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 13
+        width: 70
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e89067430e711458acc19cfdb56997
+      internalID: -2037181895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_112
+      rect:
+        serializedVersion: 2
+        x: 3384
+        y: 33
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0471144d8d326054fa95b5ad364e9912
+      internalID: 459819208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_113
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 37
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9573ac6e137bfc4b92094655415c815
+      internalID: -773682971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_114
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 33
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf0e1def11b17d419f82662888a79e5
+      internalID: -353878183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Defeat_Spritesheet (2)_115
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 13
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf9f5c19eb081741b9de4336c0b64fa
+      internalID: -1881801516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Prota_Defeat_Spritesheet (2)_16: 1079277561
+      Prota_Defeat_Spritesheet (2)_64: 1671925753
+      Prota_Defeat_Spritesheet (2)_114: -353878183
+      Prota_Defeat_Spritesheet (2)_74: -1922014541
+      Prota_Defeat_Spritesheet (2)_54: -1314591048
+      Prota_Defeat_Spritesheet (2)_102: -1665616397
+      Prota_Defeat_Spritesheet (2)_48: -1364228791
+      Prota_Defeat_Spritesheet (2)_99: 417438432
+      Prota_Defeat_Spritesheet (2)_108: -1837589063
+      Prota_Defeat_Spritesheet (2)_12: -1060412909
+      Prota_Defeat_Spritesheet (2)_79: -1226710875
+      Prota_Defeat_Spritesheet (2)_98: -1961927868
+      Prota_Defeat_Spritesheet (2)_63: -1978488612
+      Prota_Defeat_Spritesheet (2)_24: -554244359
+      Prota_Defeat_Spritesheet (2)_65: -1145700358
+      Prota_Defeat_Spritesheet (2)_6: -1177244481
+      Prota_Defeat_Spritesheet (2)_21: -1466477169
+      Prota_Defeat_Spritesheet (2)_82: 35081877
+      Prota_Defeat_Spritesheet (2)_72: 467400840
+      Prota_Defeat_Spritesheet (2)_2: 1297085059
+      Prota_Defeat_Spritesheet (2)_18: -1113326517
+      Prota_Defeat_Spritesheet (2)_3: 160762623
+      Prota_Defeat_Spritesheet (2)_78: -6052423
+      Prota_Defeat_Spritesheet (2)_56: -1346395698
+      Prota_Defeat_Spritesheet (2)_40: -2060536192
+      Prota_Defeat_Spritesheet (2)_105: 384956236
+      Prota_Defeat_Spritesheet (2)_27: 380859447
+      Prota_Defeat_Spritesheet (2)_0: 1165842719
+      Prota_Defeat_Spritesheet (2)_31: -446786676
+      Prota_Defeat_Spritesheet (2)_44: 1009316293
+      Prota_Defeat_Spritesheet (2)_103: -1068660884
+      Prota_Defeat_Spritesheet (2)_46: -251966573
+      Prota_Defeat_Spritesheet (2)_95: -386061974
+      Prota_Defeat_Spritesheet (2)_66: -499007499
+      Prota_Defeat_Spritesheet (2)_76: 1933596516
+      Prota_Defeat_Spritesheet (2)_101: 1258767197
+      Prota_Defeat_Spritesheet (2)_42: -26794754
+      Prota_Defeat_Spritesheet (2)_37: 2132029484
+      Prota_Defeat_Spritesheet (2)_100: 815872003
+      Prota_Defeat_Spritesheet (2)_73: 436178361
+      Prota_Defeat_Spritesheet (2)_49: 72025057
+      Prota_Defeat_Spritesheet (2)_61: 260069511
+      Prota_Defeat_Spritesheet (2)_67: -1161061228
+      Prota_Defeat_Spritesheet (2)_106: -1249000663
+      Prota_Defeat_Spritesheet (2)_33: 1100782045
+      Prota_Defeat_Spritesheet (2)_68: 692486130
+      Prota_Defeat_Spritesheet (2)_55: 898992543
+      Prota_Defeat_Spritesheet (2)_83: -1712071490
+      Prota_Defeat_Spritesheet (2)_41: 1100412831
+      Prota_Defeat_Spritesheet (2)_15: -1173220195
+      Prota_Defeat_Spritesheet (2)_116: -953401982
+      Prota_Defeat_Spritesheet (2)_52: 1098563021
+      Prota_Defeat_Spritesheet (2)_11: -57791643
+      Prota_Defeat_Spritesheet (2)_17: -510152025
+      Prota_Defeat_Spritesheet (2)_22: 856843776
+      Prota_Defeat_Spritesheet (2)_10: -1985068133
+      Prota_Defeat_Spritesheet (2)_86: 816088758
+      Prota_Defeat_Spritesheet (2)_94: 282990209
+      Prota_Defeat_Spritesheet (2)_51: -302791822
+      Prota_Defeat_Spritesheet (2)_58: -265272932
+      Prota_Defeat_Spritesheet (2)_25: 1516299652
+      Prota_Defeat_Spritesheet (2)_28: 112107903
+      Prota_Defeat_Spritesheet (2)_91: -793922086
+      Prota_Defeat_Spritesheet (2)_75: -1468857314
+      Prota_Defeat_Spritesheet (2)_36: 1160008786
+      Prota_Defeat_Spritesheet (2)_45: -1217978338
+      Prota_Defeat_Spritesheet (2)_19: -1251215871
+      Prota_Defeat_Spritesheet (2)_70: -378089206
+      Prota_Defeat_Spritesheet (2)_112: 459819208
+      Prota_Defeat_Spritesheet (2)_29: 1732540354
+      Prota_Defeat_Spritesheet (2)_84: 1144359180
+      Prota_Defeat_Spritesheet (2)_111: -2037181895
+      Prota_Defeat_Spritesheet (2)_14: 939217050
+      Prota_Defeat_Spritesheet (2)_87: -1962805831
+      Prota_Defeat_Spritesheet (2)_93: 86226670
+      Prota_Defeat_Spritesheet (2)_104: 920528765
+      Prota_Defeat_Spritesheet (2)_115: -1881801516
+      Prota_Defeat_Spritesheet (2)_81: -1524941804
+      Prota_Defeat_Spritesheet (2)_110: 1248177813
+      Prota_Defeat_Spritesheet (2)_80: 419941395
+      Prota_Defeat_Spritesheet (2)_9: 900986264
+      Prota_Defeat_Spritesheet (2)_96: -1778391379
+      Prota_Defeat_Spritesheet (2)_20: -1073817457
+      Prota_Defeat_Spritesheet (2)_90: -120633428
+      Prota_Defeat_Spritesheet (2)_88: -489995499
+      Prota_Defeat_Spritesheet (2)_38: 1430875798
+      Prota_Defeat_Spritesheet (2)_47: 924577451
+      Prota_Defeat_Spritesheet (2)_5: 1953734039
+      Prota_Defeat_Spritesheet (2)_23: -1409606835
+      Prota_Defeat_Spritesheet (2)_30: -733839218
+      Prota_Defeat_Spritesheet (2)_97: 1391122461
+      Prota_Defeat_Spritesheet (2)_60: 687668821
+      Prota_Defeat_Spritesheet (2)_1: -822068094
+      Prota_Defeat_Spritesheet (2)_50: 323652860
+      Prota_Defeat_Spritesheet (2)_53: 1058805767
+      Prota_Defeat_Spritesheet (2)_57: -1403674512
+      Prota_Defeat_Spritesheet (2)_59: 1403125928
+      Prota_Defeat_Spritesheet (2)_62: 90247847
+      Prota_Defeat_Spritesheet (2)_69: -1307212363
+      Prota_Defeat_Spritesheet (2)_71: -174615774
+      Prota_Defeat_Spritesheet (2)_89: 1991053210
+      Prota_Defeat_Spritesheet (2)_39: 30524012
+      Prota_Defeat_Spritesheet (2)_8: -1084065217
+      Prota_Defeat_Spritesheet (2)_77: -1705121730
+      Prota_Defeat_Spritesheet (2)_35: 719872226
+      Prota_Defeat_Spritesheet (2)_34: 1867521342
+      Prota_Defeat_Spritesheet (2)_4: -1375625695
+      Prota_Defeat_Spritesheet (2)_109: -1506875537
+      Prota_Defeat_Spritesheet (2)_113: -773682971
+      Prota_Defeat_Spritesheet (2)_7: -902779868
+      Prota_Defeat_Spritesheet (2)_43: 2105014543
+      Prota_Defeat_Spritesheet (2)_26: 403638218
+      Prota_Defeat_Spritesheet (2)_85: 1834042189
+      Prota_Defeat_Spritesheet (2)_13: -1099271670
+      Prota_Defeat_Spritesheet (2)_107: -175652185
+      Prota_Defeat_Spritesheet (2)_92: 2074111642
+      Prota_Defeat_Spritesheet (2)_32: -1935018691
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
