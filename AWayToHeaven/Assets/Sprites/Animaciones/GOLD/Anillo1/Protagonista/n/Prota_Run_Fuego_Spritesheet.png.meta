@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 19c1a1fce2531114a971d69809bab1dc
+guid: b45dc58aa932b70419b66c90a2921695
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 2
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_0
+      name: Prota_Run_Fuego_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 30
-        height: 30
+        x: 12
+        y: 10
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7805146f2799d06439e6f4894e5c185e
-      internalID: 675589034
+      spriteID: b31dca20083de0146ac811f242390815
+      internalID: 2079497077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_1
+      name: Prota_Run_Fuego_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 0
-        width: 30
-        height: 30
+        x: 92
+        y: 10
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5791ed99c15cf764e8d785f9950c548a
-      internalID: 318356994
+      spriteID: 5b6724928ecdd394a88ffabe8034b76e
+      internalID: 60015307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_2
+      name: Prota_Run_Fuego_Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 0
-        width: 30
-        height: 30
+        x: 172
+        y: 10
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a02aaf6d496b3b43afef1d92e3468b3
-      internalID: 1747289322
+      spriteID: 9b9cd67666cac2b42b21e2fe87e7abd5
+      internalID: 1909579113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_3
+      name: Prota_Run_Fuego_Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 90
-        y: 0
-        width: 30
-        height: 30
+        x: 252
+        y: 8
+        width: 56
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9e4454d9d21e084db922ec3cf4a7c49
-      internalID: 2026939663
+      spriteID: 4e756b9c227ed0242ac2a9248957ad3e
+      internalID: 895412084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_4
+      name: Prota_Run_Fuego_Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 30
-        height: 30
+        x: 332
+        y: 8
+        width: 54
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,209 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4adcc71b2a48954dad8e3e5c83af487
-      internalID: -384890604
+      spriteID: 5cef01a2143f4a540a948b3ba7fd6d06
+      internalID: 609560474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_5
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32b4512b4924c5c43b88d71eb8028d4b
-      internalID: -585626049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_6
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d29167b2a76dc84d9004c16f8b4b5e0
-      internalID: 1335070041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_7
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72e1dd4c8b2465d488e979a68c85e94a
-      internalID: 1595718251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_8
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1068bae7725fca4093e611964ba7717
-      internalID: 2048903365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_9
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f3ec7b52ae209841b160be9087c4751
-      internalID: -121805100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_10
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d856619da9d04e9449cf75b25516eb1e
-      internalID: 2146576754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_11
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7379f1704ee90714981dce3327e38920
-      internalID: -1231626096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_12
-      rect:
-        serializedVersion: 2
-        x: 360
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd97de58cfef7f04bba68bf8370a8047
-      internalID: -1203237156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_13
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 0
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4161e4e05c210d34dbf7a97e7fe5f0da
-      internalID: -1804079161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_14
+      name: Prota_Run_Fuego_Spritesheet_5
       rect:
         serializedVersion: 2
         x: 420
-        y: 0
-        width: 30
-        height: 30
+        y: 8
+        width: 48
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ef4d2ffa2940604ea2d18a9411c6d44
-      internalID: 1532811821
+      spriteID: 4caebd69971affa499f3b74be3753307
+      internalID: -1425970098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bala_Prota_Spritesheet_Anillo1_15
+      name: Prota_Run_Fuego_Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 450
-        y: 0
-        width: 30
-        height: 30
+        x: 500
+        y: 8
+        width: 44
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,8 +257,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e6d6de5843a98479e4e1c161e59fb8
-      internalID: 1603096331
+      spriteID: dcfdf36a52423ab41bd7c39430252e50
+      internalID: 679525002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Run_Fuego_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 8
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69dd1c32c052084c8272cb4618ba805
+      internalID: 479635953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Run_Fuego_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 8
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a11d7bea25c6e4cb45f15f3113f168
+      internalID: 886454141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Run_Fuego_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 10
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d04b53e0c4e124478695e407cfce93a
+      internalID: 1740973141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Run_Fuego_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 10
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264f0267ce03fb849a5bead0316562c1
+      internalID: 1413339608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Run_Fuego_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 10
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370880e118e36c5449fdb6a5fce56bcf
+      internalID: 21500941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Run_Fuego_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 10
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4c9b4531c945d45b7ffb147e63e15b
+      internalID: 1435154318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Run_Fuego_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 12
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c488e9689e7c5454caf5388e21c0f419
+      internalID: 7913067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Run_Fuego_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 12
+        width: 42
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cbd62e77f81054c9559fd9ee1abbbf
+      internalID: 957946236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prota_Run_Fuego_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 12
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76d2f29369d6b5419cdeda80e70561d
+      internalID: 428336368
       vertices: []
       indices: 
       edges: []
@@ -463,22 +463,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bala_Prota_Spritesheet_Anillo1_10: 2146576754
-      Bala_Prota_Spritesheet_Anillo1_8: 2048903365
-      Bala_Prota_Spritesheet_Anillo1_14: 1532811821
-      Bala_Prota_Spritesheet_Anillo1_15: 1603096331
-      Bala_Prota_Spritesheet_Anillo1_5: -585626049
-      Bala_Prota_Spritesheet_Anillo1_12: -1203237156
-      Bala_Prota_Spritesheet_Anillo1_11: -1231626096
-      Bala_Prota_Spritesheet_Anillo1_4: -384890604
-      Bala_Prota_Spritesheet_Anillo1_13: -1804079161
-      Bala_Prota_Spritesheet_Anillo1_3: 2026939663
-      Bala_Prota_Spritesheet_Anillo1_2: 1747289322
-      Bala_Prota_Spritesheet_Anillo1_0: 675589034
-      Bala_Prota_Spritesheet_Anillo1_6: 1335070041
-      Bala_Prota_Spritesheet_Anillo1_1: 318356994
-      Bala_Prota_Spritesheet_Anillo1_7: 1595718251
-      Bala_Prota_Spritesheet_Anillo1_9: -121805100
+      Prota_Run_Fuego_Spritesheet_10: 1413339608
+      Prota_Run_Fuego_Spritesheet_15: 428336368
+      Prota_Run_Fuego_Spritesheet_12: 1435154318
+      Prota_Run_Fuego_Spritesheet_13: 7913067
+      Prota_Run_Fuego_Spritesheet_14: 957946236
+      Prota_Run_Fuego_Spritesheet_4: 609560474
+      Prota_Run_Fuego_Spritesheet_11: 21500941
+      Prota_Run_Fuego_Spritesheet_0: 2079497077
+      Prota_Run_Fuego_Spritesheet_8: 886454141
+      Prota_Run_Fuego_Spritesheet_6: 679525002
+      Prota_Run_Fuego_Spritesheet_3: 895412084
+      Prota_Run_Fuego_Spritesheet_9: 1740973141
+      Prota_Run_Fuego_Spritesheet_2: 1909579113
+      Prota_Run_Fuego_Spritesheet_1: 60015307
+      Prota_Run_Fuego_Spritesheet_5: -1425970098
+      Prota_Run_Fuego_Spritesheet_7: 479635953
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

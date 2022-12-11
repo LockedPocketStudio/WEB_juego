@@ -90,6 +90,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -101,6 +102,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -112,6 +114,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -123,6 +126,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -134,6 +138,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -151,6 +156,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -162,6 +168,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -173,6 +180,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -185,6 +193,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -196,6 +205,7 @@ public class GameManager : MonoBehaviour
                         if(!SalaExplorar)
                         {
                             musica.clip = mExploracion;
+                            musica.volume = PlayerPrefs.GetFloat("Volumen");
                             musica.Play();
                             SalaExplorar = true;
                         }
@@ -210,6 +220,7 @@ public class GameManager : MonoBehaviour
             if (!SeleccionMusica2)
             {
                 musica.clip = m;
+                musica.volume = PlayerPrefs.GetFloat("Volumen");
                 musica.Play();
                 SeleccionMusica2 = true;
             }
@@ -283,7 +294,7 @@ public class GameManager : MonoBehaviour
             {
                 musica.clip = m;
                 musica.Play();
-                musica.volume = 0.3f;
+                musica.volume = PlayerPrefs.GetFloat("Volumen");
                 SeleccionMusica = true;
             }
            
@@ -301,6 +312,7 @@ public class GameManager : MonoBehaviour
             if (!SeleccionMusica)
             {
                 musica.clip = mDialogo;
+                musica.volume = PlayerPrefs.GetFloat("Volumen");
                 musica.Play();
                 SeleccionMusica = true;
             }

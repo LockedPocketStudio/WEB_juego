@@ -51,7 +51,8 @@ public class Disparoal : MonoBehaviour
         }
 
         float distanceTo = Vector2.Distance(jugador.transform.position, this.transform.position);
-        if (EEs && timeShoot >=2.5f && visor.detected)
+        if(timeShoot >= 2f)
+       // if (EEs && timeShoot >=2.5f && visor.detected)
         {/*
             Quaternion rot = new Quaternion(0, 0, 0, 0);
             GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, this.transform.position, rot);
@@ -64,12 +65,13 @@ public class Disparoal : MonoBehaviour
             a.bala = 0;
             timeShoot = 0;*/
             Disparar(distanceTo);
+            timeShoot = 0;
 
         }
-        else if(EBT && timeShoot >= 2.5f && sonido.detected)
-        {
-            Disparar(distanceTo);
-        }
+     //   else if(EBT && timeShoot >= 2.5f && sonido.detected)
+       // {
+      //      Disparar(distanceTo);
+       // }
       timeShoot+=  Time.deltaTime;
         
     }
