@@ -41697,7 +41697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6933566862654425959, guid: ea806611e0422754faff69cf1112042c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 9.503479
+      value: 9.503418
       objectReference: {fileID: 0}
     - target: {fileID: 6933566862654425959, guid: ea806611e0422754faff69cf1112042c, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -46153,11 +46153,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797418069855, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797418069855, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4548097797418069855, guid: 8a19b8badd73a1040a60ab1f3a0418e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -71634,6 +71634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851144622}
   - component: {fileID: 1851144621}
+  - component: {fileID: 1851144623}
   m_Layer: 0
   m_Name: ---SFX---
   m_TagString: Untagged
@@ -71752,6 +71753,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851144623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851144620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3793fae2baf75f499b25bc798c916ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musica: {fileID: 0}
+  volumen: 0
+  volumenEscenas: 0
 --- !u!1001 &1851514215
 PrefabInstance:
   m_ObjectHideFlags: 0
