@@ -112,7 +112,7 @@ public class Historia : MonoBehaviour
     string c35 = "¡Ah! ¡Casi se me olvidaba! Te voy a dar una pequeña ayudita para hacer esto más divertido.";
     string c36 = "¿Ves que tus manos ahora están verdes? Pues prueba a acercarte a alguno de mis amigos, a ver qué pasa…";
 
-    public static bool FinDialogo1 = false;
+    public  bool FinDialogo1 = false;
     public bool IniciarD1 = false;
     #endregion
 
@@ -134,7 +134,7 @@ public class Historia : MonoBehaviour
     string x8 = "Espero que no lo consigas superar..."; //Cambiar color
     
     public bool IniDialogo2 = false;
-    public static bool FinDialogo2 = false;
+    public  bool FinDialogo2 = false;
     #endregion
 
     #region D3
@@ -143,7 +143,7 @@ public class Historia : MonoBehaviour
     string i2 = "Nos vemos después Eliseo";
     string j1 = "...Elías";
 
-    public static bool FinDialogo3 = false;
+    public  bool FinDialogo3 = false;
     public bool D3 = false;
     public int di3 = 1;
     #endregion
@@ -159,7 +159,7 @@ public class Historia : MonoBehaviour
     string o1 = "...";
     string o2 = "No me puedo creer que todavía no se haya aprendido mi nombre";
 
-    public static bool FinDialogo4 = false;
+    public  bool FinDialogo4 = false;
     public bool D4 = false;
     int di4 = 1;
 
@@ -227,7 +227,7 @@ public class Historia : MonoBehaviour
     string w5 = "Ya veo ya... Muy apropiado.";
     string v6 = "Bueno te dejo descansar tranquilo. Cuando quieras seguir me avisas.";
 
-   public static bool FinDialogoOp1 = false;
+   public  bool FinDialogoOp1 = false;
     public  bool inicio4_4 = false;
     #endregion
 
@@ -241,7 +241,7 @@ public class Historia : MonoBehaviour
     string g3 = "¡Pero bueno! ¡Claro que me he esforzado! ¿O es que no me ves?";
     string f4 = "Ve a por tu recompensa entonces y sigue cuando estés listo, que ya queda poco para la escalera";
 
-    public static bool FinDialogoOp2 = false;
+    public  bool FinDialogoOp2 = false;
     public bool IniOp2 = false;
     int Op2 = 1;
 
@@ -253,7 +253,7 @@ public class Historia : MonoBehaviour
     string h1 = "Bueno hombre tú también eres un poco exagerado, ¡ni que te estuvieras esforzando tanto!";
     string h2 = "Además, no te puedes quejar, que en esta sala te he dejado un regalito. Mira a ver en el cofre anda…";
 
-    public static bool FinDialogoOp3 = false;
+    public  bool FinDialogoOp3 = false;
     public bool Op3 = false;
     public int op3 = 0;
     #endregion

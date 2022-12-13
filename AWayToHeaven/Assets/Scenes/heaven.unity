@@ -3599,8 +3599,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.41000003, y: 0.35648638}
   m_AnchorMax: {x: 0.5832927, y: 0.6097569}
-  m_AnchoredPosition: {x: 3, y: 48.399994}
-  m_SizeDelta: {x: 530, y: -23.470001}
+  m_AnchoredPosition: {x: 0.5065079, y: 35.7712}
+  m_SizeDelta: {x: 510.82, y: 39.6738}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &900759162
 MonoBehaviour:
@@ -5488,8 +5488,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.41000003, y: 0.35648638}
   m_AnchorMax: {x: 0.5832927, y: 0.48945907}
-  m_AnchoredPosition: {x: 2.612503, y: -5}
-  m_SizeDelta: {x: 636.9681, y: 83.28439}
+  m_AnchoredPosition: {x: -1.0308, y: -5}
+  m_SizeDelta: {x: 673.4, y: 149.9362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1313032449
 MonoBehaviour:
@@ -8450,7 +8450,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a355468a18fa8cb49bcc2b7b8819dd4c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b8ae95fe55d4ab43b86da029bbab832, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10015,7 +10015,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20, y: 20}
+    oldSize: {x: 15, y: 15}
     newSize: {x: 20, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10065,7 +10065,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 84226f8ca22f782489658f57beb8a80c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c141c250ca14d2e4b8993c6d884ea81c, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10263,7 +10263,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 84226f8ca22f782489658f57beb8a80c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c141c250ca14d2e4b8993c6d884ea81c, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10363,7 +10363,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20, y: 20}
+    oldSize: {x: 15, y: 15}
     newSize: {x: 20, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10472,11 +10472,11 @@ MonoBehaviour:
   LevelUpReq: 
   AleatorioPowerUps: 0
   PowersUP:
-  - {fileID: 715366166}
   - {fileID: 2102629026}
-  - {fileID: 958256977}
-  - {fileID: 538896863}
+  - {fileID: 715366166}
   - {fileID: 650251822}
+  - {fileID: 538896863}
+  - {fileID: 958256977}
   - {fileID: 1995640028}
   - {fileID: 2133733044}
   tImage: 3
@@ -10489,6 +10489,7 @@ MonoBehaviour:
   AyudaPower: {fileID: 966604936}
   LevelUp: 0
   PasarSala: 0
+  primeraVez: 0
   animacion: {fileID: 0}
 --- !u!212 &393070501362765142
 SpriteRenderer:
@@ -10833,7 +10834,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 84226f8ca22f782489658f57beb8a80c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c141c250ca14d2e4b8993c6d884ea81c, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10861,7 +10862,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20, y: 20}
+    oldSize: {x: 15, y: 15}
     newSize: {x: 20, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10944,7 +10945,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20, y: 20}
+    oldSize: {x: 15, y: 15}
     newSize: {x: 20, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -11066,7 +11067,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 84226f8ca22f782489658f57beb8a80c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c141c250ca14d2e4b8993c6d884ea81c, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

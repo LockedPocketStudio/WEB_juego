@@ -73,8 +73,11 @@ public class Player : MonoBehaviour
     public bool LevelUp = false;
     public bool PasarSala = false;
 
+   public  static int primeraVez = 0; //1 es primera vez , 2 normal 
+    bool primeraEscena = true;
+
     //Control animaci�n
-   public Animator animacion;
+    public Animator animacion;
 
     #endregion
 
@@ -130,7 +133,7 @@ public class Player : MonoBehaviour
         
    
     }
-    bool primeraVez = true;
+   
     // Update is called once per frame
     protected virtual void Update()
     {
@@ -182,14 +185,36 @@ public class Player : MonoBehaviour
             {
                 LevelUp = true;
             }
-            if (primeraVez)
+            if (primeraVez==1)
             {
-                primeraVez = false;
+                PlayerPrefs.SetInt("exp", 0);
+                experiencia = 0;
+                BarraExp.fillAmount = 0;
+
+                PlayerPrefs.SetInt("vel", 0);
+                PlayerPrefs.SetInt("dob", 0);
+                PlayerPrefs.SetInt("li", 0);
+                PlayerPrefs.SetInt("sierra", 0);
+                PlayerPrefs.SetInt("daño", 0);
+                PlayerPrefs.SetInt("alc", 0);
+
+                PlayerPrefs.SetInt("Cofre" + 1, 0);
+                PlayerPrefs.SetInt("Cofre" + 2, 0);
+                PlayerPrefs.SetInt("Cofre" + 3, 0);
+                PlayerPrefs.SetInt("Cofre" + 0, 0);
+
+                RecuperarDatos();
+                primeraVez = 2;
+            }
+            if (primeraEscena && primeraVez==2)
+            {
+                primeraEscena = false;
                 RecuperarDatos();
             }
         }
+       
 
-        
+
     }
     #endregion
  
@@ -254,7 +279,7 @@ public class Player : MonoBehaviour
         }
         
 
-        int da = PlayerPrefs.GetInt("da�o");
+        int da = PlayerPrefs.GetInt("daño");
         Powers[5] = da;
         if (da != 0)
         {

@@ -13735,26 +13735,33 @@ MonoBehaviour:
   dios: {fileID: 21300000, guid: e7ae6d1ccfeb33440b71c9b71ab35ab5, type: 3}
   y: 0
   s1: ...
+  FinDialogo1: 0
   IniciarD1: 0
   x1: "Vaya, vaya ... pero si has conseguido llegar hasta la primera escalera. \xA1Qui\xE9n
     lo dir\xEDa Emilio!"
   IniDialogo2: 0
+  FinDialogo2: 0
   i1: "\xA1Bienvenido al siguiente anillo! Como puedes ver, en este hace un poco
     m\xE1s de fr\xEDo, pero conf\xEDo en que mis amigos har\xE1n que te sientas arropado.
     Nos vemos despu\xE9s Eliseo"
+  FinDialogo3: 0
   D3: 0
   di3: 1
   m1: "\xA1Anda Enrique! No me esperaba que llegaras hasta aqu\xED, no te voy a mentir..."
+  FinDialogo4: 0
   D4: 0
   a1: Clavis...
   FinDialogo5: 0
   FIN: 0
   fn: 1
   v1: "\xA1Hola Ernesto! \xA1Qu\xE9 bien verte por aqu\xED!"
+  FinDialogoOp1: 0
   inicio4_4: 0
   g1: "\xA1\xBFClavis cu\xE1nto queda para la escalera?! \xA1No aguanto m\xE1s!"
+  FinDialogoOp2: 0
   IniOp2: 0
   k1: "\xBFQu\xE9 es esto Clavis? \xBFUna sala tranquila? \xA1Por fin!"
+  FinDialogoOp3: 0
   Op3: 0
   op3: 0
   p1: "\xA1Cu\xE1nto tiempo sin verte Eduardo! \xBFQu\xE9 tal vas? Ya queda poco,
@@ -15129,7 +15136,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 84226f8ca22f782489658f57beb8a80c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c141c250ca14d2e4b8993c6d884ea81c, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15194,7 +15201,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20, y: 20}
+    oldSize: {x: 15, y: 15}
     newSize: {x: 20, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -15413,6 +15420,7 @@ MonoBehaviour:
   AyudaPower: {fileID: 672685437}
   LevelUp: 0
   PasarSala: 0
+  primeraVez: 0
   animacion: {fileID: 0}
 --- !u!4 &4548097797357631883
 Transform:
@@ -15492,7 +15500,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20, y: 20}
+    oldSize: {x: 15, y: 15}
     newSize: {x: 20, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -15577,7 +15585,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 84226f8ca22f782489658f57beb8a80c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c141c250ca14d2e4b8993c6d884ea81c, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15644,7 +15652,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 84226f8ca22f782489658f57beb8a80c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c141c250ca14d2e4b8993c6d884ea81c, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15709,7 +15717,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20, y: 20}
+    oldSize: {x: 15, y: 15}
     newSize: {x: 20, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -15969,7 +15977,7 @@ SpriteRenderer:
   m_SortingLayerID: 2102785823
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 84226f8ca22f782489658f57beb8a80c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c141c250ca14d2e4b8993c6d884ea81c, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -16034,7 +16042,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20, y: 20}
+    oldSize: {x: 15, y: 15}
     newSize: {x: 20, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
