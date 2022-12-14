@@ -26,8 +26,35 @@ public class PlayerLife : MonoBehaviour
 
     static bool final = false;
 
+
+   int reiniciar =0;
+
     float animMuerte = 2f;
     bool Afinal = false;
+
+    private void Awake()
+    {
+        reiniciar = PlayerPrefs.GetInt("Reinicar");
+
+        if (reiniciar == 1)
+        {
+
+            d1 = false;
+            d2 = false;
+            dop1 = false;
+            dop2 = false;
+            dop3 = false;
+
+            s1 = false;
+            s2 = false;
+
+            dop4 = false;
+            dop5 = false;
+            dop6 = false;
+            final = false;
+            PlayerPrefs.SetInt("Reinicar", 0);
+        }
+    }
     void Start()
     {
         Playerpos = player.transform.position;
@@ -35,7 +62,9 @@ public class PlayerLife : MonoBehaviour
         musica = this.GetComponent<AudioSource>();
         if(Dialogo!=null)
         historia = Dialogo.GetComponent<Historia>();
-        
+
+       
+
     }
 
     // Update is called once per frame
@@ -128,7 +157,7 @@ public class PlayerLife : MonoBehaviour
             //Dialogo 2
             if (d1 == false)
             {
-                PlayerPrefs.SetInt("exp", 0);
+           
                 GM.modoJuego = 3;
                 historia.IniciarD1 = true;
                 d1 = true;
@@ -136,17 +165,15 @@ public class PlayerLife : MonoBehaviour
                 historia.imagen.sprite = historia.elias;
                  
                     PlayerPrefs.SetInt("vel",0);
-               
                     PlayerPrefs.SetInt("dob", 0);
-              
                     PlayerPrefs.SetInt("li", 0);
-               
-                
                     PlayerPrefs.SetInt("sierra",0);
-               
                     PlayerPrefs.SetInt("daño", 0);
-               
-                
+                    PlayerPrefs.SetInt("alc", 0);
+
+                // player.GetComponent<Player>().primeraVez = true;
+                Player.primeraVez = 1;
+
             }
 
 

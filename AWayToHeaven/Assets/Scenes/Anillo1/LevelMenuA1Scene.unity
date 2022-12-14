@@ -1582,6 +1582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422641581}
   - component: {fileID: 1422641580}
+  - component: {fileID: 1422641582}
   m_Layer: 0
   m_Name: --SFX--
   m_TagString: Untagged
@@ -1700,6 +1701,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1422641582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422641579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3793fae2baf75f499b25bc798c916ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musica: {fileID: 0}
+  volumen: 0
+  volumenEscenas: 0
 --- !u!1 &1613979675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,7 +1760,6 @@ MonoBehaviour:
   m: {fileID: 8300000, guid: ebadff5bb13e2a040ba6ae11fd740283, type: 3}
   mExploracion: {fileID: 8300000, guid: c7b8a3b6f0ba6c24684cc54cb20d0a72, type: 3}
   mDialogo: {fileID: 8300000, guid: 6337f05e9d25eef458e3b167f202a96d, type: 3}
-  mSelSala: {fileID: 8300000, guid: 37158c40b592a0147823fb1c421ffc6c, type: 3}
   ModoHordasDificultad: -1
   SeleccionDificultad: {fileID: 0}
   btnFacil: {fileID: 0}

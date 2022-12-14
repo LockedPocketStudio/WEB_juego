@@ -234,6 +234,7 @@ public class GameManager : MonoBehaviour
                 musica.Play();
                 SeleccionMusica2 = true;
             }
+            if(timer != null)
             timer.text = "Nivel : "+ Player.nivelHistoria;
 
         }
