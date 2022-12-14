@@ -16,8 +16,9 @@ public class puertaCollider : MonoBehaviour
     public Sprite pGrisCerrada;
     public Sprite pGrisAbierta;
 
+
     //Animacion
-    Animator animacion;
+    //Animator animacion;
 
     //public GameObject[] enemigos;
     //public GameObject obj;
@@ -32,9 +33,6 @@ public class puertaCollider : MonoBehaviour
         //Movimiento entre escenaas
         currentScene = SceneManager.GetActiveScene().buildIndex;
         
-        animacion = this.GetComponent<Animator>();
-        animacion.SetBool("Rejilla_Anillo1", false);
-
         if(currentScene == 2){
             spriteRend.sprite = pRojaCerrada;
         }else if(currentScene == 5){
@@ -46,8 +44,7 @@ public class puertaCollider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-
+      
     }
 
     //Detect collisions
@@ -60,15 +57,14 @@ public class puertaCollider : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D col){
-        
-        if(col.gameObject.tag == "Player"){
+
+            if(col.gameObject.tag == "Player"){
 
             Player e = col.GetComponent<Player>();
             if (e.PasarSala)
             {
                 if (currentScene == 2)
-                {   
-                    animacion.SetBool("Rejilla_Anillo1", true);
+                {
                     spriteRend.sprite = pRojaAbierta;
                 }
                 else if (currentScene == 5)

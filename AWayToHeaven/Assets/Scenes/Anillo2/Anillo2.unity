@@ -58754,6 +58754,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1879993344}
     m_Modifications:
+    - target: {fileID: 34683051922083443, guid: a931244213849bf46b712a89e1705212, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2784001493889713809, guid: a931244213849bf46b712a89e1705212, type: 3}
       propertyPath: m_Name
       value: CofrePower
