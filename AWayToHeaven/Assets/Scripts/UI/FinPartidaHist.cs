@@ -23,7 +23,15 @@ public class FinPartidaHist : MonoBehaviour
         currentScene = SceneManager.GetActiveScene().buildIndex;
 
         EndGame.SetActive(false);
-        buttonVolver.onClick.AddListener(() => { SceneManager.LoadScene(0);});
+        buttonVolver.onClick.AddListener(() => { SceneManager.LoadScene(0);
+            PlayerPrefs.SetInt("Reinicar", 1);
+            PlayerPrefs.SetInt("Cofre" + 1, 0);
+            PlayerPrefs.SetInt("Cofre" + 2, 0);
+            PlayerPrefs.SetInt("Cofre" + 3, 0);
+            PlayerPrefs.SetInt("Cofre" + 0, 0);
+            Player.primeraVez = 0;
+
+        });
         buttonReiniciar.onClick.AddListener(() => { LoadLevel();});
     }
 
